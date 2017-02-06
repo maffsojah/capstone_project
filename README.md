@@ -19,10 +19,10 @@ The Bank consists of 3-levels of Customer Accounts;
 ### Example data
 - The Customer Transactions dataset: contains the information about individual customers' transaction history and demographic details
 
-| Field Name 	| Customer ID 	| Name   	| Gender   	| Address	| Account  	|
-|---		|---		|------		|---		|---		|---		|
-| **Type**  	|    Integer   	|     String   	|    Integer  	|     String   	|    Integer   	|
-| **Example**  	|       234   	|    Terry M. 	|       1	|  10 Albany   	| 	3   	|  
+| Field Name 	| Customer ID 	| Name   	| Gender   	| Address	| Account  	| Account Status	|
+|---		|---		|------		|---		|---		|---		|			|
+| **Type**  	|    Integer   	|     String   	|    Integer  	|     String   	|    Integer   	|			|
+| **Example**  	|       234   	|    Terry M. 	|       1	|  10 Albany   	| 	3   	|			|  
 
 
 The example fields are defined as follows:  
@@ -31,6 +31,5 @@ The example fields are defined as follows:
 - Name, Gender, Address: the customer's associated information
 - Account: this shows the type of account  - 0,1,2,3 for Basic, Silver, Gold and Platinum, respectively
 - Account Status: this shows whether the account is active or not (0 = inactive, 1 = active)
-- 
 
 
