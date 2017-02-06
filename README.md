@@ -10,21 +10,21 @@ The purpose of the system is for the bank to make use of customer data to enhanc
 
 #### Services Offered
 
-0. Personal Loans
-1. Money markets (Unit trusts)
-2. Stocks
-3. Junior Accounts: Fixed Deposit Accounts for kids
-4. Fixed Deposit Accounts
-5. Mortgages
-6. Insurance
-7. Safety Deposit
-8. Offshore Banking
+1. Personal Loans
+2. Money markets (Unit trusts)
+3. Stocks
+4. Junior Accounts: Fixed Deposit Accounts for kids
+5. Fixed Deposit Accounts
+6. Mortgages
+7. Insurance
+8. Safety Deposit
+9. Offshore Banking
 
 #### Service Levels
 
 |   Silver (0)	| Gold (1)   	| Platinum (2)   	|
 |---		|---		|---			|
-|  0 - 3 	| 0 - 6   	| 0  - 8   		|
+|  1 - 4 	| 1 - 7   	| 1  - 9   		|
 
 
 ### Example data
