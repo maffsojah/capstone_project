@@ -1,36 +1,55 @@
-# HIT_400: Bank Account Classification System
+# HIT_400: Bank Customer Classification System
 
-This repo contains the PySpark code required to run the Bank Account Classification system.  
-The system classifies bank customers into suitable bank accounts: Basic, Silver, Gold and Platinum. The resulting classes will be assigned to new customers during account creation.
+This repo contains the PySpark code required to run the Bank Customer Classification system.  
+The system classifies bank customers into 3 distinct service levels: Silver, Gold and Platinum.
+
 
 ### Bank Properties
 
-The Bank consists of 3-levels of Customer Accounts;
+The purpose of the system is for the bank to make use of customer data to enhance its marketing strategies through selling other services outside normal-banking to its customers.
 
-- **0** Basic account: the basic account with less/no charges, no extra fees and has very few/ limites benefits like (loan amounts, service times e.t.c.)
+#### Services Offered
 
-- **1** Silver account: an upgraded level with high bank charges, extra fees for the higher level of benefits (loans, service times)
+0. Personal Loans
+1. Money markets (Unit trusts)
+2. Stocks
+3. Junior Accounts: Fixed Deposit Accounts for kids
+4. Fixed Deposit Accounts
+5. Mortgages
+6. Insurance
+7. Safety Deposit
+8. Offshore Banking
 
-- **2** Gold account: an upgraded level  with upgraded charges and extra fees for extended benefits (loans, service times, personal managers), high interest rate
+#### Service Levels
 
-- **3** Platinum account: the highest level of service, with extra fees and the highest level of benefits (loans, service times, personal managers, investement advice), highest interest rates
+|   Silver (0)	| Gold (1)   	| Platinum (2)   	|
+|---		|---		|---			|
+|  0 - 3 	| 0 - 6   	| 0  - 8   		|
 
 
 ### Example data
-- The Customer Transactions dataset: contains the information about individual customers' transaction history and demographic details
+
+- The Customer  dataset: contains the information about individual customers as shown;
 
 
-| Field Name   	| Customer ID  	| Name  	| Gender  	| Address  	| Account  	| Account Status  	|
-|---		|---		|---		|---		|---		|---		|---			|
-| **Type**  	| Integer  	|  String  	| Integer   	| String   	| Integer   	| Integer	  	|
-| **Example**  	| 234	  	|  Terry M. 	|  1	 	| 10 Albany  	|  3	 	|   1			|
+| Field Name   	| Customer ID  	| Name  	| Gender  	| Address  	| Service  Level 	| Account Type  	|
+|---		|---		|---		|---		|---		|---			|---			|
+| **Type**  	| Integer  	|  String  	| Integer   	| String   	| Integer   		| Integer	  	|
+| **Example**  	| 234	  	|  Terry M. 	|  1	 	| 10 Albany  	|  3	 		|   1			|
 
 
-The example fields are defined as follows:  
+The fields are defined as follows:  
 
 - Customer ID: a unique identifier for a customer
-- Name, Gender, Address: the customer's associated information
-- Account: this shows the type of account  - 0,1,2,3 for Basic, Silver, Gold and Platinum, respectively
-- Account Status: this shows whether the account is active or not (0 = inactive, 1 = active)
+- Name, Gender, Address, Nationality, Account Type: the customer's associated information
+- Age: the age of the customer
+- Education: the customer's level of education (0 = Highschool and less, 1 = Tertiary ++)
+- Employment: the customer's employment status - Permanent, Contract, Student
+- Monthly Salary:
+- Employer Stability: indicates the financial state of the employer - *1* Do salaries come on time? (0 = No, 1 = Yes) **AND** *2* Are the offices rented or owned? (0 = Rented, 1 = Owned )
+- Consistency:  indicates how long the customer has been using the bank
+- Balance: indicates the recurring bank balance of the customer - $( 20 - 2500 ), $( 2501 - 10000 ), $( 10001 ++ )
+- Residential status: customer residential status (0 = rented, 1 = owned)
+- Service Level: indicates the level of service - 0, 1, 2 for Silver, Gold and Platinum, respectively.
 
 
