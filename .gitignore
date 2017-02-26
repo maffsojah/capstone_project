@@ -68,7 +68,8 @@ target/
 
 # IPython Notebook
 .ipynb_checkpoints
-**/metastore_db/
+*/notebooks/metastore_db/
+*/documentation/metastore_db/
 
 # pyenv
 .python-version
