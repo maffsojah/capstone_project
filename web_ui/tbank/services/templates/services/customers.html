@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>T-Bank: Services</title>
+    <link rel="stylesheet" href="/static/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/boostrap/dist/css/bootstrap-theme.min.css">
+  </head>
+
+  <body>
+  <h1 class="text-center"> T-Bank Services: Active Users</h1>
+    <div class="col-lg-12">
+    <div class="table-responsive">
+      <table class="table table-bordered table-hover table-striped table-sorter">
+        <thead>
+          <tr>
+            <!--th class="header"> ID <i class="icon-sort"></i></th-->
+            <th class="header"> Customer ID <i class="icon-sort"></i></th>
+            <th class="header"> Service Level <i class="icon-sort"></i></th>
+            <th class="header"> Name <i class="icon-sort"></i></th>
+            <th class="header"> Gender <i class="icon-sort"></i></th>
+            <th class="header"> Address <i class="icon-sort"></i></th>
+            <th class="header"> Nationality <i class="icon-sort"></i></th>
+            <th class="header"> Account Type <i class="icon-sort"></i></th>
+            <th class="header"> Age <i class="icon-sort"></i></th>
+            <th class="header"> Education <i class="icon-sort"></i></th>
+            <th class="header"> Employment Status <i class="icon-sort"></i></th>
+            <th class="header"> Salary <i class="icon-sort"></i></th>
+            <th class="header"> Employer Stability <i class="icon-sort"></i></th>
+            <th class="header"> Customer Loyalty <i class="icon-sort"></i></th>
+            <th class="header"> Balance <i class="icon-sort"></i></th>
+            <th class="header"> Residential Status <i class="icon-sort"></i></th>
+          </tr>
+        </thead>
+        <tbody>
+
+        {% for key in line %}
+          <tr>
+            <!--td>{{ key.id }}</td-->
+            <td>{{ key.Customer_ID }}</td>
+            <td>{{ key.Service_Level }}</td>
+            <td>{{ key.Name }}</td>
+            <td>{{ key.Gender }}</td>
+            <td>{{ key.Address }}</td>
+            <td>{{ key.Nationality }}</td>
+            <td>{{ key.Account_Type }}</td>
+            <td>{{ key.Age }}</td>
+            <td>{{ key.Education }}</td>
+            <td>{{ key.Employment }}</td>
+            <td>{{ key.Salary }}</td>
+            <td>{{ key.Employer_Stability }}</td>
+            <td>{{ key.Customer_Loyalty }}</td>
+            <td>{{ key.Balance }}</td>
+            <td>{{ key.Residential_Status }}</td>
+          </tr>
+        {% endfor %}
+
+        </tbody>
+      </table>
+    </div>
+    </div>
+  </body>
+
+  <script src="/static/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="/static/bootstrap/dist/js/bootstrap.min.js"></script>
+</html>
