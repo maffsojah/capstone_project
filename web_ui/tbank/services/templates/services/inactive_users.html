@@ -9,29 +9,30 @@
     <!--link rel="stylesheet" href="/static/boostrap/dist/css/bootstrap-theme.min.css"-->
 
     <!-- DataTables css files-->
-    <link rel="stylesheet" href="/static/DataTables/css/material.min.css">
+    <link rel="stylesheet" href="/static/material-design-lite/material.min.css">
     <link rel="stylesheet" href="/static/DataTables/css/dataTables.material.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,500,300italic,500italic,700italic,900,300">
 </head>
 
 <body>
-    <h1> T-Bank Services: Inactive Users</h1>
+    <h1 class="mdl-typography--display-3"> T-Bank Services: Inactive Users</h1>
     <!--div class="col-lg-12">
         <div class="table-responsive"-->
     <form id="frm-example" class="" action="" method="post">
         {% csrf_token %}
 
-        <table id="customers" class="mdl-data-table mdl-shadow--2dp" cellspacing="0" width="100%">
+        <table id="customers" class="mdl-data-table  mdl-shadow--2dp" cellspacing="0" width="100%">
             <!--table id="customers" class="mdl-data-table table table-bordered table-hover table-striped table-sorter" cellspacing="0" width="100%"-->
             <thead>
                 <tr>
                     <!--th class="header"> ID <i class="icon-sort"></i></th-->
                     <!--th>
-                      <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect mdl-data-table__select" for="table-header">
+                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect mdl-data-table__select" for="table-header">
                               <input type="checkbox" id="table-header" class="mdl-checkbox__input" />
-                            </label>
-                  </th-->
+                        </label>
+                    </th-->
                     <th><input name="select-all" value="1" id="example-select-all" type="checkbox"></th>
                     <th class="header"> Customer ID <i class="icon-sort"></i></th>
                     <th class="header"> Service Level <i class="icon-sort"></i></th>
@@ -56,10 +57,10 @@
                 <tr>
                     <!--td>{{ key.id }}</td-->
                     <!--td>
-                      <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect mdl-data-table__select" for="row[]">
+                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect mdl-data-table__select" for="row[]">
                         <input type="checkbox" id="row[]" class="mdl-checkbox__input" />
                       </label>
-                  </td-->
+                    </td-->
                     <td class="mdl-data-table__cell--non-numeric"></td>
                     <td>{{ key.Customer_ID }}</td>
                     <td>{{ key.Service_Level }}</td>
@@ -81,8 +82,7 @@
 
             </tbody>
         </table>
-        <p><button>Submit</button></p>
-          {% csrf_token %}
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-button--mini-fab" name="Submit" type="Submit">Submit</button> {% csrf_token %}
         <b>Data submitted to the server:</b><br>
         <pre id="example-console">
       </pre>
@@ -97,73 +97,8 @@
 
 <!-- DataTables javascript and jquery files -->
 <script src="/static/DataTables/js/jquery.dataTables.min.js"></script>
-<script src="/static/DataTables/js/material.min.js"></script>
+<script src="/static/material-design-lite/material.min.js"></script>
 <script src="/static/DataTables/js/dataTables.material.min.js"></script>
-<script type="text/javascript">
-    $(document).ready(function() {
-        $('#customers').DataTable({
-            columnDefs: [{
-                targets: [0],
-                className: 'mdl-data-table__cell--non-numeric',
-                render: function(data, type, full, meta) {
-                    return '<input type="checkbox" name="id[]" value="' + $('<div/>').text(data).html() + '">';
-                }
-            }],
-        });
-        // Handle click on "Select all" control
-        $('#example-select-all').on('click', function() {
-            // Get all rows with search applied
-            var rows = table.rows({
-                'search': 'applied'
-            }).nodes();
-            // Check/uncheck checkboxes for all rows in the table
-            $('input[type="checkbox"]', rows).prop('checked', this.checked);
-        });
-
-        // Handle click on checkbox to set state of "Select all" control
-        $('#example tbody').on('change', 'input[type="checkbox"]', function() {
-            // If checkbox is not checked
-            if (!this.checked) {
-                var el = $('#example-select-all').get(0);
-                // If "Select all" control is checked and has 'indeterminate' property
-                if (el && el.checked && ('indeterminate' in el)) {
-                    // Set visual state of "Select all" control
-                    // as 'indeterminate'
-                    el.indeterminate = true;
-                }
-            }
-        });
-
-        // Handle form submission event
-        $('#frm-example').on('submit', function(e) {
-            var form = this;
-
-            // Iterate over all checkboxes in the table
-            table.$('input[type="checkbox"]').each(function() {
-                // If checkbox doesn't exist in DOM
-                if (!$.contains(document, this)) {
-                    // If checkbox is checked
-                    if (this.checked) {
-                        // Create a hidden element
-                        $(form).append(
-                            $('<input>')
-                            .attr('type', 'hidden')
-                            .attr('name', this.name)
-                            .val(this.value)
-                        );
-                    }
-                }
-            });
-            // FOR TESTING ONLY
-
-            // Output form data to a console
-            $('#example-console').text($(form).serialize());
-            console.log("Form submission", $(form).serialize());
-
-            // Prevent actual form submission
-            e.preventDefault();
-        });
-    });
-</script>
+<script src="/static/custom.js"></script>
 
 </html>
