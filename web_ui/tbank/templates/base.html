@@ -1,0 +1,88 @@
+{% load staticfiles %}
+{% include 'material/includes/material_css.html' %}
+{% include 'material/includes/material_js.html' %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Bank: Login</title>
+    <!-- Core CSS - Include with every page -->
+    <link href="{% static 'material-design-lite/material.min.css' %}" rel="stylesheet">
+    <link href="{% static 'custom.css' %}" rel="stylesheet">
+    <!--link href="{% static 'bootstrap/dist/css/bootstrap.min.css' %}" rel="stylesheet"-->
+</head>
+
+<body>
+    <!-- Uses a transparent header that draws on top of the layout's background -->
+    <style>
+        .demo-layout-transparent {
+            background: url('{% static 'images/wallpaper-1.jpg' %}') center / cover;
+        }
+
+        .demo-layout-transparent .mdl-layout__header,
+        .demo-layout-transparent .mdl-layout__drawer-button {
+            /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+            color: white;
+        }
+    </style>
+
+    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+        <header class="mdl-layout__header mdl-layout__header--transparent">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">T-Bank Services</span>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation -->
+                <nav class="mdl-navigation">
+                    <a class="mdl-navigation__link" href="">Service Levels</a>
+                    <a class="mdl-navigation__link" href="{% url 'services:active_customer_list' %}">Active Customers</a>
+                    <a class="mdl-navigation__link" href="{% url 'services:inactive_customer_list' %}">Inactive Customers</a>
+                </nav>
+                <nav class="mdl-navigation">
+                {%if user.is_authenticated %}
+                  <a href="{% url 'services:services_list' user.username %}">Hello {{ user.username }}</a>
+                  <a class="mdl-navigation__link" href="{% url 'auth.logout' %}">Logout</a>
+                  {% else %}
+                  <a class="mdl-navigation__link" href="{% url 'auth.login' %}">Login</a>
+                  {% endif %}
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">T-Bank Services</span>
+            <nav class="mdl-navigation">
+              <a class="mdl-navigation__link" href="">Service Levels</a>
+              <a class="mdl-navigation__link" href="{% url 'services:active_customer_list' %}">Active Customers</a>
+              <a class="mdl-navigation__link" href="{% url 'services:inactive_customer_list' %}">Inactive Customers</a>
+            </nav>
+            <nav class="mdl-navigation">
+            {%if user.is_authenticated %}
+              <a href="{% url 'services:services_list' user.username %}">Hello {{ user.username }}</a>
+              <a class="mdl-navigation__link" href="{% url 'auth.logout' %}">Logout</a>
+              {% else %}
+              <a class="mdl-navigation__link" href="{% url 'auth.login' %}">Login</a>
+              {% endif %}
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+        </main>
+    </div>
+
+    {% block content %} {% endblock %}
+
+
+    <!-- Core Scripts - Include with every page -->
+    <script src="{% static 'jquery/dist/jquery.min.js' %}"></script>
+    <script src="{% static 'material-design-lite/material.min.js' %}"></script>
+    <!--script src="{% static 'bootstrap/dist/js/bootstrap.min.js' %}"></script-->
+    <script src="{% static 'custom.js' %}"></script>
+
+
+</body>
+
+</html>

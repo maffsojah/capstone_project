@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load material_form %}
+
+
+{% block title %}
+<h2>Login</h2>
+{% endblock %}
+
+{% block content %}
+<form action="{% url 'auth:login' %}" method="POST">
+    {% csrf_token %}
+    {% form form=form %}{% endform %}
+    <button type="submit" name="_submit" class="btn">Login
+    </button>
+</form>
+{% endblock %}

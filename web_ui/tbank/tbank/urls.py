@@ -15,8 +15,11 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
+from material.frontend import urls as frontend_urls
 
 urlpatterns = [
-    url(r'^services/', include('services.urls')),
-    url(r'^admin/', admin.site.urls),
+    url(r'^admin/', include(admin.site.urls)),
+    url(r'^services/', include('services.urls', namespace='services')),
+    url('^accounts/', include('django.contrib.auth.urls', namespace='auth')),
+    url(r'^accounts/', include('registration.backends.simple.urls')),
 ]

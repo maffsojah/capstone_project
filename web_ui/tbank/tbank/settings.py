@@ -27,18 +27,32 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# Add static folder to STATIC_DIRS
+STATICFILES_DIRS = [
+os.path.join(BASE_DIR, "static"),
+]
+
+LOGIN_REDIRECT_URL = ''
 
 # Application definition
 
 INSTALLED_APPS = [
+    'material.admin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'material.theme.lightblue',
+    'material',
+    'material.frontend',
     'services',
+    'registration',
 ]
+
+ACCOUNT_ACTIVATION_DAYS = 7 # One-week activation window
+REGISTRATION_AUTO_LOGIN = True # Automatically log the user in.
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -55,7 +69,7 @@ ROOT_URLCONF = 'tbank.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

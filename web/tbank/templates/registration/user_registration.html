@@ -1,0 +1,182 @@
+{% extends 'base.html' %}
+{% load material_form %}
+{% load staticfiles %}
+
+<link href="/static/material/fonts/material-design-icons/material-icons.c5941eed2e20.css" rel="stylesheet">
+
+<link href="/static/material/css/materialize.20317f5d44c4.css" rel="stylesheet">
+<link href="/static/material/css/materialize.forms.6250fb1d3e47.css" rel="stylesheet">
+<link href="/static/material/css/jquery.datetimepicker.b805db3bb426.css" rel="stylesheet">
+
+
+    <style type="text/css">
+      html, body {
+          background: #eee;
+          height: 100%;
+      }
+    </style>
+    
+<style type="text/css">
+    
+</style>
+
+
+{% block title %}
+<h2>Register</h2>
+{% endblock %}
+
+{% block content %}
+<form method="POST" class="viewform">{% csrf_token %}
+    <button type="submit" name="_submit" class="btn btn-primary btn-lg">Register</button>
+</form>
+{% endblock %}
+
+   
+    
+
+
+  <body class="valign-wrapper2">
+      
+      <div class="container expand-on-small-only">
+          
+<div class="row valign change-form">
+    <div class="col s12 m8 offset-m2 l8 offset-l2">
+        <div class="card">
+            <form method="POST" enctype="multipart/form-data">
+                 
+                <div class="card-content">
+                    <span class="card-title grey-text text-darken-2">Registration form</span>
+                    <input type='hidden' name='csrfmiddlewaretoken' value='WfKxibldIF3h06bdM7Pynb0jLqaEboB1HWqYJAhFfPBLisCcp1euXeuT9SmO7G6Q' />
+                    
+    
+    
+<div class="row">
+    <div class="input-field col s12 required" id="id_username_container">
+        <i class="material-icons prefix">account_box</i><input id="id_username" name="username" type="text">
+        <label for="id_username">Username</label>
+        
+    </div>
+</div>
+
+
+    
+
+<div class="row">
+    <div class="input-field col s12 required" id="id_email_container">
+        <i class="material-icons prefix">email</i><input id="id_email" name="email" type="email">
+        <label for="id_email">Email Address</label>
+        
+    </div>
+</div>
+
+
+    
+<div class="layout-row row"><div class="col s12 m6">
+
+<div class="row">
+    <div class="input-field col s12 required" id="id_password_container">
+        <i class="material-icons prefix">lock_open</i><input id="id_password" name="password" type="password">
+        <label for="id_password">Password</label>
+        
+    </div>
+</div>
+</div><div class="col s12 m6">
+
+<div class="row">
+    <div class="input-field col s12 required" id="id_password_confirm_container">
+        <input id="id_password_confirm" name="password_confirm" type="password">
+        <label for="id_password_confirm">Confirm password</label>
+        
+    </div>
+</div>
+</div></div>
+
+
+    
+<div class="section row">
+    <div class="col s12">
+        <h5>Pesonal details</h5>
+        
+<div class="layout-row row"><div class="col s12 m6">
+
+<div class="row">
+    <div class="input-field col s12" id="id_first_name_container">
+        <input id="id_first_name" name="first_name" type="text">
+        <label for="id_first_name">First name</label>
+        
+    </div>
+</div>
+</div><div class="col s12 m6">
+
+<div class="row">
+    <div class="input-field col s12" id="id_last_name_container">
+        <input id="id_last_name" name="last_name" type="text">
+        <label for="id_last_name">Last name</label>
+        
+    </div>
+</div>
+</div></div>
+
+<div class="row">
+    <div class="select-field col s12 required" id="id_gender_container">
+        <label for="id_gender">Gender</label>
+        <select id="id_gender" name="gender">
+            <option value></option>
+            <option value="F">Female</option>
+            <option value="M">Male</option>
+            <option value="O">Other</option>
+        </select>
+        
+    </div>
+</div>
+
+<div class="row">
+    <div class="checkbox-field col s12" id="id_receive_news_container">
+        <input class="filled-in " id="id_receive_news" name="receive_news" type="checkbox"><label for="id_receive_news">I want to receive news and special offers</label>
+        
+    </div>
+</div>
+
+<div class="row">
+    <div class="checkbox-field col s12 required" id="id_agree_toc_container">
+        <input class="filled-in " id="id_agree_toc" name="agree_toc" type="checkbox"><label for="id_agree_toc">I agree with the Terms and Conditions</label>
+        
+    </div>
+</div>
+
+    </div>
+</div>
+
+    
+
+                </div>
+                <div class="card-action">
+                    
+                    <div class="right-align">
+                        
+    
+        <button class="waves-effect waves-light btn" type="submit">Submit</button>
+    
+
+                    </div>
+                    
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+      </div>
+      
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      
+<script src="/static/material/js/jquery.datetimepicker.fc014035d49e.js"></script>
+<script src="/static/material/js/jquery.formset.18e13f41566b.js"></script>
+<script src="/static/material/js/materialize.36d7e6447887.js"></script>
+<script src="/static/material/js/materialize.forms.1e7e8edc37e5.js"></script>
+
+      
+      
+  </body>

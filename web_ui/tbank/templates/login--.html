@@ -1,0 +1,98 @@
+{% extends 'base.html'%}
+
+ {% block content %}
+     {% if form.errors %}
+
+<p>Your username and password didn't match. Please try again</p>
+{% endif %}
+
+{% if next %}
+    {% if user.is_authenticated %}
+
+<p>Your account doesn't have access to this page. To proceed, please login with an account that has access.</p>
+  {% else %}
+
+<p>Please login to see view this page.</p>
+  {% endif %}
+{% endif %}
+
+<div class="materialContainer">
+
+    <form method="POST" action="">
+
+      {% csrf_token %}
+
+        <div class="box">
+            <div class="title">LOGIN</div>
+
+            <div class="input">
+                <label for="name">Username</label>
+                <input type="text" name="name" id="name">
+                <span class="spin"></span>
+            </div>
+
+            <div class="input">
+                <label for="pass">Password</label>
+                <input type="password" name="pass" id="pass">
+                <span class="spin"></span>
+            </div>
+
+            <div class="button login">
+                <button><span>GO</span> <i class="fa fa-check"></i></button>
+            </div>
+
+            <a href="" class="pass-forgot">Forgot your password?</a>
+
+        </div>
+
+    </form>
+
+
+    <div class="overbox">
+        <div class="material-button alt-2"><span class="shape"></span></div>
+
+        <div class="title">REGISTER</div>
+
+        <div class="input">
+          {{ form.username.label_tag }}
+          {{ form.username }}
+            <label for="regname">Username</label>
+            <input type="text" name="regname" id="regname">
+            <span class="spin"></span>
+        </div>
+
+        <div class="input">
+          {{ form.password.label_tag }}
+          {{ form.password }}
+            <label for="regpass">Password</label>
+            <input type="password" name="regpass" id="regpass">
+            <span class="spin"></span>
+        </div>
+
+        <div class="input">
+            <label for="reregpass">Repeat Password</label>
+            <input type="password" name="reregpass" id="reregpass">
+            <span class="spin"></span>
+        </div>
+
+        <div class="button">
+            <button><span>NEXT</span></button>
+            <input type="hidden" name="next" value="{{ next }}">
+        </div>
+
+
+    </div>
+
+</div>
+
+{% endblock %}
+
+{% block javascript %}
+
+<script>
+{% if not user.is_authenticated %}
+$('ul.nav.navbar-nav.navbar-right').css('display', 'none');
+{% endif %}
+</script>
+
+{% endblock %}
