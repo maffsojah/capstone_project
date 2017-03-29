@@ -1,16 +1,16 @@
 from django import forms
 from django.contrib import admin
-from django.db import models as django 
+from django.db import models as django
 from django.utils.text import Truncator
 from django.utils.html import mark_safe, format_html
 
-from .models import ServiceLevel, Customer
+#from .models import ServiceLevel, Customer
 from . import models
 
 # Register your models here.
 
 class CustomerTabularInline(admin.TabularInline):
-    fields = ('Name', 'Customer_Loyalty', 'Service_Level' )
+    fields = ('Name', 'Service_Level' )
     model = models.Customer
 
     class CustomerInlineFormset(forms.models.BaseInlineFormSet):
@@ -18,21 +18,21 @@ class CustomerTabularInline(admin.TabularInline):
             super(CustomerTabularInline.CustomerInlineFormset, self).clean()
             if not hasattr(self, 'cleaned_data'):
                 return
-                
+
             for form_data in self.cleaned_data:
-                Customer_Loyalty = form_data.get('Customer_Loyalty', None)
-                if Customer_Loyalty and len(Customer_Loyalty) < 1:
+                Service_Level = form_data.get('Service_Level', None)
+                if Service_Level and len(Service_Level) > 2:
                     raise forms.ValidationError('The customer has used bank for less than a year and is not suitable for T-Bank Services')
                 return self.cleaned_data
 
     formset = CustomerInlineFormset
 
     def has_add_permission(self, request):
-        return False 
+        return False
 
 @admin.register(models.Customer)
 class CustomerAdmin(admin.ModelAdmin):
-    icon = '<i class="fa fa-user-circle"></i>'
+    icon = '<i class="material-icons">settings_applications</i>'
     fieldsets = (
         (None, {
             'fields': ('Name',)}),
@@ -53,7 +53,12 @@ class CustomerAdmin(admin.ModelAdmin):
 
 @admin.register(models.ServiceLevel)
 class ServiceAdmin(admin.ModelAdmin):
-    icon = '<i class="fa fa-money"></i>'
+    icon = '<i class="material-icons">settings_applications</i>'
     list_display = ('service_name','description', 'pub_date')
     list_filter = ['service_name']
     search_fields = ['service_name']
+
+@admin.register(models.CustomerLoyalty)
+class LoyaltyAdmin(admin.ModelAdmin):
+    icon = '<i class="material-icons">settings_applications</i>'
+    list_display = ['customer_loyalty']

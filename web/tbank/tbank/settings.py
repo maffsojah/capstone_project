@@ -29,17 +29,18 @@ ALLOWED_HOSTS = []
 
 
 # Add static folder to STATIC_DIRS
-STATICFILES_DIRS = [
-os.path.join(BASE_DIR, "static"),
-]
-
-LOGIN_REDIRECT_URL = ''
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR, "static"),
+# ]
+#
+# LOGIN_REDIRECT_URL = '/services/'
 
 
 # Application definition
 
 INSTALLED_APPS = [
     'material.admin',
+    'material.theme.lightblue',
     'material',
     'material.frontend',
 
@@ -49,13 +50,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'material.theme.lightblue',
-    'registration',
+    #'registration',
     'services.apps.ServicesConfig',
 ]
 
-ACCOUNT_ACTIVATION_DAYS = 7 # One-week activation window
-REGISTRATION_AUTO_LOGIN = True # Automatically log the user in.
+# ACCOUNT_ACTIVATION_DAYS = 7 # One-week activation window
+# REGISTRATION_AUTO_LOGIN = True # Automatically log the user in.
 
 
 MIDDLEWARE = [
@@ -66,14 +66,18 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
+    'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
 ]
 
 ROOT_URLCONF = 'tbank.urls'
 
+#os.path.join(BASE_DIR, 'templates')
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -81,6 +85,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'material.frontend.context_processors.modules',
             ],
         },
     },

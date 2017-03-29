@@ -13,15 +13,16 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import url, include
+from django.conf import settings
+from django.conf.urls import include, url
+from django.contrib.auth.decorators import login_required
 from django.contrib import admin
 from django.shortcuts import render
 from django.views import generic
-from django.contrib.auth.decorators import login_required
+
 from material.frontend import urls as frontend_urls
 
-from . import forms, widget_forms, admin_forms
-from services import urls
+from services import forms, widget_forms, admin_forms
 
 def index_view(request):
     context = {
@@ -34,16 +35,15 @@ def index_view(request):
 urlpatterns = [
     url(r'^$', index_view),
 
-    # services
-    url(r'^services/login/$', generic.FormView.as_view(
-        form_class=forms.LoginForm, success_url='/services/login/', template_name="services.html")),
-    url(r'^services/registration/$', generic.FormView.as_view(
-        form_class=forms.RegistrationForm, success_url='/services/registration/', template_name="services.html")),
-    url(r'^services/bank/$', generic.FormView.as_view(
-        form_class=forms.BankForm, success_url='/services/bank/', template_name="services.html")),
-    url(r'^services/', include('services.urls', namespace='services')),
-    url(r'^admin/', admin.site.urls),
-
+    # # services
+    # url(r'^services/login/$', generic.FormView.as_view(
+    #     form_class=forms.LoginForm, success_url='/services/login/', template_name="services.html")),
+    # url(r'^services/registration/$', generic.FormView.as_view(
+    #     form_class=forms.RegistrationForm, success_url='/services/registration/', template_name="services.html")),
+    # url(r'^services/bank/$', generic.FormView.as_view(
+    #     form_class=forms.BankForm, success_url='/services/bank/', template_name="services.html")),
+    # url(r'^services/', include('services.urls', namespace='services')),
+    #
     # frontend
     url(r'^frontend/$', generic.RedirectView.as_view(url='/frontend/services/', permanent=False), name="index"),
     url(r'', include(frontend_urls)),

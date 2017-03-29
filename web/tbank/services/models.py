@@ -8,10 +8,10 @@ from django.utils.safestring import mark_safe
 
 # Create your models here.
 
-# class MyModel(models.Model):
-#     name = models.CharField(max_length=250)
+class MyModel(models.Model):
+    name = models.CharField(max_length=250)
 
-@python_2_unicode_compatible
+#@python_2_unicode_compatible
 class ServiceLevel(models.Model):
     SERVICE_LEVELS_CHOICES = (
         (0, 'Silver'),
@@ -19,19 +19,35 @@ class ServiceLevel(models.Model):
         (2, 'Platinum'),
     )
     service_name = models.IntegerField(choices=SERVICE_LEVELS_CHOICES)
-    description = models.TextField()
+    description = models.TextField(default='')
     pub_date = models.DateTimeField('date added')
 
     class Meta:
-        #db_table = 'service_levels'
+        db_table = 'service_levels'
         ordering = ['service_name']
-    def __str__(self):
-        return self.service_name if self.service_name is not None else 'ServiceLevel'
+
+    # def __str__(self):
+    #     return self.service_name if self.service_name is not None else 'ServiceLevel'
+
+    def __unicode__(self):
+        return str(self.service_name)
+
+
+class CustomerLoyalty(models.Model):
+    CUSTOMER_LOYALTY_CHOICES = (
+        (0, '0 - 2 years'),
+        (1, '3 - 10 years')
+    )
+
+    customer_loyalty = models.IntegerField(choices=CUSTOMER_LOYALTY_CHOICES)
+
+    class Meta:
+        ordering = ['customer_loyalty']
 
 
 class Customer(models.Model):
     COUNTRY_CHOICES = (
-    ('', 'Country'), (244, 'Aaland Islands'), (1, 'Afghanistan'), (2, 'Albania'), (3, 'Algeria'),
+     ('', 'Country'), (244, 'Aaland Islands'), (1, 'Afghanistan'), (2, 'Albania'), (3, 'Algeria'),
     (4, 'American Samoa'), (5, 'Andorra'), (6, 'Angola'), (7, 'Anguilla'), (8, 'Antarctica'),
     (9, 'Antigua and Barbuda'), (10, 'Argentina'), (11, 'Armenia'), (12, 'Aruba'), (13, 'Australia'),
     (14, 'Austria'), (15, 'Azerbaijan'), (16, 'Bahamas'), (17, 'Bahrain'), (18, 'Bangladesh'),
@@ -123,6 +139,12 @@ class Customer(models.Model):
         (2, '18 - 35')
     )
 
+    # CUSTOMER_LOYALTY_CHOICES = (
+    #     (0, '0 - 2 years'),
+    #     (1, '3 - 10 years')
+    #
+    # )
+
 
 
     Customer_ID = models.AutoField(primary_key=True)
@@ -137,12 +159,13 @@ class Customer(models.Model):
     Employment = models.IntegerField(choices=EMPLOYMENT_CHOICES)
     Salary = models.BigIntegerField(help_text=mark_safe('&#36;'))
     Employer_Stability = models.IntegerField(choices=EMPLOYER_STABILITY_CHOICES)
-    Customer_Loyalty = models.ForeignKey('self', null=True, blank=True)
+    Customer_Loyalty = models.ForeignKey('self', blank=True, null=True)
+    #Customer_Loyalty = models.ForeignKey(CustomerLoyalty)
     Balance = models.BigIntegerField(help_text=mark_safe('&#36;'))
     Residential_Status = models.IntegerField(choices=RESIDENTIAL_STATUS_CHOICES)
 
     class Meta:
-        #db_table = 'customers'
+        db_table = 'customers'
         ordering = ['Name']
 
     def __str__(self):
