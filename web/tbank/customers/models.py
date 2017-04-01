@@ -2,52 +2,66 @@
 from __future__ import unicode_literals
 
 from django.db import models
-from django.utils.encoding import python_2_unicode_compatible
+from django.utils.translation import ugettext_lazy as _
 from django.utils.safestring import mark_safe
 
 from .managers import TemporalQuerySet
 
 
-# Create your models here.
-
-# class MyModel(models.Model):
-#     name = models.CharField(max_length=250)
-
-#@python_2_unicode_compatible
-class ServiceLevel(models.Model):
-    SERVICE_LEVELS_CHOICES = (
-        (0, 'Silver'),
-        (1, 'Gold'),
-        (2, 'Platinum'),
-    )
-    service_name = models.IntegerField(choices=SERVICE_LEVELS_CHOICES)
-    description = models.TextField(default='')
-    pub_date = models.DateTimeField('date added')
+class Service(models.Model):
+    service_no = models.CharField(primary_key=True, max_length=4)
+    service_name = models.CharField(unique=True, max_length=40)
+    service_description = models.TextField(default='')
 
     class Meta:
-        db_table = 'service_levels'
-        ordering = ['service_name']
+        db_table = 'packages'
+        ordering = ['service_no']
 
-    # def __str__(self):
-    #     return self.service_name if self.service_name is not None else 'ServiceLevel'
-
-    def __unicode__(self):
-        return str(self.service_name)
+    def __str__(self):
+        return self.service_name
 
 
-# class CustomerLoyalty(models.Model):
-#     CUSTOMER_LOYALTY_CHOICES = (
-#         (0, '0 - 2 years'),
-#         (1, '3 - 10 years')
-#     )
-#
-#     customer_loyalty = models.IntegerField(choices=CUSTOMER_LOYALTY_CHOICES)
+class ServiceEmployee(models.Model):
+    employee = models.ForeignKey('Employee', on_delete=models.CASCADE, db_column='Customer_ID')
+    service = models.ForeignKey(Service, on_delete=models.CASCADE, db_column='service_no')
+    from_date = models.DateField()
+    to_date = models.DateField()
+
+    objects = TemporalQuerySet.as_manager()
+
+    class Meta:
+        db_table = 'service_customer'
+
+
+class ServiceManager(models.Model):
+    employee = models.ForeignKey('Employee', on_delete=models.CASCADE, db_column='Customer_ID')
+    service = models.ForeignKey(Service, on_delete=models.CASCADE, db_column='service_no')
+    from_date = models.DateField()
+    to_date = models.DateField()
+
+    objects = TemporalQuerySet.as_manager()
+
+    class Meta:
+        db_table = 'service_manager'
+        ordering = ['-from_date']
+
+
+# class Employee(models.Model):
+#     emp_no = models.AutoField(primary_key=True)
+#     birth_date = models.DateField()
+#     first_name = models.CharField(max_length=14)
+#     last_name = models.CharField(max_length=16)
+#     gender = models.CharField(max_length=1)
+#     hire_date = models.DateField()
 #
 #     class Meta:
-#         ordering = ['customer_loyalty']
+#         db_table = 'employees'
+#
+#     def __str__(self):
+#         return "{} {}".format(self.first_name, self.last_name)
 
 
-class Customer(models.Model):
+class Employee(models.Model):
     COUNTRY_CHOICES = (
         ('', 'Country'), (244, 'Aaland Islands'), (1, 'Afghanistan'), (2, 'Albania'), (3, 'Algeria'),
         (4, 'American Samoa'), (5, 'Andorra'), (6, 'Angola'), (7, 'Anguilla'), (8, 'Antarctica'),
@@ -150,7 +164,6 @@ class Customer(models.Model):
 
 
     Customer_ID = models.AutoField(primary_key=True)
-    Service_Level = models.ForeignKey(ServiceLevel)
     Name = models.CharField(max_length=30)
     Gender = models.IntegerField(choices=GENDER_CHOICES)
     Address = models.CharField(max_length=50)
@@ -166,7 +179,33 @@ class Customer(models.Model):
     Residential_Status = models.IntegerField(choices=RESIDENTIAL_STATUS_CHOICES)
 
     class Meta:
-        db_table = 'clients'
+        db_table = 'customers'
 
     def __str__(self):
-        return self.Name
+        return "{}".format(self.Name)
+
+class Salary(models.Model):
+    employee = models.ForeignKey(Employee, on_delete=models.CASCADE, db_column='Customer_ID')
+    salary = models.IntegerField()
+    from_date = models.DateField()
+    to_date = models.DateField()
+
+    objects = TemporalQuerySet.as_manager()
+
+    class Meta:
+        db_table = 'salaries'
+        ordering = ['-from_date']
+        verbose_name = _('Salary')
+        verbose_name_plural = _('Salaries')
+
+
+class Title(models.Model):
+    employee = models.ForeignKey(Employee, on_delete=models.CASCADE, db_column='Customer_ID')
+    title = models.CharField(max_length=50)
+    from_date = models.DateField()
+    to_date = models.DateField(blank=True, null=True)
+
+    objects = TemporalQuerySet.as_manager()
+
+    class Meta:
+        db_table = 'titles'

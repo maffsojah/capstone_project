@@ -1,28 +1,37 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-# from django.shortcuts import render, HttpResponse, get_object_or_404
-# from django.contrib.auth.decorators import login_required
-# import requests
-# import csv
+from django.shortcuts import render, HttpResponse, get_object_or_404
+from django.contrib.auth.decorators import login_required
+import requests
+import csv
 
 from material import Layout, Row, Fieldset
-from material.frontend.views import ModelViewSet, ListModelView
+from material.frontend.views import ModelViewSet, ListModelView, DetailModelView
 
-from . import models
+from . import models, forms
 
 
 # class MyModelViewSet(ModelViewSet):
 #    model = models.MyModel
 
+# @login_required
+# def change_service(request, customer_pk):
+#     customer = get_object_or_404(models.Customer, pk=customer_pk)
+#     form = forms.ChangeServiceForm(customer=customer, data=request.POST or None)
+#
+#     if form.is_valid():
+#         form.save()
+#
+#     services = customer.
 
 class ServiceLevelViewSet(ModelViewSet):
     model = models.ServiceLevel
     list_display = ('service_name', 'description', 'pub_date')
 
 
-class CustomerLoyaltyViewSet(ModelViewSet):
-    model = models.CustomerLoyalty
-    list_display = ('customer_loyalty')
+# class CustomerLoyaltyViewSet(ModelViewSet):
+#     model = models.CustomerLoyalty
+#     list_display = ('customer_loyalty')
 
 
 class CustomerViewSet(ModelViewSet):
@@ -34,7 +43,7 @@ class CustomerViewSet(ModelViewSet):
         'Employment', 'Salary', 'Employer_Stability',
         'Customer_Loyalty', 'Balance', 'Residential_Status',
     )
-    list_display_links = ('Name', 'Service_Level')
+    #list_display_links = ('Name', 'Service_Level')
     paginate_by = 10
 
     layout = Layout(
@@ -44,8 +53,9 @@ class CustomerViewSet(ModelViewSet):
         'Balance'
     )
 
-    # def service_level(self, customer):
-    #     return
+    # def change_service = [
+    #     r'^(?P<>)'
+    # ]
 
 
 
@@ -95,4 +105,4 @@ class ActiveCustomerViewSet(ModelViewSet):
             #customers.save()
             parsedData.append(customers)
         return render(request, 'active_customers.html', {'line': parsedData})
-        return render(request, 'services/active_customers.html', context, {'line': parsedData})
+        return render(request, '/services/active_customers.html', context, {'line': parsedData})

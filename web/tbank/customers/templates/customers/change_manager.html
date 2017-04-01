@@ -1,0 +1,16 @@
+{% extends 'customers/base_module.html' %}
+{% load material_frontend %}
+
+{% block breadcrumbs_items %}
+<a href="{% url service|frontend_urlname:'list' %}">{{ service|verbose_name_plural|title }}</a>
+<a href="{% url service|frontend_urlname:'detail' service.pk %}">{{ service }}</a>
+<a class="active">Change Manager</a>
+{% endblock %}
+
+{% block content %}
+<div class="card">
+    <div class="card-content">
+        {{ form }}
+    </div>
+</div>
+{% endblock %}

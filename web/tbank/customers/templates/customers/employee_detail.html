@@ -1,0 +1,103 @@
+{% extends 'material/frontend/views/detail.html' %}
+{% load i18n material_frontend humanize %}
+
+{% block content %}
+<div class="left-panel">
+    <div class="card">
+        <div class="card-content">
+            {% block card %}
+            <div class="form-title">{{ view.model|verbose_name|title }}: {{ object }}</div>
+            <table class="table bordered">
+                {% for field_name, value in object_data %}
+                <tr>
+                    <th>{{ field_name }}</th>
+                    <td>{{ value }}</td>
+                    {% endfor %}
+                </tr>
+                {% endblock %}
+            </table>
+        </div>
+        <div class="card-action">
+            <div class="right-align">
+                {% if delete_url %}<a class="waves-effect waves-light btn red white-text" href="{{ delete_url }}">{% trans 'Delete' %}</a>{% endif %}
+                {% if change_url %}<a class="waves-effect waves-light btn white-text" href="{{ change_url }}">{% trans 'Change' %}</a>{% endif %}
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-content">
+            <div class="card-title">Positions</div>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Position</td>
+                        <td>Since</td>
+                        <td>To</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for title in object.title_set.all|slice:":10" %}
+                    <tr>
+                        <td>{{ title.title }}</td>
+                        <td>{{ title.from_date }}</td>
+                        <td>{{ title.to_date }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <div class="card-action right-align">
+            <a href="{% url 'employees:employee_change_title' object.pk %}" class="btn">Change</a>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-content">
+            <div class="card-title">Services</div>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Service</td>
+                        <td>Since</td>
+                        <td>To</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for service in object.serviceemployee_set.all|slice:":10" %}
+                    <tr>
+                        <td>{{ service.service }}</td>
+                        <td>{{ service.from_date }}</td>
+                        <td>{{ service.to_date }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="right-panel">
+    <div class="card">
+        <div class="card-content">
+            <div class="card-title">Salary</div>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Salary</td>
+                        <td>Since</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for salary in object.salary_set.all|slice:":10" %}
+                    <tr>
+                        <td>${{ salary.salary|intcomma }}</td>
+                        <td>{{ salary.from_date }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <div class="card-action right-align">
+            <a href="{% url 'employees:employee_change_salary' object.pk %}" class="btn">Change</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

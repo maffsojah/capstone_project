@@ -10,7 +10,7 @@ urlpatterns = [
     url('^$', generic.RedirectView.as_view(url='./services/'), name="index"),
     url('^customers/', include(views.CustomerViewSet().urls)),
     url('^services/', include(views.ServiceLevelViewSet().urls)),
-    url('^loyalty/', include(views.CustomerLoyaltyViewSet().urls)),
+    # url('^loyalty/', include(views.CustomerLoyaltyViewSet().urls)),
     url('^active_customers', include(views.ActiveCustomerViewSet().urls)),
     #url('^mymodel/', include(views.MyModelViewSet().urls)),
     # ex: /

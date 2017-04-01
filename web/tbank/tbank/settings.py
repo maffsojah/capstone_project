@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 """
 
 import os
+import sys
+import django
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -39,19 +41,23 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'material.admin',
+# material apps
     'material.theme.lightblue',
     'material',
     'material.frontend',
+    'material.admin',
 
+# standard django apps
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #'registration',
+    'django.contrib.humanize',
+
     'services.apps.ServicesConfig',
+    'customers.apps.CustomersConfig',
 ]
 
 # ACCOUNT_ACTIVATION_DAYS = 7 # One-week activation window
@@ -77,7 +83,7 @@ ROOT_URLCONF = 'tbank.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'tbank', 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -87,6 +93,7 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
                 'material.frontend.context_processors.modules',
             ],
+            'debug': True,
         },
     },
 ]
@@ -142,3 +149,23 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "tbank", "static"),
+)
+
+
+# # shortcut for in form templates
+# try:
+#     # shortcut for in form templates
+#     from django.template.base import add_to_builtins
+#     add_to_builtins('material.templatetags.material_form')
+#     add_to_builtins('template_debug.templatetags.debug_tags')
+# except ImportError:
+#     """
+#     Django 1.9.
+#     """
+#     TEMPLATES[0]['OPTIONS']['builtins'] = [
+#         'material.templatetags.material_form',
+#         'template_debug.templatetags.debug_tags'
+#     ]

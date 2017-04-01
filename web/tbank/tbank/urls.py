@@ -22,7 +22,7 @@ from django.views import generic
 
 from material.frontend import urls as frontend_urls
 
-from services import forms, widget_forms, admin_forms
+from . import forms, widget_forms, admin_forms
 
 def index_view(request):
     context = {
@@ -37,11 +37,11 @@ urlpatterns = [
 
     # # services
     # url(r'^services/login/$', generic.FormView.as_view(
-    #     form_class=forms.LoginForm, success_url='/services/login/', template_name="services.html")),
+    #     form_class=forms.LoginForm, success_url='/services/login/', template_name="tbank.html")),
     # url(r'^services/registration/$', generic.FormView.as_view(
-    #     form_class=forms.RegistrationForm, success_url='/services/registration/', template_name="services.html")),
+    #     form_class=forms.RegistrationForm, success_url='/services/registration/', template_name="tbank.html")),
     # url(r'^services/bank/$', generic.FormView.as_view(
-    #     form_class=forms.BankForm, success_url='/services/bank/', template_name="services.html")),
+    #     form_class=forms.BankForm, success_url='/services/bank/', template_name="tbank.html")),
     # url(r'^services/', include('services.urls', namespace='services')),
     #
     # frontend
