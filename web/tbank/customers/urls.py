@@ -10,7 +10,7 @@ from . import views
 urlpatterns = [
     # url('^$', generic.RedirectView.as_view(url='./mymodel/'), name="index"),
     url('^$', generic.RedirectView.as_view(
-        url='./services/'), name="index"),
+        url='./customers/'), name="index"),
     url('^services/', include(views.ServiceViewSet().urls)),
-    url('^customers/', include(views.EmployeeViewSet().urls)),
+    url('^customers/', include(views.CustomerViewSet().urls)),
 ]

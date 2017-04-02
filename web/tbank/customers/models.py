@@ -7,6 +7,7 @@ from django.utils.safestring import mark_safe
 
 from .managers import TemporalQuerySet
 
+# Create your models here.
 
 class Service(models.Model):
     service_no = models.CharField(primary_key=True, max_length=4)
@@ -14,15 +15,14 @@ class Service(models.Model):
     service_description = models.TextField(default='')
 
     class Meta:
-        db_table = 'packages'
+        db_table = 'services'
         ordering = ['service_no']
 
     def __str__(self):
         return self.service_name
 
-
-class ServiceEmployee(models.Model):
-    employee = models.ForeignKey('Employee', on_delete=models.CASCADE, db_column='Customer_ID')
+class ServiceCustomer(models.Model):
+    customer = models.ForeignKey('Customer', on_delete=models.CASCADE, db_column='Customer_ID')
     service = models.ForeignKey(Service, on_delete=models.CASCADE, db_column='service_no')
     from_date = models.DateField()
     to_date = models.DateField()
@@ -32,9 +32,8 @@ class ServiceEmployee(models.Model):
     class Meta:
         db_table = 'service_customer'
 
-
 class ServiceManager(models.Model):
-    employee = models.ForeignKey('Employee', on_delete=models.CASCADE, db_column='Customer_ID')
+    customer = models.ForeignKey('Customer', on_delete=models.CASCADE, db_column='Customer_ID')
     service = models.ForeignKey(Service, on_delete=models.CASCADE, db_column='service_no')
     from_date = models.DateField()
     to_date = models.DateField()
@@ -45,23 +44,7 @@ class ServiceManager(models.Model):
         db_table = 'service_manager'
         ordering = ['-from_date']
 
-
-# class Employee(models.Model):
-#     emp_no = models.AutoField(primary_key=True)
-#     birth_date = models.DateField()
-#     first_name = models.CharField(max_length=14)
-#     last_name = models.CharField(max_length=16)
-#     gender = models.CharField(max_length=1)
-#     hire_date = models.DateField()
-#
-#     class Meta:
-#         db_table = 'employees'
-#
-#     def __str__(self):
-#         return "{} {}".format(self.first_name, self.last_name)
-
-
-class Employee(models.Model):
+class Customer(models.Model):
     COUNTRY_CHOICES = (
         ('', 'Country'), (244, 'Aaland Islands'), (1, 'Afghanistan'), (2, 'Albania'), (3, 'Algeria'),
         (4, 'American Samoa'), (5, 'Andorra'), (6, 'Angola'), (7, 'Anguilla'), (8, 'Antarctica'),
@@ -161,8 +144,6 @@ class Employee(models.Model):
 
     )
 
-
-
     Customer_ID = models.AutoField(primary_key=True)
     Name = models.CharField(max_length=30)
     Gender = models.IntegerField(choices=GENDER_CHOICES)
@@ -177,6 +158,7 @@ class Employee(models.Model):
     Customer_Loyalty = models.IntegerField(choices=CUSTOMER_LOYALTY_CHOICES)
     Balance = models.BigIntegerField(help_text=mark_safe('&#36;'))
     Residential_Status = models.IntegerField(choices=RESIDENTIAL_STATUS_CHOICES)
+    service = models.ForeignKey('Service', on_delete=models.CASCADE, db_column='service_no')
 
     class Meta:
         db_table = 'customers'
@@ -185,8 +167,8 @@ class Employee(models.Model):
         return "{}".format(self.Name)
 
 class Salary(models.Model):
-    employee = models.ForeignKey(Employee, on_delete=models.CASCADE, db_column='Customer_ID')
-    salary = models.IntegerField()
+    customer = models.ForeignKey(Customer, on_delete=models.CASCADE, db_column='Customer_ID')
+    salary = models.IntegerField(help_text=mark_safe('&#36;'))
     from_date = models.DateField()
     to_date = models.DateField()
 
@@ -198,9 +180,8 @@ class Salary(models.Model):
         verbose_name = _('Salary')
         verbose_name_plural = _('Salaries')
 
-
 class Title(models.Model):
-    employee = models.ForeignKey(Employee, on_delete=models.CASCADE, db_column='Customer_ID')
+    customer = models.ForeignKey(Customer, on_delete=models.CASCADE, db_column='Customer_ID')
     title = models.CharField(max_length=50)
     from_date = models.DateField()
     to_date = models.DateField(blank=True, null=True)

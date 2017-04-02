@@ -2,8 +2,8 @@
 {% load material_frontend %}
 
 {% block breadcrumbs_items %}
-<a href="{% url employee|frontend_urlname:'list' %}">{{ employee|verbose_name_plural|title }}</a>
-<a href="{% url employee|frontend_urlname:'detail' employee.pk %}">{{ employee }}</a>
+<a href="{% url customer|frontend_urlname:'list' %}">{{ customer|verbose_name_plural|title }}</a>
+<a href="{% url customer|frontend_urlname:'detail' customer.pk %}">{{ customer }}</a>
 <a class="active">Change Salary</a>
 {% endblock %}
 

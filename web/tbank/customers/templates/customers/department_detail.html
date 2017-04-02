@@ -18,7 +18,7 @@
                 <tr>
                     <th>Customers</th>
                     <td>
-                        <a href="{% url 'employees:service_employees' object.pk %}">{{ object.serviceemp_set.count }}</a>
+                        <a href="{% url 'customers:service_customers' object.pk %}">{{ object.serviceemp_set.count }}</a>
                     </td>
                 </tr>
             </table>
@@ -45,7 +45,7 @@
                 <tbody>
                     {% for manager in object.servicemanager_set.all %}
                     <tr>
-                        <td>{{ manager.employee }}</td>
+                        <td>{{ manager.customer }}</td>
                         <td>{{ manager.from_date }}</td>
                     </tr>
                     {% endfor %}
@@ -53,7 +53,7 @@
             </table>
         </div>
         <div class="card-action right-align">
-            <a href="{% url 'employees:service_change_manager' object.pk %}" class="btn disabled">Change</a>
+            <a href="{% url 'customers:service_change_manager' object.pk %}" class="btn disabled">Change</a>
         </div>
     </div>
 </div>

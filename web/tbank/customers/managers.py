@@ -26,7 +26,7 @@ class TemporalQuerySet(models.QuerySet):
             **kwargs
         )
 
-    def current(self):
+def current(self):
         today = timezone.now().date()
 
         return self.filter(

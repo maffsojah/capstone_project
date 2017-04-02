@@ -47,7 +47,7 @@
             </table>
         </div>
         <div class="card-action right-align">
-            <a href="{% url 'employees:employee_change_title' object.pk %}" class="btn">Change</a>
+            <a href="{% url 'customers:customer_change_title' object.pk %}" class="btn">Change</a>
         </div>
     </div>
     <div class="card">
@@ -62,7 +62,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    {% for service in object.serviceemployee_set.all|slice:":10" %}
+                    {% for service in object.servicecustomer_set.all|slice:":10" %}
                     <tr>
                         <td>{{ service.service }}</td>
                         <td>{{ service.from_date }}</td>
@@ -96,7 +96,7 @@
             </table>
         </div>
         <div class="card-action right-align">
-            <a href="{% url 'employees:employee_change_salary' object.pk %}" class="btn">Change</a>
+            <a href="{% url 'customers:customer_change_salary' object.pk %}" class="btn">Change</a>
         </div>
     </div>
 </div>

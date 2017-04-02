@@ -5,6 +5,6 @@ from django.apps import AppConfig
 from material.frontend.apps import ModuleMixin
 
 
-class EmployeesConfig(ModuleMixin, AppConfig):
+class CustomersConfig(ModuleMixin, AppConfig):
     name = 'customers'
     icon = '<i class="material-icons">people</i>'
