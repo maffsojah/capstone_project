@@ -158,7 +158,7 @@ class Customer(models.Model):
     Customer_Loyalty = models.IntegerField(choices=CUSTOMER_LOYALTY_CHOICES)
     Balance = models.BigIntegerField(help_text=mark_safe('&#36;'))
     Residential_Status = models.IntegerField(choices=RESIDENTIAL_STATUS_CHOICES)
-    service = models.ForeignKey('Service', on_delete=models.CASCADE, db_column='service_no')
+    #service = models.ForeignKey('Service', on_delete=models.CASCADE, db_column='service_no')
 
     class Meta:
         db_table = 'customers'

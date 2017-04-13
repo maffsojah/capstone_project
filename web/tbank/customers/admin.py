@@ -29,6 +29,7 @@ class CustomerAdmin(admin.ModelAdmin):
     icon = '<i class="material-icons">account_box</i>'
     list_display = ('Customer_ID', 'Name', 'Gender', 'Nationality', 'Account_Type', 'Balance')
     list_per_page = 10
+    list_filter = ('Nationality', 'Gender')
 
 @admin.register(models.Salary)
 class SalaryAdmin(admin.ModelAdmin):
