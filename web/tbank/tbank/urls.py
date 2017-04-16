@@ -31,21 +31,48 @@ def index_view(request):
     }
     return render(request, 'index.html', context)
 
+# class Wizard(SessionWizardView):
+#     form_list = [forms.WizardForm1, forms.WizardForm2]
+#
+#     def done(self, form_list, **kwargs):
+#         return render(self.request, 'formtools/wizard/wizard_done.html', {
+#             'form_data': [form.cleaned_data for form in form_list],
+#         })
+#
+# class WidgetFormView(generic.FormView):
+#     template_name = 'widgets_tbank.html'
+#
+#     def form_valid(self, form):
+#         return self.render_to_response(
+#             self.get_context_data(form=form))
+#
+#
+# class AdminFormView(generic.FormView):
+#     template_name = 'admin_tbank.html'
+#
+#     @classmethod
+#     def as_view(cls, *args, **kwargs):
+#         return login_required(super(AdminFormView, cls).as_view(*args, **kwargs))
+#
+#     def form_valid(self, form):
+#         return self.render_to_response(
+#             self.get_context_data(form=form))
+#
 
 urlpatterns = [
     url(r'^$', index_view),
 
-    # # services
-    # url(r'^services/login/$', generic.FormView.as_view(
-    #     form_class=forms.LoginForm, success_url='/services/login/', template_name="tbank.html")),
-    # url(r'^services/registration/$', generic.FormView.as_view(
-    #     form_class=forms.RegistrationForm, success_url='/services/registration/', template_name="tbank.html")),
-    # url(r'^services/bank/$', generic.FormView.as_view(
-    #     form_class=forms.BankForm, success_url='/services/bank/', template_name="tbank.html")),
+    # services
+    # url(r'^tbank/login/$', generic.FormView.as_view(
+    #     form_class=forms.LoginForm, success_url='/tbank/login/', template_name="tbank.html")),
+    # url(r'^tbank/registration/$', generic.FormView.as_view(
+    #     form_class=forms.RegistrationForm, success_url='/tbank/registration/', template_name="tbank.html")),
+    # url(r'^tbank/bank/$', generic.FormView.as_view(
+    #     form_class=forms.BankForm, success_url='/tbank/bank/', template_name="tbank.html")),
     # url(r'^services/', include('services.urls', namespace='services')),
     #
     # frontend
-    url(r'^frontend/$', generic.RedirectView.as_view(url='/frontend/services/', permanent=False), name="index"),
+    url(r'^frontend/$', generic.RedirectView.as_view(url='/frontend/customers/', permanent=False), name="index"),
     url(r'', include(frontend_urls)),
 ]
 

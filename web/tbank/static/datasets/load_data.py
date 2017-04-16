@@ -1,5 +1,5 @@
 # Full path and name to your csv file
-csv_filepathname='/home/maffsojah/Projects/HIT_400/capstone_project/web/tbank/static/datasets/dummyTrain.csv'
+csv_filepathname='/home/maffsojah/Projects/HIT_400/capstone_project/web/tbank/static/datasets/customers.csv'
 
 # Full path to your django project directory
 webproject_home='/home/maffsojah/Projects/HIT_400/capstone_project/web/tbank'

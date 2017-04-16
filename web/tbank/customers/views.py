@@ -10,19 +10,19 @@ from material.frontend.views import ModelViewSet, ListModelView
 from . import models, forms
 
 
-@login_required
-def change_manager(request, service_pk):
-    service = get_object_or_404(models.Service, pk=service_pk)
-    form = forms.ChangeManagerForm(service=service, data=request.POST or None)
-
-    if form.is_valid():
-        form.save()
-
-    return render(request, 'customers/change_manager.html', {
-        'form': form,
-        'service': service,
-        'model': models.Service
-    })
+# @login_required
+# def change_manager(request, service_pk):
+#     service = get_object_or_404(models.Service, pk=service_pk)
+#     form = forms.ChangeManagerForm(service=service, data=request.POST or None)
+#
+#     if form.is_valid():
+#         form.save()
+#
+#     return render(request, 'customers/change_manager.html', {
+#         'form': form,
+#         'service': service,
+#         'model': models.Service
+#     })
 
 @login_required
 def change_salary(request, customer_pk):
@@ -47,19 +47,19 @@ def change_salary(request, customer_pk):
         'model': models.Customer
     })
 
-@login_required
-def change_title(request, customer_pk):
-    customer = get_object_or_404(models.Customer, pk=customer_pk)
-    form = forms.ChangeTitleForm(customer=customer, data=request.POST or None)
-
-    if form.is_valid():
-        form.save()
-
-    return render(request, 'customers/change_title.html', {
-        'form': form,
-        'customer': customer,
-        'model': models.Customer
-    })
+# @login_required
+# def change_title(request, customer_pk):
+#     customer = get_object_or_404(models.Customer, pk=customer_pk)
+#     form = forms.ChangeTitleForm(customer=customer, data=request.POST or None)
+#
+#     if form.is_valid():
+#         form.save()
+#
+#     return render(request, 'customers/change_title.html', {
+#         'form': form,
+#         'customer': customer,
+#         'model': models.Customer
+#     })
 
 class ServiceCustomerListView(ListModelView):
     model = models.Customer
@@ -93,11 +93,11 @@ class CustomerViewSet(ModelViewSet):
         '{model_name}_change_salary'
     ]
 
-    change_title_view = [
-        r'^(?P<customer_pk>.+)/change_title/$',
-        change_title,
-        '{model_name}_change_title'
-    ]
+    # change_title_view = [
+    #     r'^(?P<customer_pk>.+)/change_title/$',
+    #     change_title,
+    #     '{model_name}_change_title'
+    # ]
 
     def current_salary(self, obj):
         salary = obj.salary_set.current()
@@ -107,11 +107,11 @@ class ServiceViewSet(ModelViewSet):
     model = models.Service
     list_display = ('service_no', 'service_name', 'service_description', 'manager', 'customers')
 
-    change_manager_view = [
-        r'^(?P<service_pk>.+)/change_manager/$',
-        change_manager,
-        '{model_name}_change_manager'
-    ]
+    # change_manager_view = [
+    #     r'^(?P<service_pk>.+)/change_manager/$',
+    #     change_manager,
+    #     '{model_name}_change_manager'
+    # ]
 
     customers_list_view = [
         r'^(?P<service_pk>.+)/customers/$',

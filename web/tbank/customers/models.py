@@ -32,17 +32,17 @@ class ServiceCustomer(models.Model):
     class Meta:
         db_table = 'service_customer'
 
-class ServiceManager(models.Model):
-    customer = models.ForeignKey('Customer', on_delete=models.CASCADE, db_column='Customer_ID')
-    service = models.ForeignKey(Service, on_delete=models.CASCADE, db_column='service_no')
-    from_date = models.DateField()
-    to_date = models.DateField()
-
-    objects = TemporalQuerySet.as_manager()
-
-    class Meta:
-        db_table = 'service_manager'
-        ordering = ['-from_date']
+# class ServiceManager(models.Model):
+#     customer = models.ForeignKey('Customer', on_delete=models.CASCADE, db_column='Customer_ID')
+#     service = models.ForeignKey(Service, on_delete=models.CASCADE, db_column='service_no')
+#     from_date = models.DateField()
+#     to_date = models.DateField()
+#
+#     objects = TemporalQuerySet.as_manager()
+#
+#     class Meta:
+#         db_table = 'service_manager'
+#         ordering = ['-from_date']
 
 class Customer(models.Model):
     COUNTRY_CHOICES = (
@@ -102,63 +102,67 @@ class Customer(models.Model):
     )
 
     GENDER_CHOICES = (
-        (0, 'Male'),
-        (1, 'Female')
+        ('Male', 'Male'),
+        ('Female', 'Female')
     )
 
     ACCOUNT_TYPE_CHOICES = (
-        (0, 'Current Account'),
-        (1, 'Savings Account')
+        ('Current Account', 'Current Account'),
+        ('Savings Account', 'Savings Account')
     )
 
     EDUCATION_CHOICES = (
-        (0, 'Highschool and below'),
-        (1, 'Tertiary and above')
+        ('Highschool and below', 'Highschool and below'),
+        ('Tertiary and above', 'Tertiary and above')
     )
 
     EMPLOYMENT_CHOICES = (
-        (0, 'Student'),
-        (1, 'Contract'),
-        (2, 'Permanent')
+        ('Student', 'Student'),
+        ('Contract', 'Contract'),
+        ('Permament', 'Permanent')
     )
 
     EMPLOYER_STABILITY_CHOICES = (
-        (0, 'Unstable'),
-        (1, 'Stable')
+        ('Unstable', 'Unstable'),
+        ('Stable', 'Stable')
     )
 
     RESIDENTIAL_STATUS_CHOICES = (
-        (0, 'Rented'),
-        (1, 'Owned')
+        ('Rented', 'Rented'),
+        ('Owned', 'Owned')
     )
 
     AGE_CHOICES = (
-        (0, '60 +'),
-        (1, '36 - 59'),
-        (2, '18 - 35')
+        ('60 +', '60 +'),
+        ('36 - 59', '36 - 59'),
+        ('18 - 35', '18 - 35')
     )
 
-    CUSTOMER_LOYALTY_CHOICES = (
-        (0, '0 - 2 years'),
-        (1, '3 - 10 years')
-
-    )
+    # CUSTOMER_LOYALTY_CHOICES = (
+    #     (0, '0 - 2 years'),
+    #     (1, '3 - 10 years')
+    #
+    # )
 
     Customer_ID = models.AutoField(primary_key=True)
     Name = models.CharField(max_length=30)
-    Gender = models.IntegerField(choices=GENDER_CHOICES)
+    Gender = models.CharField(max_length=5, choices=GENDER_CHOICES)
     Address = models.CharField(max_length=50)
     Nationality = models.IntegerField(choices=COUNTRY_CHOICES)
-    Account_Type = models.IntegerField(choices=ACCOUNT_TYPE_CHOICES)
-    Age = models.IntegerField(choices=AGE_CHOICES)
-    Education = models.IntegerField(choices=EDUCATION_CHOICES)
-    Employment = models.IntegerField(choices=EMPLOYMENT_CHOICES)
+    Account_Type = models.CharField(max_length=20, choices=ACCOUNT_TYPE_CHOICES)
+    Age = models.CharField(max_length=10, choices=AGE_CHOICES)
+    Education = models.CharField(max_length=20, choices=EDUCATION_CHOICES)
+    Employment = models.CharField(max_length=10, choices=EMPLOYMENT_CHOICES)
     Salary = models.BigIntegerField(help_text=mark_safe('&#36;'))
-    Employer_Stability = models.IntegerField(choices=EMPLOYER_STABILITY_CHOICES)
-    Customer_Loyalty = models.IntegerField(choices=CUSTOMER_LOYALTY_CHOICES)
+    #Salary = models.ForeignKey('Salary', on_delete=models.CASCADE, help_text=mark_safe('&#36;'), related_name='salary_customer')
+    Employer_Stability = models.CharField(max_length=10, choices=EMPLOYER_STABILITY_CHOICES)
+    #Customer_Loyalty = models.IntegerField(choices=CUSTOMER_LOYALTY_CHOICES)
+    Customer_Loyalty = models.IntegerField(help_text=mark_safe('years in bank'))
     Balance = models.BigIntegerField(help_text=mark_safe('&#36;'))
-    Residential_Status = models.IntegerField(choices=RESIDENTIAL_STATUS_CHOICES)
+    Residential_Status = models.CharField(max_length=10, choices=RESIDENTIAL_STATUS_CHOICES)
     #service = models.ForeignKey('Service', on_delete=models.CASCADE, db_column='service_no')
+
+    #objects = TemporalQuerySet.as_manager()
 
     class Meta:
         db_table = 'customers'
@@ -180,13 +184,13 @@ class Salary(models.Model):
         verbose_name = _('Salary')
         verbose_name_plural = _('Salaries')
 
-class Title(models.Model):
-    customer = models.ForeignKey(Customer, on_delete=models.CASCADE, db_column='Customer_ID')
-    title = models.CharField(max_length=50)
-    from_date = models.DateField()
-    to_date = models.DateField(blank=True, null=True)
-
-    objects = TemporalQuerySet.as_manager()
-
-    class Meta:
-        db_table = 'titles'
+# class Title(models.Model):
+#     customer = models.ForeignKey(Customer, on_delete=models.CASCADE, db_column='Customer_ID')
+#     title = models.CharField(max_length=50)
+#     from_date = models.DateField()
+#     to_date = models.DateField(blank=True, null=True)
+#
+#     objects = TemporalQuerySet.as_manager()
+#
+#     class Meta:
+#         db_table = 'titles'

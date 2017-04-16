@@ -17,12 +17,20 @@ class ServiceCustomerAdmin(admin.ModelAdmin):
     list_filter = ('service', )
     list_per_page = 10
 
-@admin.register(models.ServiceManager)
-class ServiceManagerAdmin(admin.ModelAdmin):
-    icon = '<i class="material-icons">assignment_ind</i>'
-    list_display = ('customer', 'service', 'from_date', 'to_date')
-    raw_id_fields = ('customer', )
-    list_filter = ('service', )
+# @admin.register(models.ServiceManager)
+# class ServiceManagerAdmin(admin.ModelAdmin):
+#     icon = '<i class="material-icons">assignment_ind</i>'
+#     list_display = ('customer', 'service', 'from_date', 'to_date')
+#     raw_id_fields = ('customer', )
+#     list_filter = ('service', )
+
+## Custom Action for the customers
+def all_customers(ModelAdmin, request, queryset):
+    for qs in queryset:
+        print qs.Name
+
+# def allocated_services(ModelAdmin, request, queryset):
+#     queryset.update()
 
 @admin.register(models.Customer)
 class CustomerAdmin(admin.ModelAdmin):
@@ -30,6 +38,7 @@ class CustomerAdmin(admin.ModelAdmin):
     list_display = ('Customer_ID', 'Name', 'Gender', 'Nationality', 'Account_Type', 'Balance')
     list_per_page = 10
     list_filter = ('Nationality', 'Gender')
+    actions = [all_customers]
 
 @admin.register(models.Salary)
 class SalaryAdmin(admin.ModelAdmin):
@@ -37,9 +46,9 @@ class SalaryAdmin(admin.ModelAdmin):
     list_display = ('customer', 'from_date', 'to_date', 'salary')
     raw_id_fields = ('customer', )
 
-@admin.register(models.Title)
-class TitleAdmin(admin.ModelAdmin):
-    icon = '<i class="material-icons">reorder</i>'
-    list_display = ('customer', 'from_date', 'to_date', 'title')
-    raw_id_fields = ('customer', )
-    list_filter = ('title', )
+# @admin.register(models.Title)
+# class TitleAdmin(admin.ModelAdmin):
+#     icon = '<i class="material-icons">reorder</i>'
+#     list_display = ('customer', 'from_date', 'to_date', 'title')
+#     raw_id_fields = ('customer', )
+#     list_filter = ('title', )

@@ -1,6 +1,5 @@
 # import datetime
 #
-# from django import forms
 # from django.template import Template
 # from material import Layout, Row, Column, Fieldset, Span2, Span3, Span5, Span6, Span10
 #
@@ -158,7 +157,7 @@
 #         cleaned_data = super(LoginForm, self).clean()
 #         if cleaned_data.get('email') == 'john@doe.com':
 #             raise forms.ValidationError('John, come on. You are blocked.')
-
+#
 # class LoginForm(forms.Form):
 #     email = forms.EmailField()
 #     password = forms.CharField(widget=forms.PasswordInput)
@@ -183,7 +182,7 @@
 #         cleaned_data = super(LoginForm, self).clean()
 #         if cleaned_data.get('email') == 'john@doe.com':
 #             raise forms.ValidationError('John, come on. You are blocked.')
-
+#
 # class RegistrationForm(forms.Form):
 #     username = forms.CharField()
 #     email = forms.EmailField(label="Email Address")
@@ -412,3 +411,6 @@
 # class WizardForm1(forms.Form):
 #     subject = forms.CharField(max_length=100)
 #     sender = forms.EmailField()
+#
+# class WizardForm2(forms.Form):
+#     message = forms.CharField(widget=forms.Textarea)
