@@ -84,7 +84,7 @@ class ServiceCustomerListView(ListModelView):
 
 class CustomerViewSet(ModelViewSet):
     model = models.Customer
-    list_display = ('Customer_ID', 'Name', 'Gender','Age', 'Nationality', 'Address', 'Account_Type', 'Balance', 'Employer_Stability', 'Customer_Loyalty', 'Residential_Status')
+    list_display = ('Customer_ID', 'Name', 'Gender','Age', 'Nationality', 'Address', 'Account_Type', 'Balance', 'Employer_Stability', 'Customer_Loyalty', 'Residential_Status', 'Service_Level')
     paginate_by = 10
 
     change_salary_view = [

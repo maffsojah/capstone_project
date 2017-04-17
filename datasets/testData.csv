@@ -1,0 +1,1001 @@
+Customer_ID,Name,Gender,Address,Nationality,Account_Type,Age,Education,Employment,Salary,Employer_Stability,Customer_Loyalty,Balance,Residential_Status,Service_Level
+0,Tony Jimenez,Female,0155 Salas Shore,239,Current Account,36 - 59,Tertiary and above,Contract,886,Unstable,4,2789,Rented,0.0
+1,Jessica Bell,Male,24078 Davis Prairie Suite 981,239,Savings Account,60 +,Highschool and below,Student,4627,Stable,7,2333,Rented,0.0
+2,Cheryl Davis,Male,51713 Allen Radial,239,Current Account,60 +,Tertiary and above,Student,24001,Unstable,2,2789,Rented,0.0
+3,Leslie Sims,Male,4185 Jackson Divide Apt. 654,239,Current Account,36 - 59,Tertiary and above,Contract,24001,Unstable,3,179487,Rented,0.0
+4,Jason Schmidt,Female,0225 Flores Prairie,99,Savings Account,18 - 35,Tertiary and above,Contract,886,Stable,5,2789,Rented,0.0
+5,Laura Reynolds,Female,235 Nicholas Falls,28,Current Account,60 +,Tertiary and above,Student,24001,Stable,10,2333,Rented,1.0
+6,Martin Miranda,Female,04050 Smith Gardens,239,Savings Account,18 - 35,Tertiary and above,Permanent,24001,Unstable,3,179487,Rented,1.0
+7,Krystal Wagner,Female,410 Blankenship Highway Apt. 658,239,Savings Account,18 - 35,Highschool and below,Permanent,24001,Unstable,4,2333,Rented,0.0
+8,Cathy Blankenship,Female,174 Norman Trail,222,Current Account,60 +,Tertiary and above,Permanent,24001,Stable,6,179487,Owned,1.0
+9,Curtis Gilbert,Female,1800 Luna Lodge Suite 298,239,Savings Account,18 - 35,Highschool and below,Student,886,Stable,0,2789,Owned,0.0
+10,Christine Williams,Male,89573 Pamela Mews Apt. 179,239,Savings Account,18 - 35,Highschool and below,Student,24001,Unstable,7,2333,Rented,0.0
+11,Mark Osborne,Female,24589 Black Mountains Suite 916,239,Current Account,36 - 59,Highschool and below,Permanent,4627,Unstable,0,179487,Rented,0.0
+12,Melanie James,Male,3419 Julie Lane Apt. 337,239,Savings Account,60 +,Tertiary and above,Contract,886,Stable,4,2333,Owned,0.0
+13,John Key,Male,1422 Johnson Divide,44,Savings Account,36 - 59,Highschool and below,Student,4627,Unstable,6,2333,Owned,0.0
+14,Jerome Allen,Female,687 Michele Hollow Suite 827,222,Current Account,36 - 59,Highschool and below,Student,4627,Stable,5,2333,Owned,0.0
+15,Michael Carroll,Male,194 Jennifer Run,239,Current Account,60 +,Highschool and below,Permanent,24001,Stable,1,179487,Owned,0.0
+16,Eric Garcia MD,Male,6127 Garcia Squares,239,Savings Account,36 - 59,Tertiary and above,Permanent,886,Stable,7,179487,Rented,1.0
+17,John Bridges,Male,35124 Whitney Run Suite 655,239,Savings Account,36 - 59,Highschool and below,Student,886,Stable,6,2333,Rented,0.0
+18,Christine Berger,Male,745 Claudia River Apt. 088,239,Savings Account,60 +,Tertiary and above,Permanent,24001,Stable,10,2789,Rented,2.0
+19,Valerie Gomez,Female,91901 Matthew Mission Apt. 982,44,Savings Account,36 - 59,Highschool and below,Student,4627,Stable,1,2789,Rented,0.0
+20,Larry Mann,Female,84975 Thomas Crescent Suite 579,239,Savings Account,60 +,Tertiary and above,Contract,886,Stable,8,179487,Owned,1.0
+21,Troy Mcintosh,Male,45330 Karen Coves,193,Current Account,36 - 59,Highschool and below,Student,24001,Unstable,9,2333,Rented,1.0
+22,Dana Gibbs,Male,059 David Forks,239,Current Account,18 - 35,Tertiary and above,Student,886,Unstable,1,2333,Owned,0.0
+23,Jonathan Schmidt,Male,1178 Morgan Circle Suite 055,28,Current Account,36 - 59,Tertiary and above,Contract,886,Unstable,10,179487,Owned,2.0
+24,Dennis Gonzalez DDS,Female,54200 Billy Key,156,Savings Account,36 - 59,Highschool and below,Contract,4627,Unstable,3,2333,Rented,0.0
+25,Richard Becker,Male,6062 Mason Unions,239,Current Account,60 +,Tertiary and above,Permanent,4627,Unstable,10,2789,Owned,2.0
+26,Daniel Jenkins,Male,35422 Robert Squares Apt. 782,239,Current Account,18 - 35,Highschool and below,Permanent,24001,Stable,0,2789,Rented,0.0
+27,Lee Bates,Male,7111 Harold Forges,239,Current Account,36 - 59,Tertiary and above,Contract,24001,Unstable,8,179487,Rented,1.0
+28,Alexander Jackson,Female,0312 Kemp Harbor Suite 053,99,Savings Account,18 - 35,Tertiary and above,Student,24001,Unstable,3,2789,Rented,0.0
+29,Sonya Gutierrez MD,Female,425 Cathy Rest Suite 369,193,Current Account,36 - 59,Tertiary and above,Student,24001,Stable,4,179487,Owned,1.0
+30,Christopher Carey,Male,040 Werner Springs Suite 530,156,Current Account,18 - 35,Highschool and below,Student,24001,Unstable,1,179487,Owned,0.0
+31,Amy Pearson,Female,059 Douglas Trafficway,239,Current Account,36 - 59,Highschool and below,Permanent,24001,Unstable,4,179487,Owned,1.0
+32,Kaitlyn Smith,Female,9478 Green Divide,145,Savings Account,60 +,Highschool and below,Student,24001,Stable,2,179487,Rented,0.0
+33,Tracy Richard,Male,92221 Thompson Run,28,Savings Account,18 - 35,Tertiary and above,Student,886,Stable,5,179487,Owned,1.0
+34,Kristin Cooper,Female,23472 Johnson Trail,239,Current Account,18 - 35,Tertiary and above,Student,886,Unstable,4,2333,Owned,0.0
+35,Joseph Guerrero,Female,40833 Janet Mountains,156,Savings Account,18 - 35,Tertiary and above,Contract,886,Unstable,8,2789,Owned,1.0
+36,Shawn Trujillo,Female,974 Tammy Orchard,239,Current Account,36 - 59,Tertiary and above,Contract,4627,Unstable,0,2333,Owned,0.0
+37,Mrs. Patricia Calhoun,Male,934 Brandon Forges Suite 341,239,Current Account,60 +,Tertiary and above,Contract,886,Unstable,4,2333,Owned,0.0
+38,Gerald Moran,Male,000 Cassandra Cape,99,Savings Account,18 - 35,Tertiary and above,Contract,24001,Stable,8,2333,Rented,1.0
+39,Clinton Ferguson,Male,66121 Sharp Ville,193,Savings Account,36 - 59,Tertiary and above,Contract,24001,Unstable,2,179487,Owned,0.0
+40,Ashley Howard,Male,0759 Allen Square,239,Current Account,36 - 59,Highschool and below,Contract,4627,Unstable,3,179487,Owned,0.0
+41,Alexander Hoffman,Male,779 Miles Villages,239,Current Account,36 - 59,Highschool and below,Student,4627,Stable,8,2333,Owned,1.0
+42,Sean Norman,Male,7519 Christian Underpass Apt. 615,145,Savings Account,18 - 35,Highschool and below,Contract,4627,Stable,0,2789,Rented,0.0
+43,James Jones,Female,0902 Hanson Fords Suite 016,239,Current Account,18 - 35,Tertiary and above,Student,886,Unstable,5,179487,Owned,0.0
+44,Julie Salazar,Male,5664 Rosario Flats Suite 097,99,Savings Account,60 +,Highschool and below,Permanent,24001,Stable,10,2333,Owned,2.0
+45,Fernando Malone,Male,04530 Wheeler Court Suite 206,28,Savings Account,36 - 59,Highschool and below,Permanent,886,Stable,4,179487,Owned,0.0
+46,Annette Hill,Male,274 Kim Cove Suite 879,239,Current Account,18 - 35,Highschool and below,Student,24001,Stable,1,179487,Rented,0.0
+47,Jeremy Jones,Female,146 Bridget View Suite 320,44,Savings Account,36 - 59,Tertiary and above,Permanent,4627,Stable,1,2333,Owned,0.0
+48,Bonnie Davenport,Female,86284 Hartman Circle,239,Savings Account,18 - 35,Tertiary and above,Permanent,4627,Unstable,7,2789,Rented,1.0
+49,Sean Stewart,Female,6372 Hunt Roads,44,Current Account,18 - 35,Tertiary and above,Student,24001,Unstable,6,2333,Owned,1.0
+50,Christopher Allison,Female,926 Lopez Ranch,239,Savings Account,60 +,Highschool and below,Contract,886,Unstable,8,2789,Rented,0.0
+51,Mrs. Patricia Hubbard MD,Male,01302 Francis Harbors Suite 357,193,Savings Account,18 - 35,Highschool and below,Permanent,886,Stable,5,2789,Owned,1.0
+52,Andrew Garrett,Female,080 Amanda Grove Suite 170,239,Current Account,36 - 59,Highschool and below,Permanent,24001,Stable,5,2789,Rented,1.0
+53,Elijah Cross,Male,6117 Gregory Port Suite 571,44,Current Account,36 - 59,Tertiary and above,Contract,886,Stable,10,2333,Rented,1.0
+54,Kathryn Salazar,Male,54867 Perez Wells,145,Savings Account,60 +,Highschool and below,Permanent,24001,Stable,10,2789,Rented,2.0
+55,Bobby Kelly,Male,8025 Franklin Isle Apt. 051,222,Current Account,60 +,Tertiary and above,Permanent,24001,Unstable,0,2789,Rented,0.0
+56,Steven Mcgrath,Male,677 Alexandria Rest,239,Savings Account,36 - 59,Tertiary and above,Permanent,4627,Unstable,6,2789,Owned,1.0
+57,Kyle Whitney,Male,0359 Anthony Branch Apt. 527,156,Current Account,36 - 59,Tertiary and above,Contract,886,Stable,4,179487,Owned,0.0
+58,Travis Ryan,Male,656 Nelson Pike Apt. 900,156,Current Account,36 - 59,Tertiary and above,Permanent,24001,Unstable,8,2333,Rented,1.0
+59,Felicia Norris,Male,77849 Gomez Springs,28,Current Account,18 - 35,Highschool and below,Student,24001,Stable,6,179487,Rented,1.0
+60,William Villanueva,Male,75737 Stephen Mission,239,Current Account,60 +,Highschool and below,Permanent,24001,Stable,7,179487,Rented,1.0
+61,Ashley Martin,Female,7902 Morris Lake Apt. 663,28,Current Account,60 +,Tertiary and above,Contract,4627,Stable,3,179487,Rented,0.0
+62,Sarah Summers,Male,9020 Morton Inlet,156,Savings Account,36 - 59,Tertiary and above,Contract,886,Unstable,8,2789,Rented,1.0
+63,Michelle Leach,Male,5376 Bell Trace Suite 257,239,Savings Account,60 +,Tertiary and above,Permanent,886,Stable,2,2333,Owned,0.0
+64,Victoria Banks,Female,5507 White Fields Suite 176,145,Current Account,60 +,Highschool and below,Permanent,24001,Unstable,9,2789,Owned,1.0
+65,Sarah Douglas,Male,2354 Shepard Mountains,222,Current Account,60 +,Highschool and below,Student,886,Stable,7,179487,Owned,0.0
+66,Lori Mitchell,Male,578 Jennifer Ridge Apt. 020,239,Current Account,36 - 59,Tertiary and above,Contract,886,Stable,5,2789,Rented,0.0
+67,Dr. Nicolas Burns,Female,6060 Justin Causeway,222,Current Account,36 - 59,Highschool and below,Permanent,24001,Stable,10,179487,Owned,2.0
+68,David Skinner,Female,527 Matthew Underpass Apt. 179,28,Current Account,18 - 35,Highschool and below,Contract,4627,Unstable,0,2333,Owned,0.0
+69,Laura Young,Male,5539 Keith Village,239,Current Account,18 - 35,Tertiary and above,Student,886,Unstable,7,2789,Rented,0.0
+70,Lisa Smith,Female,1346 Laura Knoll Suite 862,223,Savings Account,60 +,Tertiary and above,Student,24001,Unstable,7,179487,Owned,1.0
+71,Kevin Berger,Female,13969 James Stream,239,Current Account,36 - 59,Highschool and below,Contract,24001,Stable,5,2789,Rented,0.0
+72,Lauren Ruiz,Female,027 Michael Ford Apt. 508,239,Current Account,36 - 59,Highschool and below,Student,4627,Unstable,10,2789,Rented,1.0
+73,Jennifer Curtis,Male,370 Kimberly Run Suite 414,222,Current Account,36 - 59,Tertiary and above,Contract,886,Unstable,10,2789,Owned,1.0
+74,Katelyn Logan,Female,6398 Daniel Landing Suite 276,222,Savings Account,60 +,Highschool and below,Contract,24001,Stable,10,2333,Owned,1.0
+75,Nicholas Jenkins,Female,4361 Hayes Estates Apt. 592,156,Current Account,18 - 35,Highschool and below,Permanent,886,Unstable,0,2789,Owned,0.0
+76,Susan Lee,Female,9815 Timothy Isle Suite 906,239,Savings Account,36 - 59,Highschool and below,Permanent,4627,Stable,0,179487,Owned,0.0
+77,Jessica Moreno,Male,8290 Rachel Shoal Apt. 955,145,Savings Account,36 - 59,Tertiary and above,Student,24001,Unstable,7,2789,Rented,1.0
+78,Wendy Williams,Female,364 Diane Springs,28,Current Account,36 - 59,Highschool and below,Permanent,24001,Stable,10,2789,Rented,2.0
+79,James Ramos,Male,803 Sara Station Apt. 928,28,Savings Account,60 +,Highschool and below,Student,886,Stable,8,179487,Owned,1.0
+80,Jennifer Goodman,Female,8917 Browning Roads Suite 379,239,Savings Account,60 +,Highschool and below,Contract,24001,Stable,9,179487,Owned,2.0
+81,Peter Reyes,Female,4897 Amy Shoals Apt. 704,239,Current Account,36 - 59,Tertiary and above,Permanent,4627,Stable,2,2333,Rented,0.0
+82,Ann Patterson,Female,37710 Emily Burgs,239,Savings Account,18 - 35,Highschool and below,Contract,4627,Unstable,10,179487,Owned,2.0
+83,Kevin Olson,Female,302 Holly Extension Apt. 854,145,Current Account,60 +,Tertiary and above,Contract,24001,Unstable,6,2789,Rented,0.0
+84,Matthew Arroyo,Male,3421 Davis Track Suite 263,156,Current Account,18 - 35,Tertiary and above,Contract,886,Unstable,7,2333,Owned,1.0
+85,Peter Baxter,Female,195 Tonya Plains Apt. 812,28,Current Account,36 - 59,Highschool and below,Student,24001,Stable,3,2789,Owned,0.0
+86,Daniel Stone,Male,22809 Tracey Crossroad Apt. 509,156,Savings Account,36 - 59,Tertiary and above,Permanent,24001,Stable,3,2789,Owned,1.0
+87,Richard Carr,Male,386 Andrew Stream Suite 878,99,Current Account,18 - 35,Highschool and below,Student,886,Stable,7,179487,Rented,1.0
+88,Benjamin Brooks,Male,176 Johnson Drive Apt. 781,239,Savings Account,18 - 35,Highschool and below,Student,24001,Stable,0,2789,Owned,0.0
+89,Elizabeth Carrillo,Female,6014 Tanya Cove,193,Savings Account,60 +,Tertiary and above,Student,24001,Stable,8,2789,Rented,1.0
+90,Frank Smith,Male,607 Wallace Center Suite 391,239,Current Account,18 - 35,Highschool and below,Permanent,886,Stable,7,179487,Owned,1.0
+91,Christian Ramirez,Female,16329 Russo Pines,239,Current Account,18 - 35,Highschool and below,Contract,886,Stable,8,2789,Rented,1.0
+92,Matthew Carter,Female,6399 Nichols Spurs,239,Savings Account,36 - 59,Highschool and below,Permanent,24001,Stable,9,2333,Rented,1.0
+93,Robert Fernandez,Female,263 Deanna Roads Apt. 227,239,Current Account,36 - 59,Highschool and below,Contract,24001,Unstable,6,179487,Rented,1.0
+94,Sarah Le,Male,6576 Young Ports,222,Savings Account,36 - 59,Tertiary and above,Permanent,886,Stable,6,179487,Rented,1.0
+95,Richard Thomas,Male,397 Vargas Groves Suite 285,44,Savings Account,36 - 59,Highschool and below,Contract,24001,Unstable,5,2333,Owned,0.0
+96,Rebecca Stewart,Male,931 Wolfe Causeway Suite 960,239,Current Account,36 - 59,Highschool and below,Permanent,4627,Unstable,7,2333,Rented,0.0
+97,Denise Burke,Male,8978 Jon Fields,239,Savings Account,18 - 35,Tertiary and above,Permanent,4627,Stable,8,2789,Owned,2.0
+98,Jacob Garcia,Female,837 Oneill Manor,223,Savings Account,18 - 35,Highschool and below,Permanent,4627,Unstable,7,2333,Owned,1.0
+99,Nicole Barnes,Male,8564 Ferguson Point Apt. 223,44,Current Account,60 +,Highschool and below,Permanent,4627,Unstable,1,2333,Owned,0.0
+100,Kathleen Williams,Male,8964 Andre Burg Suite 406,239,Current Account,60 +,Highschool and below,Student,886,Stable,5,2333,Rented,0.0
+101,Amy Martinez,Male,31886 Tracy Village,145,Savings Account,60 +,Tertiary and above,Permanent,24001,Unstable,9,2789,Rented,1.0
+102,Brian Johnson,Female,91896 Gabriel Crossing Apt. 483,99,Current Account,18 - 35,Tertiary and above,Contract,24001,Stable,7,2789,Rented,1.0
+103,Craig Evans,Female,138 Sharon Way Suite 063,193,Current Account,18 - 35,Tertiary and above,Contract,4627,Unstable,0,2789,Owned,0.0
+104,Edwin Cruz,Male,5544 Combs Knolls,156,Savings Account,18 - 35,Tertiary and above,Contract,886,Stable,2,2333,Rented,0.0
+105,Darren White,Female,8216 Hanson Estates,223,Current Account,18 - 35,Highschool and below,Student,886,Unstable,2,2789,Owned,0.0
+106,Hector Jones,Female,135 Wells Roads,222,Savings Account,18 - 35,Highschool and below,Contract,4627,Unstable,8,2333,Owned,1.0
+107,Cody Tucker,Female,2245 Alicia Estate,28,Savings Account,36 - 59,Highschool and below,Contract,886,Stable,4,2789,Rented,0.0
+108,Evan Solomon,Male,080 Durham Light Suite 427,44,Current Account,18 - 35,Highschool and below,Student,886,Stable,1,2333,Owned,0.0
+109,Andrea Cruz,Male,0308 Brittany Wells Apt. 133,156,Current Account,36 - 59,Highschool and below,Contract,24001,Unstable,7,2789,Rented,1.0
+110,Joanna Duncan DDS,Male,82873 Griffin Heights,239,Savings Account,36 - 59,Tertiary and above,Permanent,24001,Stable,3,2333,Rented,0.0
+111,Edward Gray,Male,35579 Keith Cliff Suite 715,28,Current Account,36 - 59,Tertiary and above,Contract,4627,Unstable,5,2789,Owned,0.0
+112,Thomas Johnson,Female,8922 Megan Summit,222,Savings Account,60 +,Tertiary and above,Permanent,24001,Stable,2,2789,Owned,0.0
+113,Rebekah Foster,Male,26038 Theresa Throughway Apt. 524,145,Current Account,36 - 59,Tertiary and above,Contract,886,Stable,6,2333,Rented,0.0
+114,Craig Miller,Female,982 John Lock,99,Current Account,60 +,Highschool and below,Permanent,4627,Stable,5,2789,Rented,0.0
+115,Johnny Rogers,Female,6245 Bell Mission,156,Current Account,60 +,Tertiary and above,Contract,24001,Unstable,6,2789,Owned,1.0
+116,April Chan,Female,27568 Brandon Valleys Suite 317,239,Current Account,18 - 35,Highschool and below,Contract,4627,Unstable,9,2789,Rented,1.0
+117,Kathryn Williams,Male,213 Steven Shoals,156,Current Account,60 +,Highschool and below,Student,4627,Unstable,4,179487,Rented,0.0
+118,Heather Barker,Female,017 Patrick Path Suite 032,222,Current Account,60 +,Highschool and below,Contract,4627,Unstable,9,2789,Owned,1.0
+119,Nicole Sherman,Male,3413 Susan Views Suite 884,239,Current Account,60 +,Tertiary and above,Contract,24001,Unstable,9,2333,Rented,1.0
+120,Elizabeth Boyd,Male,7381 Steven Union,239,Current Account,36 - 59,Highschool and below,Contract,4627,Stable,2,179487,Rented,0.0
+121,Christina Waller,Male,7135 Nicole Fall,239,Current Account,60 +,Tertiary and above,Student,24001,Unstable,6,179487,Owned,1.0
+122,Carol Coleman,Male,4456 Brooks Row,28,Savings Account,60 +,Highschool and below,Permanent,24001,Unstable,7,2789,Owned,1.0
+123,Alexander Morgan,Female,4471 Steele Square Suite 016,239,Savings Account,60 +,Tertiary and above,Permanent,886,Unstable,7,2789,Rented,0.0
+124,Donald Wise,Female,059 Payne Freeway Suite 763,239,Current Account,18 - 35,Tertiary and above,Permanent,886,Stable,1,2789,Rented,0.0
+125,Lauren Castillo,Female,0978 Anderson Isle Apt. 085,193,Current Account,18 - 35,Highschool and below,Student,886,Stable,7,179487,Rented,1.0
+126,Jorge Thompson,Female,40133 Hernandez Forest,145,Savings Account,36 - 59,Tertiary and above,Student,24001,Unstable,3,2789,Rented,0.0
+127,Mrs. Melissa Kelly MD,Female,69386 Jones Tunnel,239,Savings Account,18 - 35,Tertiary and above,Contract,24001,Unstable,4,179487,Owned,1.0
+128,Carl Fry,Female,78132 Carl Mills Suite 000,239,Savings Account,36 - 59,Tertiary and above,Permanent,886,Stable,8,179487,Owned,2.0
+129,Janice Ross,Male,7452 Myers Park Apt. 735,239,Current Account,60 +,Tertiary and above,Student,24001,Stable,1,2333,Owned,0.0
+130,Richard Valdez,Female,74029 Logan Gateway,156,Current Account,36 - 59,Highschool and below,Contract,24001,Unstable,0,179487,Rented,0.0
+131,Mary Hardin,Male,5497 Kimberly Islands Suite 949,156,Savings Account,18 - 35,Tertiary and above,Permanent,886,Unstable,9,179487,Owned,2.0
+132,Jessica Tucker,Female,0810 Evans Mountain,99,Current Account,36 - 59,Highschool and below,Contract,886,Stable,3,2789,Owned,0.0
+133,Steven Kramer,Female,420 Patterson Cliffs,44,Savings Account,60 +,Highschool and below,Permanent,4627,Unstable,2,2333,Owned,0.0
+134,Sheri Kelly,Female,47004 John Burgs Suite 815,44,Current Account,36 - 59,Tertiary and above,Contract,24001,Stable,2,2333,Rented,0.0
+135,Mr. Ryan Perez,Female,4251 Ashley Extensions Suite 352,239,Current Account,60 +,Highschool and below,Permanent,24001,Unstable,8,2789,Owned,1.0
+136,Robert Weber,Female,7667 Mays Forge,239,Current Account,36 - 59,Tertiary and above,Permanent,24001,Unstable,1,179487,Owned,0.0
+137,Michael Turner,Male,1946 Kirby Dale Apt. 351,223,Current Account,60 +,Highschool and below,Student,24001,Unstable,4,2333,Rented,0.0
+138,Tammy Santana DDS,Female,10093 Reynolds Valleys,193,Current Account,36 - 59,Tertiary and above,Student,24001,Unstable,0,179487,Owned,0.0
+139,Jessica Burns,Female,77687 Mejia Freeway,223,Current Account,60 +,Tertiary and above,Student,4627,Stable,8,2789,Rented,1.0
+140,Nicole Woods MD,Male,11590 John River,99,Savings Account,18 - 35,Highschool and below,Permanent,886,Stable,2,2333,Owned,0.0
+141,Alison Burnett,Male,544 Hall Estate Suite 862,193,Savings Account,60 +,Highschool and below,Permanent,4627,Stable,10,2333,Rented,1.0
+142,Timothy Rodgers,Female,58315 Gaines Highway Apt. 646,145,Savings Account,36 - 59,Highschool and below,Contract,4627,Unstable,7,179487,Owned,1.0
+143,Shane Sanders,Male,49692 Stevens Cape,223,Savings Account,18 - 35,Tertiary and above,Contract,24001,Unstable,3,179487,Owned,1.0
+144,Elizabeth Solomon DVM,Female,7327 Michael Shoal Apt. 763,222,Savings Account,36 - 59,Tertiary and above,Contract,886,Stable,3,179487,Owned,0.0
+145,Laura Smith,Male,014 Margaret Corner,239,Savings Account,60 +,Tertiary and above,Contract,4627,Stable,9,179487,Owned,2.0
+146,Anthony Friedman,Male,1398 Kelly Key Suite 783,222,Current Account,60 +,Tertiary and above,Student,886,Unstable,0,2789,Rented,0.0
+147,Robert Delacruz,Male,76009 Caroline Parkway,239,Current Account,60 +,Tertiary and above,Contract,24001,Unstable,8,2789,Rented,1.0
+148,Eric Mcdonald,Female,2100 Phillips Tunnel Apt. 517,28,Savings Account,18 - 35,Tertiary and above,Permanent,4627,Unstable,10,2789,Owned,2.0
+149,Daniel Wheeler,Female,33574 Huber Forges,145,Current Account,36 - 59,Tertiary and above,Student,4627,Unstable,5,2789,Owned,0.0
+150,Heather Reed,Female,15440 Jesse Light,44,Savings Account,18 - 35,Tertiary and above,Contract,886,Unstable,4,2789,Rented,0.0
+151,Christie Stone,Female,731 Wright Summit,239,Savings Account,36 - 59,Highschool and below,Permanent,4627,Unstable,7,2789,Owned,1.0
+152,Omar Taylor,Female,36028 Stephanie Highway Suite 284,239,Savings Account,36 - 59,Tertiary and above,Permanent,24001,Unstable,10,2333,Owned,2.0
+153,Tina Bradley,Male,19785 Farley Groves Suite 593,222,Current Account,18 - 35,Tertiary and above,Student,886,Unstable,9,179487,Rented,1.0
+154,Haley Johnson,Male,3283 Ramirez Locks,99,Current Account,60 +,Tertiary and above,Contract,4627,Unstable,5,2789,Owned,0.0
+155,Tammy Williams,Male,03741 Morgan Locks Suite 043,223,Savings Account,18 - 35,Highschool and below,Permanent,4627,Stable,10,2789,Rented,2.0
+156,Elizabeth Pearson,Male,93538 Hoffman Street Suite 026,239,Current Account,36 - 59,Tertiary and above,Permanent,4627,Stable,4,179487,Rented,1.0
+157,Tammy Ballard,Female,40576 Oliver Orchard Apt. 158,239,Savings Account,60 +,Tertiary and above,Student,24001,Stable,8,179487,Owned,1.0
+158,Cynthia Clarke,Female,6410 Hammond Prairie Apt. 319,239,Savings Account,36 - 59,Tertiary and above,Permanent,24001,Unstable,1,2333,Rented,0.0
+159,Reginald Brown,Male,2545 Garcia Fort Suite 963,239,Savings Account,60 +,Highschool and below,Contract,4627,Stable,10,2789,Rented,1.0
+160,Melissa Castillo,Female,21090 Villarreal Loop Suite 302,99,Savings Account,18 - 35,Highschool and below,Permanent,886,Unstable,9,2333,Rented,1.0
+161,Charles Graves,Female,94397 Tammy Shoal,239,Savings Account,36 - 59,Highschool and below,Student,886,Unstable,1,2789,Owned,0.0
+162,Shelley Santos,Male,43846 Moss Run Apt. 091,239,Current Account,60 +,Highschool and below,Permanent,24001,Stable,5,179487,Rented,1.0
+163,Patricia Yoder,Female,482 Yoder Roads Suite 405,239,Current Account,36 - 59,Tertiary and above,Student,886,Stable,9,179487,Rented,1.0
+164,Veronica Edwards,Female,7829 Micheal Tunnel,239,Current Account,36 - 59,Tertiary and above,Student,24001,Unstable,3,179487,Rented,0.0
+165,Kylie Hernandez,Male,24475 Johnson Fields,28,Current Account,60 +,Tertiary and above,Permanent,4627,Unstable,7,2789,Rented,1.0
+166,Christopher Galloway Jr.,Male,594 Mejia Parkways Suite 876,44,Savings Account,36 - 59,Highschool and below,Permanent,886,Stable,9,2789,Rented,1.0
+167,Tiffany Diaz,Female,15591 Simon Centers,193,Savings Account,60 +,Highschool and below,Contract,24001,Unstable,4,2789,Rented,0.0
+168,Brandy Valencia,Male,43808 Gentry Via,239,Savings Account,60 +,Tertiary and above,Student,4627,Unstable,7,179487,Owned,1.0
+169,Miranda Mcmillan,Female,54315 Kyle Walks Apt. 953,239,Current Account,60 +,Tertiary and above,Permanent,886,Unstable,7,2333,Rented,0.0
+170,Michelle Hart,Female,363 Julie Motorway Apt. 478,99,Current Account,60 +,Highschool and below,Contract,24001,Unstable,6,179487,Owned,1.0
+171,Danielle Middleton,Female,49825 Sullivan Alley,44,Current Account,18 - 35,Highschool and below,Student,24001,Unstable,5,179487,Owned,1.0
+172,Matthew White,Male,2708 Jennifer Mills Apt. 903,239,Current Account,36 - 59,Tertiary and above,Contract,886,Stable,1,179487,Owned,0.0
+173,Whitney Farmer,Female,024 York Walks Apt. 509,222,Savings Account,60 +,Highschool and below,Student,886,Unstable,2,2333,Owned,0.0
+174,Mary Lambert,Female,896 Johnson Wells,99,Current Account,18 - 35,Highschool and below,Student,886,Unstable,1,179487,Owned,0.0
+175,Jessica Hall,Female,728 Lang Square,239,Current Account,36 - 59,Highschool and below,Permanent,886,Stable,4,2789,Owned,0.0
+176,Keith Carroll,Male,692 Ruiz Pines Suite 619,239,Current Account,60 +,Highschool and below,Permanent,24001,Stable,6,179487,Rented,1.0
+177,Dawn Hernandez,Male,54493 Justin Pike Suite 743,145,Savings Account,60 +,Tertiary and above,Student,24001,Stable,5,2789,Rented,0.0
+178,Randy Green,Male,37935 Love Island Suite 002,239,Current Account,60 +,Highschool and below,Contract,4627,Stable,4,2333,Rented,0.0
+179,Joseph Sanders,Female,072 Marissa Isle Apt. 211,99,Current Account,60 +,Tertiary and above,Contract,24001,Unstable,10,2789,Owned,2.0
+180,Jake Johnson,Male,37601 Browning View,239,Current Account,36 - 59,Highschool and below,Permanent,4627,Unstable,6,2789,Owned,1.0
+181,Karen Dyer,Female,64651 Claire Roads Apt. 577,99,Savings Account,36 - 59,Tertiary and above,Permanent,886,Stable,9,179487,Rented,2.0
+182,Cody Clark,Male,707 Patton Trafficway Apt. 683,239,Current Account,18 - 35,Highschool and below,Student,886,Unstable,1,2789,Owned,0.0
+183,Samantha Pacheco,Female,078 Claudia Pines Suite 503,239,Current Account,36 - 59,Highschool and below,Permanent,4627,Stable,2,179487,Rented,0.0
+184,Martha Smith,Female,1543 Nielsen Ford,99,Current Account,36 - 59,Highschool and below,Contract,4627,Unstable,6,2333,Rented,0.0
+185,Christina Howard,Female,1975 Savannah Mills Suite 942,28,Savings Account,60 +,Highschool and below,Permanent,886,Unstable,0,2789,Owned,0.0
+186,Nicole Lee,Male,3882 Johnson Courts,239,Savings Account,18 - 35,Tertiary and above,Student,24001,Stable,4,2333,Rented,0.0
+187,Mary Ross,Female,635 Bailey Bridge Apt. 795,156,Current Account,36 - 59,Highschool and below,Student,24001,Unstable,9,2789,Owned,1.0
+188,Charles Reed,Male,0750 Mary Trafficway Apt. 772,145,Savings Account,60 +,Highschool and below,Contract,4627,Unstable,0,2789,Rented,0.0
+189,Christopher Kim,Female,97385 Martin Locks Suite 677,156,Current Account,60 +,Highschool and below,Student,24001,Stable,7,2789,Rented,0.0
+190,Susan Carter,Male,977 Mary Extension Suite 643,239,Current Account,60 +,Tertiary and above,Contract,886,Unstable,1,2333,Rented,0.0
+191,Michelle Hernandez MD,Male,197 Raven Forks,239,Savings Account,18 - 35,Highschool and below,Permanent,4627,Unstable,1,179487,Rented,0.0
+192,Erin Rodriguez,Male,2880 John Falls Apt. 770,193,Savings Account,60 +,Highschool and below,Contract,24001,Stable,10,179487,Owned,2.0
+193,Beth Thornton,Female,1631 Michael Road Suite 478,239,Current Account,60 +,Highschool and below,Student,886,Stable,8,2333,Rented,0.0
+194,Jeffrey Castillo,Male,4397 Miller Road Apt. 290,193,Savings Account,36 - 59,Highschool and below,Permanent,24001,Unstable,3,2333,Rented,0.0
+195,Debra Hardy,Female,98871 Sandra Shoals,239,Current Account,36 - 59,Tertiary and above,Student,886,Unstable,4,179487,Rented,0.0
+196,Robert Hayes,Male,4883 Nicholson Lodge,145,Current Account,18 - 35,Tertiary and above,Permanent,24001,Unstable,10,2333,Owned,2.0
+197,Bruce Williams,Male,1281 Jones Spring Suite 491,145,Current Account,36 - 59,Tertiary and above,Student,4627,Stable,6,2789,Owned,1.0
+198,William Mills,Female,776 Lopez Ways Apt. 762,239,Current Account,60 +,Highschool and below,Student,4627,Unstable,5,179487,Owned,0.0
+199,Matthew Schmidt,Female,570 Felicia Ferry,156,Current Account,60 +,Highschool and below,Student,4627,Unstable,9,2789,Owned,1.0
+200,John Cox,Male,66742 Natalie Road,239,Current Account,36 - 59,Highschool and below,Student,24001,Unstable,7,179487,Rented,1.0
+201,Julian Clark,Female,2928 Torres Cove Apt. 882,156,Savings Account,60 +,Highschool and below,Student,4627,Unstable,4,179487,Owned,0.0
+202,Tiffany Guerrero,Female,747 Kim Trail Apt. 452,239,Savings Account,60 +,Tertiary and above,Student,886,Stable,3,2333,Rented,0.0
+203,Tamara Jordan,Male,61804 Rebecca Point Suite 740,239,Current Account,18 - 35,Tertiary and above,Contract,24001,Stable,7,179487,Owned,2.0
+204,Jennifer Hall,Female,416 Stephen Branch,193,Current Account,60 +,Tertiary and above,Student,886,Unstable,7,2789,Owned,0.0
+205,Sara Copeland,Male,42404 Lee Parkways,239,Savings Account,60 +,Highschool and below,Permanent,4627,Unstable,6,179487,Owned,1.0
+206,Drew Johnson,Male,9681 Karla Points Suite 569,222,Savings Account,60 +,Highschool and below,Student,24001,Stable,5,2333,Owned,0.0
+207,Natalie Ingram,Male,900 Kimberly Road,44,Savings Account,36 - 59,Tertiary and above,Student,24001,Unstable,9,2333,Owned,1.0
+208,Gabrielle Hernandez,Male,0812 Shane Creek Apt. 587,239,Savings Account,18 - 35,Tertiary and above,Permanent,24001,Unstable,5,2333,Rented,1.0
+209,Hunter Bowers,Female,77900 Nancy Knoll Suite 528,28,Current Account,18 - 35,Highschool and below,Permanent,24001,Unstable,7,2333,Rented,1.0
+210,Joshua Harris,Female,887 Troy Ville,222,Savings Account,18 - 35,Tertiary and above,Student,24001,Stable,4,2333,Owned,0.0
+211,April King,Female,566 Dana Shoals Apt. 049,239,Current Account,60 +,Highschool and below,Contract,24001,Stable,5,2789,Owned,0.0
+212,Sharon Steele,Female,57573 Anderson Wells,44,Current Account,18 - 35,Tertiary and above,Permanent,886,Stable,8,179487,Owned,2.0
+213,Robin Ruiz,Male,368 Riley Rapids,239,Current Account,60 +,Tertiary and above,Student,24001,Stable,4,2789,Rented,0.0
+214,Gary Cummings,Male,9314 Madison Locks Apt. 483,239,Savings Account,60 +,Tertiary and above,Contract,4627,Stable,2,2333,Owned,0.0
+215,Terry Hall,Male,65012 Williams Village Apt. 524,239,Current Account,18 - 35,Highschool and below,Contract,24001,Stable,7,179487,Owned,2.0
+216,Shannon Valentine,Male,25878 Hutchinson Islands,28,Current Account,60 +,Highschool and below,Contract,4627,Unstable,1,2333,Rented,0.0
+217,Pamela Ramirez,Male,1517 Joshua Manors Suite 312,223,Current Account,36 - 59,Tertiary and above,Contract,4627,Stable,9,179487,Rented,2.0
+218,Carlos Smith,Male,54719 Angela Crossing Apt. 554,44,Current Account,18 - 35,Tertiary and above,Contract,4627,Unstable,8,2333,Rented,1.0
+219,Cynthia Keith,Female,9318 West Brook Apt. 389,239,Savings Account,60 +,Tertiary and above,Permanent,4627,Unstable,7,179487,Rented,1.0
+220,Joseph Bush,Female,8755 Campbell Villages Suite 696,44,Savings Account,36 - 59,Highschool and below,Contract,4627,Unstable,10,2333,Owned,1.0
+221,Brandon Greer,Male,270 Allen Stream,156,Savings Account,60 +,Highschool and below,Student,4627,Stable,6,2333,Rented,0.0
+222,Amanda Estes,Male,06982 Troy Tunnel,239,Savings Account,60 +,Highschool and below,Student,886,Unstable,5,2333,Owned,0.0
+223,Jeffrey Sanchez,Female,782 Jones Flats Apt. 888,239,Current Account,18 - 35,Tertiary and above,Student,24001,Stable,2,179487,Owned,0.0
+224,James Hicks,Male,6626 Johnson Motorway,239,Current Account,60 +,Tertiary and above,Contract,886,Stable,1,2789,Owned,0.0
+225,Heather Lindsey,Female,2523 Christopher Junction,239,Savings Account,60 +,Tertiary and above,Contract,24001,Stable,3,179487,Owned,0.0
+226,Tammy Price,Female,67966 Rhodes Parkways Apt. 019,28,Current Account,18 - 35,Tertiary and above,Permanent,4627,Stable,5,2333,Rented,1.0
+227,Dale Jackson,Male,39596 Samantha Plains,44,Savings Account,18 - 35,Highschool and below,Student,24001,Unstable,5,2789,Rented,0.0
+228,Cristian Rodriguez,Male,0662 Figueroa Summit Apt. 988,239,Savings Account,18 - 35,Highschool and below,Contract,4627,Stable,7,2789,Owned,1.0
+229,Robert Price,Male,5657 Hurley Tunnel,156,Savings Account,36 - 59,Tertiary and above,Permanent,24001,Stable,4,2789,Owned,1.0
+230,Matthew Gomez,Male,35622 Kathy Route,28,Current Account,18 - 35,Tertiary and above,Student,886,Stable,4,2333,Rented,0.0
+231,Jeffrey Walker,Female,13354 Lopez Drive Suite 370,156,Current Account,18 - 35,Highschool and below,Contract,886,Stable,8,2789,Owned,1.0
+232,Andrew Sullivan,Male,1568 Wagner Square,222,Current Account,36 - 59,Tertiary and above,Contract,24001,Unstable,8,2789,Owned,1.0
+233,Cody Fitzgerald,Male,5126 Harrison Island,239,Current Account,36 - 59,Highschool and below,Permanent,886,Unstable,7,179487,Owned,1.0
+234,Jennifer Guerrero,Female,08996 Thomas Mall,193,Savings Account,18 - 35,Tertiary and above,Contract,886,Stable,8,2789,Owned,1.0
+235,Katelyn Butler,Male,5791 Armstrong Rapids Suite 150,239,Savings Account,18 - 35,Tertiary and above,Permanent,886,Stable,5,179487,Owned,1.0
+236,Jacob Roberts,Female,8059 Ward Lock,222,Current Account,18 - 35,Highschool and below,Student,4627,Unstable,0,2789,Owned,0.0
+237,Brian Vargas,Female,0471 Padilla Prairie Suite 785,193,Current Account,60 +,Tertiary and above,Student,4627,Stable,6,2789,Owned,0.0
+238,Elaine Johnson,Male,45139 Lauren Turnpike,222,Savings Account,18 - 35,Tertiary and above,Contract,886,Unstable,4,2333,Rented,0.0
+239,Terry York,Female,3588 Patrick Mission,222,Savings Account,60 +,Highschool and below,Student,886,Unstable,6,179487,Owned,0.0
+240,Kyle Arroyo,Male,956 Chad Hollow,28,Savings Account,18 - 35,Tertiary and above,Permanent,24001,Stable,4,179487,Rented,1.0
+241,Amy Christensen,Female,077 Stone Mews,239,Savings Account,18 - 35,Highschool and below,Student,24001,Stable,5,2333,Rented,0.0
+242,Austin Hansen,Female,522 Glenn Unions,222,Savings Account,18 - 35,Highschool and below,Contract,886,Stable,1,2333,Owned,0.0
+243,Jeffrey Taylor,Female,41018 Johnson Place Suite 780,239,Savings Account,60 +,Tertiary and above,Permanent,886,Stable,10,2789,Rented,1.0
+244,Samantha Mccoy,Female,3352 Klein Isle,223,Current Account,18 - 35,Tertiary and above,Permanent,886,Unstable,8,2333,Rented,1.0
+245,Jacob Smith,Male,43690 Jared Plains Apt. 382,239,Savings Account,60 +,Tertiary and above,Student,24001,Unstable,9,179487,Owned,1.0
+246,Karen Murray,Male,2392 Matthew Rapid,239,Savings Account,36 - 59,Highschool and below,Contract,4627,Unstable,6,2789,Rented,0.0
+247,Calvin Levine,Male,701 Clark Spring,239,Savings Account,60 +,Highschool and below,Permanent,24001,Unstable,3,2333,Rented,0.0
+248,Todd Black,Female,976 Charles Loaf Suite 272,145,Current Account,60 +,Tertiary and above,Permanent,886,Stable,9,179487,Rented,1.0
+249,Laura Wallace MD,Male,757 Campbell Isle Suite 363,28,Savings Account,60 +,Tertiary and above,Contract,4627,Stable,8,2789,Owned,1.0
+250,Melody Collins,Male,706 Molina Point,44,Savings Account,18 - 35,Highschool and below,Contract,886,Stable,4,2333,Owned,0.0
+251,Emily Neal,Male,71801 Spencer Motorway Suite 839,239,Current Account,60 +,Highschool and below,Contract,4627,Stable,2,2789,Rented,0.0
+252,Michael Hurst,Female,252 Douglas Plains,193,Savings Account,36 - 59,Highschool and below,Student,886,Unstable,2,2333,Rented,0.0
+253,Michael Ferguson,Female,66521 Andrea Motorway Suite 289,28,Current Account,18 - 35,Tertiary and above,Permanent,4627,Stable,4,2789,Owned,1.0
+254,Angela Shannon,Female,873 Hoffman Fall Apt. 348,239,Current Account,60 +,Highschool and below,Permanent,24001,Unstable,7,2789,Owned,1.0
+255,Brian Young,Male,4425 Campbell Plaza Apt. 553,239,Current Account,60 +,Tertiary and above,Contract,886,Stable,9,2333,Rented,1.0
+256,Miguel Jackson,Male,57059 Perkins Bypass,156,Savings Account,60 +,Tertiary and above,Student,24001,Unstable,2,2333,Owned,0.0
+257,Laurie Church,Female,8746 Turner Springs,145,Savings Account,60 +,Highschool and below,Contract,24001,Stable,1,2333,Rented,0.0
+258,Michael Odonnell,Male,648 Stephanie Knoll,145,Current Account,36 - 59,Highschool and below,Student,4627,Unstable,8,179487,Rented,1.0
+259,Richard Jackson,Female,04139 Mitchell Spur,99,Savings Account,18 - 35,Tertiary and above,Contract,886,Unstable,1,179487,Owned,0.0
+260,Amanda Smith MD,Female,0398 Roman Crest Suite 363,99,Savings Account,60 +,Highschool and below,Student,886,Stable,3,2789,Owned,0.0
+261,Crystal Davis,Female,221 Rice Lodge Apt. 143,239,Savings Account,60 +,Tertiary and above,Contract,886,Stable,6,2333,Owned,0.0
+262,Janice Patterson,Female,33290 Jacqueline Station,193,Savings Account,18 - 35,Tertiary and above,Student,886,Unstable,4,2333,Owned,0.0
+263,Victoria Mckinney PhD,Male,68000 Fisher Square,222,Savings Account,60 +,Tertiary and above,Contract,24001,Stable,7,2333,Rented,1.0
+264,Jose Sanchez,Male,8360 Hunt Lodge,223,Savings Account,36 - 59,Tertiary and above,Student,886,Unstable,1,2333,Owned,0.0
+265,Traci Mclaughlin,Female,426 Richard Extension Suite 722,239,Current Account,36 - 59,Tertiary and above,Student,4627,Unstable,6,2789,Rented,0.0
+266,Joanna Richard,Female,0017 Mendez Forks,239,Savings Account,60 +,Tertiary and above,Contract,4627,Stable,3,179487,Owned,0.0
+267,Carrie Freeman,Female,12014 Dixon Ridge,44,Savings Account,36 - 59,Tertiary and above,Student,886,Stable,1,179487,Rented,0.0
+268,James Villarreal,Male,847 Gregory Mount Apt. 519,99,Current Account,36 - 59,Tertiary and above,Permanent,24001,Unstable,0,2789,Owned,0.0
+269,Ariel Wright,Female,651 Traci Ports,193,Savings Account,36 - 59,Tertiary and above,Permanent,886,Unstable,7,179487,Owned,1.0
+270,Guy Nguyen,Male,52953 Davis Landing,223,Savings Account,36 - 59,Tertiary and above,Student,4627,Stable,5,179487,Rented,0.0
+271,Michael Willis,Male,99973 Tony Court Suite 643,193,Savings Account,18 - 35,Tertiary and above,Permanent,4627,Stable,7,2333,Owned,1.0
+272,Justin Hughes,Male,03445 Nancy Via Suite 410,145,Savings Account,36 - 59,Highschool and below,Permanent,24001,Unstable,3,2333,Owned,0.0
+273,Carly Thomas,Female,72832 Katrina Village,239,Current Account,36 - 59,Highschool and below,Contract,886,Unstable,2,2333,Rented,0.0
+274,Alexander Williams,Female,6460 Valencia Mill,239,Current Account,36 - 59,Tertiary and above,Student,4627,Stable,6,2333,Rented,0.0
+275,Barry Campbell,Female,2984 Steven Mall Suite 166,99,Savings Account,18 - 35,Highschool and below,Contract,4627,Unstable,0,2333,Owned,0.0
+276,Stephanie Henderson,Male,00651 Justin Ways,239,Savings Account,18 - 35,Tertiary and above,Contract,24001,Unstable,5,2789,Rented,1.0
+277,Andrew Taylor,Female,537 Ross Fields Apt. 580,99,Savings Account,60 +,Tertiary and above,Permanent,24001,Stable,9,2333,Owned,2.0
+278,Jonathan Wall,Female,7946 Valerie Manors,28,Current Account,36 - 59,Highschool and below,Permanent,886,Stable,2,179487,Owned,0.0
+279,Elijah Mason,Male,2555 Thomas Union Apt. 472,239,Savings Account,18 - 35,Tertiary and above,Permanent,4627,Unstable,8,2789,Owned,2.0
+280,Alexandra Gutierrez,Male,48463 Gomez Falls,239,Savings Account,18 - 35,Tertiary and above,Permanent,24001,Unstable,3,2333,Rented,0.0
+281,Joseph Hernandez,Male,5029 Parker Crest Suite 947,99,Savings Account,36 - 59,Tertiary and above,Contract,4627,Unstable,4,2333,Owned,0.0
+282,James Jacobs,Female,5448 Carpenter Meadow,239,Current Account,60 +,Highschool and below,Contract,4627,Unstable,1,2789,Rented,0.0
+283,Lisa Meadows,Male,979 Thomas Underpass,222,Current Account,60 +,Tertiary and above,Contract,886,Stable,10,2789,Rented,1.0
+284,Heather Price,Female,54748 Moore Turnpike,222,Savings Account,60 +,Tertiary and above,Permanent,24001,Stable,1,2789,Owned,0.0
+285,Brandon Herman,Female,532 Mclaughlin Trail Apt. 576,222,Current Account,60 +,Tertiary and above,Contract,4627,Stable,6,179487,Owned,1.0
+286,Luis Townsend,Male,097 Serrano Stream,239,Current Account,60 +,Tertiary and above,Student,4627,Stable,0,2789,Rented,0.0
+287,Ryan Harris PhD,Male,5552 Ryan Manor,99,Savings Account,36 - 59,Tertiary and above,Student,4627,Stable,0,2789,Owned,0.0
+288,Tiffany Owens,Female,7285 Munoz Summit,239,Current Account,60 +,Tertiary and above,Student,4627,Stable,8,179487,Owned,1.0
+289,Linda Johnson,Male,583 Manning Flats Apt. 525,222,Current Account,60 +,Tertiary and above,Permanent,24001,Stable,0,179487,Rented,0.0
+290,Brandon Bernard,Male,8036 Stewart Ville,99,Current Account,18 - 35,Tertiary and above,Permanent,886,Stable,10,179487,Owned,2.0
+291,Joseph Rodriguez,Female,176 Campos Track,223,Savings Account,18 - 35,Highschool and below,Contract,886,Unstable,2,2333,Rented,0.0
+292,Gary Palmer,Male,9115 Kim Creek,239,Current Account,60 +,Tertiary and above,Contract,886,Stable,7,2789,Owned,1.0
+293,Dr. Beverly Mcclure,Male,679 Nathaniel Union,239,Savings Account,18 - 35,Highschool and below,Contract,886,Stable,1,179487,Owned,0.0
+294,Jeremy Leonard,Female,5651 Amanda Station Apt. 249,239,Savings Account,60 +,Tertiary and above,Student,886,Stable,5,179487,Owned,0.0
+295,Gregory Baker,Male,478 Jenkins Valleys Apt. 678,239,Current Account,18 - 35,Tertiary and above,Permanent,886,Stable,1,2789,Owned,0.0
+296,Christopher Green,Female,035 Chavez Hills,222,Current Account,36 - 59,Tertiary and above,Permanent,886,Stable,5,2333,Rented,0.0
+297,Jasmin Davis,Female,958 Ibarra Crossing Suite 018,44,Current Account,60 +,Highschool and below,Student,4627,Stable,3,2333,Owned,0.0
+298,Kyle Reynolds,Male,932 Gomez Mill,239,Current Account,60 +,Highschool and below,Contract,24001,Unstable,7,179487,Rented,1.0
+299,Mitchell Holland,Male,445 Kendra Expressway,239,Current Account,36 - 59,Tertiary and above,Permanent,24001,Unstable,10,179487,Owned,2.0
+300,Joel Smith,Female,6412 Melanie Trail,145,Current Account,18 - 35,Highschool and below,Contract,24001,Unstable,1,2333,Rented,0.0
+301,Stephen Reed,Female,50913 Chad Key Apt. 562,223,Savings Account,18 - 35,Tertiary and above,Contract,886,Stable,3,2789,Rented,0.0
+302,Gregory Carey,Female,06693 Deborah Vista,239,Current Account,36 - 59,Tertiary and above,Contract,24001,Stable,7,179487,Owned,2.0
+303,Stephanie Rogers,Female,00431 Burke Meadows,156,Savings Account,36 - 59,Highschool and below,Permanent,24001,Stable,10,2789,Rented,2.0
+304,Manuel Horton,Female,922 Marquez Springs Suite 509,239,Savings Account,18 - 35,Highschool and below,Permanent,4627,Unstable,6,2333,Owned,1.0
+305,Jose Ramos,Male,34435 Keith Fork,222,Current Account,36 - 59,Tertiary and above,Contract,24001,Stable,5,2789,Rented,1.0
+306,Nancy Ramos,Female,4289 Woodard Centers,145,Current Account,60 +,Tertiary and above,Student,4627,Stable,10,2789,Owned,1.0
+307,Amanda Wells,Female,241 Madden Road Suite 066,44,Savings Account,18 - 35,Highschool and below,Contract,886,Unstable,5,179487,Rented,0.0
+308,Brian Carlson,Female,74921 Torres Garden,223,Savings Account,36 - 59,Highschool and below,Contract,4627,Stable,5,2333,Owned,0.0
+309,Nicholas Webster,Male,974 Hamilton Shoal,193,Savings Account,36 - 59,Tertiary and above,Permanent,886,Stable,1,2333,Rented,0.0
+310,Blake Ferguson,Male,556 Bryan Motorway,223,Current Account,36 - 59,Highschool and below,Contract,886,Unstable,1,2789,Owned,0.0
+311,Carly Jones,Male,767 Robinson Place,239,Current Account,18 - 35,Tertiary and above,Contract,886,Unstable,2,179487,Rented,0.0
+312,Lisa Smith,Male,2804 Debra Mission Suite 718,223,Savings Account,36 - 59,Tertiary and above,Contract,4627,Unstable,1,179487,Rented,0.0
+313,Bradley West,Male,518 Angela Turnpike Suite 653,28,Current Account,60 +,Highschool and below,Permanent,886,Stable,7,2789,Owned,1.0
+314,Frank Bishop,Male,37646 Megan Ramp,223,Savings Account,60 +,Highschool and below,Student,886,Unstable,3,179487,Owned,0.0
+315,Anita Patterson,Male,10859 Megan Skyway Suite 392,239,Savings Account,36 - 59,Highschool and below,Permanent,24001,Unstable,2,179487,Owned,0.0
+316,Christina Tate,Male,498 Hudson Haven,222,Current Account,36 - 59,Highschool and below,Permanent,24001,Stable,4,2333,Owned,0.0
+317,Janice Hart,Female,02761 Ashlee Spring,44,Savings Account,18 - 35,Highschool and below,Contract,886,Unstable,7,179487,Owned,1.0
+318,Ian Salinas,Male,9730 Valenzuela Isle Apt. 000,239,Savings Account,18 - 35,Tertiary and above,Permanent,886,Stable,2,2789,Owned,0.0
+319,Jenna White,Male,7268 Thompson Grove,193,Current Account,60 +,Highschool and below,Permanent,4627,Unstable,4,179487,Owned,0.0
+320,Shawn Clark,Male,383 Molina Stream,239,Current Account,18 - 35,Tertiary and above,Permanent,886,Unstable,7,2789,Owned,1.0
+321,Erica Thomas,Female,8825 Joshua Prairie,239,Current Account,36 - 59,Tertiary and above,Permanent,24001,Stable,4,2789,Owned,1.0
+322,Erica Riley,Male,340 Garcia Forges,239,Savings Account,36 - 59,Highschool and below,Permanent,24001,Stable,10,179487,Rented,2.0
+323,Brian Ross,Female,745 Wood Lake Suite 916,239,Savings Account,36 - 59,Highschool and below,Student,886,Stable,8,2789,Owned,1.0
+324,Daniel Sanchez,Male,2414 Roberts Cove Suite 116,239,Current Account,36 - 59,Highschool and below,Contract,886,Unstable,5,2789,Owned,0.0
+325,Dr. Robin Kaufman,Male,462 Morales Roads,193,Savings Account,60 +,Tertiary and above,Permanent,4627,Stable,7,2789,Owned,1.0
+326,Kelly Burgess,Male,10304 Mcdonald Ridges Suite 767,239,Savings Account,60 +,Tertiary and above,Contract,886,Unstable,8,179487,Owned,1.0
+327,Heather Miller,Male,64987 Peterson Fork Suite 526,99,Current Account,60 +,Highschool and below,Contract,886,Unstable,3,2789,Rented,0.0
+328,Ethan Stewart,Female,462 Robert Ways,239,Savings Account,36 - 59,Tertiary and above,Student,4627,Stable,9,2333,Rented,1.0
+329,Darren Thompson,Male,3862 Travis Stream Apt. 784,239,Savings Account,18 - 35,Highschool and below,Student,24001,Stable,6,179487,Owned,1.0
+330,Sarah Gardner,Female,97585 Jennifer Meadow,239,Savings Account,36 - 59,Tertiary and above,Student,886,Unstable,0,179487,Owned,0.0
+331,Ashley Mcmillan,Female,81587 Patricia Mission Suite 423,193,Savings Account,18 - 35,Tertiary and above,Contract,886,Unstable,0,2333,Owned,0.0
+332,Brenda Robertson,Male,5001 Baker Bypass,239,Current Account,36 - 59,Tertiary and above,Permanent,886,Stable,2,179487,Rented,0.0
+333,Edward Wagner,Female,8873 Coleman Drive,239,Current Account,60 +,Tertiary and above,Permanent,886,Unstable,9,2789,Rented,1.0
+334,Cheryl Huang,Female,405 Brandt Roads,239,Current Account,36 - 59,Highschool and below,Contract,4627,Unstable,1,179487,Rented,0.0
+335,Laurie Simmons,Male,1084 Fernandez Forge,99,Current Account,60 +,Highschool and below,Permanent,886,Stable,10,2789,Owned,1.0
+336,Daniel Zuniga,Female,1258 Laura Lakes,28,Current Account,36 - 59,Tertiary and above,Permanent,4627,Stable,2,2333,Owned,0.0
+337,Stephen Smith,Female,784 Scott Station,44,Savings Account,36 - 59,Tertiary and above,Permanent,4627,Stable,4,2333,Rented,0.0
+338,Christopher Hanson,Female,139 Michelle Station,193,Savings Account,18 - 35,Highschool and below,Student,24001,Stable,8,179487,Rented,1.0
+339,Ashley Mitchell,Female,623 Cynthia Falls Suite 801,239,Current Account,18 - 35,Tertiary and above,Permanent,886,Stable,9,2789,Rented,2.0
+340,Mark Sharp,Female,11845 Garrett Pass Suite 268,239,Current Account,36 - 59,Tertiary and above,Contract,4627,Stable,4,2333,Rented,0.0
+341,Carlos Adkins,Female,652 Parker View,222,Current Account,60 +,Tertiary and above,Contract,886,Unstable,8,179487,Owned,1.0
+342,Natalie Gordon,Male,5662 Doyle Camp,156,Current Account,60 +,Highschool and below,Student,24001,Unstable,9,179487,Owned,1.0
+343,James Berry,Male,595 Wilson Drive Suite 308,156,Current Account,60 +,Highschool and below,Permanent,4627,Stable,10,2789,Owned,2.0
+344,Nicole Smith,Male,5465 Herrera Alley Apt. 669,239,Savings Account,36 - 59,Highschool and below,Permanent,4627,Stable,4,2333,Owned,0.0
+345,Elizabeth Rodriguez,Female,90637 Meyer Centers Suite 211,99,Current Account,60 +,Tertiary and above,Permanent,4627,Stable,3,2789,Rented,0.0
+346,Shannon Clark,Female,15344 Wilson Corners,193,Savings Account,60 +,Highschool and below,Contract,886,Unstable,10,179487,Owned,1.0
+347,Michelle Russell,Male,021 Cynthia Port,239,Savings Account,60 +,Highschool and below,Student,886,Unstable,10,2789,Owned,1.0
+348,Scott Wright,Male,91596 Charles Row,193,Current Account,60 +,Highschool and below,Contract,24001,Stable,2,2333,Owned,0.0
+349,Angela Young,Male,2043 Anderson Village Apt. 756,44,Current Account,18 - 35,Tertiary and above,Contract,886,Stable,8,179487,Rented,1.0
+350,Jordan Lee,Female,9159 Erin Viaduct Suite 073,44,Current Account,18 - 35,Tertiary and above,Contract,24001,Stable,9,2333,Owned,2.0
+351,Samantha Russell,Male,091 Johnson Trace Suite 385,239,Savings Account,60 +,Tertiary and above,Permanent,4627,Stable,0,179487,Rented,0.0
+352,Michael Allen,Male,8563 David Junctions,145,Current Account,60 +,Tertiary and above,Permanent,886,Unstable,9,2789,Rented,1.0
+353,Gregory Torres,Male,732 Hodge Lock,145,Savings Account,36 - 59,Tertiary and above,Permanent,24001,Stable,9,2789,Rented,2.0
+354,Dennis Gonzalez,Male,22003 Crosby Harbor,44,Current Account,36 - 59,Tertiary and above,Permanent,4627,Stable,6,179487,Rented,1.0
+355,Michael Pineda,Male,61172 Navarro Rapid,239,Savings Account,18 - 35,Tertiary and above,Student,4627,Unstable,3,2789,Rented,0.0
+356,Rose Walls,Female,153 Rhonda Manor Apt. 630,239,Current Account,60 +,Highschool and below,Contract,24001,Stable,6,2333,Rented,0.0
+357,John Thompson,Male,473 Joshua Port,222,Current Account,36 - 59,Highschool and below,Contract,24001,Stable,4,179487,Owned,1.0
+358,Larry Rodriguez,Female,4446 David Cliff Suite 326,223,Savings Account,36 - 59,Tertiary and above,Contract,886,Unstable,9,179487,Owned,1.0
+359,Randy Hodge,Male,2754 Troy Locks Apt. 626,239,Current Account,60 +,Tertiary and above,Student,886,Stable,7,179487,Rented,0.0
+360,Elizabeth Jackson,Male,54446 David Curve Apt. 654,44,Current Account,60 +,Tertiary and above,Permanent,886,Stable,4,2333,Rented,0.0
+361,Gina Hoffman,Female,56022 Mallory Field Suite 419,193,Savings Account,60 +,Highschool and below,Student,4627,Stable,2,2333,Owned,0.0
+362,Regina Gonzalez,Male,623 Mitchell Lodge,44,Current Account,60 +,Tertiary and above,Permanent,24001,Unstable,2,2333,Rented,0.0
+363,Mark Callahan,Female,899 Jacob Locks Suite 677,239,Savings Account,36 - 59,Tertiary and above,Contract,24001,Unstable,1,2789,Rented,0.0
+364,Chad Lee,Female,5997 Caitlin Gardens Apt. 416,99,Current Account,36 - 59,Tertiary and above,Permanent,24001,Unstable,8,2789,Rented,1.0
+365,Amanda Cox,Female,980 Jamie Drive,239,Current Account,60 +,Highschool and below,Contract,24001,Stable,0,179487,Owned,0.0
+366,William Waller,Female,0740 Mccarty Burgs,44,Current Account,36 - 59,Tertiary and above,Student,4627,Stable,6,2789,Rented,0.0
+367,Frank Joyce Jr.,Female,423 Kelly Isle,239,Current Account,18 - 35,Tertiary and above,Student,4627,Stable,1,2333,Rented,0.0
+368,Jordan Murray,Female,0252 Pittman Tunnel Apt. 675,239,Current Account,60 +,Highschool and below,Student,886,Stable,7,179487,Rented,0.0
+369,Jason Holloway,Male,345 Parker Garden Apt. 050,145,Current Account,60 +,Tertiary and above,Permanent,24001,Stable,9,179487,Rented,2.0
+370,Kenneth Hall,Male,38568 Wright Via,156,Savings Account,60 +,Tertiary and above,Student,4627,Stable,10,2333,Rented,1.0
+371,Pamela Brown,Male,8558 Terry Hill,193,Savings Account,60 +,Tertiary and above,Contract,4627,Stable,10,179487,Owned,2.0
+372,Kathleen Navarro,Male,387 Hancock Common,222,Savings Account,18 - 35,Tertiary and above,Student,24001,Unstable,10,2789,Owned,2.0
+373,Bryan Curry,Female,67005 Morales Hills,239,Savings Account,36 - 59,Highschool and below,Student,24001,Stable,1,179487,Owned,0.0
+374,Jennifer Riddle,Male,317 Heather Ridge Suite 571,222,Savings Account,18 - 35,Highschool and below,Contract,886,Stable,6,179487,Rented,1.0
+375,Jasmine Garcia,Male,580 Hudson Via,99,Savings Account,60 +,Highschool and below,Permanent,886,Unstable,1,179487,Rented,0.0
+376,Daniel Johnson,Male,4416 Branch Mountains,239,Savings Account,18 - 35,Highschool and below,Permanent,886,Unstable,9,2789,Rented,1.0
+377,Matthew Hoffman,Male,12120 Eric Spur,239,Savings Account,18 - 35,Highschool and below,Permanent,886,Unstable,3,2333,Rented,0.0
+378,Timothy Matthews,Male,37673 Mitchell Drives Suite 579,44,Savings Account,36 - 59,Tertiary and above,Student,4627,Stable,3,2789,Rented,0.0
+379,Derrick Fowler,Male,614 Ashley Trafficway,239,Savings Account,36 - 59,Tertiary and above,Student,4627,Unstable,9,179487,Owned,1.0
+380,Jacob Roberts,Male,1009 Crystal Spur,145,Current Account,18 - 35,Highschool and below,Contract,886,Unstable,0,2789,Rented,0.0
+381,Mrs. Kristina Roberts,Female,21051 Marsh Summit Apt. 486,44,Current Account,60 +,Tertiary and above,Student,886,Unstable,6,179487,Rented,0.0
+382,Angela Garrison,Female,345 William River,239,Current Account,36 - 59,Tertiary and above,Permanent,886,Unstable,3,2789,Owned,0.0
+383,Christopher Hendrix,Female,758 Thompson Spurs Suite 870,145,Current Account,60 +,Tertiary and above,Contract,4627,Unstable,1,179487,Rented,0.0
+384,Robin Ortiz,Female,8025 Renee Oval,239,Current Account,18 - 35,Tertiary and above,Contract,4627,Unstable,5,179487,Owned,1.0
+385,April Young,Male,93091 Welch Forge,145,Current Account,60 +,Tertiary and above,Permanent,886,Unstable,3,179487,Owned,0.0
+386,Gary Schmidt,Female,9646 Tran Locks,239,Current Account,60 +,Highschool and below,Contract,886,Stable,2,2333,Rented,0.0
+387,Robert Meza,Male,733 Oneal Knoll Apt. 460,239,Savings Account,60 +,Highschool and below,Contract,24001,Stable,8,2789,Rented,1.0
+388,Kyle Rodgers,Female,9418 Rios Track Suite 055,239,Current Account,60 +,Tertiary and above,Contract,24001,Stable,4,2333,Owned,0.0
+389,Kristine Johnson,Male,9571 Mitchell Mission,239,Savings Account,60 +,Highschool and below,Student,4627,Unstable,10,179487,Owned,1.0
+390,Christopher Kelly,Male,5095 Hill Keys Apt. 062,222,Current Account,18 - 35,Tertiary and above,Contract,24001,Stable,3,2333,Rented,0.0
+391,Kristen Freeman,Female,95325 Freeman Courts Suite 139,222,Savings Account,18 - 35,Highschool and below,Contract,4627,Stable,4,2789,Rented,0.0
+392,Alan Lopez,Female,9364 Sutton Parkway Suite 719,239,Savings Account,36 - 59,Tertiary and above,Contract,24001,Unstable,1,2333,Rented,0.0
+393,Ebony Armstrong,Female,9679 Robinson Cove Apt. 846,239,Savings Account,36 - 59,Highschool and below,Contract,886,Stable,3,2789,Owned,0.0
+394,Jeffrey Mcgee,Male,0546 Felicia Meadows Suite 226,239,Current Account,60 +,Highschool and below,Permanent,4627,Stable,4,179487,Owned,0.0
+395,Tonya Lowe,Male,2721 Nash Ramp Apt. 087,222,Current Account,18 - 35,Highschool and below,Permanent,886,Unstable,6,179487,Owned,1.0
+396,Alexis House,Female,399 Long Square Suite 699,239,Savings Account,18 - 35,Tertiary and above,Student,4627,Unstable,4,2333,Rented,0.0
+397,Linda Harper,Female,344 Lawrence Drive Suite 126,239,Savings Account,60 +,Highschool and below,Student,4627,Unstable,6,2333,Rented,0.0
+398,Alexis Munoz,Female,1150 Pena Drive,239,Current Account,60 +,Highschool and below,Contract,24001,Stable,0,2789,Rented,0.0
+399,Eric Cole,Male,2934 Perez Creek,222,Savings Account,18 - 35,Tertiary and above,Student,886,Unstable,8,2333,Owned,1.0
+400,Lauren Montgomery,Male,96082 Jones Vista,222,Savings Account,36 - 59,Highschool and below,Permanent,886,Stable,0,2789,Rented,0.0
+401,Jennifer Farrell,Female,731 Brooke Fork Suite 258,156,Current Account,60 +,Highschool and below,Student,4627,Stable,1,179487,Rented,0.0
+402,Thomas Wolfe,Male,61755 Bradley Neck,239,Current Account,18 - 35,Highschool and below,Contract,24001,Unstable,6,2789,Rented,1.0
+403,Michael Wright,Female,00018 Myers Pass Suite 931,193,Savings Account,60 +,Highschool and below,Student,24001,Unstable,9,2789,Rented,1.0
+404,Nicholas Bradshaw,Female,87364 Jose Pike,239,Current Account,18 - 35,Highschool and below,Contract,4627,Unstable,1,2789,Rented,0.0
+405,Natalie Rodriguez,Female,25558 Gonzalez Parkways Suite 233,193,Current Account,60 +,Highschool and below,Student,4627,Unstable,7,2789,Owned,0.0
+406,Elizabeth Myers,Male,00836 Brown Crescent,145,Current Account,60 +,Highschool and below,Student,24001,Stable,0,2333,Rented,0.0
+407,William Leonard,Female,3218 Daniel Orchard Suite 811,99,Savings Account,60 +,Tertiary and above,Student,24001,Unstable,10,179487,Rented,1.0
+408,Kenneth Andrews,Male,59506 Duncan Pass,239,Current Account,18 - 35,Highschool and below,Contract,886,Stable,6,2789,Rented,0.0
+409,Joel Alexander,Female,765 Steven Ford Suite 131,239,Savings Account,36 - 59,Highschool and below,Contract,24001,Unstable,0,179487,Owned,0.0
+410,Vickie Hill,Female,56813 Kelley Bridge Apt. 495,223,Current Account,36 - 59,Highschool and below,Permanent,886,Unstable,3,2789,Owned,0.0
+411,Dawn Martin,Female,15981 Laura Expressway Apt. 470,193,Current Account,36 - 59,Highschool and below,Permanent,4627,Stable,4,2789,Owned,0.0
+412,Christina Giles,Male,6021 Stephens Ports,223,Current Account,60 +,Highschool and below,Permanent,4627,Unstable,2,179487,Owned,0.0
+413,Melissa Crawford,Male,3177 Roberts Via Suite 030,44,Savings Account,36 - 59,Highschool and below,Contract,4627,Unstable,10,179487,Owned,2.0
+414,Samuel Diaz,Female,321 Amy Fort,223,Savings Account,18 - 35,Tertiary and above,Contract,886,Stable,8,2789,Rented,1.0
+415,Katelyn Moore,Male,660 Camacho Harbor Apt. 701,239,Savings Account,18 - 35,Tertiary and above,Contract,886,Unstable,3,2789,Owned,0.0
+416,Jeffrey Malone,Male,81247 Miller Common,44,Savings Account,18 - 35,Highschool and below,Permanent,4627,Stable,8,179487,Owned,2.0
+417,Kimberly Blake,Female,422 Horne Lock,44,Current Account,36 - 59,Highschool and below,Permanent,886,Stable,2,179487,Owned,0.0
+418,Patrick Cook,Male,259 Shannon Viaduct,239,Savings Account,18 - 35,Tertiary and above,Student,886,Unstable,10,179487,Rented,1.0
+419,Karen Miller,Male,399 Michael Ville Suite 312,193,Current Account,18 - 35,Highschool and below,Contract,886,Unstable,2,179487,Owned,0.0
+420,Craig Torres,Female,692 Natasha Wells,44,Savings Account,18 - 35,Tertiary and above,Contract,24001,Unstable,2,179487,Owned,0.0
+421,Seth Sanders,Male,843 Mcdowell Ridges Suite 099,223,Savings Account,18 - 35,Tertiary and above,Contract,24001,Unstable,3,2333,Rented,0.0
+422,Jessica Lester,Male,5407 Christopher Union Apt. 900,239,Savings Account,18 - 35,Highschool and below,Student,4627,Stable,8,2333,Rented,1.0
+423,Kathleen Cross,Female,679 Poole Mill,28,Current Account,60 +,Highschool and below,Contract,4627,Unstable,0,2789,Rented,0.0
+424,Michael Perry,Female,374 Prince Rest Apt. 152,145,Current Account,36 - 59,Highschool and below,Permanent,886,Stable,4,179487,Rented,0.0
+425,Angela Duffy,Male,72735 Michael Mountain,239,Current Account,36 - 59,Tertiary and above,Contract,4627,Stable,7,2789,Rented,1.0
+426,Derek Odom,Female,625 Scott Plains,156,Savings Account,18 - 35,Tertiary and above,Student,886,Stable,7,2789,Rented,1.0
+427,Hayley Miller,Male,27717 John Plains Apt. 644,239,Current Account,18 - 35,Tertiary and above,Permanent,4627,Unstable,3,2333,Rented,0.0
+428,Jennifer Schwartz,Female,31718 Douglas Via,239,Savings Account,18 - 35,Tertiary and above,Student,24001,Stable,6,2789,Owned,1.0
+429,Alejandro Webb,Female,5095 Holmes Island Apt. 469,99,Current Account,36 - 59,Tertiary and above,Student,886,Unstable,3,179487,Rented,0.0
+430,Aaron Carey,Male,508 Patton Drive Suite 058,145,Savings Account,18 - 35,Tertiary and above,Contract,4627,Stable,1,2333,Rented,0.0
+431,Tonya Walker,Female,3217 Jennifer Route Suite 896,28,Current Account,18 - 35,Tertiary and above,Permanent,4627,Stable,0,2333,Owned,0.0
+432,Richard Hunt,Male,990 Fleming Junctions Suite 054,156,Current Account,18 - 35,Highschool and below,Student,886,Stable,10,179487,Owned,2.0
+433,Shelby Stanton,Male,2331 Martinez Brooks Suite 357,239,Current Account,60 +,Highschool and below,Contract,24001,Stable,7,179487,Rented,1.0
+434,Donna Powers,Male,566 Medina Creek,44,Current Account,18 - 35,Highschool and below,Student,886,Stable,4,2789,Owned,0.0
+435,William Hall,Female,723 Miller Gardens Suite 336,44,Savings Account,18 - 35,Highschool and below,Contract,4627,Stable,8,2789,Rented,1.0
+436,Scott Bradley,Female,46986 Beth Highway Suite 080,222,Current Account,60 +,Tertiary and above,Student,24001,Unstable,10,2789,Rented,1.0
+437,Jennifer Kennedy,Female,86185 Jimenez Rue,222,Savings Account,36 - 59,Tertiary and above,Student,4627,Stable,0,2333,Owned,0.0
+438,Steven Ramirez,Female,87808 Joseph Ville,239,Current Account,60 +,Tertiary and above,Permanent,24001,Unstable,3,2333,Rented,0.0
+439,Chris Anderson,Male,597 Lindsey Trail Apt. 287,239,Savings Account,18 - 35,Highschool and below,Student,4627,Stable,2,179487,Rented,0.0
+440,Sergio Fry,Male,102 Jimenez Ford,28,Savings Account,18 - 35,Highschool and below,Student,886,Stable,4,179487,Rented,0.0
+441,Brenda Burns,Female,10555 Macdonald Junctions,222,Savings Account,36 - 59,Tertiary and above,Contract,886,Unstable,9,179487,Owned,1.0
+442,Jill Wells,Male,553 Mckinney Walks Apt. 864,223,Savings Account,36 - 59,Tertiary and above,Contract,24001,Stable,2,2333,Owned,0.0
+443,Jennifer Mullins,Female,762 Justin Lake,44,Savings Account,18 - 35,Highschool and below,Student,4627,Unstable,8,2789,Owned,1.0
+444,Jay Brown,Male,8821 Timothy Garden Apt. 219,156,Current Account,60 +,Highschool and below,Permanent,4627,Unstable,10,179487,Rented,1.0
+445,Stephanie Hahn,Female,4545 George Village,28,Current Account,18 - 35,Highschool and below,Contract,886,Stable,4,179487,Owned,0.0
+446,Andrew Porter,Female,62473 Sharon Locks Apt. 833,145,Current Account,60 +,Highschool and below,Contract,886,Stable,5,179487,Owned,0.0
+447,Jesse Jimenez,Female,28611 Rodriguez Course Apt. 288,28,Current Account,60 +,Highschool and below,Contract,4627,Unstable,1,2789,Owned,0.0
+448,Jenna Stone,Male,813 Perez Springs Suite 631,156,Current Account,36 - 59,Highschool and below,Student,886,Stable,6,2789,Rented,0.0
+449,Adam Lewis,Male,227 Smith Stravenue,239,Current Account,60 +,Tertiary and above,Student,24001,Unstable,1,2333,Rented,0.0
+450,Laura Banks,Male,89427 Lee Landing,223,Current Account,18 - 35,Tertiary and above,Permanent,24001,Unstable,7,2333,Rented,1.0
+451,Jason Holmes,Female,459 Cook Lock Apt. 287,156,Current Account,18 - 35,Highschool and below,Permanent,886,Stable,1,2789,Owned,0.0
+452,Jeremiah Benjamin,Male,87109 Allison Harbor,156,Current Account,36 - 59,Highschool and below,Contract,886,Unstable,1,2789,Rented,0.0
+453,Richard Andrews,Male,0411 Benton Fields Apt. 327,239,Current Account,60 +,Tertiary and above,Contract,24001,Unstable,1,2789,Owned,0.0
+454,Sandra Oconnell,Female,24070 Taylor Unions Apt. 718,222,Current Account,18 - 35,Tertiary and above,Student,886,Unstable,0,2789,Rented,0.0
+455,Thomas Lee,Male,0892 Smith Lodge Apt. 316,239,Savings Account,18 - 35,Highschool and below,Student,886,Stable,9,2789,Owned,1.0
+456,Dr. Shane Scott,Male,47127 Kaylee Views,239,Current Account,18 - 35,Tertiary and above,Contract,4627,Unstable,10,179487,Rented,2.0
+457,Sharon Rose,Male,89416 Holt Park Suite 132,28,Savings Account,18 - 35,Tertiary and above,Contract,4627,Stable,1,2789,Owned,0.0
+458,Amy Garcia,Male,67461 Heather Fort Suite 449,239,Current Account,36 - 59,Highschool and below,Contract,886,Stable,9,2333,Rented,1.0
+459,Timothy Soto,Female,5755 Amanda Spring Suite 900,239,Current Account,18 - 35,Tertiary and above,Permanent,24001,Stable,4,2333,Owned,1.0
+460,Susan Rios,Female,18850 Natalie Lane,239,Current Account,60 +,Tertiary and above,Student,4627,Stable,6,179487,Rented,0.0
+461,Victor Rodriguez,Male,42213 Veronica Falls Suite 537,193,Savings Account,36 - 59,Highschool and below,Student,886,Unstable,7,179487,Rented,0.0
+462,Victoria Nelson,Male,997 Alexis Locks,223,Savings Account,36 - 59,Highschool and below,Contract,24001,Stable,9,179487,Owned,2.0
+463,Jacqueline Mendoza,Female,62829 Christopher Squares,145,Current Account,36 - 59,Tertiary and above,Student,886,Stable,8,2333,Owned,1.0
+464,Sophia Hart,Female,8693 Tricia Fords,239,Current Account,36 - 59,Tertiary and above,Contract,886,Stable,0,179487,Rented,0.0
+465,Vincent Baldwin,Male,619 Norma Mountain,223,Current Account,18 - 35,Highschool and below,Student,4627,Unstable,8,2333,Rented,0.0
+466,Lisa Johnson,Male,661 Lewis Hill,156,Savings Account,18 - 35,Tertiary and above,Permanent,24001,Unstable,5,179487,Owned,1.0
+467,Larry Aguilar,Female,84594 Bishop Gateway Suite 623,145,Savings Account,60 +,Highschool and below,Contract,4627,Unstable,1,179487,Rented,0.0
+468,Jacqueline Campbell,Male,655 Kimberly Crest,193,Savings Account,18 - 35,Tertiary and above,Permanent,886,Stable,9,2789,Rented,2.0
+469,Angela Richardson,Female,986 Mills Dale,44,Current Account,60 +,Tertiary and above,Student,4627,Unstable,3,2789,Rented,0.0
+470,Bryan Garcia,Female,3944 Brittany Via Apt. 803,193,Savings Account,18 - 35,Tertiary and above,Permanent,4627,Unstable,9,2333,Rented,1.0
+471,Whitney Guzman,Female,696 Thomas Corners Apt. 272,222,Savings Account,18 - 35,Tertiary and above,Permanent,4627,Stable,7,2789,Rented,1.0
+472,Ryan Bowman,Female,430 Benjamin Groves,156,Current Account,18 - 35,Highschool and below,Student,24001,Unstable,10,2333,Rented,1.0
+473,Erin Bennett,Male,97474 Eric Cliff,145,Current Account,60 +,Highschool and below,Student,24001,Unstable,0,179487,Rented,0.0
+474,Michelle Campbell,Female,162 Manuel Branch,239,Savings Account,60 +,Highschool and below,Contract,886,Unstable,2,2789,Rented,0.0
+475,Philip Everett,Male,746 Hobbs Lane Suite 199,156,Savings Account,60 +,Tertiary and above,Student,24001,Unstable,2,2333,Owned,0.0
+476,Steven Brown,Female,5359 Nancy Ports Apt. 406,239,Savings Account,60 +,Tertiary and above,Student,4627,Unstable,9,2333,Rented,0.0
+477,Jennifer Miller,Female,217 Cruz Court Suite 834,99,Current Account,60 +,Tertiary and above,Permanent,4627,Stable,7,179487,Rented,1.0
+478,Karina Castillo,Female,97402 Carol Ville,239,Savings Account,18 - 35,Highschool and below,Student,4627,Stable,5,179487,Owned,1.0
+479,Calvin White,Male,83399 Kim Loop Suite 189,44,Savings Account,60 +,Tertiary and above,Student,886,Unstable,6,2333,Rented,0.0
+480,Steven Warren,Male,905 Rojas Locks,239,Current Account,18 - 35,Highschool and below,Contract,4627,Stable,2,2789,Rented,0.0
+481,Tammy Price,Male,3348 Jason Estate Apt. 835,44,Current Account,18 - 35,Highschool and below,Permanent,24001,Stable,4,2333,Rented,0.0
+482,Debbie Camacho,Male,3642 Stephanie Villages Apt. 865,28,Savings Account,18 - 35,Highschool and below,Permanent,24001,Stable,9,2333,Rented,2.0
+483,Mr. Lawrence Parsons,Male,071 Mooney Mountain,222,Current Account,60 +,Tertiary and above,Permanent,4627,Unstable,1,2333,Rented,0.0
+484,Christopher Taylor,Female,933 Heidi Plaza,223,Current Account,60 +,Tertiary and above,Permanent,24001,Unstable,6,2789,Owned,1.0
+485,Daniel Hansen,Male,28893 Vicki Mission Apt. 101,222,Current Account,36 - 59,Highschool and below,Contract,886,Stable,9,179487,Rented,1.0
+486,David Banks,Female,3223 Rachel Walk,222,Current Account,36 - 59,Highschool and below,Contract,24001,Stable,0,2789,Owned,0.0
+487,Mrs. Kimberly Cruz MD,Female,23568 Matthew Club,239,Savings Account,18 - 35,Tertiary and above,Contract,24001,Stable,10,2333,Owned,2.0
+488,Bonnie Mclaughlin,Female,678 Decker Junctions,223,Savings Account,60 +,Highschool and below,Contract,24001,Stable,1,179487,Owned,0.0
+489,Eric Riley,Female,4570 Bradley Cove Suite 807,156,Savings Account,60 +,Highschool and below,Contract,24001,Unstable,0,2333,Rented,0.0
+490,Lauren Schneider,Female,66129 Brown Way,28,Current Account,18 - 35,Tertiary and above,Student,4627,Unstable,10,179487,Rented,2.0
+491,David Knight,Female,64050 Mcgee Extension,222,Savings Account,18 - 35,Tertiary and above,Student,886,Stable,6,179487,Owned,1.0
+492,Michael Torres,Male,0636 Sarah Road Suite 678,193,Current Account,60 +,Highschool and below,Contract,886,Unstable,7,2789,Rented,0.0
+493,Adriana Patterson,Male,65764 Meyer Roads Suite 190,223,Savings Account,18 - 35,Tertiary and above,Permanent,886,Unstable,8,2789,Owned,1.0
+494,Christine Tucker,Male,106 Allen Lodge Suite 763,223,Savings Account,18 - 35,Highschool and below,Permanent,24001,Stable,3,2333,Owned,0.0
+495,Laurie Cunningham,Male,836 Paul Rapids,145,Current Account,18 - 35,Tertiary and above,Contract,24001,Unstable,7,179487,Owned,2.0
+496,Carol Hester,Female,83990 Page Circle,239,Current Account,18 - 35,Tertiary and above,Permanent,886,Stable,2,179487,Rented,0.0
+497,Yvonne Carlson,Female,72094 Mclaughlin Village,239,Savings Account,36 - 59,Highschool and below,Contract,886,Unstable,3,2789,Owned,0.0
+498,Joann Cole,Female,355 Smith Manors,239,Current Account,36 - 59,Tertiary and above,Student,886,Unstable,10,2789,Rented,1.0
+499,Ann Bryant,Female,953 Long Drive Apt. 586,156,Current Account,36 - 59,Tertiary and above,Permanent,24001,Unstable,1,2789,Owned,0.0
+500,Mason Santos,Female,01900 Eric Road,239,Savings Account,18 - 35,Tertiary and above,Contract,4627,Stable,2,179487,Rented,0.0
+501,Mr. Timothy Johnson,Female,88565 Daryl Pike,239,Current Account,60 +,Tertiary and above,Contract,886,Unstable,5,179487,Owned,0.0
+502,Terry Clark,Female,0596 Devin Spurs Suite 244,239,Current Account,36 - 59,Highschool and below,Permanent,886,Unstable,4,179487,Rented,0.0
+503,Michael Acosta,Male,8581 Franco Crossroad Apt. 960,239,Current Account,18 - 35,Highschool and below,Student,4627,Stable,2,179487,Owned,0.0
+504,Tiffany Suarez,Male,710 Christopher Port Suite 732,239,Savings Account,36 - 59,Tertiary and above,Permanent,4627,Stable,6,2789,Rented,1.0
+505,Christopher Rich,Male,35967 Jesse Bridge,239,Savings Account,36 - 59,Highschool and below,Student,24001,Stable,7,179487,Rented,1.0
+506,Stephanie Kim,Female,269 Michael Mountains Suite 738,239,Savings Account,18 - 35,Highschool and below,Contract,4627,Unstable,8,2333,Rented,1.0
+507,Maria Smith,Male,8784 Scott Harbors Apt. 185,223,Current Account,18 - 35,Highschool and below,Student,24001,Stable,7,2789,Rented,1.0
+508,Mr. Kenneth Ramirez DDS,Female,9285 Courtney Loaf,239,Savings Account,60 +,Tertiary and above,Permanent,24001,Unstable,0,2333,Owned,0.0
+509,Meghan Thompson,Female,305 Ryan Land Suite 152,156,Savings Account,36 - 59,Highschool and below,Student,24001,Stable,10,2333,Owned,1.0
+510,Nancy Pierce,Male,7526 John Neck,99,Savings Account,18 - 35,Highschool and below,Permanent,886,Unstable,6,2333,Owned,0.0
+511,Michael Grimes,Male,892 Caroline Terrace,99,Savings Account,60 +,Tertiary and above,Permanent,4627,Stable,2,2789,Rented,0.0
+512,Daniel Baker,Male,52341 Baker Trail Suite 647,28,Current Account,60 +,Highschool and below,Student,4627,Unstable,9,2789,Owned,1.0
+513,Linda Smith,Male,592 Amy Valleys,222,Savings Account,60 +,Tertiary and above,Permanent,4627,Stable,3,2333,Rented,0.0
+514,Brian Olsen,Female,052 Chelsea Views,239,Savings Account,18 - 35,Highschool and below,Student,4627,Unstable,4,179487,Rented,0.0
+515,Jessica Obrien,Female,6902 Lara Falls Apt. 195,145,Current Account,18 - 35,Tertiary and above,Contract,4627,Unstable,6,2333,Rented,0.0
+516,Leah Arnold,Male,3411 Abigail Alley Apt. 098,145,Savings Account,36 - 59,Highschool and below,Permanent,886,Stable,1,2333,Rented,0.0
+517,Dr. Noah Woodard,Female,81478 Lisa Row,239,Savings Account,60 +,Tertiary and above,Student,4627,Unstable,0,2789,Owned,0.0
+518,Eric Ramsey,Female,807 Shelby Trafficway,193,Savings Account,18 - 35,Tertiary and above,Contract,24001,Unstable,7,2789,Owned,1.0
+519,Ashley Johnson,Female,51759 Michael Isle Apt. 550,44,Current Account,36 - 59,Highschool and below,Contract,4627,Stable,9,2333,Owned,1.0
+520,Peter Porter,Female,68125 William Flats,222,Savings Account,60 +,Tertiary and above,Permanent,886,Stable,9,2333,Owned,1.0
+521,John Ferguson,Male,20021 Mark Village,156,Current Account,36 - 59,Tertiary and above,Permanent,4627,Stable,1,2333,Owned,0.0
+522,Eugene Hamilton,Female,4404 Angela Landing Suite 511,156,Current Account,60 +,Tertiary and above,Permanent,4627,Unstable,3,2333,Rented,0.0
+523,Brian Leonard,Female,681 Benitez Manors,28,Current Account,36 - 59,Highschool and below,Permanent,886,Stable,6,2333,Owned,0.0
+524,Chad English,Male,08140 Baker Underpass Apt. 087,239,Current Account,36 - 59,Tertiary and above,Permanent,4627,Stable,4,2333,Rented,0.0
+525,Donna Peters,Female,8183 Peck Oval Apt. 415,223,Savings Account,36 - 59,Highschool and below,Student,886,Unstable,7,179487,Owned,0.0
+526,Diana Trujillo,Male,1012 Meyers Port,156,Savings Account,18 - 35,Tertiary and above,Student,4627,Unstable,2,2789,Rented,0.0
+527,Kathleen Sheppard,Female,18720 Davis Highway,28,Current Account,60 +,Highschool and below,Contract,4627,Unstable,8,2789,Owned,1.0
+528,Alexandra Cruz,Male,3937 Craig Meadow,239,Savings Account,36 - 59,Highschool and below,Contract,4627,Stable,6,179487,Owned,1.0
+529,Kathleen Owens,Female,880 Robert Center,99,Current Account,18 - 35,Tertiary and above,Student,4627,Unstable,1,2333,Rented,0.0
+530,Susan Gibson,Male,27218 Holly Rapid,193,Savings Account,18 - 35,Tertiary and above,Contract,4627,Unstable,6,179487,Owned,1.0
+531,Gabrielle Washington,Female,161 Alyssa Expressway Apt. 766,239,Savings Account,60 +,Tertiary and above,Permanent,4627,Unstable,3,2789,Owned,0.0
+532,Stephanie Fernandez,Male,1029 Baker Wall,223,Savings Account,60 +,Highschool and below,Permanent,4627,Unstable,1,2789,Rented,0.0
+533,Toni Walker,Male,4323 Penny Plains,222,Current Account,18 - 35,Highschool and below,Student,4627,Unstable,4,179487,Owned,0.0
+534,Jaime Robinson,Female,5148 Mccormick Ferry,145,Current Account,60 +,Highschool and below,Contract,24001,Unstable,3,2789,Rented,0.0
+535,Rodney Allen,Female,0462 Cooper Orchard,223,Savings Account,60 +,Highschool and below,Student,886,Stable,3,2333,Rented,0.0
+536,Calvin Miller,Male,5754 Sharon Station Suite 860,239,Current Account,36 - 59,Tertiary and above,Contract,24001,Stable,8,2789,Rented,1.0
+537,Michael Coleman,Female,63087 Victoria Harbors,156,Current Account,36 - 59,Tertiary and above,Permanent,4627,Unstable,9,179487,Owned,2.0
+538,Alexis Carrillo,Male,10403 Christine Squares,239,Savings Account,36 - 59,Highschool and below,Student,24001,Unstable,0,2333,Owned,0.0
+539,Wendy Hampton,Male,8365 Sanchez Meadow Apt. 083,239,Current Account,18 - 35,Highschool and below,Contract,24001,Unstable,6,2333,Owned,1.0
+540,Anne Campbell,Male,1891 Amanda Lock Apt. 470,28,Current Account,60 +,Tertiary and above,Student,886,Unstable,4,2333,Owned,0.0
+541,Casey Myers,Female,0183 Donna Harbors,44,Current Account,36 - 59,Tertiary and above,Permanent,4627,Unstable,4,179487,Owned,1.0
+542,Teresa Tate,Male,59511 Bauer Green,193,Current Account,18 - 35,Highschool and below,Permanent,886,Stable,8,2789,Rented,1.0
+543,Sara Thomas,Male,3563 Vazquez Mission,239,Savings Account,60 +,Highschool and below,Student,4627,Unstable,2,179487,Rented,0.0
+544,Oscar Torres,Female,6835 Johnson Mount,28,Current Account,36 - 59,Highschool and below,Student,4627,Unstable,3,179487,Rented,0.0
+545,Stephen Moore,Female,637 Anderson Keys,222,Savings Account,18 - 35,Tertiary and above,Permanent,4627,Stable,9,179487,Rented,2.0
+546,Jermaine Lane,Male,08229 Lynch Trafficway Suite 121,222,Savings Account,36 - 59,Tertiary and above,Permanent,886,Stable,8,2789,Rented,1.0
+547,Teresa Hernandez,Male,32140 Diane Garden Apt. 025,193,Savings Account,18 - 35,Highschool and below,Permanent,886,Unstable,9,2333,Owned,1.0
+548,Christopher Campos,Female,757 Matthew Walks Suite 078,222,Savings Account,18 - 35,Tertiary and above,Contract,4627,Stable,7,2789,Rented,1.0
+549,Jean Christian,Female,2164 Heather Pike,239,Current Account,60 +,Highschool and below,Contract,24001,Unstable,1,179487,Owned,0.0
+550,William Reeves,Female,931 Ashley Run,99,Current Account,60 +,Tertiary and above,Contract,4627,Unstable,3,2333,Rented,0.0
+551,Rodney Petersen,Male,40784 Ryan Greens,239,Savings Account,18 - 35,Highschool and below,Student,886,Stable,5,2333,Rented,0.0
+552,Paul Walker,Female,65646 Hall Land,28,Savings Account,60 +,Tertiary and above,Contract,4627,Unstable,9,2333,Rented,1.0
+553,Marco Mccormick,Male,19835 Kathryn Estate Suite 634,44,Current Account,60 +,Tertiary and above,Student,4627,Unstable,2,2789,Rented,0.0
+554,Mackenzie Vega,Female,075 Lindsey Isle Suite 200,239,Current Account,36 - 59,Tertiary and above,Permanent,4627,Unstable,6,2333,Rented,0.0
+555,Carlos Stevens,Male,581 April Mall Suite 245,145,Current Account,36 - 59,Tertiary and above,Student,4627,Stable,10,2333,Owned,1.0
+556,Garrett Taylor,Male,63900 Wilson Union Suite 631,156,Current Account,60 +,Tertiary and above,Permanent,4627,Unstable,0,2333,Owned,0.0
+557,Sarah Pittman,Male,843 David Knolls Suite 939,222,Current Account,60 +,Tertiary and above,Contract,24001,Stable,4,2333,Owned,0.0
+558,Erik Arnold,Female,645 Harris Views,239,Current Account,60 +,Highschool and below,Permanent,886,Unstable,4,2333,Owned,0.0
+559,Darlene Hardy,Female,09852 Sara Court,145,Current Account,36 - 59,Tertiary and above,Contract,886,Unstable,9,2333,Owned,1.0
+560,Richard Richards,Female,066 Waters Rest,28,Current Account,18 - 35,Highschool and below,Permanent,4627,Stable,5,2789,Owned,1.0
+561,Phillip Arnold,Male,1855 Sara Lakes Apt. 467,222,Savings Account,36 - 59,Tertiary and above,Contract,886,Unstable,3,2333,Rented,0.0
+562,Herbert Murray,Female,3057 Taylor Spring,28,Savings Account,18 - 35,Highschool and below,Contract,886,Unstable,5,179487,Rented,0.0
+563,Wanda Pope,Male,670 Chapman Motorway Suite 301,239,Savings Account,36 - 59,Highschool and below,Permanent,4627,Unstable,10,179487,Owned,2.0
+564,Samantha Smith,Female,6237 Hansen Harbors Apt. 465,239,Savings Account,60 +,Highschool and below,Permanent,4627,Stable,3,2333,Rented,0.0
+565,Steve Roach,Male,6279 Brian Extensions,145,Current Account,36 - 59,Highschool and below,Contract,24001,Unstable,8,2333,Rented,1.0
+566,Bailey Howe,Male,601 Brenda Shore Suite 008,44,Current Account,60 +,Tertiary and above,Student,24001,Stable,0,2789,Rented,0.0
+567,James Robinson,Female,483 James Ports Apt. 113,239,Current Account,36 - 59,Tertiary and above,Student,24001,Unstable,10,179487,Owned,2.0
+568,Michael Evans DDS,Female,701 Smith Path Apt. 050,239,Savings Account,18 - 35,Highschool and below,Permanent,4627,Unstable,8,2789,Owned,1.0
+569,Jacqueline Sims,Female,741 Roberts Greens Suite 078,222,Current Account,60 +,Tertiary and above,Student,24001,Unstable,0,2333,Owned,0.0
+570,John Williams,Male,15683 Kim Hollow,145,Current Account,60 +,Highschool and below,Permanent,24001,Stable,8,179487,Owned,2.0
+571,David Lang,Female,2131 James Union Apt. 752,223,Current Account,18 - 35,Highschool and below,Permanent,24001,Unstable,8,179487,Rented,2.0
+572,Jeffrey Bell,Male,230 Kelly Ports Suite 686,156,Current Account,60 +,Tertiary and above,Contract,4627,Stable,1,2789,Rented,0.0
+573,Mike Hamilton,Male,91225 Carlos Freeway Apt. 969,28,Current Account,60 +,Tertiary and above,Student,886,Stable,8,2789,Owned,1.0
+574,Tracy Burton,Female,80688 Scott Loop,239,Savings Account,60 +,Tertiary and above,Student,4627,Stable,7,2789,Owned,1.0
+575,Theodore Roberson,Female,0993 Stacy Plains Suite 490,156,Savings Account,18 - 35,Highschool and below,Student,4627,Unstable,2,2333,Rented,0.0
+576,Abigail King,Male,157 Amy Ports Apt. 039,239,Savings Account,60 +,Highschool and below,Contract,4627,Stable,7,2333,Owned,0.0
+577,Alexander Craig,Female,294 Victoria Tunnel,239,Current Account,36 - 59,Tertiary and above,Permanent,24001,Stable,1,2789,Rented,0.0
+578,Marc Massey,Female,11773 Bell Mews Suite 689,239,Savings Account,36 - 59,Tertiary and above,Contract,886,Stable,8,2333,Owned,1.0
+579,Joshua Taylor,Male,775 Ramos Meadow Apt. 574,223,Savings Account,36 - 59,Tertiary and above,Student,4627,Stable,1,2333,Rented,0.0
+580,William Ho,Female,28907 Ryan Hill Apt. 253,193,Savings Account,18 - 35,Tertiary and above,Permanent,4627,Unstable,5,2789,Rented,1.0
+581,Gregory Green,Male,717 Martin Plain,239,Current Account,36 - 59,Highschool and below,Contract,4627,Unstable,9,179487,Rented,1.0
+582,Timothy Whitehead,Female,29370 Brittany Mountain Suite 076,156,Current Account,60 +,Tertiary and above,Permanent,4627,Unstable,7,2789,Rented,1.0
+583,Brandon Johnson,Male,7302 White Coves Suite 928,239,Current Account,18 - 35,Tertiary and above,Contract,886,Stable,3,179487,Owned,0.0
+584,Andrea Smith,Female,12589 Martinez Mews,239,Savings Account,36 - 59,Highschool and below,Student,886,Unstable,5,2789,Rented,0.0
+585,Jamie Chang,Female,9119 Webster Track,222,Savings Account,60 +,Tertiary and above,Permanent,24001,Unstable,4,179487,Owned,1.0
+586,Diane Robinson,Female,9149 Michael Junctions,28,Current Account,18 - 35,Highschool and below,Permanent,886,Stable,8,2333,Owned,1.0
+587,Steven Morris,Male,699 Danielle Lakes Suite 496,239,Savings Account,60 +,Tertiary and above,Permanent,4627,Unstable,9,2333,Rented,1.0
+588,Kim Davis,Female,6417 Jones Mission,28,Current Account,60 +,Tertiary and above,Permanent,4627,Unstable,3,2333,Owned,0.0
+589,Jean Fields,Male,0225 Reed Coves,239,Current Account,36 - 59,Tertiary and above,Contract,4627,Stable,10,2333,Rented,1.0
+590,Craig Casey,Female,48885 Tina Station Apt. 524,193,Savings Account,18 - 35,Tertiary and above,Permanent,4627,Stable,4,179487,Rented,1.0
+591,Mario Hammond,Female,04318 Gregory Fields,239,Savings Account,60 +,Highschool and below,Contract,4627,Unstable,8,2333,Rented,0.0
+592,Dennis Ortiz,Female,1633 Julia Village Apt. 772,223,Savings Account,36 - 59,Highschool and below,Contract,24001,Unstable,7,2789,Owned,1.0
+593,Guy Coleman,Male,39890 Smith Mountain,145,Savings Account,36 - 59,Tertiary and above,Permanent,4627,Unstable,3,179487,Rented,0.0
+594,Dr. Amanda Davis,Female,732 Jason Walks,222,Current Account,18 - 35,Tertiary and above,Permanent,4627,Stable,4,2333,Owned,1.0
+595,Brandon Gay,Female,4285 Susan Summit,239,Current Account,36 - 59,Tertiary and above,Contract,4627,Stable,4,179487,Owned,1.0
+596,Joseph Shelton,Female,0788 Rebecca Lodge,145,Current Account,36 - 59,Tertiary and above,Contract,886,Stable,10,2333,Rented,1.0
+597,Bonnie Sanchez,Female,4898 Michael Motorway,239,Current Account,36 - 59,Tertiary and above,Permanent,886,Unstable,2,2333,Rented,0.0
+598,Ethan Williams,Male,355 Flores Causeway,222,Current Account,18 - 35,Highschool and below,Permanent,24001,Stable,2,179487,Rented,0.0
+599,Peter Jackson,Female,315 April Mountains Suite 293,28,Current Account,36 - 59,Tertiary and above,Student,24001,Stable,0,2789,Rented,0.0
+600,Ryan Gaines,Male,5715 Diaz Stream,223,Savings Account,60 +,Tertiary and above,Contract,24001,Unstable,7,2789,Rented,1.0
+601,Joseph Henry,Male,95461 Mccormick Forest,156,Savings Account,36 - 59,Highschool and below,Student,24001,Stable,8,2789,Rented,1.0
+602,Marcus Valdez,Male,4505 Martin Flat Suite 377,239,Current Account,18 - 35,Tertiary and above,Student,886,Stable,10,2789,Owned,2.0
+603,Jeffrey Mcdonald,Female,50084 Ronald Ramp Suite 380,222,Savings Account,60 +,Tertiary and above,Contract,24001,Unstable,9,2789,Rented,1.0
+604,Andrea Ruiz,Male,807 Martin Fall,193,Current Account,36 - 59,Tertiary and above,Contract,4627,Stable,1,2333,Rented,0.0
+605,Reginald Adkins,Male,273 Miller Village,223,Current Account,36 - 59,Tertiary and above,Student,24001,Stable,2,2789,Owned,0.0
+606,Matthew Sanchez,Male,14002 Sanchez Mission Suite 642,239,Current Account,18 - 35,Highschool and below,Student,4627,Unstable,10,179487,Rented,1.0
+607,Tammy Johnson,Female,0772 Lee Highway,223,Savings Account,18 - 35,Tertiary and above,Permanent,886,Unstable,10,2333,Rented,1.0
+608,Lisa Porter,Male,418 Steven Burgs Apt. 110,239,Current Account,18 - 35,Tertiary and above,Student,886,Stable,10,2789,Owned,2.0
+609,Michael Johnson,Male,294 Ryan Avenue Suite 190,44,Current Account,18 - 35,Highschool and below,Contract,4627,Stable,9,2789,Owned,2.0
+610,Tina Anderson,Female,424 Warren Isle Apt. 812,222,Savings Account,36 - 59,Tertiary and above,Permanent,24001,Unstable,2,2789,Owned,0.0
+611,Shelly Baker,Male,8323 Dave Tunnel,156,Savings Account,60 +,Highschool and below,Permanent,4627,Stable,0,179487,Rented,0.0
+612,Russell Moreno,Male,00936 Daniel Ramp Apt. 727,28,Savings Account,36 - 59,Highschool and below,Student,886,Unstable,2,179487,Owned,0.0
+613,Paul Galloway,Male,4590 Scott Spring Apt. 629,239,Savings Account,60 +,Highschool and below,Contract,24001,Unstable,2,2789,Rented,0.0
+614,James Chan,Female,78315 Brent Forges,239,Savings Account,36 - 59,Highschool and below,Contract,4627,Unstable,6,2333,Owned,0.0
+615,James Taylor,Female,33887 Ramsey Lock Apt. 268,239,Savings Account,36 - 59,Tertiary and above,Student,4627,Unstable,0,179487,Owned,0.0
+616,Roger Black,Male,11027 Wagner Corners Suite 114,145,Savings Account,36 - 59,Tertiary and above,Student,4627,Unstable,4,2789,Owned,0.0
+617,Debra Fisher,Female,15304 Brandy Prairie,239,Savings Account,36 - 59,Tertiary and above,Permanent,24001,Unstable,7,2333,Owned,1.0
+618,Laura Hubbard,Male,371 Brittany Causeway Apt. 117,44,Current Account,36 - 59,Tertiary and above,Permanent,24001,Unstable,6,2333,Rented,1.0
+619,Thomas Bell,Male,049 James Bridge Suite 208,239,Savings Account,36 - 59,Highschool and below,Contract,886,Unstable,4,2789,Owned,0.0
+620,Gail Wong,Female,34638 Amanda Land Apt. 643,239,Current Account,60 +,Highschool and below,Permanent,886,Unstable,9,179487,Rented,1.0
+621,Sherry Schroeder,Female,7840 Timothy Ridge,239,Savings Account,18 - 35,Highschool and below,Student,4627,Stable,6,179487,Rented,1.0
+622,Denise Kramer,Female,541 Erin Street,44,Savings Account,60 +,Tertiary and above,Permanent,24001,Stable,4,2789,Owned,1.0
+623,Sabrina Miller,Female,39515 Nichols Valleys Suite 612,145,Savings Account,60 +,Highschool and below,Student,4627,Stable,1,2789,Owned,0.0
+624,Caleb Garcia Jr.,Male,2881 Baker Groves,222,Current Account,36 - 59,Highschool and below,Permanent,886,Stable,5,2333,Rented,0.0
+625,Zachary Harper,Female,71598 Jessica Rue Suite 932,239,Savings Account,18 - 35,Highschool and below,Student,24001,Stable,3,2333,Rented,0.0
+626,Kayla Camacho,Male,923 Greene Lakes,99,Savings Account,60 +,Highschool and below,Student,886,Stable,6,2789,Rented,0.0
+627,Denise Ballard,Female,6426 Gabriel Landing,239,Savings Account,60 +,Highschool and below,Permanent,24001,Stable,8,179487,Rented,1.0
+628,Adriana Dunn,Male,627 Patrick Avenue,156,Savings Account,36 - 59,Tertiary and above,Contract,4627,Stable,1,2789,Owned,0.0
+629,Julia Perez,Female,30280 Robert Meadows Apt. 541,223,Savings Account,60 +,Highschool and below,Permanent,4627,Stable,5,2789,Rented,0.0
+630,Patricia Erickson,Female,08324 Barbara Plains,239,Savings Account,18 - 35,Highschool and below,Contract,886,Stable,2,2789,Rented,0.0
+631,Lauren Brock,Male,8596 Michelle River Suite 925,28,Current Account,18 - 35,Tertiary and above,Student,24001,Stable,10,2789,Owned,2.0
+632,Jack Miller,Female,383 Kevin Plaza,156,Current Account,60 +,Highschool and below,Permanent,4627,Unstable,7,2333,Owned,0.0
+633,Ashley Smith,Female,6334 Michael Forges,239,Current Account,36 - 59,Highschool and below,Contract,4627,Unstable,10,2333,Owned,1.0
+634,Meghan Curtis,Male,00144 Christopher Pine,99,Savings Account,36 - 59,Tertiary and above,Contract,4627,Stable,0,179487,Rented,0.0
+635,Timothy Martinez,Male,500 Lopez Forks Apt. 053,239,Savings Account,18 - 35,Highschool and below,Permanent,24001,Stable,7,179487,Owned,2.0
+636,Carlos Henderson,Male,6410 Dunlap Pike,156,Current Account,18 - 35,Highschool and below,Contract,24001,Unstable,2,2789,Rented,0.0
+637,Daniel Roberts,Female,841 Harris Plaza,239,Savings Account,60 +,Highschool and below,Contract,886,Unstable,2,2333,Owned,0.0
+638,Allison Stewart,Female,325 Andrew Lodge,239,Current Account,18 - 35,Highschool and below,Permanent,24001,Unstable,2,179487,Owned,0.0
+639,Kyle Lewis,Female,2556 Blackwell Shoal Suite 627,239,Current Account,60 +,Tertiary and above,Permanent,886,Unstable,0,2789,Owned,0.0
+640,Dennis Williams,Male,7054 Andrew Greens Apt. 772,44,Current Account,36 - 59,Tertiary and above,Student,886,Unstable,5,179487,Rented,0.0
+641,Laura Macdonald,Female,6199 Brendan Shoal Apt. 035,239,Current Account,36 - 59,Highschool and below,Contract,886,Unstable,0,179487,Owned,0.0
+642,Taylor Bush,Female,27994 David Locks,239,Current Account,18 - 35,Tertiary and above,Permanent,886,Unstable,4,2789,Rented,0.0
+643,Mr. Joshua Bailey,Male,185 Lopez Station Suite 668,99,Current Account,36 - 59,Highschool and below,Contract,886,Unstable,4,2789,Owned,0.0
+644,Anna Snow,Male,326 Hannah Island,239,Savings Account,36 - 59,Tertiary and above,Student,886,Stable,5,2789,Owned,0.0
+645,Leonard Webb,Male,98039 Miller Glen,239,Savings Account,36 - 59,Tertiary and above,Student,4627,Unstable,7,2789,Rented,0.0
+646,Anthony White,Female,43391 Eaton Prairie,239,Savings Account,60 +,Tertiary and above,Student,886,Unstable,1,2333,Rented,0.0
+647,Jeff Robertson,Female,97363 Hebert Mount,145,Savings Account,36 - 59,Highschool and below,Student,886,Unstable,10,179487,Rented,1.0
+648,Cody Richardson,Male,524 Davis Overpass,239,Current Account,60 +,Tertiary and above,Student,4627,Unstable,6,2333,Rented,0.0
+649,Kimberly Owen,Female,66185 Rocha Harbor Suite 512,223,Savings Account,18 - 35,Highschool and below,Permanent,24001,Stable,8,2333,Rented,1.0
+650,Danielle Green,Male,5904 Amanda Mission Apt. 535,145,Current Account,60 +,Tertiary and above,Permanent,24001,Stable,5,2789,Owned,1.0
+651,Steven Baker,Female,1026 Daniel Stream Apt. 626,28,Current Account,36 - 59,Tertiary and above,Permanent,4627,Unstable,2,179487,Rented,0.0
+652,Darrell Jackson,Male,35879 Berg Inlet Apt. 987,223,Savings Account,18 - 35,Tertiary and above,Permanent,4627,Unstable,7,2789,Owned,1.0
+653,Robert Mathews,Male,4221 Timothy Knolls Apt. 162,156,Savings Account,18 - 35,Tertiary and above,Permanent,4627,Stable,7,179487,Owned,2.0
+654,Lisa Scott,Female,601 Hicks Mountains,239,Savings Account,18 - 35,Tertiary and above,Contract,4627,Stable,7,2333,Rented,1.0
+655,William Johnson Jr.,Male,7086 Newman Manor Suite 947,223,Current Account,36 - 59,Highschool and below,Permanent,886,Stable,3,2789,Rented,0.0
+656,Javier Shelton,Female,64236 Barry Plains,239,Current Account,18 - 35,Highschool and below,Permanent,4627,Stable,6,2333,Rented,1.0
+657,Elizabeth Martinez,Female,018 Morse Shoals Suite 140,145,Savings Account,18 - 35,Tertiary and above,Permanent,4627,Stable,6,179487,Rented,1.0
+658,David Brock,Male,92480 Johnson Neck Suite 152,239,Savings Account,60 +,Highschool and below,Contract,4627,Unstable,9,179487,Rented,1.0
+659,Robert Lewis,Male,3537 Dawson Road,239,Current Account,60 +,Highschool and below,Student,4627,Stable,9,2333,Rented,0.0
+660,Matthew Rose,Male,9154 Richard Rest,239,Savings Account,60 +,Tertiary and above,Contract,24001,Stable,4,2789,Rented,0.0
+661,Amber Weiss,Female,39538 Megan Forks,239,Savings Account,18 - 35,Highschool and below,Permanent,4627,Stable,9,2333,Rented,1.0
+662,Robert Jackson,Female,730 Melissa Station Apt. 333,193,Savings Account,18 - 35,Tertiary and above,Permanent,886,Stable,3,2333,Owned,0.0
+663,Charles Foster,Female,97948 Amy Crossing Suite 105,239,Savings Account,18 - 35,Highschool and below,Student,4627,Unstable,1,2789,Owned,0.0
+664,Debra Christian,Female,75944 Robert Coves,222,Savings Account,60 +,Highschool and below,Student,886,Unstable,10,2333,Owned,0.0
+665,Aaron Stevens,Female,074 Kathy Streets,145,Savings Account,18 - 35,Tertiary and above,Contract,886,Unstable,4,179487,Rented,0.0
+666,Haley Mccall,Male,41758 Young Mall Apt. 848,223,Current Account,60 +,Highschool and below,Permanent,886,Stable,7,179487,Owned,1.0
+667,Michael Wheeler,Female,955 Jackson Tunnel Apt. 561,193,Savings Account,60 +,Tertiary and above,Permanent,886,Stable,0,2333,Rented,0.0
+668,Rebecca Schmidt,Male,02003 Alexander Mall,239,Current Account,18 - 35,Tertiary and above,Student,24001,Stable,10,2333,Rented,2.0
+669,Jerome Alvarez,Male,527 Smith Squares,44,Current Account,18 - 35,Highschool and below,Contract,24001,Stable,7,2789,Rented,1.0
+670,Amy Clark,Male,8337 Ryan Views Suite 639,239,Current Account,18 - 35,Tertiary and above,Student,24001,Unstable,6,2789,Rented,1.0
+671,Alexandra Bryant,Male,4049 Jamie Underpass Apt. 275,44,Savings Account,36 - 59,Tertiary and above,Student,4627,Unstable,3,2333,Owned,0.0
+672,Richard Chambers,Female,721 Powell Row Apt. 869,44,Savings Account,18 - 35,Tertiary and above,Student,886,Unstable,5,179487,Rented,0.0
+673,Christian Williams,Male,6832 Sarah Way,239,Savings Account,18 - 35,Tertiary and above,Permanent,886,Stable,5,2789,Owned,1.0
+674,Pamela Scott,Female,809 Wood Mountains Apt. 263,239,Current Account,18 - 35,Highschool and below,Student,4627,Unstable,7,179487,Rented,1.0
+675,Stephen Henderson,Male,23648 Hoffman Roads,99,Savings Account,36 - 59,Highschool and below,Contract,886,Unstable,7,2789,Owned,0.0
+676,Katherine Navarro,Male,2358 Deborah Square Apt. 679,239,Current Account,36 - 59,Tertiary and above,Student,886,Stable,2,2333,Owned,0.0
+677,Lynn Thompson,Female,5408 Matthew Cliffs,44,Savings Account,60 +,Tertiary and above,Contract,4627,Stable,6,2789,Rented,0.0
+678,Kristine Young,Female,0947 Hernandez Gardens,239,Current Account,60 +,Tertiary and above,Contract,4627,Unstable,6,2789,Owned,0.0
+679,Megan Smith,Female,9040 Jared Point,222,Current Account,60 +,Highschool and below,Student,24001,Stable,2,2333,Rented,0.0
+680,Cassandra Dunlap,Female,9220 Jessica Viaduct,239,Current Account,36 - 59,Highschool and below,Contract,24001,Stable,9,2333,Owned,1.0
+681,Emma Valdez,Female,541 Chambers Lock,222,Savings Account,18 - 35,Highschool and below,Permanent,24001,Stable,5,2789,Owned,1.0
+682,Mrs. Kelly Johnson,Male,9176 Patricia Lodge,239,Current Account,36 - 59,Tertiary and above,Contract,4627,Unstable,10,2789,Rented,1.0
+683,Nancy Jenkins,Male,6562 Waters Ferry,239,Savings Account,36 - 59,Highschool and below,Permanent,24001,Unstable,7,2789,Owned,1.0
+684,Robert Pratt MD,Male,342 Jones Well,156,Savings Account,60 +,Tertiary and above,Student,4627,Unstable,10,2789,Rented,1.0
+685,Luke Hart,Male,8699 Johnson Village Apt. 062,223,Current Account,18 - 35,Tertiary and above,Contract,4627,Unstable,3,179487,Rented,0.0
+686,Nathan Powell,Female,39407 Kevin Fields,44,Current Account,36 - 59,Highschool and below,Permanent,4627,Unstable,3,2789,Owned,0.0
+687,Terri Martinez,Male,1971 Morales Dam Apt. 030,239,Savings Account,36 - 59,Tertiary and above,Contract,886,Stable,5,2789,Rented,0.0
+688,Russell Huynh,Female,63875 Ian Fork Apt. 012,239,Current Account,60 +,Tertiary and above,Student,4627,Stable,4,2333,Owned,0.0
+689,Hunter Davis,Male,0212 Susan Parkways Suite 795,99,Savings Account,18 - 35,Tertiary and above,Student,886,Stable,3,179487,Rented,0.0
+690,Sue Bailey,Male,4227 Joshua Groves,239,Savings Account,18 - 35,Tertiary and above,Student,886,Unstable,2,2333,Owned,0.0
+691,Kenneth Reyes,Male,12003 Velasquez Shoals Suite 488,99,Current Account,36 - 59,Highschool and below,Contract,4627,Unstable,3,2789,Owned,0.0
+692,Jennifer Weaver,Male,03759 Tina Dale Apt. 969,222,Current Account,36 - 59,Highschool and below,Contract,886,Unstable,5,2333,Owned,0.0
+693,Lori Jones,Female,00270 Deborah Curve Apt. 572,222,Current Account,36 - 59,Highschool and below,Student,4627,Stable,6,2333,Rented,0.0
+694,Gail Bryant,Female,75419 Paige Valley Suite 001,239,Savings Account,36 - 59,Tertiary and above,Student,886,Unstable,10,2333,Owned,1.0
+695,Ruth Guerrero,Female,36018 Julie Overpass Suite 756,222,Current Account,36 - 59,Highschool and below,Contract,24001,Unstable,10,179487,Owned,2.0
+696,Mrs. Kristy Myers,Male,411 Michael Rapids,222,Current Account,60 +,Highschool and below,Student,24001,Unstable,9,2333,Owned,1.0
+697,Crystal Jones,Female,5727 Walker Lane,156,Savings Account,36 - 59,Tertiary and above,Student,24001,Unstable,0,2789,Owned,0.0
+698,Chad Ramirez,Male,3385 Robert Wall Suite 403,222,Current Account,18 - 35,Highschool and below,Student,4627,Stable,0,179487,Owned,0.0
+699,Benjamin Carter,Female,41063 Price Ways,193,Current Account,60 +,Highschool and below,Permanent,886,Unstable,4,2789,Owned,0.0
+700,Elijah Liu,Female,95289 Lawson Burg Suite 314,239,Savings Account,60 +,Highschool and below,Student,886,Stable,4,2333,Rented,0.0
+701,Amy Allen,Female,421 Turner Ford Suite 566,239,Current Account,36 - 59,Tertiary and above,Contract,4627,Unstable,5,2789,Rented,0.0
+702,Theresa Nelson,Male,8446 Lynch Center,239,Current Account,18 - 35,Highschool and below,Permanent,24001,Stable,9,2789,Owned,2.0
+703,Bryan Johnson,Male,64435 Christopher Gardens,193,Current Account,60 +,Highschool and below,Contract,886,Unstable,10,2333,Owned,1.0
+704,Tiffany Perkins,Female,90516 Mcneil Plaza,145,Savings Account,60 +,Tertiary and above,Contract,886,Stable,7,2333,Owned,0.0
+705,Lee Mason,Male,865 Jennifer Center,193,Savings Account,36 - 59,Highschool and below,Permanent,886,Stable,5,179487,Owned,1.0
+706,John Lee,Female,4738 Cynthia Mountains,145,Current Account,60 +,Tertiary and above,Contract,886,Unstable,7,2789,Owned,0.0
+707,Gerald Wall,Male,744 Vanessa Garden,222,Savings Account,36 - 59,Tertiary and above,Contract,24001,Stable,4,2333,Owned,0.0
+708,Tina Butler,Female,5086 Melton Station,239,Savings Account,60 +,Highschool and below,Permanent,886,Unstable,9,179487,Rented,1.0
+709,Christopher Garrett,Female,479 Kenneth Prairie Suite 424,239,Savings Account,60 +,Tertiary and above,Permanent,4627,Unstable,2,2789,Rented,0.0
+710,Juan Solomon,Female,78959 Wade Harbors Apt. 847,239,Savings Account,18 - 35,Highschool and below,Contract,886,Unstable,5,2333,Rented,0.0
+711,Nicholas Brown,Male,15540 Pamela Valleys Apt. 877,239,Savings Account,18 - 35,Tertiary and above,Permanent,886,Unstable,3,179487,Rented,0.0
+712,Xavier Jones,Female,461 Weber Locks,239,Savings Account,60 +,Highschool and below,Contract,886,Stable,7,2333,Rented,0.0
+713,Ruth Schultz,Male,515 Tran Divide,145,Current Account,36 - 59,Highschool and below,Contract,4627,Stable,0,2333,Owned,0.0
+714,Kimberly James,Male,6895 Webster Mall Apt. 704,239,Current Account,60 +,Highschool and below,Permanent,4627,Stable,10,2333,Rented,1.0
+715,Scott Robinson,Female,6754 Manning Extension Apt. 137,145,Savings Account,18 - 35,Highschool and below,Contract,24001,Unstable,0,2333,Rented,0.0
+716,Corey Paul,Male,084 Green Terrace,156,Savings Account,36 - 59,Highschool and below,Contract,24001,Unstable,7,179487,Owned,1.0
+717,Ruth Spears,Female,45262 Juan Hollow Suite 806,44,Savings Account,18 - 35,Tertiary and above,Permanent,4627,Unstable,3,2789,Rented,0.0
+718,Timothy Martin,Female,1194 Stevens Skyway,156,Current Account,36 - 59,Highschool and below,Student,4627,Stable,0,2789,Rented,0.0
+719,Antonio King,Male,9207 Eric View Apt. 011,28,Current Account,36 - 59,Tertiary and above,Contract,24001,Unstable,9,179487,Owned,2.0
+720,Christopher Ruiz,Female,44003 Rebecca Via,145,Current Account,60 +,Tertiary and above,Contract,24001,Stable,0,2789,Owned,0.0
+721,Curtis Murphy,Female,613 Logan Street Apt. 652,44,Current Account,36 - 59,Tertiary and above,Student,4627,Unstable,1,2333,Rented,0.0
+722,Lee Brown,Female,874 Sharp Passage,239,Current Account,60 +,Tertiary and above,Contract,24001,Unstable,10,2789,Rented,1.0
+723,Jessica Barker,Male,66719 Taylor Camp,156,Savings Account,18 - 35,Highschool and below,Permanent,4627,Stable,7,179487,Owned,2.0
+724,Erica Washington,Male,252 Porter Route,222,Savings Account,36 - 59,Highschool and below,Contract,4627,Stable,10,179487,Rented,2.0
+725,John Jennings,Female,9117 Moore Mill Suite 162,193,Current Account,36 - 59,Tertiary and above,Student,24001,Stable,6,179487,Owned,1.0
+726,David Shields,Female,32996 Robert Divide,223,Current Account,18 - 35,Tertiary and above,Permanent,4627,Unstable,3,2333,Rented,0.0
+727,Leah Elliott,Male,264 Joseph Crest,239,Savings Account,60 +,Tertiary and above,Student,886,Unstable,6,179487,Owned,0.0
+728,Daniel Fox MD,Female,1582 Kathy Roads Apt. 785,239,Savings Account,60 +,Tertiary and above,Contract,886,Stable,10,2789,Rented,1.0
+729,Maria Fernandez,Female,5989 Sophia Points,239,Savings Account,60 +,Highschool and below,Permanent,886,Unstable,10,179487,Owned,1.0
+730,Michele Grant,Female,74438 Melissa Isle Apt. 280,239,Savings Account,36 - 59,Highschool and below,Contract,886,Unstable,4,2789,Rented,0.0
+731,Karen Anderson,Male,5449 Hicks Fields Suite 621,28,Current Account,18 - 35,Tertiary and above,Student,4627,Stable,3,2789,Owned,0.0
+732,Bob Miller,Female,4244 Kim Unions Apt. 534,239,Current Account,60 +,Highschool and below,Permanent,886,Stable,10,179487,Owned,2.0
+733,Dillon Harris,Female,0743 Henry Mall Suite 253,239,Current Account,18 - 35,Highschool and below,Permanent,886,Unstable,9,179487,Owned,2.0
+734,Pamela May,Male,13847 Martin Forest Suite 619,239,Savings Account,18 - 35,Highschool and below,Student,886,Unstable,10,2333,Rented,1.0
+735,Christopher Lane,Male,99850 Nicole Lane,239,Savings Account,36 - 59,Highschool and below,Permanent,24001,Unstable,7,2333,Rented,1.0
+736,John Espinoza,Male,1325 Shawn Row Suite 640,156,Current Account,36 - 59,Tertiary and above,Permanent,4627,Unstable,1,179487,Owned,0.0
+737,Jacqueline Hanna,Female,1238 Teresa Glens Suite 441,239,Savings Account,18 - 35,Highschool and below,Permanent,4627,Stable,9,2789,Rented,2.0
+738,Tyler Moore,Male,38032 Smith Plaza,156,Current Account,18 - 35,Highschool and below,Contract,24001,Unstable,2,2333,Owned,0.0
+739,Haley Sexton,Female,4608 Woods Terrace Suite 037,193,Savings Account,60 +,Tertiary and above,Permanent,24001,Stable,4,2333,Owned,0.0
+740,Kim Stewart,Female,8711 Williams Route,239,Savings Account,36 - 59,Tertiary and above,Student,24001,Stable,9,2333,Rented,1.0
+741,Marissa Mccarty,Female,687 Jacob Square,222,Current Account,36 - 59,Tertiary and above,Student,24001,Unstable,10,179487,Owned,2.0
+742,Jon Fuentes,Female,4301 Julie Club Apt. 422,44,Current Account,60 +,Highschool and below,Contract,24001,Unstable,9,179487,Rented,1.0
+743,Cynthia Gibbs,Female,708 Barrera Throughway Suite 792,99,Current Account,18 - 35,Tertiary and above,Permanent,4627,Unstable,5,2333,Owned,1.0
+744,Amanda Guerrero,Male,19309 Ray Forks,239,Savings Account,36 - 59,Highschool and below,Permanent,886,Unstable,5,2333,Rented,0.0
+745,Daniel Rocha,Male,859 Ashley Loop,156,Savings Account,18 - 35,Tertiary and above,Permanent,886,Stable,1,179487,Owned,0.0
+746,Jessica Smith,Male,1009 Heath Tunnel,239,Current Account,18 - 35,Highschool and below,Contract,24001,Unstable,3,179487,Owned,0.0
+747,Kevin Forbes,Male,703 Jennings Shoal Suite 903,239,Savings Account,60 +,Tertiary and above,Permanent,886,Unstable,0,2789,Rented,0.0
+748,Madeline Williams,Female,51240 Williams Extension,239,Current Account,36 - 59,Highschool and below,Student,4627,Unstable,1,2333,Owned,0.0
+749,Brian Williams,Female,7391 Mccormick Bridge Apt. 598,239,Current Account,36 - 59,Tertiary and above,Permanent,24001,Unstable,2,179487,Owned,0.0
+750,Taylor Tran,Female,4848 Hays Fall,239,Savings Account,18 - 35,Highschool and below,Student,24001,Unstable,3,2789,Owned,0.0
+751,Alejandro Jenkins,Male,32785 Elliott Forest Suite 795,239,Current Account,36 - 59,Highschool and below,Contract,4627,Stable,7,2789,Rented,1.0
+752,Stephanie Green,Female,87482 Rick Lane,239,Savings Account,36 - 59,Tertiary and above,Student,886,Stable,6,2789,Rented,0.0
+753,Douglas Perez,Female,98086 Reid Well Apt. 312,239,Current Account,36 - 59,Highschool and below,Contract,886,Unstable,8,179487,Rented,1.0
+754,Mark Smith,Male,8744 Kara Ports Apt. 538,99,Current Account,18 - 35,Tertiary and above,Permanent,24001,Unstable,2,2789,Rented,0.0
+755,Michael Wiggins Jr.,Male,8782 Bowman Shores,99,Current Account,36 - 59,Tertiary and above,Permanent,4627,Unstable,0,2333,Rented,0.0
+756,Evelyn Ryan,Female,422 Baker Ports,156,Savings Account,18 - 35,Highschool and below,Student,24001,Stable,4,179487,Rented,0.0
+757,Crystal Estrada,Female,18987 Beth Cape Suite 340,239,Savings Account,18 - 35,Highschool and below,Contract,4627,Unstable,6,2333,Rented,0.0
+758,Hannah Hahn,Male,8821 Nathan Street Suite 975,239,Savings Account,18 - 35,Highschool and below,Student,886,Unstable,7,2789,Rented,0.0
+759,Garrett Buchanan,Male,682 Smith Gateway Suite 912,99,Current Account,36 - 59,Highschool and below,Contract,4627,Unstable,8,2789,Rented,1.0
+760,Christina Clarke,Female,734 James Cove Apt. 967,99,Savings Account,60 +,Tertiary and above,Permanent,886,Stable,9,2789,Rented,1.0
+761,Evan Nichols,Female,57384 Johnson Knoll,239,Current Account,60 +,Highschool and below,Contract,886,Unstable,2,179487,Owned,0.0
+762,James Aguirre,Female,617 Thomas Fork Suite 337,239,Current Account,18 - 35,Tertiary and above,Permanent,886,Unstable,10,2789,Rented,2.0
+763,Stephanie Lewis,Female,57691 Candice Turnpike Apt. 235,28,Current Account,60 +,Tertiary and above,Permanent,4627,Unstable,4,2333,Rented,0.0
+764,Gregory Perry,Female,6247 Jason Fords Apt. 137,239,Current Account,60 +,Tertiary and above,Student,24001,Unstable,10,2789,Rented,1.0
+765,Joe Martin,Male,4606 Calderon Park,223,Savings Account,60 +,Tertiary and above,Student,4627,Unstable,5,179487,Owned,0.0
+766,Nicole Richards,Female,60376 Ryan Fields,239,Savings Account,18 - 35,Tertiary and above,Permanent,24001,Unstable,2,179487,Owned,1.0
+767,Mary Robinson,Female,41360 Anderson Harbor,239,Current Account,60 +,Highschool and below,Permanent,886,Unstable,8,2789,Rented,0.0
+768,Brandon Ray,Male,361 Cobb Points Apt. 547,223,Current Account,60 +,Tertiary and above,Student,4627,Stable,10,2333,Rented,1.0
+769,Summer Simon,Female,45498 Pamela Trail Apt. 114,239,Savings Account,60 +,Highschool and below,Contract,24001,Unstable,1,179487,Rented,0.0
+770,Lisa Mcmahon,Male,4060 Dawn Course Apt. 298,239,Savings Account,18 - 35,Highschool and below,Student,24001,Unstable,2,179487,Owned,0.0
+771,Luke Thompson,Male,848 Stephanie Center,223,Savings Account,60 +,Tertiary and above,Contract,4627,Stable,5,2333,Rented,0.0
+772,Jennifer Wright,Male,8676 Mcpherson Corner,28,Current Account,60 +,Tertiary and above,Permanent,886,Stable,1,2333,Rented,0.0
+773,Nicole Porter,Male,274 Hayes Road Apt. 850,99,Savings Account,36 - 59,Highschool and below,Student,24001,Stable,9,2789,Rented,1.0
+774,Tyler Hernandez,Female,045 Natalie Trail Apt. 832,239,Savings Account,18 - 35,Tertiary and above,Contract,4627,Stable,9,179487,Rented,2.0
+775,Dr. Dana Rodgers MD,Female,8817 Carolyn Cliff Apt. 934,239,Current Account,60 +,Highschool and below,Permanent,24001,Unstable,2,2789,Owned,0.0
+776,Charles Cole,Male,1599 Jose Plaza,222,Savings Account,18 - 35,Tertiary and above,Permanent,4627,Unstable,3,2789,Rented,0.0
+777,Carla Herrera,Male,6013 Horton Wells Apt. 242,239,Current Account,36 - 59,Highschool and below,Contract,886,Unstable,8,2333,Rented,0.0
+778,Brent Logan,Female,638 William Mount Suite 333,239,Current Account,60 +,Tertiary and above,Permanent,24001,Stable,9,2333,Rented,1.0
+779,Charles Davis,Male,3139 Ortega Locks,239,Current Account,60 +,Highschool and below,Contract,4627,Unstable,4,179487,Rented,0.0
+780,Deborah Alexander,Female,0810 Burns Club,28,Current Account,60 +,Highschool and below,Contract,4627,Stable,2,2333,Owned,0.0
+781,Sean Brewer,Male,738 Anthony Summit Apt. 913,193,Current Account,36 - 59,Highschool and below,Student,24001,Unstable,6,2333,Rented,0.0
+782,Allison Jackson,Female,8467 Griffin Bridge Suite 970,44,Current Account,18 - 35,Tertiary and above,Contract,24001,Stable,6,2333,Rented,1.0
+783,Diane Williams,Female,93350 Brittany Motorway Apt. 495,156,Current Account,18 - 35,Highschool and below,Contract,24001,Stable,7,179487,Owned,2.0
+784,Tonya Smith,Female,568 Lauren Dam Suite 099,239,Savings Account,36 - 59,Highschool and below,Permanent,4627,Stable,2,2333,Owned,0.0
+785,Barry Pierce,Female,536 Oliver Club,239,Current Account,60 +,Highschool and below,Contract,24001,Stable,9,2333,Rented,1.0
+786,Alyssa Rodriguez,Female,49794 James Street,145,Current Account,60 +,Tertiary and above,Student,24001,Stable,3,2789,Owned,0.0
+787,Thomas King,Male,26596 Stewart Forge Apt. 912,222,Savings Account,36 - 59,Tertiary and above,Student,4627,Unstable,3,2333,Owned,0.0
+788,Loretta Young,Male,9814 Allison Lights Suite 002,28,Savings Account,18 - 35,Highschool and below,Contract,4627,Unstable,10,2789,Rented,1.0
+789,Diane Burns,Male,95743 Henderson Dam,44,Savings Account,60 +,Highschool and below,Permanent,4627,Unstable,8,179487,Rented,1.0
+790,Richard Thompson,Female,514 Amanda Pine,44,Current Account,36 - 59,Tertiary and above,Permanent,24001,Unstable,5,2333,Owned,1.0
+791,Jerry Campos,Male,914 Devin Passage Suite 275,145,Current Account,18 - 35,Tertiary and above,Contract,4627,Unstable,3,2333,Owned,0.0
+792,Johnathan Armstrong,Female,845 Wilson Ports,156,Current Account,36 - 59,Tertiary and above,Student,886,Unstable,2,2789,Rented,0.0
+793,Jesse Hill,Female,102 Willie Squares Apt. 474,99,Current Account,18 - 35,Tertiary and above,Permanent,24001,Unstable,10,2333,Rented,2.0
+794,Kelsey Blair,Male,331 Page Motorway,239,Savings Account,36 - 59,Highschool and below,Student,886,Stable,7,179487,Owned,1.0
+795,Jeffery Flores,Male,90724 Moss Walks,239,Savings Account,60 +,Highschool and below,Permanent,4627,Stable,4,2789,Owned,0.0
+796,Lori Williams,Female,1605 Derek Causeway,223,Current Account,36 - 59,Tertiary and above,Contract,886,Unstable,0,179487,Owned,0.0
+797,Nicholas Nichols,Male,277 Cooper Forest Suite 781,156,Savings Account,36 - 59,Highschool and below,Contract,886,Stable,6,2789,Rented,0.0
+798,Eric Scott,Female,511 John Burgs,223,Current Account,18 - 35,Tertiary and above,Student,886,Unstable,9,2333,Rented,1.0
+799,Shannon Blankenship,Male,005 Pamela Wall,44,Current Account,18 - 35,Highschool and below,Student,4627,Stable,9,2789,Rented,1.0
+800,Julia Cabrera,Female,447 Carter Ville,222,Savings Account,60 +,Tertiary and above,Student,4627,Stable,9,2789,Owned,1.0
+801,Lisa Morris,Female,097 Oliver Summit,44,Savings Account,18 - 35,Highschool and below,Contract,886,Stable,8,179487,Owned,1.0
+802,Jennifer Powell,Male,1313 Gonzalez Village Apt. 585,28,Current Account,18 - 35,Tertiary and above,Contract,24001,Stable,9,2333,Rented,2.0
+803,Laurie Henson,Male,7822 Mark Underpass,156,Savings Account,36 - 59,Tertiary and above,Permanent,4627,Unstable,10,2333,Owned,2.0
+804,Stephen Berg,Male,46555 Hannah Mountains Suite 977,239,Current Account,36 - 59,Highschool and below,Permanent,24001,Unstable,9,2333,Rented,1.0
+805,Sabrina Thompson,Female,264 Martin Cliffs,239,Savings Account,18 - 35,Highschool and below,Permanent,4627,Unstable,5,2333,Owned,0.0
+806,Matthew Reid,Female,97778 Kaitlyn Isle Suite 174,223,Savings Account,36 - 59,Highschool and below,Contract,24001,Unstable,0,179487,Owned,0.0
+807,William Black,Female,78242 Obrien Mount,239,Current Account,18 - 35,Highschool and below,Student,4627,Stable,3,2333,Owned,0.0
+808,Victor Chandler,Female,195 Jeremy Court Apt. 802,28,Savings Account,60 +,Tertiary and above,Permanent,24001,Unstable,9,179487,Rented,2.0
+809,Joshua Sanchez,Female,63897 Tammie Vista Suite 974,222,Savings Account,18 - 35,Tertiary and above,Contract,24001,Unstable,6,2789,Owned,1.0
+810,Nicole Pena,Female,8464 Marie Lane Suite 991,193,Savings Account,18 - 35,Highschool and below,Permanent,886,Unstable,1,2333,Rented,0.0
+811,Bradley Cortez,Male,082 Rachael Spurs,239,Current Account,60 +,Tertiary and above,Contract,24001,Unstable,6,2789,Rented,0.0
+812,Lori Martinez,Female,7448 Ashley Ridge Suite 549,239,Savings Account,60 +,Highschool and below,Contract,886,Stable,3,2789,Owned,0.0
+813,Crystal Taylor,Male,626 Kevin Rest,239,Savings Account,60 +,Highschool and below,Permanent,4627,Stable,0,179487,Rented,0.0
+814,Diane Lucas,Male,899 Morgan Path Suite 885,239,Current Account,36 - 59,Highschool and below,Contract,24001,Stable,1,179487,Rented,0.0
+815,Matthew Prince Jr.,Female,1719 Hernandez Dale Suite 026,239,Savings Account,60 +,Highschool and below,Contract,4627,Unstable,1,2789,Rented,0.0
+816,Clinton Cortez,Female,06402 Jones Passage Suite 799,28,Current Account,18 - 35,Highschool and below,Contract,886,Stable,0,2789,Owned,0.0
+817,Lisa Bullock,Male,486 Margaret Forks Suite 033,99,Current Account,36 - 59,Tertiary and above,Contract,24001,Stable,3,179487,Rented,0.0
+818,Emily Stevens,Male,71621 Williams Ferry,239,Current Account,60 +,Tertiary and above,Permanent,886,Stable,6,2333,Owned,0.0
+819,James Hopkins,Female,0625 Victoria Court,239,Current Account,36 - 59,Tertiary and above,Permanent,4627,Stable,0,2333,Owned,0.0
+820,David Thompson,Male,5953 Karl Springs,44,Savings Account,60 +,Tertiary and above,Contract,886,Stable,8,2789,Owned,1.0
+821,Andrew Randolph,Female,38504 Kelly Brook,145,Current Account,36 - 59,Tertiary and above,Permanent,886,Unstable,2,2333,Rented,0.0
+822,Clinton Martin,Female,1955 Mckee Orchard Suite 868,239,Current Account,36 - 59,Tertiary and above,Student,886,Unstable,4,2789,Rented,0.0
+823,David Finley,Female,75722 Adrian Islands,239,Current Account,36 - 59,Highschool and below,Permanent,4627,Stable,3,2789,Owned,0.0
+824,Michael Stout,Female,436 David Mission Apt. 972,28,Savings Account,18 - 35,Highschool and below,Permanent,24001,Stable,2,179487,Rented,0.0
+825,Jeffrey Harper,Male,76883 Desiree Points Apt. 767,239,Current Account,18 - 35,Highschool and below,Contract,24001,Unstable,8,179487,Rented,1.0
+826,Julie Camacho,Female,25045 Gregory Fall Suite 457,145,Current Account,36 - 59,Tertiary and above,Contract,886,Stable,3,179487,Rented,0.0
+827,Joel Porter,Male,94992 Terry Green Apt. 832,239,Current Account,60 +,Highschool and below,Permanent,4627,Stable,2,2789,Owned,0.0
+828,Barbara Pierce,Female,8901 Huang Squares,28,Savings Account,60 +,Tertiary and above,Student,4627,Unstable,3,2333,Owned,0.0
+829,Elizabeth Campbell,Female,713 Callahan Lodge,239,Current Account,36 - 59,Tertiary and above,Student,24001,Unstable,3,2333,Rented,0.0
+830,Richard Smith,Female,27118 Jenkins Extension Suite 349,239,Current Account,36 - 59,Highschool and below,Contract,886,Unstable,4,179487,Rented,0.0
+831,Christine Curtis,Male,1282 Michael Unions Suite 602,223,Savings Account,18 - 35,Highschool and below,Contract,886,Unstable,10,179487,Owned,2.0
+832,Jason Henry,Male,59181 Judith Falls Suite 595,222,Savings Account,36 - 59,Highschool and below,Permanent,4627,Unstable,6,2333,Owned,0.0
+833,Anna Torres,Male,314 Lisa Crossroad Suite 599,239,Savings Account,60 +,Tertiary and above,Contract,4627,Unstable,9,2789,Rented,1.0
+834,Kevin Patton,Female,8135 Ariana Forge,44,Savings Account,36 - 59,Tertiary and above,Student,886,Unstable,4,2789,Rented,0.0
+835,Justin Wright,Female,10385 Hayes River,239,Savings Account,36 - 59,Highschool and below,Student,4627,Unstable,1,2789,Rented,0.0
+836,Denise Smith,Female,5275 Charles Fort,223,Current Account,60 +,Highschool and below,Permanent,4627,Stable,0,2333,Rented,0.0
+837,Felicia Martinez,Male,279 Bernard Forges Suite 378,239,Savings Account,18 - 35,Highschool and below,Contract,4627,Unstable,1,2333,Owned,0.0
+838,Tammy Simpson,Male,4060 Nicole Court,239,Savings Account,36 - 59,Tertiary and above,Student,4627,Unstable,9,179487,Rented,1.0
+839,Crystal Wood,Male,76254 Ryan Square,223,Savings Account,18 - 35,Tertiary and above,Student,4627,Stable,6,2789,Owned,1.0
+840,Christopher Phillips,Male,562 Anthony Square,239,Current Account,36 - 59,Highschool and below,Student,886,Stable,6,179487,Rented,0.0
+841,Jessica Campbell,Female,0179 Ricardo Mountains Apt. 270,239,Current Account,36 - 59,Highschool and below,Contract,4627,Stable,5,2333,Owned,0.0
+842,Andrew Schaefer,Male,8478 Scott Motorway,239,Current Account,36 - 59,Highschool and below,Student,4627,Stable,10,179487,Rented,1.0
+843,Marissa Perry,Male,987 Michael Crescent,239,Savings Account,36 - 59,Tertiary and above,Permanent,4627,Stable,1,179487,Owned,0.0
+844,Ashley Russell,Female,55475 Amanda Green Apt. 964,239,Current Account,60 +,Highschool and below,Contract,886,Stable,7,179487,Rented,0.0
+845,Phillip West,Male,183 Espinoza Flats Suite 399,193,Current Account,60 +,Tertiary and above,Contract,886,Stable,3,2789,Owned,0.0
+846,Brittany Anderson,Male,089 Christopher Junction,156,Current Account,36 - 59,Tertiary and above,Contract,24001,Stable,1,2789,Rented,0.0
+847,Scott Martinez,Male,621 Carla Plaza Suite 417,239,Current Account,36 - 59,Highschool and below,Permanent,24001,Unstable,6,2333,Owned,1.0
+848,Nicholas Hernandez,Female,11074 Emily Cliff Suite 220,28,Savings Account,18 - 35,Highschool and below,Contract,886,Unstable,9,2333,Owned,1.0
+849,Marissa Johnson,Female,78330 Vasquez Course,239,Savings Account,36 - 59,Highschool and below,Student,4627,Stable,8,179487,Owned,1.0
+850,Brenda Hardy,Female,4574 Beth Parks,44,Current Account,18 - 35,Tertiary and above,Contract,24001,Stable,0,2789,Owned,0.0
+851,Bill Schneider,Male,59022 Dalton Tunnel,99,Current Account,36 - 59,Tertiary and above,Permanent,24001,Unstable,2,179487,Rented,0.0
+852,Alexandra Russell,Male,092 Thompson Mills,239,Current Account,36 - 59,Highschool and below,Permanent,24001,Stable,10,179487,Rented,2.0
+853,Sheila Simpson,Male,2901 Ritter Extension Suite 675,99,Current Account,36 - 59,Tertiary and above,Permanent,24001,Unstable,8,2333,Rented,1.0
+854,Amanda Mills,Female,03651 Smith Locks,28,Savings Account,60 +,Highschool and below,Student,4627,Unstable,7,2333,Rented,0.0
+855,Grant Luna,Female,0298 Lisa Haven,156,Savings Account,60 +,Highschool and below,Student,24001,Unstable,7,2333,Rented,0.0
+856,Ashley Thomas,Female,05225 Andrew Ramp,239,Current Account,18 - 35,Highschool and below,Permanent,24001,Stable,9,2789,Rented,2.0
+857,Maxwell Bond,Male,882 Brown Throughway,239,Savings Account,18 - 35,Highschool and below,Student,24001,Unstable,1,179487,Rented,0.0
+858,Matthew Sherman,Male,076 Shelby Brooks Suite 750,193,Current Account,18 - 35,Highschool and below,Contract,24001,Unstable,5,179487,Owned,1.0
+859,Jasmine Jackson,Male,6502 Douglas Prairie Apt. 486,239,Savings Account,18 - 35,Highschool and below,Contract,886,Stable,0,2789,Rented,0.0
+860,Amanda Cunningham,Female,017 Johnson Lane,99,Savings Account,36 - 59,Tertiary and above,Permanent,24001,Unstable,9,2789,Owned,2.0
+861,Lee Duran,Male,93074 Hill Station,239,Savings Account,36 - 59,Highschool and below,Permanent,886,Unstable,7,2789,Rented,0.0
+862,Brian Hansen,Female,5709 Gonzalez Port,239,Current Account,60 +,Highschool and below,Contract,886,Unstable,6,179487,Rented,0.0
+863,Dennis Colon,Male,58136 Lisa Plaza Suite 620,239,Savings Account,60 +,Highschool and below,Permanent,886,Unstable,4,2789,Rented,0.0
+864,Kevin Bean,Female,4210 Dixon Club,239,Current Account,60 +,Tertiary and above,Student,4627,Stable,2,2333,Rented,0.0
+865,Joseph Hudson,Female,63382 Forbes Lakes,239,Savings Account,36 - 59,Tertiary and above,Contract,24001,Unstable,3,179487,Rented,0.0
+866,Megan Lopez,Female,96922 Sherry Well,44,Current Account,36 - 59,Tertiary and above,Contract,886,Unstable,2,2789,Owned,0.0
+867,Jamie Haas,Male,0707 Andrew Shores,193,Current Account,18 - 35,Tertiary and above,Contract,24001,Unstable,3,2789,Rented,0.0
+868,Jessica Murphy,Female,049 James Place,156,Current Account,18 - 35,Tertiary and above,Permanent,4627,Unstable,4,2333,Rented,0.0
+869,Alexander Levy,Male,665 Olson Spurs,239,Savings Account,18 - 35,Tertiary and above,Contract,24001,Unstable,10,2789,Rented,2.0
+870,Dr. Travis Patterson DDS,Female,7820 Bradley Walks Apt. 006,239,Savings Account,18 - 35,Highschool and below,Student,4627,Stable,2,2789,Owned,0.0
+871,Alexis Moore,Female,56948 Brian Mill Apt. 543,239,Savings Account,36 - 59,Highschool and below,Student,4627,Stable,2,2789,Owned,0.0
+872,Valerie Nelson,Female,6585 Landry Meadow,145,Savings Account,60 +,Highschool and below,Permanent,886,Stable,4,2333,Rented,0.0
+873,Steven Jones,Male,08186 Matthew River Apt. 372,193,Savings Account,36 - 59,Highschool and below,Permanent,4627,Stable,8,2789,Owned,1.0
+874,Laura Martinez,Male,09305 Richard Hill,239,Current Account,60 +,Highschool and below,Student,886,Stable,9,2333,Rented,0.0
+875,Jennifer Brewer,Female,8406 Marissa Ferry Suite 746,28,Savings Account,36 - 59,Highschool and below,Student,4627,Unstable,5,179487,Owned,0.0
+876,Ronald Howell,Female,77163 James Neck Apt. 866,239,Savings Account,60 +,Tertiary and above,Student,24001,Stable,3,179487,Owned,0.0
+877,Benjamin Roberts,Female,30309 Debra Fort,222,Current Account,36 - 59,Highschool and below,Student,4627,Stable,10,2789,Rented,1.0
+878,Matthew Davis,Male,72372 James Mountains Suite 414,223,Current Account,60 +,Highschool and below,Student,4627,Stable,4,2789,Rented,0.0
+879,Michael Bennett,Female,7017 Alvarez Mall,239,Current Account,36 - 59,Tertiary and above,Contract,24001,Unstable,7,2333,Owned,1.0
+880,James Hunter,Female,408 Megan Isle Apt. 778,223,Savings Account,60 +,Highschool and below,Student,886,Stable,4,2789,Owned,0.0
+881,Janet Dougherty,Male,5484 Meghan Isle Suite 636,239,Current Account,60 +,Highschool and below,Student,4627,Stable,10,179487,Owned,1.0
+882,Linda Osborne,Male,67954 Jennifer Corner Apt. 044,156,Current Account,18 - 35,Tertiary and above,Contract,4627,Unstable,4,2333,Owned,0.0
+883,Nicholas Grimes,Male,11823 Maureen Cliff Apt. 482,156,Current Account,18 - 35,Tertiary and above,Permanent,886,Stable,10,179487,Owned,2.0
+884,John Robinson,Female,3686 Stacey Light,99,Current Account,18 - 35,Tertiary and above,Contract,886,Unstable,5,2333,Owned,0.0
+885,Kyle Lang,Female,09880 Bradford Lodge,239,Savings Account,18 - 35,Tertiary and above,Permanent,24001,Stable,0,2789,Rented,0.0
+886,David Shaffer,Male,8902 Mark Forge,28,Current Account,36 - 59,Highschool and below,Student,4627,Unstable,6,2333,Rented,0.0
+887,Penny Ryan,Male,2549 Douglas Glen,223,Current Account,60 +,Tertiary and above,Student,24001,Unstable,1,179487,Owned,0.0
+888,Stephanie Bryant,Male,9765 Harrington Knoll Apt. 105,44,Current Account,36 - 59,Tertiary and above,Student,4627,Unstable,3,2789,Owned,0.0
+889,Amanda Moore,Male,06061 Robin Alley,156,Savings Account,18 - 35,Tertiary and above,Contract,886,Unstable,2,2333,Owned,0.0
+890,Robert Reed,Male,6217 Amy Via Apt. 044,239,Savings Account,18 - 35,Highschool and below,Student,4627,Stable,2,179487,Rented,0.0
+891,Andrew Mendez,Female,041 Gary Flat Suite 664,156,Current Account,36 - 59,Highschool and below,Permanent,24001,Stable,10,179487,Rented,2.0
+892,Charles Watts,Female,08024 Green Garden,44,Current Account,60 +,Highschool and below,Student,24001,Stable,5,2789,Rented,0.0
+893,Debbie Hernandez,Male,739 Carpenter Squares,223,Savings Account,36 - 59,Highschool and below,Contract,24001,Unstable,0,2333,Owned,0.0
+894,Aaron Ortega,Female,0220 Jonathan Village,28,Current Account,36 - 59,Highschool and below,Permanent,4627,Stable,5,2333,Owned,0.0
+895,Thomas Lambert,Male,5577 Emily Shore Apt. 483,239,Savings Account,36 - 59,Tertiary and above,Permanent,4627,Stable,5,179487,Owned,1.0
+896,Samuel Mcdonald,Male,5081 Brown Shoal,44,Savings Account,36 - 59,Highschool and below,Contract,886,Stable,0,2789,Rented,0.0
+897,Christopher Cross,Female,3473 Sabrina Port,193,Savings Account,18 - 35,Tertiary and above,Student,24001,Unstable,8,2333,Rented,1.0
+898,Keith Harris,Male,92381 Lee Crossroad,239,Current Account,18 - 35,Highschool and below,Contract,4627,Unstable,3,179487,Rented,0.0
+899,Barbara Robinson,Female,368 Ralph Port,28,Savings Account,18 - 35,Highschool and below,Contract,886,Stable,2,2789,Owned,0.0
+900,Seth Becker,Male,63130 Hayes Branch Apt. 803,28,Current Account,18 - 35,Highschool and below,Contract,4627,Unstable,7,179487,Rented,1.0
+901,Michael Rodriguez,Female,332 Lin Corner,222,Savings Account,60 +,Tertiary and above,Permanent,4627,Unstable,0,2789,Rented,0.0
+902,Brenda Davis,Female,3691 Moran Orchard Suite 828,145,Current Account,36 - 59,Highschool and below,Student,24001,Unstable,4,179487,Rented,0.0
+903,Michelle Jensen,Male,0288 Olsen Rapid,239,Current Account,36 - 59,Highschool and below,Contract,24001,Unstable,7,179487,Rented,1.0
+904,Kimberly Carroll,Female,0276 Amber Port,239,Current Account,18 - 35,Tertiary and above,Contract,24001,Stable,7,2789,Owned,2.0
+905,Connie Miller,Female,9890 Barnes Squares,239,Current Account,18 - 35,Highschool and below,Permanent,4627,Stable,3,2333,Rented,0.0
+906,Katrina Davenport,Female,39274 Michelle Groves Suite 638,239,Savings Account,36 - 59,Highschool and below,Student,886,Unstable,5,2333,Owned,0.0
+907,Jeremy Garcia,Male,4156 Phyllis Courts Apt. 235,145,Current Account,36 - 59,Highschool and below,Student,24001,Unstable,6,2333,Rented,0.0
+908,Miss Sue Green,Female,580 Grant Mountains Apt. 127,239,Current Account,60 +,Tertiary and above,Student,886,Stable,3,2789,Rented,0.0
+909,Joanna Schultz,Male,0842 Penny Roads Apt. 045,145,Current Account,18 - 35,Tertiary and above,Permanent,4627,Stable,6,2333,Rented,1.0
+910,Jason Kim,Female,965 Thompson Plaza,239,Savings Account,60 +,Tertiary and above,Contract,24001,Stable,10,2789,Owned,2.0
+911,Christopher Hicks,Male,84511 Flynn Canyon Suite 340,239,Current Account,60 +,Tertiary and above,Permanent,4627,Unstable,0,2789,Rented,0.0
+912,Alexander Williams,Female,6867 Bernard Cliffs Suite 843,99,Savings Account,36 - 59,Highschool and below,Permanent,4627,Unstable,4,179487,Owned,0.0
+913,Lisa Cochran,Female,10287 Eric Causeway,239,Current Account,36 - 59,Tertiary and above,Contract,4627,Unstable,10,179487,Rented,2.0
+914,Jason Smith,Female,6981 Casey Neck Apt. 299,239,Savings Account,36 - 59,Highschool and below,Permanent,24001,Stable,5,2789,Owned,1.0
+915,Donald Robinson,Female,8266 Monica Canyon Suite 735,239,Current Account,18 - 35,Tertiary and above,Contract,4627,Unstable,1,2333,Rented,0.0
+916,Randy Crawford,Female,2266 Lopez Lock,99,Savings Account,60 +,Tertiary and above,Contract,886,Stable,6,2789,Owned,0.0
+917,Kimberly Leach,Female,0942 Derrick Stravenue Suite 799,99,Current Account,36 - 59,Tertiary and above,Contract,4627,Stable,1,2789,Owned,0.0
+918,Edward Mills,Male,0822 Lynch Motorway,239,Current Account,18 - 35,Tertiary and above,Permanent,24001,Stable,8,2333,Owned,2.0
+919,Bryan Rodriguez,Male,719 Burton Plaza Suite 226,239,Savings Account,36 - 59,Tertiary and above,Permanent,4627,Stable,4,2789,Rented,0.0
+920,Shelby Ross,Female,0140 Wright Club,156,Current Account,18 - 35,Tertiary and above,Contract,4627,Stable,8,2789,Owned,2.0
+921,Edwin Boone,Male,8812 Gloria Valleys Apt. 649,239,Current Account,36 - 59,Tertiary and above,Contract,24001,Unstable,3,179487,Rented,0.0
+922,Frank Johnson Jr.,Male,36033 Turner Overpass,28,Savings Account,36 - 59,Highschool and below,Student,886,Stable,3,2333,Owned,0.0
+923,Melissa Contreras,Male,4417 Butler Knoll Apt. 187,44,Savings Account,60 +,Highschool and below,Student,24001,Stable,9,179487,Rented,1.0
+924,Michelle Fischer,Female,16617 Morgan Prairie Suite 406,239,Current Account,60 +,Tertiary and above,Contract,4627,Stable,5,179487,Owned,1.0
+925,Jennifer Howard,Female,268 Thomas Tunnel Suite 426,239,Current Account,36 - 59,Highschool and below,Contract,886,Stable,2,2333,Owned,0.0
+926,David Palmer,Female,454 Suarez Ridges Apt. 179,44,Savings Account,60 +,Highschool and below,Student,886,Stable,9,2789,Rented,0.0
+927,Aaron Hernandez,Female,8698 Brown Cove,28,Savings Account,18 - 35,Highschool and below,Contract,886,Unstable,2,2333,Owned,0.0
+928,Amanda Lucero,Male,826 Bradley Overpass,44,Savings Account,18 - 35,Tertiary and above,Permanent,886,Unstable,8,2333,Rented,1.0
+929,Hunter Dunn,Female,6909 Daniel Isle,156,Savings Account,36 - 59,Highschool and below,Contract,4627,Stable,6,179487,Owned,1.0
+930,Mark Nguyen,Male,692 Baker Drive,222,Current Account,36 - 59,Highschool and below,Student,24001,Stable,3,179487,Rented,0.0
+931,Alexander Hicks,Female,13571 Miller Drive Apt. 961,193,Current Account,60 +,Tertiary and above,Student,24001,Stable,0,179487,Rented,0.0
+932,Martin Wolf,Female,16279 Maureen Islands,193,Current Account,60 +,Tertiary and above,Contract,886,Unstable,1,179487,Owned,0.0
+933,Steven Harris,Male,386 Padilla Stravenue Apt. 130,239,Current Account,36 - 59,Tertiary and above,Permanent,4627,Stable,0,2333,Rented,0.0
+934,Timothy Krueger,Male,01139 Avila Pines,28,Current Account,18 - 35,Tertiary and above,Contract,24001,Unstable,8,179487,Rented,2.0
+935,Mark Bush,Male,283 Gary Park Suite 289,239,Savings Account,18 - 35,Tertiary and above,Permanent,886,Stable,3,179487,Rented,0.0
+936,John Peters,Male,575 Thompson Ways,239,Savings Account,18 - 35,Highschool and below,Contract,886,Unstable,2,2333,Rented,0.0
+937,Dana Carter,Male,4997 Jennifer Ports Suite 244,239,Current Account,36 - 59,Highschool and below,Student,24001,Unstable,10,2789,Owned,1.0
+938,Cindy Hooper,Female,94026 Nicole Club Apt. 309,44,Current Account,60 +,Tertiary and above,Contract,886,Stable,10,2789,Rented,1.0
+939,Maria Scott,Female,5242 Kimberly Valley Apt. 825,28,Current Account,60 +,Tertiary and above,Contract,886,Stable,9,2789,Rented,1.0
+940,Angela Thomas MD,Female,097 Patel Parkway,239,Savings Account,36 - 59,Tertiary and above,Student,24001,Unstable,6,179487,Rented,1.0
+941,Michael Torres,Male,05869 Christine Neck,28,Savings Account,60 +,Tertiary and above,Permanent,886,Stable,4,179487,Rented,0.0
+942,Jillian Bennett,Male,3812 Simon Mews,223,Savings Account,18 - 35,Highschool and below,Student,4627,Stable,0,179487,Owned,0.0
+943,Dawn Pollard,Male,925 Doyle Loop Apt. 455,156,Savings Account,36 - 59,Highschool and below,Contract,24001,Stable,1,2789,Owned,0.0
+944,Meghan Thomas,Male,7271 Sean Crossing,145,Savings Account,36 - 59,Tertiary and above,Student,886,Stable,1,179487,Rented,0.0
+945,Jordan Doyle,Male,1450 Morgan Square,156,Savings Account,60 +,Tertiary and above,Contract,886,Unstable,1,179487,Rented,0.0
+946,Sheila Long,Female,3108 Nunez Springs,44,Savings Account,18 - 35,Tertiary and above,Permanent,24001,Stable,3,2333,Owned,1.0
+947,Denise Mcgee,Male,4802 John Trafficway Suite 490,156,Savings Account,60 +,Tertiary and above,Student,4627,Stable,2,2789,Rented,0.0
+948,Steven Hernandez,Female,1378 Stone Overpass Apt. 958,239,Current Account,18 - 35,Tertiary and above,Permanent,4627,Unstable,1,179487,Rented,0.0
+949,Lisa Pineda,Female,012 Ryan Fork Apt. 344,28,Current Account,60 +,Tertiary and above,Contract,886,Stable,2,179487,Rented,0.0
+950,Cory Zuniga,Female,25076 Smith Courts,44,Current Account,60 +,Tertiary and above,Permanent,886,Stable,1,2789,Owned,0.0
+951,John Thompson,Female,543 Andrew Light,145,Current Account,36 - 59,Highschool and below,Permanent,24001,Unstable,7,2333,Owned,1.0
+952,Shannon Barnes,Male,836 Mcbride Wall,145,Current Account,18 - 35,Highschool and below,Permanent,4627,Stable,0,179487,Owned,0.0
+953,Grace Campbell,Male,7014 Linda Skyway Suite 251,223,Savings Account,18 - 35,Highschool and below,Permanent,886,Stable,3,2333,Rented,0.0
+954,Jacqueline Curtis,Male,23550 Jesus Trail,239,Current Account,60 +,Highschool and below,Contract,24001,Stable,1,2333,Owned,0.0
+955,Erin Meyers,Female,820 Lara Vista,239,Current Account,36 - 59,Highschool and below,Contract,24001,Unstable,7,2333,Owned,1.0
+956,Johnathan Leonard,Female,239 Jessica Meadows,222,Savings Account,18 - 35,Tertiary and above,Contract,24001,Unstable,1,179487,Owned,0.0
+957,Christopher Jackson,Female,70805 Bates Unions Apt. 568,44,Current Account,18 - 35,Tertiary and above,Permanent,24001,Stable,2,2333,Owned,0.0
+958,Timothy Campbell,Male,4022 Taylor Branch,223,Savings Account,36 - 59,Tertiary and above,Student,24001,Stable,1,2789,Owned,0.0
+959,Audrey Hanson,Male,605 Keller Run Suite 696,99,Current Account,36 - 59,Tertiary and above,Contract,4627,Stable,5,179487,Rented,1.0
+960,Mrs. Jennifer Steele,Female,197 Lee Fork Suite 097,239,Current Account,36 - 59,Tertiary and above,Contract,886,Unstable,4,2333,Owned,0.0
+961,Steven Webb,Male,66350 Acevedo Villages Suite 460,239,Current Account,60 +,Highschool and below,Student,4627,Unstable,9,2789,Owned,1.0
+962,Jill Hines,Female,241 Rodriguez Knolls,156,Current Account,18 - 35,Highschool and below,Student,4627,Unstable,3,2789,Rented,0.0
+963,Meagan Herman,Male,47028 Kimberly Plains Apt. 706,239,Current Account,18 - 35,Tertiary and above,Contract,4627,Unstable,0,179487,Rented,0.0
+964,Jasmine Schneider,Female,0007 Nathaniel Lake Suite 875,239,Current Account,18 - 35,Tertiary and above,Contract,886,Unstable,7,2789,Rented,1.0
+965,Tammy Morgan,Male,232 Nathan Plain,239,Savings Account,60 +,Tertiary and above,Permanent,24001,Unstable,6,2789,Owned,1.0
+966,Virginia Norton,Female,9901 Jacqueline Roads Apt. 108,239,Current Account,18 - 35,Highschool and below,Student,24001,Stable,3,179487,Rented,0.0
+967,Sarah Owens,Male,315 Robert Manors,145,Savings Account,36 - 59,Tertiary and above,Student,886,Unstable,2,2789,Owned,0.0
+968,Angela Moore,Female,2501 Mccormick Via,99,Current Account,18 - 35,Highschool and below,Student,886,Stable,1,179487,Owned,0.0
+969,Christopher Jones,Female,813 Samuel Squares,156,Savings Account,60 +,Tertiary and above,Permanent,886,Unstable,4,179487,Rented,0.0
+970,Nathaniel Kelley Jr.,Male,2019 John Valleys Apt. 544,193,Savings Account,18 - 35,Tertiary and above,Contract,4627,Unstable,1,2333,Rented,0.0
+971,Joseph Collins,Female,67046 Jessica Glens,239,Current Account,36 - 59,Tertiary and above,Permanent,24001,Stable,9,2333,Rented,2.0
+972,Ian Rogers,Female,0093 Victoria Ports,99,Savings Account,18 - 35,Tertiary and above,Student,24001,Unstable,10,2789,Rented,2.0
+973,Denise Walsh,Male,997 Valerie Passage Suite 383,239,Savings Account,36 - 59,Highschool and below,Permanent,24001,Stable,9,2789,Rented,2.0
+974,Shannon Tran,Male,35146 Cruz Rest,99,Savings Account,18 - 35,Tertiary and above,Permanent,886,Stable,1,179487,Owned,0.0
+975,Patrick Fritz,Female,5887 Quinn Mills,28,Current Account,18 - 35,Highschool and below,Contract,886,Stable,7,2333,Rented,0.0
+976,Craig Acosta,Male,225 Lauren Orchard,239,Current Account,18 - 35,Tertiary and above,Permanent,4627,Stable,8,2789,Rented,2.0
+977,Shelby Armstrong,Male,53442 Rebecca Walk Apt. 826,193,Savings Account,36 - 59,Tertiary and above,Student,4627,Stable,6,2789,Owned,1.0
+978,Cynthia Moss,Male,40716 Adams Unions,222,Savings Account,18 - 35,Tertiary and above,Permanent,24001,Unstable,8,179487,Rented,2.0
+979,Anita Henry,Male,37057 Steven Radial Apt. 341,99,Savings Account,36 - 59,Tertiary and above,Permanent,4627,Unstable,2,2789,Rented,0.0
+980,Monica Horn,Male,54855 Manning Village,239,Current Account,18 - 35,Tertiary and above,Student,24001,Stable,10,2789,Owned,2.0
+981,Anthony Rojas,Female,46331 Paul Tunnel Apt. 276,156,Savings Account,36 - 59,Highschool and below,Contract,4627,Unstable,0,179487,Owned,0.0
+982,Joel Wall,Female,967 Elizabeth Parkways,239,Savings Account,36 - 59,Highschool and below,Contract,4627,Stable,0,2333,Owned,0.0
+983,Joseph Lynch,Male,333 Johnson Square,156,Savings Account,60 +,Tertiary and above,Student,886,Unstable,9,179487,Rented,1.0
+984,Vanessa Rodriguez,Male,98812 Johnson Flats Apt. 645,239,Current Account,36 - 59,Highschool and below,Permanent,24001,Stable,10,2333,Owned,2.0
+985,Christine Mills,Male,558 Campbell Centers,239,Current Account,18 - 35,Highschool and below,Contract,4627,Stable,10,2333,Owned,2.0
+986,Colleen Bradshaw,Male,273 Shelley Grove,239,Current Account,18 - 35,Highschool and below,Contract,4627,Stable,4,2789,Owned,0.0
+987,Richard Cline,Female,751 Wilson Junctions,239,Savings Account,18 - 35,Highschool and below,Contract,4627,Unstable,9,2789,Owned,1.0
+988,Kelsey Martinez,Male,294 Shaffer Lock Apt. 971,222,Savings Account,60 +,Highschool and below,Contract,4627,Unstable,1,179487,Owned,0.0
+989,Benjamin Conner,Female,711 Hall Row Apt. 881,28,Current Account,18 - 35,Highschool and below,Permanent,24001,Unstable,7,2333,Owned,1.0
+990,Ryan Grant,Male,75380 Taylor Court,239,Current Account,18 - 35,Tertiary and above,Permanent,4627,Stable,6,179487,Owned,2.0
+991,Mrs. Ashley Simpson,Male,549 Scott Stream,99,Savings Account,60 +,Tertiary and above,Contract,4627,Unstable,0,179487,Rented,0.0
+992,Victoria Taylor,Female,124 Davis Underpass,239,Current Account,36 - 59,Highschool and below,Permanent,24001,Stable,4,2333,Owned,0.0
+993,Antonio Perez,Male,1684 Hector Spring,239,Savings Account,60 +,Highschool and below,Contract,4627,Stable,7,2789,Rented,0.0
+994,Steven Ferguson,Female,08925 Campbell Locks,28,Current Account,36 - 59,Tertiary and above,Permanent,24001,Stable,1,2789,Rented,0.0
+995,Garrett Brown,Female,5181 Humphrey Lake,145,Savings Account,18 - 35,Highschool and below,Student,886,Stable,2,2333,Rented,0.0
+996,Tina Hayes,Male,38447 Tran Mall Suite 867,239,Current Account,60 +,Tertiary and above,Permanent,886,Unstable,3,179487,Owned,0.0
+997,Megan Fernandez,Male,26718 Eric Square Suite 810,156,Current Account,36 - 59,Highschool and below,Permanent,4627,Stable,3,179487,Rented,0.0
+998,Lisa Manning,Male,49687 Kennedy Mountain,239,Current Account,60 +,Highschool and below,Student,886,Unstable,1,179487,Owned,0.0
+999,Sarah Reeves,Female,7983 Moore Mission Apt. 592,239,Savings Account,60 +,Tertiary and above,Student,4627,Unstable,7,2333,Owned,0.0

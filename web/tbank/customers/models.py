@@ -10,13 +10,13 @@ from .managers import TemporalQuerySet
 # Create your models here.
 
 class Service(models.Model):
-    service_no = models.CharField(primary_key=True, max_length=4)
-    service_name = models.CharField(unique=True, max_length=40)
+    #service_no = models.CharField(primary_key=True, max_length=4)
+    service_name = models.CharField(primary_key=True, max_length=40)
     service_description = models.TextField(default='')
 
     class Meta:
         db_table = 'services'
-        ordering = ['service_no']
+        ordering = ['service_name']
 
     def __str__(self):
         return self.service_name
@@ -101,6 +101,7 @@ class Customer(models.Model):
         (234, 'Western Sahara'), (235, 'Yemen'), (238, 'Zambia'), (239, 'Zimbabwe'),
     )
 
+
     GENDER_CHOICES = (
         ('Male', 'Male'),
         ('Female', 'Female')
@@ -146,7 +147,7 @@ class Customer(models.Model):
 
     Customer_ID = models.AutoField(primary_key=True)
     Name = models.CharField(max_length=30)
-    Gender = models.CharField(max_length=5, choices=GENDER_CHOICES)
+    Gender = models.CharField(max_length=10, choices=GENDER_CHOICES)
     Address = models.CharField(max_length=50)
     Nationality = models.IntegerField(choices=COUNTRY_CHOICES)
     Account_Type = models.CharField(max_length=20, choices=ACCOUNT_TYPE_CHOICES)
@@ -160,7 +161,7 @@ class Customer(models.Model):
     Customer_Loyalty = models.IntegerField(help_text=mark_safe('years in bank'))
     Balance = models.BigIntegerField(help_text=mark_safe('&#36;'))
     Residential_Status = models.CharField(max_length=10, choices=RESIDENTIAL_STATUS_CHOICES)
-    #service = models.ForeignKey('Service', on_delete=models.CASCADE, db_column='service_no')
+    Service_Level = models.ForeignKey(Service, on_delete=models.CASCADE, db_column='service_name', null=True, blank=True)
 
     #objects = TemporalQuerySet.as_manager()
 
