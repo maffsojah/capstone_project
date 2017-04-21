@@ -58,6 +58,7 @@ INSTALLED_APPS = [
 
     'services.apps.ServicesConfig',
     'customers.apps.CustomersConfig',
+    'formtools',
 ]
 
 # ACCOUNT_ACTIVATION_DAYS = 7 # One-week activation window
@@ -151,10 +152,10 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "tbank", "static"),
+    os.path.join(BASE_DIR, "static"),
 )
 
-
+SESSION_ENGINE = "django.contrib.sessions.backends.signed_cookies"
 # # shortcut for in form templates
 # try:
 #     # shortcut for in form templates
@@ -169,3 +170,5 @@ STATICFILES_DIRS = (
 #         'material.templatetags.material_form',
 #         'template_debug.templatetags.debug_tags'
 #     ]
+
+#STATIC_ROOT = os.path.join(BASE_DIR, 'static')

@@ -1,0 +1,7 @@
+Customer_ID,Name,Gender,Address,Nationality,Account_Type,Age,Education,Employment,Salary,Employer_Stability,Customer_Loyalty,Balance,Residential_Status,Service_Level
+0,Tony Jimenez,Male,0155 Salas Shore,239,Current Account,60 +,Highschool and below,Contract,29633,Stable,8,386,Owned,1
+1,Jessica Bell,Male,24078 Davis Prairie Suite 981,239,Current Account,60 +,Highschool and below,Student,5622,Stable,0,386,Owned,0
+2,Cheryl Davis,Male,51713 Allen Radial,239,Savings Account,60 +,Tertiary and above,Contract,5622,Unstable,5,269684,Owned,0
+3,Leslie Sims,Female,4185 Jackson Divide Apt. 654,239,Current Account,18 - 35,Highschool and below,Permanent,5622,Stable,5,269684,Owned,1
+4,Jason Schmidt,Male,0225 Flores Prairie,99,Savings Account,60 +,Highschool and below,Contract,5622,Unstable,9,8024,Rented,0
+5,Laura Reynolds,Female,235 Nicholas Falls,28,Current Account,36 – 59,Tertiary and above,Permanent,29633,Unstable,8,8024,Owned,2

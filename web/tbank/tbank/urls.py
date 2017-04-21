@@ -20,6 +20,7 @@ from django.contrib import admin
 from django.shortcuts import render
 from django.views import generic
 
+from formtools.wizard.views import SessionWizardView
 from material.frontend import urls as frontend_urls
 
 from . import forms, widget_forms, admin_forms
@@ -39,24 +40,24 @@ def index_view(request):
 #             'form_data': [form.cleaned_data for form in form_list],
 #         })
 #
-# class WidgetFormView(generic.FormView):
-#     template_name = 'widgets_tbank.html'
+class WidgetFormView(generic.FormView):
+    template_name = 'widgets_tbank.html'
+
+    def form_valid(self, form):
+        return self.render_to_response(
+            self.get_context_data(form=form))
+
 #
-#     def form_valid(self, form):
-#         return self.render_to_response(
-#             self.get_context_data(form=form))
-#
-#
-# class AdminFormView(generic.FormView):
-#     template_name = 'admin_tbank.html'
-#
-#     @classmethod
-#     def as_view(cls, *args, **kwargs):
-#         return login_required(super(AdminFormView, cls).as_view(*args, **kwargs))
-#
-#     def form_valid(self, form):
-#         return self.render_to_response(
-#             self.get_context_data(form=form))
+class AdminFormView(generic.FormView):
+    template_name = 'admin_tbank.html'
+
+    @classmethod
+    def as_view(cls, *args, **kwargs):
+        return login_required(super(AdminFormView, cls).as_view(*args, **kwargs))
+
+    def form_valid(self, form):
+        return self.render_to_response(
+            self.get_context_data(form=form))
 #
 
 urlpatterns = [
@@ -70,7 +71,8 @@ urlpatterns = [
     # url(r'^tbank/bank/$', generic.FormView.as_view(
     #     form_class=forms.BankForm, success_url='/tbank/bank/', template_name="tbank.html")),
     # url(r'^services/', include('services.urls', namespace='services')),
-    #
+
+
     # frontend
     url(r'^frontend/$', generic.RedirectView.as_view(url='/frontend/customers/', permanent=False), name="index"),
     url(r'', include(frontend_urls)),

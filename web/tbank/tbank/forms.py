@@ -1,5 +1,6 @@
 # import datetime
 #
+# from django import forms
 # from django.template import Template
 # from material import Layout, Row, Column, Fieldset, Span2, Span3, Span5, Span6, Span10
 #
@@ -139,7 +140,8 @@
 #     keep_logged = forms.BooleanField(required=False, label="Keep me logged in")
 #
 #     template = Template("""
-#     {% form form=form layout=form.layout %}
+#
+#     {% form %}
 #         {% part form.email prefix %}<i class="material-icons prefix">email</i>{% endpart %}
 #         {% part form.password prefix %}<i class="material-icons prefix">lock</i>{% endpart %}
 #         {% attr form.keep_logged 'group' class append %}right-align{% endattr %}
