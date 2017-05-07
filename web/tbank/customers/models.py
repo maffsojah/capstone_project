@@ -32,17 +32,17 @@ class ServiceCustomer(models.Model):
     class Meta:
         db_table = 'service_customer'
 
-# class ServiceManager(models.Model):
-#     customer = models.ForeignKey('Customer', on_delete=models.CASCADE, db_column='Customer_ID')
-#     service = models.ForeignKey(Service, on_delete=models.CASCADE, db_column='service_no')
-#     from_date = models.DateField()
-#     to_date = models.DateField()
-#
-#     objects = TemporalQuerySet.as_manager()
-#
-#     class Meta:
-#         db_table = 'service_manager'
-#         ordering = ['-from_date']
+class ServiceManager(models.Model):
+    customer = models.ForeignKey('Customer', on_delete=models.CASCADE, db_column='Customer_ID')
+    service = models.ForeignKey(Service, on_delete=models.CASCADE, db_column='service_no')
+    from_date = models.DateField()
+    to_date = models.DateField()
+
+    objects = TemporalQuerySet.as_manager()
+
+    class Meta:
+        db_table = 'service_manager'
+        ordering = ['-from_date']
 
 class Customer(models.Model):
     COUNTRY_CHOICES = (
@@ -171,19 +171,19 @@ class Customer(models.Model):
     def __str__(self):
         return "{}".format(self.Name)
 
-class Salary(models.Model):
-    customer = models.ForeignKey(Customer, on_delete=models.CASCADE, db_column='Customer_ID')
-    salary = models.IntegerField(help_text=mark_safe('&#36;'))
-    from_date = models.DateField()
-    to_date = models.DateField()
-
-    objects = TemporalQuerySet.as_manager()
-
-    class Meta:
-        db_table = 'salaries'
-        ordering = ['-from_date']
-        verbose_name = _('Salary')
-        verbose_name_plural = _('Salaries')
+# class Salary(models.Model):
+#     customer = models.ForeignKey(Customer, on_delete=models.CASCADE, db_column='Customer_ID')
+#     salary = models.IntegerField(help_text=mark_safe('&#36;'))
+#     from_date = models.DateField()
+#     to_date = models.DateField()
+#
+#     objects = TemporalQuerySet.as_manager()
+#
+#     class Meta:
+#         db_table = 'salaries'
+#         ordering = ['-from_date']
+#         verbose_name = _('Salary')
+#         verbose_name_plural = _('Salaries')
 
 # class Title(models.Model):
 #     customer = models.ForeignKey(Customer, on_delete=models.CASCADE, db_column='Customer_ID')

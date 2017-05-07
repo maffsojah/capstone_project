@@ -1,6 +1,6 @@
 from django import forms
 
-from .models import Customer, Salary # Title, ServiceManager
+from .models import Customer #Salary # Title, ServiceManager
 
 
 # class ChangeManagerForm(forms.Form):

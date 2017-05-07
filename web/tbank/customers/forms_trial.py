@@ -1,99 +1,95 @@
-from django import forms
-from common.utils import send_email
+#####  PLAN B ALLOCATION
+def age(ModelAdmin, request, queryset):
+    if customer.Age == '60 +':
+        customer.Age = 0
+    elif customer.Age == '36 - 59':
+        customer.Age = 1
+    else:
+        customer.Age = 2
+    return customer.Age
 
-from . import errors
+def education(ModelAdmin, request, queryset):
+    if customer.Education == 'Highschool and below':
+        customer.Education = 0
+    else:
+        customer.Education = 1
+    return customer.Education
 
-from .models import Customer, ServiceManager, Title, Salary
+def employment(ModelAdmin, request, queryset):
+    if customer.Employment == 'Student':
+        customer.Employment = 0
+    elif customer.Employment == 'Contract':
+        customer.Employment = 1
+    else:
+        customer.Employment = 2
+    return customer.Employment
 
+def stability(ModelAdmin, request, queryset):
+    if customer.Employer_Stability == 'Unstable':
+        customer.Employer_Stability = 0
+    else:
+        customer.Employer_Stability = 1
+    return customer.Employer_Stability
 
-# class ServiceAllocationForm(form.Form):
-#     send_email = forms.BooleanField(
-#         required=False,
-#     )
-#
-#     @property
-#     def email.subject_template(self):
-#         return 'email/account/notification_subject.txt'
-#
-#     @property
-#     def email_body_template(self):
-#         raise NotImplementedError()
-#
-#     def form_action(self, account, user):
-#         raise NotImplementedError()
-#
-#     def save(self, account, user):
-#         try:
-#             account, action = self.form_action(account, user)
-#         except errors.Error as e:
-#             error.message = str(e)
-#             self.add_error(None, error_message)
-#             raise
-#
+def residential(ModelAdmin, request, queryset):
+    if customer.Residential_Status == 'Rented':
+        customer.Residential_Status = 0
+    else:
+        customer.Residential_Status = 1
+    return customer.Residential_Status
 
+def salary(ModelAdmin, request, queryset):
+    if customer.Salary <= 1000:
+        customer.Salary = 0
+    elif 1000 < customer.Salary <= 10001:
+        customer.Salary = 1
+    else:
+        customer.Salary = 2
+    return customer.Salary
 
+def loyalty(ModelAdmin, request, queryset):
+    if customer.Customer_Loyalty <= 2:
+        customer.Customer_Loyalty = 0
+    else:
+        customer.Customer_Loyalty = 1
+    return customer.Customer_Loyalty
 
+def balance(ModelAdmin, request, queryset):
+    if customer.Balance <= 2500:
+        customer.Balance = 0
+    elif 2500 < customer.Balance <= 10001:
+        customer.Balance = 1
+    else:
+        customer.Balance = 2
+    return customer.Balance
 
+feat_list = age + education + employment + stability + residential + salary + loyalty + balance
 
+def allocate_service(ModelAdmin, request, queryset):
+    platinum_customers = []
+    silver_customers = []
+    message = ''
 
+    for customer in queryset:
+        if feat_list <= 11:
+            customer.Service_Level = Service.objects.get(service_name = 'Silver Package')
+            silver_customers.append(customer.Name)
+        elif feat_list > 11 and feat_list <= 15:
+            # customer.Service_Level = 'Silver Package'
+            customer.Service_Level = Service.objects.get(service_name = 'Gold Package')
+            gold_customers.append(customer.Name)
+        else:
+             customer.Service_Level = Service.objects.get(service_name = 'Platinum Package')
+             platinum_customers.append(customer.Name)
+        customer.save()
 
-
-
-
-
-
-
-
-
-
-
-class ChangeManagerForm(forms.Form):
-    manager = forms.ModelChoiceField(queryset=Customer.objects.all()[:100])
-
-    def __init__(self, *args, **kwargs):
-        self.service = kwargs.pop('service')
-        super(ChangeManagerForm, self).__init__(*args, **kwargs)
-
-    def save(self):
-        new_manager = self.cleaned_data['manager']
-
-        ServiceManager.objects.filter(
-            service=self.service
-        ).set(
-            service=self.service,
-            customer=new_manager
-        )
-
-class ChangeTitleForm(forms.Form):
-    position = forms.CharField()
-
-    def __init__(self, *args, **kwargs):
-        self.employee = kwargs.pop('customer')
-        super(ChangeTitleForm, self).__init__(*args, **kwargs)
-
-    def save(self):
-        new_title = self.cleaned_data['position']
-
-        Title.objects.filter(
-            customer=self.customer,
-        ).set(
-            customer=self.customer,
-            title=new_title
-        )
-
-class ChangeSalaryForm(forms.Form):
-    salary = forms.IntegerField(max_value=1000000)
-
-    def __init__(self, *args, **kwargs):
-        self.customer = kwargs.pop('customer')
-        super(ChangeSalaryForm, self).__init__(*args, **kwargs)
-
-    def save(self):
-        new_salary = self.cleaned_data['salary']
-
-        Salary.objects.filter(
-            customer=self.customer,
-        ).set(
-            customer=self.customer,
-            salary=new_salary,
-        )
+        if platinum_customers:
+            message = 'The following customers are now Platinum Customers: {}'.format(', '.join(platinum_customers))
+        if silver_customers:
+            message = 'The following customers are now Silver Customers: {}'.format(', '.join(silver_customers))
+        if gold_customers:
+            message = 'The following customers are now Gold Customers: {}'.format(', '.join(gold_customers))
+        if not platinum_customers and not silver_customers and not gold_customers:
+            message = 'No customer changes made!'
+        ModelAdmin.message_user(request, message, level=SUCCESS)
+allocate_service.short_description = 'Allocate Service'

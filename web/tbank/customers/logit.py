@@ -1,5 +1,26 @@
 #!/usr/bin/python
+import findspark
+findspark.init()
+import tempfile
+from pyspark.ml.classification import LogisticRegression, LogisticRegressionModel
+from pyspark.ml.evaluation import MulticlassClassificationEvaluator
+from pyspark.ml import Pipeline
+from pyspark.ml.feature import OneHotEncoder, StringIndexer, VectorAssembler
+from pyspark.sql.types import *
 
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder\
+    .appName('Multiclass Classification: TBank')\
+    .getOrCreate()
+
+
+## save and load model
+temp_path = tempfile.mkdtemp()
+
+
+
+TrainSet = spark.read.csv('hdfs://localhost:9000/user/hduser/datasets/oneMill.csv', header='true', inferSchema='true')
 # Creating Spark SQL temporary views with the DataFrames
 ## Train View
 TrainSet.createOrReplaceTempView("customers")
@@ -61,44 +82,45 @@ evaluator = MulticlassClassificationEvaluator(labelCol="label", predictionCol="p
 accuracy = evaluator.evaluate(predict)
 
 
-h
 reg_path = temp_path + '/reg'
 reg.save(reg_path)
-model2 = LogisticRegression.load(reg_path)
-model2.getMaxIter()
+reg2 = LogisticRegression.load(reg_path)
+reg2.getMaxIter()
 
 model_path = temp_path + 'reg_model'
 regModel.save(model_path)
-model2 = LogisticRegressionModel.load(model_path)
+regModel2 = LogisticRegressionModel.load(model_path)
 
 print("Test Error = %g " % (1.0 - accuracy))
-print("Accuracy = %g " % (accuracy * 100))
+print("Accuracy = %g percent " % (accuracy * 100))
 print("Coefficients: \n" + str(regModel.coefficientMatrix))
 print("Intercept: " + str(regModel.interceptVector))
-print("coefficientMatrix check = %g " % (regModel.coefficientMatrix[0, 1] == model2.coefficientMatrix[0, 1]))
-print("interceptVector check = %g " % (regModel.interceptVector == model2.interceptVector))
+print("coefficientMatrix check = %g " % (regModel.coefficientMatrix[0, 1] == regModel2.coefficientMatrix[0, 1]))
+print("interceptVector check = %g " % (regModel.interceptVector == regModel2.interceptVector))
 
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
 
-    import os
-    #del os.environ['PYSPARK_SUBMIT_ARGS']
-    import tempfile
-    from pyspark.ml.classification import LogisticRegression, LogisticRegressionModel
-    from pyspark.ml.evaluation import MulticlassClassificationEvaluator
-    from pyspark.ml import Pipeline
-    from pyspark.ml.feature import OneHotEncoder, StringIndexer, VectorAssembler
-    from pyspark.sql.types import *
-
-    from pyspark.sql import SparkSession
-
-    spark = SparkSession.builder\
-        .setMaster('local[*]')\
-        .appName('Multiclass Classification: TBank')\
-        .getOrCreate()
-
-
-    TrainSet = spark.read.csv('hdfs://localhost:9000/user/hduser/datasets/oneMill.csv', header='true', inferSchema='true')
-    ## save and load model
-    temp_path = tempfile.mkdtemp()
-    main(spark)
+    # import os
+    # #del os.environ['PYSPARK_SUBMIT_ARGS']
+    # import findspark
+    # findspark.init()
+    # import tempfile
+    # from pyspark.ml.classification import LogisticRegression, LogisticRegressionModel
+    # from pyspark.ml.evaluation import MulticlassClassificationEvaluator
+    # from pyspark.ml import Pipeline
+    # from pyspark.ml.feature import OneHotEncoder, StringIndexer, VectorAssembler
+    # from pyspark.sql.types import *
+    #
+    # from pyspark.sql import SparkSession
+    #
+    # spark = SparkSession.builder\
+    #     .setMaster('local[*]')\
+    #     .appName('Multiclass Classification: TBank')\
+    #     .getOrCreate()
+    #
+    #
+    # # TrainSet = spark.read.csv('hdfs://localhost:9000/user/hduser/datasets/oneMill.csv', header='true', inferSchema='true')
+    # ## save and load model
+    # temp_path = tempfile.mkdtemp()
+    # main(spark)

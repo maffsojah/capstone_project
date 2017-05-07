@@ -1,5 +1,6 @@
 {% extends "admin/base.html" %}
 {% load i18n static %}
+{% load material_form %}
 
 {% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
 {% block branding %}<i class="material-icons" style="font-size:80px">settings_applications</i>{% endblock %}
@@ -19,10 +20,5 @@ Materialize.toast('Use  maffsojah:terrymaputi  to log into administration interf
 {% endblock %}
 
 {% block back_link %}
-<li class="no-padding"><a class="collapsible-header no-pjax" href="/accounting/"><i class="material-icons">arrow_back</i> Back to website</a></li>
+<li class="no-padding"><a class="collapsible-header no-pjax" href="/"><i class="material-icons">arrow_back</i> Back to website</a></li>
 {% endblock %}
-
-<!-- {% load avatar_tags %}
-{% block userphoto %}
-<a href="{% static 'imgs/terry.jpg' %}">{% avatar user 65 class="circle" %}</a>
-{% endblock %} -->

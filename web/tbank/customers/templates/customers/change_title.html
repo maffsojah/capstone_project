@@ -1,5 +1,6 @@
 {% extends 'customers/base_module.html' %}
 {% load material_frontend %}
+{% load static material_form %}
 
 {% block breadcrumbs_items %}
 <a href="{% url customer|frontend_urlname:'list' %}">{{ customer|verbose_name_plural|title }}</a>

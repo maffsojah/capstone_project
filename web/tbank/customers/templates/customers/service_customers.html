@@ -1,5 +1,6 @@
 {% extends 'material/frontend/views/list.html' %}
 {% load material_frontend %}
+{% load static material_form %}
 
 {% block breadcrumbs_items %}
 <a href="{% url service|frontend_urlname:'list' %}">{{ service|verbose_name_plural|title }}</a>

@@ -1,0 +1,1001 @@
+Customer_ID,Name,Gender,Address,Nationality,Account_Type,Age,Education,Employment,Salary,Employer_Stability,Customer_Loyalty,Balance,Residential_Status
+0,Patrick Taylor,Female,874 Delgado Shoal,Zimbabwean,Current,1,1,0,1,1,1,1,1
+1,Willie Scott,Female,7587 Alexander Springs,Zimbabwean,Savings,1,0,2,2,0,1,2,1
+2,Daniel Hurley,Male,3681 Williams Stream,Zimbabwean,Current,0,0,0,2,1,0,1,1
+3,Edward Olsen,Male,898 Myers Prairie Apt. 093,Zimbabwean,Current,0,0,0,2,1,0,2,0
+4,Eric Singh,Female,80775 Bradford Cape Suite 212,Zimbabwean,Current,0,1,0,0,1,1,2,0
+5,Scott Henderson,Male,359 Rachel Trace Apt. 388,Zimbabwean,Current,2,0,1,2,1,0,0,0
+6,George Branch,Female,5475 Mack Plaza Suite 027,Zimbabwean,Current,2,1,0,2,0,0,2,1
+7,Katherine Douglas,Female,2970 Yoder Vista,Zimbabwean,Savings,2,1,0,0,0,1,0,1
+8,Kathryn Bailey,Male,99515 Stevens Loop,Zimbabwean,Current,0,0,1,1,1,1,2,1
+9,Amy Baker,Female,68291 Melissa Freeway,Zimbabwean,Current,2,1,0,2,1,1,2,0
+10,Richard Martinez,Female,08213 Spencer Square Apt. 945,Zimbabwean,Current,1,0,2,1,1,0,1,1
+11,Valerie Brown,Female,30571 Good Junctions Suite 527,Zimbabwean,Savings,0,1,2,0,0,1,0,0
+12,Karen Goodman,Male,69354 Harrison Loaf Apt. 292,Zimbabwean,Savings,1,1,0,0,0,0,1,1
+13,Christopher Cooper,Female,39009 Kimberly Trafficway Apt. 918,Zimbabwean,Current,2,0,0,0,1,1,2,0
+14,Michelle Sexton,Male,3074 Kevin Heights,Zimbabwean,Savings,2,1,2,2,1,1,0,0
+15,Roy Fuller,Male,865 Lisa Trail,Zimbabwean,Current,2,1,2,2,0,1,2,0
+16,Jillian Flores,Female,95598 Graves Gateway Suite 582,Zimbabwean,Savings,0,0,0,2,1,0,0,0
+17,Donna Day,Male,2861 Irwin Pass,Zimbabwean,Current,1,0,1,1,1,1,0,1
+18,Taylor Curtis,Female,22566 Carmen Canyon,Zimbabwean,Savings,2,1,2,1,1,0,0,1
+19,Jonathan Montes,Male,942 Scott Branch Apt. 325,Zimbabwean,Savings,2,0,2,2,1,0,2,0
+20,Peter Brady,Female,059 Elizabeth Green Apt. 831,Zimbabwean,Current,2,1,0,2,0,0,1,0
+21,Eric Brown,Female,333 Gross Union Apt. 262,Zimbabwean,Current,2,0,1,1,0,0,0,0
+22,Joshua Lee,Male,046 Brian Stream Suite 191,Zimbabwean,Savings,2,0,1,1,0,1,0,0
+23,John Fuller,Male,04739 Schmidt Streets,Zimbabwean,Savings,2,0,0,1,0,1,1,1
+24,Zachary Howard,Male,34076 Williamson Extension,Zimbabwean,Savings,0,0,0,0,0,0,1,1
+25,Sara Curtis,Male,4705 Michael Falls Apt. 098,Zimbabwean,Current,0,0,2,2,0,1,1,0
+26,Marilyn Olson,Female,721 Rachel Alley Suite 081,Zimbabwean,Current,0,0,0,2,0,0,0,0
+27,Wayne Stanley,Male,7537 Holly Forest,Zimbabwean,Current,1,0,1,0,0,1,2,1
+28,Mark Adkins,Female,254 Charlene Wells Suite 580,Zimbabwean,Savings,2,0,1,1,1,1,1,1
+29,Jackson Franklin,Male,745 Adams Parkways,Zimbabwean,Savings,1,0,0,0,1,0,0,1
+30,Dennis Tucker,Female,184 David Inlet Apt. 572,Zimbabwean,Current,2,0,2,0,0,1,1,0
+31,Megan Scott,Female,8865 Gerald Passage,Zimbabwean,Savings,2,0,2,0,1,0,1,1
+32,Harry Williams,Female,391 David Point Suite 965,Zimbabwean,Current,1,0,1,2,0,1,1,1
+33,Brian Kelley,Female,649 Simpson Loaf,Zimbabwean,Savings,2,0,2,0,0,0,1,1
+34,Robert Johnson,Female,190 Colleen Crossing,Zimbabwean,Savings,2,1,0,2,0,0,2,0
+35,Daniel Sparks,Female,54714 Samuel Camp Suite 394,Zimbabwean,Savings,1,1,0,1,1,0,2,1
+36,Sarah Mills,Male,1973 Ashley Meadows,Zimbabwean,Savings,1,1,0,2,1,0,2,1
+37,John Moore,Female,5537 Carol Port Apt. 369,Zimbabwean,Savings,0,0,0,0,0,0,0,1
+38,James Zhang,Female,23192 Kimberly Lake,Zimbabwean,Savings,1,1,0,1,0,1,2,0
+39,Eric Jones,Female,4671 Maria Locks,Zimbabwean,Current,1,1,2,2,1,0,2,0
+40,Christopher Short,Female,0504 Moore Knoll Apt. 231,Zimbabwean,Savings,2,1,2,2,1,0,2,1
+41,Donald Clark,Male,6627 Duncan Lock Suite 842,Zimbabwean,Current,1,0,1,2,1,1,2,0
+42,Jessica Owens,Female,881 Martinez Pass Apt. 024,Zimbabwean,Current,0,0,0,0,0,1,0,0
+43,Julie Day,Male,87171 Perry Drives,Zimbabwean,Savings,1,0,1,0,1,1,1,1
+44,Kenneth Anderson,Female,55348 Tina Estate,Zimbabwean,Current,2,0,1,2,1,1,0,0
+45,Ebony Porter,Female,9720 Yates Roads Apt. 568,Zimbabwean,Current,1,0,1,1,0,1,0,0
+46,Bobby Brennan,Male,63968 Sarah Valley,Zimbabwean,Savings,1,1,0,2,0,1,2,0
+47,Juan Johnson,Female,4286 Robin Park Apt. 441,Zimbabwean,Savings,1,0,2,1,1,1,2,0
+48,Wayne Wright,Female,524 Tucker Well Apt. 666,Zimbabwean,Current,1,0,2,1,1,0,1,1
+49,Savannah Lowe,Male,5689 Gregory Lake,Zimbabwean,Savings,1,1,1,1,1,0,2,1
+50,Joshua Miller,Female,4720 Perkins Heights,Zimbabwean,Current,0,1,2,1,1,0,0,0
+51,Rachel Boyd,Male,454 Rogers Road,Zimbabwean,Savings,1,0,2,1,0,0,1,0
+52,Ronald Sawyer,Male,88733 Drew Flats,Zimbabwean,Savings,2,0,1,2,0,1,2,0
+53,Mrs. Jessica Jones MD,Male,62982 Hunter Brook,Zimbabwean,Current,1,1,0,0,1,1,1,0
+54,David Hall,Female,74594 Stephanie Freeway,Zimbabwean,Current,1,0,2,0,0,0,0,1
+55,William Klein,Female,4181 Brown Mall Suite 932,Zimbabwean,Savings,0,1,0,1,1,1,1,1
+56,Katherine Smith,Female,53638 Virginia Turnpike Apt. 434,Zimbabwean,Current,2,0,1,1,1,1,0,1
+57,Nicholas Page,Male,479 Theresa Cove Suite 686,Zimbabwean,Current,1,1,1,0,0,0,2,1
+58,Kenneth Young,Male,67000 Ricky Plaza,Zimbabwean,Current,1,1,2,1,0,1,1,0
+59,Brian Peterson,Male,6120 James Well,Zimbabwean,Current,1,0,0,0,1,0,1,0
+60,Michelle Miles,Male,7223 Lawrence Manor Apt. 094,Zimbabwean,Savings,1,0,2,0,0,1,2,1
+61,Brooke Deleon,Male,90641 Melanie Field,Zimbabwean,Savings,2,0,0,0,0,0,2,1
+62,Chad Acevedo,Male,23400 Bryan Loop,Zimbabwean,Savings,2,1,2,2,1,0,0,1
+63,Robert Brown,Female,118 John Fields,Zimbabwean,Savings,0,1,0,0,1,0,0,1
+64,Douglas Fuller,Male,24293 Rose Ports Apt. 246,Zimbabwean,Savings,0,0,0,2,1,0,0,0
+65,Janice Cabrera,Female,5442 Phillip Lights,Zimbabwean,Savings,0,1,2,1,1,1,0,0
+66,Caroline Ruiz,Male,901 Lori Fords Suite 205,Zimbabwean,Current,0,0,0,0,1,1,2,1
+67,Christy Wilson,Male,8208 Jose Fort,Zimbabwean,Current,1,0,2,1,0,1,2,0
+68,Alexander Turner,Male,944 Baker Landing,Zimbabwean,Savings,2,0,1,2,0,1,1,1
+69,Victoria Thompson,Male,705 Jacqueline Knoll,Zimbabwean,Current,1,0,2,2,1,1,2,0
+70,Vincent Lutz,Male,4621 Garza Falls,Zimbabwean,Current,0,0,1,2,1,1,1,0
+71,Robert Rush,Male,1839 Salazar Shores,Zimbabwean,Savings,2,1,2,1,1,1,2,1
+72,Molly Parks,Female,296 Kathy Burgs,Zimbabwean,Current,2,1,2,1,1,1,2,0
+73,Katherine Gutierrez,Male,1229 Pena Point Apt. 452,Zimbabwean,Current,2,1,1,0,1,1,1,1
+74,Brian Johnson,Male,0366 Kim Manor,Zimbabwean,Current,0,1,0,1,1,1,1,1
+75,Danny Holmes,Male,4567 Jessica Square Suite 750,Zimbabwean,Current,1,0,2,1,0,0,1,1
+76,Joanne Kirby,Male,1603 Sandra Harbors,Zimbabwean,Current,1,0,0,0,0,0,0,0
+77,Christopher Lopez,Female,777 Holt Shoal Suite 551,Zimbabwean,Savings,0,1,0,1,0,1,2,1
+78,Diana Brown,Male,9242 Robert Corners Suite 609,Zimbabwean,Current,2,1,1,1,1,0,1,0
+79,William Morales,Male,650 William Freeway,Zimbabwean,Current,0,0,0,0,0,1,2,0
+80,Joshua Coleman,Female,5527 Colleen Green,Zimbabwean,Current,0,1,1,1,1,1,2,0
+81,Michael Taylor,Female,043 James Isle,Zimbabwean,Savings,1,0,0,0,0,0,1,0
+82,Jason Smith,Female,230 Edwards Drives Apt. 614,Zimbabwean,Savings,0,1,2,2,0,1,2,0
+83,Samantha Williams,Male,52171 Jones Camp,Zimbabwean,Savings,0,0,1,0,0,0,2,0
+84,Stephanie Walker,Female,3693 Salazar Ramp,Zimbabwean,Savings,0,0,2,0,0,1,0,1
+85,Amanda Mcgee,Female,42273 Kathleen Mission Suite 051,Zimbabwean,Current,0,1,1,1,1,0,1,0
+86,Mary Roman,Female,731 Rhonda Rue,Zimbabwean,Current,0,1,0,2,1,1,2,0
+87,Jeffrey Campos,Female,1793 Brooks Road,Zimbabwean,Savings,1,1,2,1,1,0,1,0
+88,William Gutierrez,Female,8107 Holloway Oval Apt. 207,Zimbabwean,Savings,0,1,1,1,0,0,1,1
+89,Frank Douglas,Male,13723 Andrew Locks,Zimbabwean,Savings,2,0,1,0,0,1,0,0
+90,Alicia Frank,Male,3026 Williams Track,Zimbabwean,Current,1,0,2,2,1,0,1,1
+91,Christina Krueger,Male,7132 Rebecca Motorway,Zimbabwean,Current,2,0,0,0,1,1,0,0
+92,Jo Gordon,Male,28547 Paige Turnpike Suite 129,Zimbabwean,Current,1,1,1,0,1,1,0,1
+93,Darren Nelson,Male,41384 Martinez Club,Zimbabwean,Savings,1,0,1,2,1,0,1,0
+94,Brandon Mitchell,Male,9809 Scott Locks Suite 330,Zimbabwean,Current,0,1,2,2,0,0,2,1
+95,Christina Parker,Female,3583 Aaron Parkway,Zimbabwean,Current,2,0,0,2,0,1,1,0
+96,Mary Arnold,Male,321 Lisa Forks,Zimbabwean,Current,0,0,2,0,0,0,0,1
+97,Julie Joseph,Male,02249 Joshua Harbors Apt. 042,Zimbabwean,Current,0,1,2,1,0,0,0,0
+98,Sara Mcneil,Female,7082 Williams Creek,Zimbabwean,Current,1,1,2,0,1,0,2,1
+99,Christine Nguyen,Female,06628 Crawford Village Suite 356,Zimbabwean,Current,2,1,1,1,0,0,2,1
+100,Natalie Hicks,Female,235 Bird Roads,Zimbabwean,Current,2,0,1,0,0,1,0,0
+101,Sara Mills,Female,4991 Byrd Garden Apt. 709,Zimbabwean,Current,1,1,1,1,1,1,2,0
+102,John Campbell,Female,435 Emily Via,Zimbabwean,Current,1,1,1,1,0,0,0,0
+103,Michael Bryant MD,Female,48913 Todd Tunnel,Zimbabwean,Current,1,0,1,2,0,1,2,0
+104,Sandy Perry,Male,05709 Kyle Avenue,Zimbabwean,Current,2,0,1,0,0,1,1,0
+105,Crystal Greene,Male,02190 Sawyer Camp Apt. 753,Zimbabwean,Savings,1,0,1,2,1,0,0,0
+106,Jason Hudson,Female,99073 Rodney Isle Apt. 879,Zimbabwean,Savings,0,0,1,0,1,0,0,0
+107,Amanda Williams,Male,4488 Crosby Ridges Apt. 641,Zimbabwean,Savings,0,0,2,0,0,1,1,1
+108,Jacob Guzman,Male,275 Berg Oval Suite 678,Zimbabwean,Current,1,0,2,0,1,0,0,1
+109,Chris Foley,Male,82695 Sullivan Stravenue Suite 240,Zimbabwean,Savings,0,0,2,1,0,0,0,0
+110,Stephen Mckinney,Male,995 Neal Mission Suite 387,Zimbabwean,Current,0,0,2,0,1,1,0,1
+111,Eric Valdez,Female,7527 Pamela Course,Zimbabwean,Savings,2,0,2,2,1,1,0,1
+112,Curtis Martin,Male,267 Mcgee Mission Suite 364,Zimbabwean,Current,2,0,0,1,1,0,1,0
+113,Cheryl Cooper,Male,090 Jimenez Bridge Apt. 799,Zimbabwean,Current,2,1,0,2,0,0,2,1
+114,Jason Williams,Male,39385 Barron Ranch Apt. 391,Zimbabwean,Savings,0,1,1,0,1,0,1,0
+115,Robert Bentley,Male,358 Jennifer Creek,Zimbabwean,Current,0,1,2,1,1,1,0,1
+116,Benjamin Moore,Female,276 Andrew Inlet,Zimbabwean,Current,0,1,1,0,1,1,2,0
+117,Sherri Bennett,Male,85980 Charlene Fall,Zimbabwean,Current,1,1,0,0,0,1,1,0
+118,Sarah Tucker,Male,7583 Mark Turnpike Suite 989,Zimbabwean,Current,1,0,1,2,1,0,0,0
+119,Theresa Serrano,Female,3677 Robert Motorway,Zimbabwean,Savings,1,1,1,2,0,1,2,0
+120,Joshua Rice,Female,75143 Hall Islands Suite 290,Zimbabwean,Savings,0,1,2,2,1,1,1,0
+121,Matthew Barrett,Male,874 Cole Run Suite 634,Zimbabwean,Savings,2,0,0,1,0,0,2,1
+122,Kyle King,Male,2933 Jeff Flat Apt. 015,Zimbabwean,Current,2,1,2,0,1,1,2,0
+123,Mark Abbott,Female,74409 Harris Park Apt. 607,Zimbabwean,Current,0,1,1,1,1,1,0,1
+124,Mark Hanson,Female,30808 Bowman Estate Suite 487,Zimbabwean,Savings,1,1,2,0,0,1,2,1
+125,Antonio Cooper,Male,011 Micheal Course Suite 339,Zimbabwean,Current,0,0,2,2,0,0,0,1
+126,Brian Cox,Female,7657 Amanda Prairie,Zimbabwean,Savings,2,1,0,2,1,0,2,1
+127,Vanessa Hurley,Female,14365 Ashley Tunnel Apt. 450,Zimbabwean,Current,2,0,2,0,1,1,1,0
+128,Joseph Wood,Male,3884 Johnny Locks Suite 660,Zimbabwean,Savings,0,1,2,2,0,1,0,0
+129,Nancy King,Female,17235 Brian Loaf,Zimbabwean,Current,2,0,2,0,0,0,0,0
+130,Johnny Jackson,Male,69097 Bauer Spurs Apt. 327,Zimbabwean,Current,2,0,1,2,0,0,2,1
+131,Barbara Williams,Male,774 Warren Port Suite 668,Zimbabwean,Current,0,0,1,0,1,1,2,1
+132,John Nixon,Male,44595 Black Glen Apt. 856,Zimbabwean,Savings,0,0,0,0,0,0,2,1
+133,Eric Hall,Male,962 Christian Shoal Suite 950,Zimbabwean,Savings,2,0,1,2,0,0,1,1
+134,William Liu,Female,0032 Mcbride Pines,Zimbabwean,Current,0,1,0,1,1,0,1,1
+135,Casey Thompson,Female,78601 Dudley Summit,Zimbabwean,Current,1,0,2,2,1,1,1,0
+136,Holly Singh,Male,6579 Kevin Alley,Zimbabwean,Savings,1,1,0,1,0,1,0,1
+137,Krista Mcgee,Female,6003 Graves Freeway,Zimbabwean,Current,1,1,1,0,1,0,2,0
+138,Joseph Wiggins,Male,88303 Bird Crescent,Zimbabwean,Savings,1,1,2,2,1,0,2,0
+139,Stacy King,Female,0169 Laura Rapid Suite 506,Zimbabwean,Current,2,1,0,0,1,1,2,0
+140,Michele Owens,Female,541 Adams Shores Suite 311,Zimbabwean,Savings,1,0,1,2,1,0,0,0
+141,Caitlin Williams,Female,71970 Torres Mountains,Zimbabwean,Savings,1,0,0,2,1,0,1,0
+142,Holly Phillips,Male,518 Glenn Springs Suite 999,Zimbabwean,Current,2,1,2,0,0,1,1,1
+143,Paul Perez,Female,14354 Raymond Square Suite 075,Zimbabwean,Current,0,1,2,2,1,1,2,0
+144,Larry Hanson,Female,279 Colin Square Apt. 776,Zimbabwean,Savings,1,0,2,1,1,1,0,1
+145,Gina Miller,Male,292 Smith Curve,Zimbabwean,Savings,2,0,2,1,0,0,0,1
+146,Rebecca Owens,Male,32586 Warren Wall,Zimbabwean,Savings,0,0,0,1,1,0,2,0
+147,Angela Thompson,Female,946 Daniel Ferry,Zimbabwean,Current,0,1,0,2,1,0,1,1
+148,David Foster,Female,130 Bryan Mount Apt. 029,Zimbabwean,Current,2,0,0,0,0,0,2,0
+149,Valerie Shaw,Male,63730 Cindy Pike,Zimbabwean,Savings,2,0,0,2,1,1,0,1
+150,Douglas Hogan,Male,32630 Jennifer Pass Suite 734,Zimbabwean,Current,0,1,1,2,1,0,0,1
+151,Carol Ruiz,Female,72649 Stephen Trail,Zimbabwean,Savings,2,1,1,0,0,1,1,1
+152,Terri Morales,Female,6780 Wade Turnpike,Zimbabwean,Current,2,1,1,2,0,0,2,0
+153,Leonard Martin,Female,57737 David Parkways,Zimbabwean,Savings,0,1,0,2,0,0,1,1
+154,Erica Brown,Female,96123 Sandra Throughway,Zimbabwean,Savings,0,1,0,0,1,0,1,1
+155,Charles Hernandez,Female,79526 Hernandez Fall Suite 180,Zimbabwean,Savings,0,1,2,1,1,0,1,0
+156,Luke Odom,Male,533 Collins Center Apt. 367,Zimbabwean,Current,2,0,1,0,0,0,2,0
+157,Paul Mercer,Female,539 Walker Spring Suite 083,Zimbabwean,Current,1,0,2,2,1,0,2,0
+158,David Kennedy,Male,27845 Charlotte Wells,Zimbabwean,Savings,2,0,0,0,0,0,2,1
+159,John Mack,Male,580 Franklin Dam Apt. 482,Zimbabwean,Savings,2,0,0,2,1,0,2,0
+160,Donald Lara,Male,935 Crosby Coves,Zimbabwean,Savings,1,0,0,0,1,0,1,1
+161,Mary Black,Male,17607 Durham Harbors Suite 707,Zimbabwean,Current,1,0,2,2,0,0,2,1
+162,Justin Rosario,Female,2478 Richard Lane Apt. 208,Zimbabwean,Savings,1,1,1,2,1,0,2,1
+163,Hannah Anthony,Male,839 Perez Greens,Zimbabwean,Savings,1,1,1,2,0,1,1,0
+164,Bryan Thomas,Male,4534 Alexandria Camp Apt. 923,Zimbabwean,Savings,1,1,1,0,0,1,2,0
+165,Jimmy Yang,Female,195 Christine Walks Suite 618,Zimbabwean,Current,2,1,2,2,0,1,1,1
+166,Robert Bird,Female,54062 Tasha Center,Zimbabwean,Current,2,1,1,1,0,0,1,0
+167,Joshua Oliver,Female,49860 Michael Prairie,Zimbabwean,Savings,1,1,2,1,0,1,1,1
+168,Cathy Garrett,Male,973 Henderson Trafficway Apt. 164,Zimbabwean,Savings,0,1,2,0,1,0,0,0
+169,Scott Navarro,Male,8814 Samantha Manor Apt. 418,Zimbabwean,Current,0,1,2,2,1,0,1,0
+170,Jason Cross,Female,2128 Mercedes Plains Apt. 250,Zimbabwean,Current,1,1,0,1,1,0,2,1
+171,Brianna Mcintosh,Female,5052 Andrew Station,Zimbabwean,Current,1,0,0,2,1,0,2,1
+172,Cory Martinez,Male,66166 Brittany Tunnel,Zimbabwean,Current,0,0,0,2,0,1,0,0
+173,Maria Martinez,Male,5676 Tara Drive Suite 216,Zimbabwean,Savings,2,0,1,2,1,0,0,0
+174,Jessica Green,Female,046 Linda Extension Suite 802,Zimbabwean,Savings,0,0,2,2,0,0,0,0
+175,Joseph Martin,Female,7217 Spencer Road Suite 366,Zimbabwean,Current,0,0,2,2,0,0,0,0
+176,Grant Kane,Female,489 Owens Stream Suite 846,Zimbabwean,Current,1,0,1,0,1,0,2,1
+177,Rita Obrien,Male,598 Daniel Walk,Zimbabwean,Savings,0,0,1,1,0,0,2,0
+178,Sarah Burgess,Female,9321 Andrew Trail Apt. 991,Zimbabwean,Current,1,0,2,2,1,1,1,0
+179,Amanda Reese,Male,543 Elizabeth Fords,Zimbabwean,Savings,0,0,1,2,1,1,2,0
+180,Jessica Walsh,Male,722 Mcdonald Road Suite 550,Zimbabwean,Current,0,0,0,0,1,1,0,1
+181,Isaac Forbes,Male,31808 Larson Green,Zimbabwean,Current,0,0,0,0,0,1,0,1
+182,Mathew Cole,Male,651 Martinez Harbor,Zimbabwean,Savings,1,1,0,1,1,1,1,1
+183,Jeffrey Rose,Female,95927 Terri Ferry Apt. 986,Zimbabwean,Current,2,1,2,1,0,0,2,1
+184,Jonathan Stewart,Female,3770 Gilmore Causeway,Zimbabwean,Current,0,0,2,0,1,0,2,0
+185,Nathan Lowe,Female,62049 Woodard Rue Apt. 373,Zimbabwean,Current,0,1,1,0,1,1,0,1
+186,Travis Roberson,Male,2149 Danielle Falls,Zimbabwean,Savings,2,0,2,1,1,0,1,1
+187,David Herrera,Male,15756 Brown Mission,Zimbabwean,Savings,2,0,1,1,0,1,0,1
+188,Randall Brennan,Male,744 Robert Freeway Suite 048,Zimbabwean,Current,0,1,2,1,0,0,0,0
+189,John Moses MD,Female,63801 Traci Terrace Apt. 839,Zimbabwean,Current,1,0,0,2,0,1,0,0
+190,Kelly Thomas,Female,2983 Rubio Mission Suite 627,Zimbabwean,Savings,0,0,2,2,0,0,2,1
+191,Jessica Carter,Male,9849 Lori Light Apt. 702,Zimbabwean,Savings,0,0,2,0,1,1,0,0
+192,Victor Miller,Male,638 Brown Trail Apt. 755,Zimbabwean,Current,1,0,0,2,1,0,2,0
+193,Jennifer Li,Female,492 Robert Loop,Zimbabwean,Savings,1,1,0,2,1,0,2,0
+194,Jodi Guerra,Male,776 Shannon Throughway,Zimbabwean,Current,2,1,2,0,0,0,1,0
+195,Chelsea Evans,Female,150 Coleman Corners,Zimbabwean,Current,2,1,2,1,1,0,2,1
+196,Paul Greene,Female,579 Burton Mountain,Zimbabwean,Current,1,1,0,1,0,1,2,0
+197,Keith Harris,Female,7445 Jason Shores,Zimbabwean,Current,2,0,0,0,1,0,0,0
+198,Sherri Alvarez,Female,91741 Rojas Club Suite 423,Zimbabwean,Savings,1,0,1,2,0,0,0,0
+199,Amy Hammond,Female,56317 Williams Park Apt. 573,Zimbabwean,Savings,1,0,0,0,1,1,1,1
+200,Rebecca Ortiz,Female,1046 Whitaker Rapid Suite 264,Zimbabwean,Current,0,1,2,1,1,0,2,0
+201,Jessica Beck,Male,1548 Dana Plains,Zimbabwean,Savings,2,1,1,2,0,1,0,0
+202,Rebecca Sharp,Female,0926 Gregory Drive Suite 729,Zimbabwean,Current,1,1,1,1,1,0,1,0
+203,Hannah Harmon,Male,99923 Martinez Field Apt. 862,Zimbabwean,Savings,1,0,0,1,1,1,1,0
+204,Zachary Clark,Female,27120 Gonzales Harbors,Zimbabwean,Current,2,1,0,2,0,0,1,1
+205,James Curry,Male,3701 Richard Fields Suite 304,Zimbabwean,Current,2,0,1,0,1,1,2,0
+206,Karen Johnson,Male,891 Willis Camp Apt. 189,Zimbabwean,Current,1,1,2,0,1,0,1,0
+207,Kathleen Roy,Female,99669 Baker Isle Suite 171,Zimbabwean,Current,1,1,0,2,1,0,0,1
+208,Denise Blake,Male,6301 Thomas Groves Apt. 656,Zimbabwean,Current,0,1,2,1,0,1,0,1
+209,Megan Kramer,Female,123 Brianna Springs,Zimbabwean,Savings,2,0,2,1,0,1,1,0
+210,Whitney Barnes,Female,8281 Jonathan Crossroad Suite 263,Zimbabwean,Current,0,0,1,1,1,0,0,0
+211,Stanley Franklin,Female,1948 Adam Corner,Zimbabwean,Current,2,1,2,0,0,0,2,0
+212,Christopher Jones,Male,74495 Lee Stravenue Apt. 916,Zimbabwean,Savings,1,0,2,2,1,0,0,1
+213,Jessica Thompson,Female,248 Cook Locks,Zimbabwean,Current,1,1,1,2,1,0,1,1
+214,Teresa Pollard,Female,7801 Mark Ways,Zimbabwean,Savings,2,0,2,2,1,0,1,0
+215,Natasha Washington,Female,190 Diamond Mall,Zimbabwean,Current,0,1,0,1,1,1,0,0
+216,Shawn Key Jr.,Female,039 Gregory Square Suite 995,Zimbabwean,Savings,1,1,0,1,0,1,0,1
+217,Thomas David,Female,1650 Justin Track,Zimbabwean,Savings,1,1,0,0,0,0,1,0
+218,Daniel King,Male,61220 Ricardo Gateway Apt. 541,Zimbabwean,Current,2,1,1,1,0,1,1,1
+219,Megan Williams,Female,5613 Toni Well,Zimbabwean,Savings,2,0,2,0,0,0,1,1
+220,Kenneth Davis,Male,100 Long Lock,Zimbabwean,Savings,2,0,0,2,1,0,0,0
+221,Stephanie Maldonado,Male,0921 Jared Villages Suite 219,Zimbabwean,Savings,2,1,2,0,0,1,1,1
+222,Bradley Cross,Female,350 Williams Unions,Zimbabwean,Current,0,1,0,1,0,0,2,1
+223,Gabrielle Flores,Female,54872 George Fall,Zimbabwean,Current,2,0,0,2,1,1,1,1
+224,Nicholas Huffman,Male,342 Vaughan Orchard,Zimbabwean,Current,0,0,0,0,1,0,2,1
+225,Charles Phillips,Male,855 Young Ramp,Zimbabwean,Savings,2,1,0,2,1,0,1,1
+226,Kristine Bass,Female,36296 Jesse Ways Apt. 796,Zimbabwean,Savings,2,1,2,1,1,1,2,0
+227,Billy Vega,Female,45780 Robbins Terrace Suite 848,Zimbabwean,Current,0,0,0,1,0,0,2,0
+228,Jessica Carney,Male,2674 Lewis Plains Suite 852,Zimbabwean,Savings,2,0,0,2,0,1,0,0
+229,David Ruiz,Female,7906 Nelson Estate,Zimbabwean,Savings,0,0,2,0,1,1,2,0
+230,Eric Herman,Female,56531 Lisa Pines,Zimbabwean,Savings,0,1,0,1,1,0,2,0
+231,Ryan Webster,Female,06971 Amanda Shoal,Zimbabwean,Savings,0,1,2,2,0,1,0,1
+232,Cody Dixon,Male,500 Edwards Loop,Zimbabwean,Savings,0,1,1,1,0,0,1,1
+233,Justin Wilkins,Male,472 Hines Gateway,Zimbabwean,Current,0,0,1,2,0,1,0,0
+234,Rebekah Castaneda,Female,78756 Pearson Ports Apt. 336,Zimbabwean,Savings,2,1,1,1,0,1,2,0
+235,Danielle Bond,Male,91712 Jarvis Summit,Zimbabwean,Savings,0,1,1,2,1,0,2,0
+236,Julie Castro,Male,0350 Johnny Highway,Zimbabwean,Savings,1,1,1,2,0,0,0,1
+237,Michael Dominguez,Male,79457 Adams Club,Zimbabwean,Current,2,0,2,1,0,1,1,0
+238,Ernest Brown,Female,780 Jody Ville Apt. 392,Zimbabwean,Current,2,0,1,2,1,0,0,0
+239,Andrew Smith,Male,258 Jones Locks Suite 568,Zimbabwean,Savings,0,0,0,1,0,1,0,0
+240,Jesse Moreno,Female,642 Cooley Grove Apt. 869,Zimbabwean,Current,1,1,2,1,1,1,2,0
+241,Tammy Perkins,Male,39964 Riley Isle,Zimbabwean,Savings,1,1,2,0,0,0,2,1
+242,Calvin Holland,Female,3053 Ramirez Inlet,Zimbabwean,Savings,2,1,1,2,0,0,1,1
+243,Madison Smith,Female,577 Gray Hill,Zimbabwean,Current,0,0,1,2,1,0,1,0
+244,Stephanie Bell,Female,68478 Wilson Land Suite 424,Zimbabwean,Savings,1,0,0,2,1,1,1,1
+245,Michael Boyer,Male,644 Morales Ports,Zimbabwean,Savings,1,0,2,1,1,0,2,1
+246,Heather Mcgee,Male,6226 Cheryl Road Suite 533,Zimbabwean,Savings,2,0,2,2,1,1,1,0
+247,Jill Thomas,Female,600 Dominguez Plaza,Zimbabwean,Current,2,1,1,0,0,1,2,1
+248,Alexis Hubbard,Female,6273 Mason Wells Suite 295,Zimbabwean,Savings,2,0,0,1,1,1,0,0
+249,Sandra Thomas,Female,619 Daniel Station,Zimbabwean,Current,1,0,1,0,0,1,2,1
+250,Latoya Howard,Female,342 Gray Square Apt. 790,Zimbabwean,Current,0,1,2,0,0,1,1,1
+251,Shelley Johnson MD,Male,05857 Ray Court,Zimbabwean,Current,2,0,0,1,1,0,0,0
+252,Monica Frank,Male,63055 Gray Green,Zimbabwean,Current,2,1,2,2,0,1,2,1
+253,Jason Kelley,Male,4091 Benson Extensions Suite 596,Zimbabwean,Current,1,1,1,2,0,0,0,1
+254,John Jones,Male,61283 Hannah Island Suite 056,Zimbabwean,Savings,2,1,1,1,0,0,0,0
+255,Robert Arroyo,Male,7752 Clark Trafficway,Zimbabwean,Savings,2,0,0,2,0,1,0,0
+256,John Williams,Female,812 Candace Hills Suite 302,Zimbabwean,Savings,2,0,2,1,0,0,0,0
+257,David Johns,Male,1495 Keith Lodge,Zimbabwean,Current,0,1,2,2,0,1,0,1
+258,Michael Graves,Male,7111 Denise Wall Apt. 167,Zimbabwean,Current,1,0,1,2,0,1,0,0
+259,Alexandra Johnson,Male,3010 Harris Mount Apt. 734,Zimbabwean,Current,1,1,2,2,1,1,1,0
+260,Donna Hawkins,Female,96492 Ronald Cove Suite 106,Zimbabwean,Savings,2,0,1,2,1,1,1,0
+261,Nicole Wade,Male,1928 Guerra Village Apt. 989,Zimbabwean,Current,2,0,1,0,0,1,1,0
+262,Christopher Brown,Male,240 David Trail Apt. 278,Zimbabwean,Current,1,0,2,0,0,0,0,0
+263,Amanda Perry,Male,00923 Mcclure Dam Apt. 435,Zimbabwean,Current,1,0,2,0,1,1,0,1
+264,Anthony Barber,Female,9461 Sean Trafficway,Zimbabwean,Savings,1,1,2,1,1,0,2,0
+265,Pamela Farrell,Male,36793 Marshall Hollow Suite 516,Zimbabwean,Savings,1,1,0,2,1,1,2,1
+266,Matthew Russell,Female,261 Thornton Circles,Zimbabwean,Savings,0,0,1,1,0,0,1,0
+267,Brianna Delgado,Female,2670 Sara Manors Suite 690,Zimbabwean,Savings,2,1,0,1,0,1,1,0
+268,Douglas Fisher,Male,138 Thomas Pines,Zimbabwean,Savings,2,0,0,2,1,0,0,1
+269,Steven Mitchell,Male,14698 Travis Overpass Apt. 501,Zimbabwean,Savings,0,1,0,0,0,1,2,1
+270,Robert Hernandez,Female,3893 Miller View Suite 317,Zimbabwean,Savings,0,0,1,1,1,1,1,1
+271,Benjamin Valdez,Female,023 Mcdonald Valleys Apt. 651,Zimbabwean,Current,0,0,2,1,0,1,1,0
+272,Mary Jenkins,Female,6906 Scott Crossing Suite 749,Zimbabwean,Savings,0,1,0,2,1,1,1,0
+273,Anna Todd,Female,77323 Booth Canyon,Zimbabwean,Savings,2,1,1,1,1,0,2,1
+274,Colin Powell,Female,37645 Amy Alley Apt. 813,Zimbabwean,Savings,2,0,1,2,1,0,2,1
+275,Anthony Ramos,Female,035 Singh Ridges Apt. 325,Zimbabwean,Savings,0,1,1,2,0,1,0,1
+276,Judith Douglas,Female,46276 Miller Port,Zimbabwean,Savings,0,0,1,0,1,1,1,0
+277,Nathan Reyes,Female,5950 Nichols Lane Suite 660,Zimbabwean,Current,1,0,0,2,0,0,0,1
+278,Lisa Potter,Male,12607 Johnson Common Suite 460,Zimbabwean,Savings,1,1,0,0,0,1,2,0
+279,Craig Rodriguez,Male,649 Anderson Way,Zimbabwean,Current,0,0,1,1,0,1,2,0
+280,Richard Gray,Male,90266 Ryan Lights,Zimbabwean,Savings,2,0,0,0,0,1,2,1
+281,Robert Lang,Male,9666 Carrie Mountains,Zimbabwean,Savings,2,1,0,0,1,0,1,0
+282,Cynthia Simmons,Male,1940 Lopez Square,Zimbabwean,Current,1,0,0,2,1,0,1,1
+283,Caitlyn Murillo,Male,3743 Davenport Drive,Zimbabwean,Current,0,0,0,1,1,1,2,0
+284,Andrew Mayer,Male,1144 Brian Parks,Zimbabwean,Savings,0,1,2,2,0,1,0,0
+285,Dana Wiley,Female,9521 Williams Mission,Zimbabwean,Savings,2,1,0,2,1,0,2,0
+286,Mr. Robert Davis,Male,985 Mathews Plaza Apt. 835,Zimbabwean,Current,2,1,2,1,0,1,1,0
+287,Erik Johnson,Male,21933 Ashley Views,Zimbabwean,Current,2,1,1,2,0,0,2,1
+288,Melissa Dunn,Male,15995 Wilson Meadows,Zimbabwean,Savings,1,0,2,2,0,1,0,1
+289,Jennifer Cisneros,Female,7002 Kelly Mountains,Zimbabwean,Savings,1,0,0,1,1,0,0,1
+290,Jessica Combs,Male,84079 John Plains,Zimbabwean,Savings,1,1,1,0,0,0,0,1
+291,Wendy Watson,Male,7746 Gloria Union Suite 407,Zimbabwean,Current,0,0,1,0,1,1,0,1
+292,Nicole Ponce,Female,94449 Christopher Skyway Suite 427,Zimbabwean,Savings,1,1,0,2,1,1,0,0
+293,Destiny Collins,Female,427 Kathleen Harbors,Zimbabwean,Savings,2,1,0,2,0,1,1,1
+294,Kathleen Schultz,Female,9971 Melendez Summit,Zimbabwean,Savings,2,0,2,0,1,1,2,0
+295,Dillon Lopez,Male,0153 Richard Avenue,Zimbabwean,Current,2,1,0,2,0,0,1,1
+296,Vanessa Lowe,Male,4722 Lisa Rue,Zimbabwean,Current,2,1,0,0,1,0,1,1
+297,Monica Holland,Female,89542 Stephens Village Apt. 261,Zimbabwean,Savings,1,0,1,1,0,0,1,0
+298,Laura Cowan,Male,09910 Joseph Burgs,Zimbabwean,Savings,2,0,1,0,0,1,0,0
+299,Grant Bender,Male,83645 Deleon Flats Apt. 361,Zimbabwean,Savings,1,0,1,1,1,0,1,0
+300,Benjamin Michael,Male,534 Webster Brooks Suite 078,Zimbabwean,Savings,0,0,2,2,0,0,1,1
+301,Lorraine Miller,Male,2078 Johnson Skyway Suite 791,Zimbabwean,Current,0,1,0,1,1,0,2,0
+302,Sarah Fuller,Female,9381 Jeremy Forges Apt. 915,Zimbabwean,Savings,0,0,1,2,0,0,0,1
+303,Dean Smith,Female,388 Russell Landing Apt. 910,Zimbabwean,Current,1,1,2,0,0,1,2,1
+304,Richard Gordon,Female,65949 Benjamin Haven Apt. 575,Zimbabwean,Savings,1,1,1,0,0,0,2,1
+305,Kelly Bell,Male,06464 Stout Dale Apt. 583,Zimbabwean,Current,2,0,2,0,1,0,1,1
+306,Kaylee Reynolds,Female,630 Curtis Walks Suite 282,Zimbabwean,Current,0,1,2,0,1,1,2,1
+307,Christine Hudson,Male,549 Hicks Circle Suite 494,Zimbabwean,Current,1,0,1,2,0,1,2,0
+308,Casey Riley,Male,14270 Dylan Locks Suite 807,Zimbabwean,Savings,1,1,1,1,1,1,2,1
+309,Emily Rich,Female,10424 Daniel Points Apt. 179,Zimbabwean,Savings,0,1,0,1,1,1,0,0
+310,Felicia Thomas,Male,91833 Susan Village,Zimbabwean,Current,1,0,2,2,0,0,0,1
+311,Joseph Watts,Male,363 Garner Lake Suite 779,Zimbabwean,Savings,1,0,0,0,0,1,1,0
+312,Mr. Joseph Montgomery,Male,237 Taylor Estate Suite 793,Zimbabwean,Current,1,0,0,2,0,1,0,1
+313,Christopher Jordan,Female,3062 Brian Parkway Suite 944,Zimbabwean,Savings,1,0,1,0,0,0,2,1
+314,Jordan Lozano,Female,39503 Torres Squares Apt. 635,Zimbabwean,Current,1,0,1,1,1,0,0,0
+315,Rebecca Holmes,Female,9825 Guerra Street Suite 569,Zimbabwean,Savings,2,1,2,1,0,0,2,0
+316,Stacey Watson,Female,8028 Thompson Lake Suite 663,Zimbabwean,Savings,0,1,1,1,1,1,2,1
+317,Meredith Rios,Female,97369 Burnett Canyon,Zimbabwean,Savings,0,1,2,1,0,0,2,0
+318,Willie Wilson MD,Female,0069 Christopher Valleys Suite 177,Zimbabwean,Current,2,0,2,1,0,1,0,0
+319,Jodi Reyes,Female,428 Spencer Loaf,Zimbabwean,Current,0,0,2,1,0,0,0,1
+320,Michelle Reed,Male,145 Maxwell Cliffs Suite 559,Zimbabwean,Current,1,1,2,2,1,0,2,0
+321,Rachel Strickland,Female,14715 George Spur Apt. 416,Zimbabwean,Savings,0,0,2,2,0,1,0,0
+322,Nicole Huber,Male,561 Rowland Isle Suite 954,Zimbabwean,Current,0,0,1,1,1,0,0,1
+323,Jason Rogers,Female,268 Berry Walks Apt. 924,Zimbabwean,Savings,0,1,2,1,1,1,1,0
+324,Dana Clark,Female,6973 Anthony Run Suite 058,Zimbabwean,Current,2,0,2,0,1,1,2,0
+325,Sandra Wilson,Female,12317 Russell Mills,Zimbabwean,Savings,0,1,2,1,0,0,0,0
+326,Christian Wallace,Male,48345 Holland Club Apt. 849,Zimbabwean,Savings,2,1,2,2,1,0,2,0
+327,Gregory Brown,Female,07885 Robert Trail,Zimbabwean,Savings,2,0,1,1,1,1,2,1
+328,Brian Preston,Male,8420 Martinez Lakes,Zimbabwean,Savings,0,0,1,1,1,0,1,1
+329,Jon Scott,Female,02569 Moore Corner Suite 020,Zimbabwean,Current,0,1,1,2,1,0,1,1
+330,Micheal Ramsey,Male,798 Jane Well,Zimbabwean,Savings,2,0,2,0,0,0,2,0
+331,Joshua Robinson,Male,1030 Little Views Apt. 997,Zimbabwean,Savings,0,1,2,2,0,0,2,0
+332,Russell Bennett,Female,41739 Reginald Villages,Zimbabwean,Current,2,0,1,1,1,0,1,0
+333,Brian Griffin,Female,90241 Ashley Corners Apt. 329,Zimbabwean,Savings,2,0,0,1,1,1,1,0
+334,Eileen Walker,Female,48603 Soto Wells Suite 830,Zimbabwean,Current,2,1,2,1,0,0,1,1
+335,Erin Ray,Female,658 Carter Squares Apt. 325,Zimbabwean,Savings,1,0,2,0,0,0,1,1
+336,Ricardo Jackson,Female,484 Cox Loop Suite 511,Zimbabwean,Current,0,0,1,0,0,1,1,1
+337,Lauren Dominguez,Female,0124 Mark Plaza,Zimbabwean,Current,0,1,2,2,1,1,1,0
+338,Lisa Brown,Male,090 Rivera Estate Apt. 231,Zimbabwean,Current,0,0,2,2,1,0,0,0
+339,Andrew Moore,Male,0819 Brian Lodge,Zimbabwean,Savings,2,0,1,1,1,1,0,0
+340,Kirk Garcia,Female,37195 Stacy Junctions,Zimbabwean,Savings,1,0,1,0,1,1,0,0
+341,Megan Jones,Male,1116 Williams Island,Zimbabwean,Current,2,1,0,2,1,1,0,1
+342,Cynthia Schmidt,Male,168 Debra Plaza,Zimbabwean,Savings,2,1,2,1,0,1,0,0
+343,Juan Maldonado,Male,2745 Glenn Prairie Apt. 563,Zimbabwean,Current,2,0,1,0,1,1,0,0
+344,Christopher Quinn,Male,452 Valerie Divide,Zimbabwean,Current,2,1,2,1,1,0,1,1
+345,Stacey West MD,Male,02810 Hall Wells,Zimbabwean,Current,2,0,0,1,1,1,0,1
+346,Diana Fox,Female,708 Wallace Via Suite 078,Zimbabwean,Savings,1,1,1,0,0,0,2,1
+347,Stacy Vargas,Male,966 Jonathan Heights Apt. 792,Zimbabwean,Current,2,1,0,2,0,1,0,0
+348,Walter Williams,Male,0555 Griffin Mill,Zimbabwean,Savings,0,0,2,0,0,1,0,1
+349,Stephanie Schmidt,Male,72932 Jennifer Harbors,Zimbabwean,Savings,1,1,0,1,0,1,1,0
+350,Mary Murphy,Male,124 Freeman Viaduct Suite 336,Zimbabwean,Current,0,0,0,0,0,1,0,1
+351,Robert Reed,Male,898 Joseph Union Suite 124,Zimbabwean,Savings,2,0,1,2,1,0,2,1
+352,Joseph Brown,Female,9166 Edwin Burgs,Zimbabwean,Savings,1,0,1,0,1,1,1,0
+353,Eric Mckee,Male,622 Johnson Port,Zimbabwean,Current,2,0,1,2,0,1,1,0
+354,Olivia Mendez,Female,94560 Mccormick Freeway,Zimbabwean,Current,0,0,1,0,0,1,0,0
+355,Kevin Pacheco,Female,812 Charles Parks,Zimbabwean,Current,0,0,2,1,1,0,1,1
+356,Maria Gutierrez,Female,350 Connor Falls Suite 916,Zimbabwean,Savings,2,1,0,1,1,1,2,0
+357,Phillip Hill,Female,23662 Kenneth Rapids Apt. 093,Zimbabwean,Current,1,0,1,1,0,1,0,0
+358,Sergio Ross,Female,2021 Sarah Forks,Zimbabwean,Savings,2,0,1,2,0,1,1,0
+359,Lori Rivas,Female,685 Knight Trafficway Apt. 935,Zimbabwean,Current,0,1,2,1,0,0,2,0
+360,Joshua Hudson,Male,4953 Thompson Wells,Zimbabwean,Savings,2,1,1,0,0,1,1,0
+361,Nicholas Thompson,Female,044 Johnson Shoal Suite 432,Zimbabwean,Current,2,0,0,2,1,0,2,0
+362,George Walls,Male,82632 Stanton Grove,Zimbabwean,Savings,0,0,0,1,1,0,2,0
+363,Stephen Carr,Female,9550 Sandra Way,Zimbabwean,Current,2,0,1,2,1,1,1,1
+364,Kimberly Riggs,Female,66395 Cheryl Isle,Zimbabwean,Current,2,1,2,1,0,0,2,0
+365,Christopher West,Female,122 Hicks Junctions,Zimbabwean,Savings,0,0,2,2,1,0,1,0
+366,Christopher Johnston,Female,92978 Melissa Meadow Apt. 447,Zimbabwean,Current,1,0,1,2,0,0,2,0
+367,Tyler Hodges,Female,9795 Edwards Parks,Zimbabwean,Savings,1,0,0,2,1,1,2,0
+368,John Michael,Female,877 Vang Prairie,Zimbabwean,Savings,0,0,1,2,0,1,2,0
+369,Courtney Patterson,Female,694 Amanda Mews Apt. 965,Zimbabwean,Savings,2,0,1,0,0,0,2,0
+370,Jamie Taylor,Female,708 Branch Crest,Zimbabwean,Savings,0,1,2,0,0,0,2,0
+371,Monica Stevens,Male,409 Andrew Pines,Zimbabwean,Savings,0,1,2,0,1,1,2,0
+372,Jacob Kelly,Male,73498 Ricky Square Apt. 671,Zimbabwean,Current,2,1,0,0,1,0,0,1
+373,Mr. Kevin Butler,Female,7716 Lynch Knolls,Zimbabwean,Savings,0,1,0,2,1,1,2,1
+374,Samantha Cohen,Female,17022 Jasmine Manors,Zimbabwean,Savings,0,1,1,1,0,0,0,0
+375,Evan Huber,Male,738 Hunter Place,Zimbabwean,Current,1,1,2,0,0,0,2,0
+376,Isabella Hicks,Male,008 Jonathan Prairie,Zimbabwean,Savings,0,1,0,2,0,0,2,1
+377,Stanley Flores,Female,90832 Joseph Way,Zimbabwean,Savings,1,1,0,2,1,1,0,1
+378,Hailey Weber,Male,09859 Courtney Ville,Zimbabwean,Current,1,0,2,1,1,1,1,1
+379,Judith Macias,Male,9300 Omar Loaf,Zimbabwean,Current,2,1,0,1,1,1,2,0
+380,Sandra Walker,Male,2840 Bush Road Suite 075,Zimbabwean,Current,2,0,2,1,1,1,0,0
+381,Ashley Sullivan,Male,92416 Rebekah Extension,Zimbabwean,Current,2,1,1,1,0,0,1,0
+382,Andrew Moore,Male,71098 Smith Bypass Apt. 097,Zimbabwean,Current,0,1,0,0,0,0,0,0
+383,Larry Anderson,Female,44597 Devon Wells Apt. 004,Zimbabwean,Current,0,0,1,1,0,1,2,1
+384,Alyssa Odonnell,Male,75624 Shannon Glen Suite 445,Zimbabwean,Savings,1,1,1,1,1,0,1,0
+385,William Rivera,Female,84940 Jimenez Port,Zimbabwean,Current,0,0,1,2,0,1,2,1
+386,Brian Lester PhD,Female,828 Jennifer Forest,Zimbabwean,Savings,1,1,1,1,1,0,1,1
+387,Teresa Page,Female,5651 Michael Stravenue,Zimbabwean,Current,2,1,2,1,0,1,1,1
+388,Jessica Mckenzie,Female,26759 Theresa Center,Zimbabwean,Savings,1,1,0,0,1,0,0,0
+389,Jean Mercer,Female,932 Dennis Junctions Suite 803,Zimbabwean,Savings,0,1,0,1,1,0,1,0
+390,Amanda Herman,Male,9847 Norman Harbors Suite 801,Zimbabwean,Current,1,0,0,1,0,0,2,1
+391,Sheila Lewis,Female,81901 Williams Roads Suite 068,Zimbabwean,Savings,0,1,0,0,1,0,0,0
+392,Penny Garcia,Female,9371 David Shore,Zimbabwean,Savings,0,0,0,2,0,0,2,0
+393,Emily Wright,Female,80766 Jenkins Dale,Zimbabwean,Current,1,1,0,0,1,1,2,0
+394,Mitchell Bowen,Female,452 Patrick Streets,Zimbabwean,Current,1,0,1,1,1,0,1,1
+395,Barbara Ellis,Female,633 Angela Ramp,Zimbabwean,Savings,2,0,0,2,0,0,1,1
+396,Robert Carter,Female,7810 Wright Grove,Zimbabwean,Savings,1,1,0,1,0,1,2,0
+397,Deanna Parks,Female,486 Johnson Mall,Zimbabwean,Savings,0,1,1,1,0,0,0,0
+398,John Stanley,Female,675 Daniel Mountain Apt. 078,Zimbabwean,Current,1,0,2,2,1,0,2,1
+399,Terry Howe,Male,719 Michael Extensions Apt. 700,Zimbabwean,Current,0,0,1,2,0,1,1,0
+400,Michael Armstrong,Male,29908 Tara Prairie Apt. 208,Zimbabwean,Current,1,0,0,2,1,0,2,1
+401,Clifford Parker,Female,8706 Kevin Forges Suite 599,Zimbabwean,Current,0,0,1,2,1,1,0,0
+402,Brenda Baker DDS,Male,5208 Perez Stream,Zimbabwean,Current,2,0,2,1,1,1,1,1
+403,Angela Brown,Male,4215 Marsh Prairie Apt. 749,Zimbabwean,Current,2,0,0,1,0,0,1,1
+404,Jennifer Weber,Female,71897 Jamie Views,Zimbabwean,Current,2,1,0,1,0,0,1,1
+405,William Hinton,Female,86723 Daniel Mission,Zimbabwean,Savings,0,0,0,0,0,0,2,1
+406,Yvette Smith,Male,86936 Rios Prairie Suite 225,Zimbabwean,Savings,2,1,2,0,0,0,1,0
+407,Michael Griffin,Male,003 Tracy Estates,Zimbabwean,Current,0,1,0,0,0,0,1,1
+408,Lauren Richardson,Female,17038 Peterson Pass,Zimbabwean,Current,0,0,2,1,0,0,0,1
+409,Angela Taylor,Female,037 Benjamin Mill,Zimbabwean,Current,2,0,2,0,0,1,2,0
+410,Timothy Garner,Female,454 Hopkins Trail Apt. 601,Zimbabwean,Savings,0,1,0,2,1,1,2,0
+411,Vickie Casey,Female,993 Jeffrey Lake,Zimbabwean,Savings,1,0,0,2,0,0,0,1
+412,Melissa Espinoza,Female,56603 Benjamin Mission,Zimbabwean,Current,1,0,2,2,0,0,1,0
+413,Andre West,Male,39264 Dominguez Haven,Zimbabwean,Savings,0,0,2,2,1,0,2,0
+414,Sydney Lopez,Female,83419 Dominguez Lights,Zimbabwean,Current,1,1,0,2,1,1,0,0
+415,Elaine Glover,Male,3814 Mckenzie Lake,Zimbabwean,Savings,0,0,1,0,1,0,1,1
+416,Charlene Kelly,Male,3333 Espinoza Roads,Zimbabwean,Savings,0,1,0,1,1,0,1,0
+417,Wendy Hood,Male,6083 Rogers Camp,Zimbabwean,Savings,2,0,0,2,1,0,0,0
+418,Roberta Quinn,Male,183 Davis Dale,Zimbabwean,Savings,2,0,2,0,0,0,1,1
+419,Alicia Walter,Male,3458 Scott Burgs,Zimbabwean,Savings,2,1,2,2,1,0,1,0
+420,Nicholas Rogers,Male,2672 Vanessa Row Apt. 274,Zimbabwean,Savings,2,1,2,0,0,0,0,1
+421,Johnny Wiley,Female,323 Ramirez Manor,Zimbabwean,Savings,2,1,2,1,0,0,1,1
+422,Marcus Gutierrez,Female,2372 Linda Harbors Apt. 551,Zimbabwean,Savings,2,0,1,0,0,1,0,0
+423,Lauren Grant,Male,7581 Daniel Unions Apt. 418,Zimbabwean,Savings,1,0,1,0,1,0,2,0
+424,Amy Diaz,Male,751 David Inlet,Zimbabwean,Current,0,1,1,2,1,1,0,1
+425,Sandra Reed,Female,3325 Neal Knoll Apt. 028,Zimbabwean,Savings,2,1,0,2,0,0,2,0
+426,Mark Quinn,Female,23711 Williams Street Apt. 753,Zimbabwean,Savings,0,1,1,2,0,1,2,0
+427,Paula Mcdonald,Female,63016 Angela Key,Zimbabwean,Savings,0,1,0,0,0,1,0,1
+428,Ruth Scott,Male,20089 Manuel Centers,Zimbabwean,Savings,0,0,0,1,1,0,2,0
+429,Joshua Hull,Male,77364 Norton Islands,Zimbabwean,Savings,0,0,0,2,1,0,1,1
+430,Kathleen Gordon,Female,5854 Kristen Mountains,Zimbabwean,Current,2,0,0,2,0,1,2,0
+431,Benjamin Raymond,Male,021 Anthony Villages Suite 490,Zimbabwean,Current,0,0,0,0,0,1,1,1
+432,Christopher Cameron,Female,4573 Johnson Mills Suite 487,Zimbabwean,Savings,0,0,2,0,0,0,0,1
+433,Stacy Hudson,Male,46255 Nicholas Stravenue,Zimbabwean,Current,0,1,0,1,0,1,2,1
+434,Cynthia Cherry,Female,0655 Kyle Track Suite 063,Zimbabwean,Savings,2,0,0,2,0,1,0,0
+435,Courtney Hernandez,Female,94649 Garrett Parkway Suite 232,Zimbabwean,Savings,2,0,0,1,1,1,1,0
+436,Philip Grimes,Male,48387 Ray Turnpike Apt. 727,Zimbabwean,Current,1,1,2,0,1,0,2,0
+437,Carly Sanders,Female,715 Huff View,Zimbabwean,Savings,0,0,0,2,0,0,2,1
+438,Erika Murphy,Female,428 Lauren Road,Zimbabwean,Savings,0,1,2,0,0,0,1,0
+439,Frederick Gutierrez,Male,259 Ingram Forge,Zimbabwean,Current,1,1,0,0,0,0,2,1
+440,Suzanne Palmer,Female,465 Suzanne Lodge,Zimbabwean,Savings,1,0,1,2,0,0,0,1
+441,Christopher Ortiz,Female,7105 Garcia Way Suite 446,Zimbabwean,Current,2,0,2,1,0,1,0,1
+442,Melissa Ross,Female,9205 Johnson Lane,Zimbabwean,Current,0,0,1,1,1,0,1,1
+443,Jordan Alvarez,Female,02107 Thomas Crossroad,Zimbabwean,Savings,0,0,2,1,1,1,2,0
+444,Thomas Christensen,Male,25775 Turner Forge,Zimbabwean,Savings,1,1,2,0,1,0,0,0
+445,Monique Greer,Male,41372 Dodson Turnpike,Zimbabwean,Current,1,1,0,2,1,1,2,0
+446,Catherine White,Male,366 Dennis Mills,Zimbabwean,Current,2,1,2,1,1,0,0,1
+447,Rebekah Mccarthy,Male,374 Robert Causeway,Zimbabwean,Current,1,0,1,1,1,1,0,1
+448,Vickie Harris,Female,3945 Haley Shore,Zimbabwean,Savings,0,0,1,0,0,1,1,1
+449,Frederick Warren,Female,932 Thompson Row Suite 891,Zimbabwean,Current,1,1,1,2,0,1,2,0
+450,Michael Martinez,Female,1686 Haley Branch Apt. 746,Zimbabwean,Current,1,0,1,0,0,1,1,1
+451,Donald Miller,Female,85266 Cuevas Canyon,Zimbabwean,Savings,0,0,0,1,0,1,1,0
+452,Jeremy Walton,Female,8208 Jones Corner,Zimbabwean,Current,0,1,0,0,1,0,1,0
+453,Brenda Sanders,Male,356 Carol Village,Zimbabwean,Savings,0,0,2,0,0,0,2,0
+454,Lucas Baldwin,Female,9303 Ryan Light Apt. 993,Zimbabwean,Current,2,1,0,1,1,0,0,1
+455,Tanner Jackson,Female,70833 Morrow Meadow Suite 396,Zimbabwean,Current,1,1,1,2,0,1,1,1
+456,George Becker,Male,98601 James Stravenue Apt. 951,Zimbabwean,Savings,2,1,0,1,0,0,2,1
+457,Brian Smith,Male,116 Love Walk,Zimbabwean,Savings,0,0,1,0,1,1,0,0
+458,Megan Hernandez,Female,71639 Daugherty Rue,Zimbabwean,Current,1,0,1,0,1,0,1,0
+459,Allison York,Female,109 Franklin Squares Apt. 935,Zimbabwean,Savings,1,0,2,1,1,0,0,0
+460,Kelsey Smith,Female,66661 Mary Drives,Zimbabwean,Savings,0,0,2,0,1,0,1,1
+461,Joshua Stein,Male,46503 Perez Flat,Zimbabwean,Savings,0,1,1,1,0,1,2,0
+462,Matthew Lee,Female,59104 Greene Summit Apt. 082,Zimbabwean,Current,2,1,1,2,0,0,1,0
+463,Lori Harris,Male,0440 Justin Springs Suite 831,Zimbabwean,Savings,1,1,0,2,1,0,2,0
+464,Joel Contreras,Female,37943 Adam Inlet,Zimbabwean,Savings,2,1,0,0,0,1,1,1
+465,Robin Calderon,Male,1157 Zimmerman Club Apt. 464,Zimbabwean,Current,2,1,2,1,1,0,1,0
+466,Dr. Kevin Stewart MD,Female,8430 Matthew Groves Suite 729,Zimbabwean,Savings,2,0,1,2,0,1,0,1
+467,Kurt Fitzgerald,Male,3595 Amy Plain Apt. 034,Zimbabwean,Current,0,1,1,1,0,1,2,1
+468,Rebekah Lyons,Male,425 Stanley Curve,Zimbabwean,Current,2,1,1,1,0,0,2,1
+469,Christopher Bates PhD,Male,91851 Gardner Island Apt. 729,Zimbabwean,Savings,0,1,1,0,1,1,1,1
+470,James Ramirez,Male,16143 Michael Lodge Suite 006,Zimbabwean,Savings,0,0,1,2,0,0,2,1
+471,Jessica Ruiz,Female,469 Robbins Street Apt. 472,Zimbabwean,Savings,1,0,0,2,0,0,2,1
+472,Donna Johnson,Male,59732 Olivia Avenue Apt. 961,Zimbabwean,Current,2,1,0,2,1,1,0,0
+473,Gregory Anderson,Female,902 Cynthia Mount Suite 264,Zimbabwean,Savings,0,1,2,1,0,1,0,1
+474,John Pollard,Female,7198 Johnson Camp,Zimbabwean,Current,2,1,0,1,0,1,0,1
+475,Scott Thompson,Female,926 Flynn Brook,Zimbabwean,Current,1,1,2,0,1,1,1,0
+476,Jessica Russell,Female,203 Donaldson Oval Apt. 884,Zimbabwean,Savings,2,0,2,2,0,1,2,0
+477,Troy Smith,Female,401 Kathy Manor Apt. 534,Zimbabwean,Current,1,0,2,0,1,1,0,1
+478,Raymond Martin,Male,567 Keith Loop Apt. 970,Zimbabwean,Savings,2,1,1,1,1,0,2,0
+479,Brenda Fowler,Male,197 Anthony Shoal Suite 584,Zimbabwean,Savings,1,0,0,2,1,0,2,1
+480,Elizabeth Torres,Female,1943 Michael Lights,Zimbabwean,Current,1,1,2,2,1,1,0,0
+481,Patricia Smith,Male,6773 Snyder Route Apt. 978,Zimbabwean,Current,2,1,0,1,0,0,2,0
+482,Rebecca Martinez,Female,47540 Hodges Rapids Suite 994,Zimbabwean,Savings,1,1,0,1,1,1,1,0
+483,Mark Graham,Male,0808 George Springs,Zimbabwean,Savings,1,1,0,2,1,0,2,0
+484,Michele Howe,Female,747 Nathan Field Suite 202,Zimbabwean,Current,1,1,2,2,1,0,2,0
+485,Kevin Brown,Male,786 Joe Village,Zimbabwean,Current,1,1,2,0,1,0,2,1
+486,Paul Aguilar,Male,7797 Jeremy Way,Zimbabwean,Savings,2,0,0,0,0,0,2,0
+487,Stephanie Martin,Female,4739 Martin Drive Apt. 682,Zimbabwean,Current,2,0,0,0,1,0,0,0
+488,Kimberly Conley,Female,76274 Martinez Ports,Zimbabwean,Savings,1,0,0,2,0,1,2,1
+489,Luke Barrett MD,Female,124 Kayla Alley,Zimbabwean,Current,0,1,0,2,1,0,2,0
+490,Christopher Molina,Female,80338 Abigail Causeway,Zimbabwean,Savings,1,0,1,1,0,0,1,1
+491,Sara Santos,Male,9764 Hernandez Squares,Zimbabwean,Savings,2,1,1,1,1,0,2,1
+492,Jennifer Griffith,Male,854 Cardenas Village Suite 816,Zimbabwean,Savings,1,1,0,1,1,1,2,1
+493,Darrell Wood,Female,1442 Castillo Orchard,Zimbabwean,Savings,2,0,1,2,0,0,0,1
+494,Derrick Gross,Female,63695 Robert Orchard,Zimbabwean,Savings,2,0,1,1,1,0,1,0
+495,Mrs. Lindsay Pruitt,Female,78686 Molly Junctions Suite 923,Zimbabwean,Savings,0,0,1,2,1,0,2,0
+496,Brian Malone,Male,7405 Aguilar Street Suite 828,Zimbabwean,Current,0,0,2,1,1,1,2,1
+497,Seth Sutton,Male,32510 Ricky Inlet,Zimbabwean,Current,1,1,2,2,0,0,1,0
+498,Mark Thompson,Male,6738 Young Harbors Apt. 760,Zimbabwean,Savings,2,0,1,2,0,1,2,1
+499,Megan Wright,Female,668 Neal Avenue Suite 109,Zimbabwean,Savings,1,0,1,0,0,0,0,1
+500,Micheal Torres,Female,07825 Martinez Bridge,Zimbabwean,Current,1,0,2,0,0,1,2,1
+501,Dr. Richard Robinson DVM,Female,0152 Aaron Plaza Suite 491,Zimbabwean,Current,2,0,2,0,1,0,0,0
+502,John Gonzales,Male,1456 William Prairie,Zimbabwean,Current,0,1,2,2,1,0,0,0
+503,Daniel Franklin,Male,75284 Bailey Greens,Zimbabwean,Current,0,1,0,1,0,1,0,0
+504,Joshua Howard,Male,8185 Watkins Manors Apt. 379,Zimbabwean,Current,1,1,2,1,0,1,0,1
+505,Tina White,Female,3213 Robinson Trail Apt. 547,Zimbabwean,Current,2,1,2,2,1,0,1,0
+506,Jonathan Smith,Male,6019 Denise Flat,Zimbabwean,Current,1,1,1,1,1,1,2,1
+507,Joshua Marsh,Female,93539 Dylan Hills Suite 106,Zimbabwean,Current,1,1,0,1,0,0,0,0
+508,James Anderson,Male,245 Wheeler Roads Suite 473,Zimbabwean,Savings,1,0,2,2,0,0,2,1
+509,Gilbert Roberts,Female,963 Williams Shoal Suite 379,Zimbabwean,Current,0,0,0,0,1,1,0,1
+510,Tina Bean,Male,9888 Colton Ways,Zimbabwean,Current,1,1,0,1,1,1,2,1
+511,Rebecca Young,Male,55604 Alejandro Stravenue Suite 435,Zimbabwean,Current,0,1,2,2,1,1,1,1
+512,Caleb Hensley,Female,4494 Barton Villages Suite 823,Zimbabwean,Savings,1,0,1,1,0,1,1,0
+513,Todd Norton,Male,8415 Mason View Apt. 824,Zimbabwean,Savings,0,0,1,1,0,0,1,1
+514,Brenda Smith,Female,877 Francisco Lodge Apt. 941,Zimbabwean,Current,2,0,2,2,0,1,0,0
+515,Tammy Drake,Male,5521 Vincent Port Apt. 391,Zimbabwean,Savings,1,1,1,1,1,1,1,1
+516,Ashley Davis,Male,853 Brandon Flats,Zimbabwean,Savings,0,1,0,0,0,1,1,0
+517,Ebony Hutchinson,Female,49804 Scott Port,Zimbabwean,Savings,0,0,0,1,1,0,1,1
+518,Mr. Bradley Wood DDS,Female,11460 Jacob Viaduct,Zimbabwean,Current,0,0,2,1,0,0,2,0
+519,Christopher Turner,Female,223 Carter Pines,Zimbabwean,Savings,0,1,0,2,1,1,0,0
+520,Eric Gibson,Female,760 Garner Shores Suite 273,Zimbabwean,Savings,2,1,0,0,1,1,1,1
+521,Brooke Davis,Female,907 Cline Passage Apt. 745,Zimbabwean,Savings,0,1,2,0,1,1,1,1
+522,Hannah Moss,Female,82129 Scott Stream Suite 703,Zimbabwean,Current,2,0,2,1,0,1,2,1
+523,Sarah Ruiz,Male,64243 Ryan Summit,Zimbabwean,Savings,2,1,2,1,1,1,0,0
+524,Samantha Hayes,Female,9279 Roberts Views,Zimbabwean,Current,0,1,2,0,0,0,0,0
+525,Jennifer Rojas,Female,00763 Brian Square Apt. 147,Zimbabwean,Current,1,0,2,1,1,0,0,1
+526,Trevor Zamora,Male,9879 Williams Spring,Zimbabwean,Savings,1,1,2,1,0,1,1,0
+527,Vanessa Reese,Female,686 Smith Dam,Zimbabwean,Current,1,1,1,0,1,1,2,1
+528,Michele Bolton,Male,6064 Sandoval Forges,Zimbabwean,Savings,0,0,1,1,1,1,1,1
+529,Mary Brown,Female,4064 Mckee Route,Zimbabwean,Savings,2,0,1,0,0,1,2,0
+530,Matthew Gonzalez,Female,4686 George Radial,Zimbabwean,Current,0,1,0,2,1,0,2,1
+531,Krystal Logan,Female,22797 Erin Haven,Zimbabwean,Savings,2,0,2,0,1,1,1,1
+532,Shari Rodriguez,Male,1466 Hoffman Rest,Zimbabwean,Savings,0,1,1,1,1,0,0,1
+533,Geoffrey Johnson,Female,90986 Emma Port,Zimbabwean,Current,0,0,0,0,0,0,2,1
+534,Ryan Fletcher,Female,8574 Meredith Ways,Zimbabwean,Savings,0,1,1,0,1,1,0,1
+535,Jessica Smith,Female,3126 Burke Station,Zimbabwean,Current,0,1,2,0,0,0,2,1
+536,Brian Park,Female,3513 Barbara Brooks Apt. 719,Zimbabwean,Current,0,1,0,2,0,1,0,0
+537,Carlos Grant,Female,893 Long Meadows Suite 309,Zimbabwean,Current,0,0,0,1,1,1,2,0
+538,Robert Davila,Female,573 Combs Throughway,Zimbabwean,Current,0,1,2,0,1,0,1,1
+539,Denise Richardson,Male,553 Leslie Loop Apt. 357,Zimbabwean,Current,1,0,1,2,1,1,2,1
+540,Zachary Fischer,Female,1177 Lynch Prairie Apt. 473,Zimbabwean,Savings,1,0,2,0,0,1,0,1
+541,Richard Rogers,Male,025 Rose Rue Suite 977,Zimbabwean,Savings,2,1,0,1,0,0,0,1
+542,Jennifer Carter,Male,71849 Alexander Mountains,Zimbabwean,Savings,2,1,2,1,1,0,1,1
+543,Laura Garcia,Female,26957 Crawford Shoals,Zimbabwean,Savings,2,1,1,2,0,1,0,1
+544,Breanna Walsh,Female,045 Michelle Village Apt. 997,Zimbabwean,Current,0,0,2,0,0,0,0,1
+545,Ronald Davis,Male,51095 Carrie Orchard,Zimbabwean,Current,2,1,2,0,0,0,0,0
+546,Raymond Fisher,Female,574 Montgomery Plaza Suite 981,Zimbabwean,Current,1,1,2,0,1,1,1,0
+547,Sabrina Walker,Female,71447 Mark Ville Suite 437,Zimbabwean,Current,1,1,2,2,0,1,1,0
+548,Abigail Curtis,Male,48648 Anthony Spur Apt. 006,Zimbabwean,Current,0,1,0,1,1,0,2,0
+549,Shannon Lutz,Male,3802 Michelle Freeway Suite 918,Zimbabwean,Savings,1,1,1,2,1,0,0,1
+550,Brian Johnson,Male,56538 Bird Mission Apt. 681,Zimbabwean,Current,2,0,2,0,0,1,0,0
+551,Kelly Stein,Male,994 Alvarez Extension Apt. 372,Zimbabwean,Savings,2,0,0,1,1,1,0,0
+552,Stacy Gray,Male,5854 Robles Cove,Zimbabwean,Current,1,0,0,1,0,0,2,0
+553,Brian Carlson,Female,962 Nancy Knoll,Zimbabwean,Savings,1,1,0,1,0,1,1,1
+554,Connor Phillips,Female,74401 Jasmine Tunnel,Zimbabwean,Current,0,0,2,0,1,1,0,1
+555,Donald Brock,Female,57269 Walter Rest,Zimbabwean,Savings,1,1,1,0,1,1,2,0
+556,Douglas Stanley,Male,408 Heidi Alley,Zimbabwean,Current,1,0,2,0,0,0,0,1
+557,Joseph King,Female,855 Lance Islands,Zimbabwean,Savings,0,0,1,1,1,1,2,0
+558,Glenn Sims,Female,084 Miller Plain Suite 717,Zimbabwean,Savings,2,0,0,2,1,1,2,0
+559,Connie Aguirre,Female,64425 Ronald Cliff Suite 704,Zimbabwean,Current,2,1,0,2,1,1,2,0
+560,Jack Garcia,Male,64249 Brian Lodge Apt. 338,Zimbabwean,Savings,2,1,1,1,0,0,0,0
+561,Michael Johnson,Male,405 Mayo Lock,Zimbabwean,Current,0,0,2,2,1,0,0,0
+562,Evelyn Miller,Female,2071 Owens Spurs,Zimbabwean,Savings,2,1,1,1,1,1,2,0
+563,Theresa Jones,Female,86268 Hopkins Crest Apt. 350,Zimbabwean,Current,0,0,0,1,1,0,1,1
+564,Derrick Yu,Male,7431 Ortiz Mission,Zimbabwean,Current,1,1,0,2,1,0,1,1
+565,Sean Rose,Male,3863 Romero Ports Apt. 953,Zimbabwean,Savings,2,0,1,0,1,1,2,0
+566,Nicole Perez,Male,32687 Cobb Ways,Zimbabwean,Current,0,1,0,2,0,1,1,0
+567,Colleen Smith,Male,321 Sydney Underpass Suite 897,Zimbabwean,Current,1,0,0,0,0,1,2,0
+568,Christopher Barton,Male,7033 Michael Rue,Zimbabwean,Current,0,0,1,1,0,0,1,0
+569,Troy Brennan,Female,34013 Moran Rapid,Zimbabwean,Current,2,1,0,1,0,1,0,0
+570,Tracey Lucas,Male,5611 Reid Extension,Zimbabwean,Current,1,1,2,0,0,1,2,0
+571,Julie Scott,Male,636 Johnson Viaduct,Zimbabwean,Savings,0,1,1,0,1,1,0,0
+572,Kayla Murphy,Female,60602 Kevin Tunnel Suite 720,Zimbabwean,Current,0,0,2,1,0,1,2,1
+573,Lance Smith,Male,167 Garcia Streets Suite 822,Zimbabwean,Current,2,0,0,2,1,1,2,1
+574,Gina Lopez,Male,855 Mckinney Extensions Suite 684,Zimbabwean,Current,1,1,2,0,0,1,0,1
+575,Tracey Brown,Male,51889 Christian Forks,Zimbabwean,Current,1,0,1,2,1,1,2,0
+576,Michael Haynes,Male,142 Robinson Ports,Zimbabwean,Current,1,1,0,2,0,0,0,1
+577,Kim Blake,Female,272 Jennifer Ways Apt. 299,Zimbabwean,Current,0,0,0,1,1,0,2,0
+578,William Schaefer,Female,786 White Drives Apt. 250,Zimbabwean,Current,1,1,2,0,0,1,1,0
+579,Debbie Mcdaniel,Female,3419 Zachary Oval Suite 099,Zimbabwean,Current,1,0,2,0,1,1,1,0
+580,Andrea Graham,Male,4415 Washington Club Apt. 219,Zimbabwean,Current,0,0,0,1,1,1,2,0
+581,Eric Cox,Male,41760 Kathryn Plains,Zimbabwean,Current,2,1,1,2,1,0,0,0
+582,Kathy Rice,Female,4256 Cook Spring Suite 762,Zimbabwean,Current,1,1,0,0,1,0,0,1
+583,Anthony Long,Female,0357 Townsend Union Apt. 445,Zimbabwean,Current,1,1,1,1,1,0,2,0
+584,Jesse Shaw,Male,0150 Brooks Stream,Zimbabwean,Current,2,0,1,0,1,0,0,1
+585,Nancy Wright,Male,796 Norman Shores Apt. 756,Zimbabwean,Current,2,1,1,2,1,1,1,1
+586,Brenda Ramirez,Female,796 David Mountains,Zimbabwean,Savings,2,0,2,1,1,0,2,0
+587,Frederick Stein,Male,547 Blackwell Grove,Zimbabwean,Savings,0,1,0,0,1,0,0,1
+588,Jacob Flowers,Female,333 Wade Falls,Zimbabwean,Savings,1,1,1,1,1,0,1,1
+589,Charles Wu,Male,970 Ryan Coves,Zimbabwean,Current,2,0,1,2,1,1,0,1
+590,William Moore,Male,1853 Suarez Lakes,Zimbabwean,Savings,0,1,2,0,1,1,2,1
+591,Gary Barry,Female,931 Burns Fields,Zimbabwean,Current,2,0,2,1,1,1,1,1
+592,Elizabeth Brown,Female,0017 Patricia Falls Suite 900,Zimbabwean,Current,0,0,1,0,1,1,0,1
+593,Brandon Mercado,Female,362 Miller Burg Suite 301,Zimbabwean,Current,1,1,1,1,0,0,0,1
+594,Brandi Martinez,Female,2113 Williams Course,Zimbabwean,Savings,2,1,1,0,0,0,1,1
+595,Monica Hill,Male,389 Brittany Passage Apt. 862,Zimbabwean,Savings,0,1,2,0,0,0,1,1
+596,Michael Joyce,Female,255 Julian Squares,Zimbabwean,Current,0,0,2,2,0,0,1,1
+597,Sierra Davis,Female,20396 Carter Camp Apt. 425,Zimbabwean,Current,1,1,1,2,1,0,2,0
+598,Kaitlyn Rodriguez,Male,926 Pollard Creek,Zimbabwean,Savings,1,0,1,2,1,0,0,0
+599,Douglas Hutchinson,Female,490 Larry Forest,Zimbabwean,Savings,2,1,2,2,1,0,2,0
+600,Mariah Armstrong,Female,241 Daniel Junctions,Zimbabwean,Current,0,1,2,0,0,0,2,0
+601,Linda Adams,Male,944 Meghan Trail Apt. 002,Zimbabwean,Current,1,0,2,1,0,1,0,1
+602,Laura Kennedy,Male,3073 Geoffrey Ports Apt. 519,Zimbabwean,Savings,2,0,0,0,0,1,1,1
+603,Linda Thompson,Female,1698 Ross Prairie Suite 373,Zimbabwean,Savings,1,0,2,2,0,0,0,1
+604,Julie Foster,Male,7386 Christopher Divide,Zimbabwean,Savings,2,1,0,1,0,1,1,0
+605,James Velazquez,Female,05252 Joshua Ridges Apt. 018,Zimbabwean,Current,1,0,2,0,1,0,1,0
+606,William Terry,Female,6397 Faith Roads,Zimbabwean,Current,0,1,2,0,1,0,1,0
+607,Nathan Sherman,Male,362 Meyer Court Apt. 778,Zimbabwean,Current,1,0,2,1,1,1,2,0
+608,Nina Hall,Male,2468 Daniel Fields,Zimbabwean,Savings,0,0,0,2,0,0,0,1
+609,Logan Yang,Male,19669 Erika Lodge Suite 969,Zimbabwean,Savings,0,0,2,0,1,0,1,0
+610,Susan Jackson,Female,52578 Daniel Points,Zimbabwean,Savings,1,1,1,2,1,0,2,0
+611,Sarah Lopez,Male,1532 Duncan Lodge,Zimbabwean,Savings,1,0,2,2,0,1,0,0
+612,Monica Montgomery,Female,09388 Christina Hills Suite 396,Zimbabwean,Savings,2,1,1,2,1,1,2,0
+613,Teresa Johnson,Female,27213 Brown Fields Apt. 008,Zimbabwean,Current,0,1,1,0,0,1,1,0
+614,Christine Brown,Male,8712 Turner Green Apt. 030,Zimbabwean,Savings,0,0,1,1,1,1,2,1
+615,Ricardo Anderson,Male,74526 Kathleen Freeway,Zimbabwean,Savings,2,0,0,2,1,0,0,1
+616,Peter Smith,Male,32641 Smith Mission Suite 586,Zimbabwean,Savings,2,1,2,1,1,1,1,0
+617,Jordan Sanders,Male,059 Michael Loaf,Zimbabwean,Savings,0,0,1,1,0,1,0,0
+618,Michael Brown,Female,6895 Jonathan Cove,Zimbabwean,Current,0,0,2,1,0,1,0,1
+619,Aaron Gardner,Male,510 Abigail Dale,Zimbabwean,Savings,2,1,0,0,1,0,0,0
+620,Justin Anderson,Male,9064 Kelly Branch Apt. 240,Zimbabwean,Savings,1,0,2,0,0,1,1,0
+621,Stephanie Simmons,Male,5343 Jenkins Stream,Zimbabwean,Savings,0,1,1,0,1,0,2,1
+622,David Hernandez,Female,42956 Richard Junction,Zimbabwean,Savings,0,0,2,1,0,0,1,1
+623,Denise Moody,Female,512 Kara Light Suite 872,Zimbabwean,Savings,0,1,1,1,0,1,0,1
+624,Gloria Chavez,Female,8220 Miller Hollow,Zimbabwean,Savings,2,1,1,2,0,1,1,0
+625,Crystal Castillo,Female,6245 Sabrina Walk,Zimbabwean,Savings,0,0,1,2,1,1,0,0
+626,Jamie Johnson,Male,688 Melissa Camp Apt. 572,Zimbabwean,Savings,1,1,2,2,0,0,2,1
+627,Laura Wood,Male,632 Lawrence Extension Suite 331,Zimbabwean,Savings,2,1,0,1,0,0,0,1
+628,Kevin Pierce,Female,0447 Erica Drive,Zimbabwean,Savings,0,1,0,0,0,0,2,0
+629,Austin Parker,Female,77576 Brown Isle Apt. 023,Zimbabwean,Current,1,0,1,2,1,1,2,1
+630,Christopher Huerta,Female,8002 Brenda Underpass Apt. 815,Zimbabwean,Savings,1,0,0,1,1,0,1,1
+631,Courtney Brooks,Female,12358 Ortega Extension,Zimbabwean,Savings,0,0,1,2,0,0,1,1
+632,Ryan Wheeler,Male,44913 Cole Burg Suite 919,Zimbabwean,Current,1,0,1,1,1,0,1,0
+633,Suzanne Dennis,Female,9372 Simpson Bridge Apt. 899,Zimbabwean,Current,0,1,0,1,1,0,0,0
+634,Richard Jenkins,Male,211 Diana Lights,Zimbabwean,Current,1,0,0,2,0,1,1,1
+635,Susan Lewis,Male,5181 Christian Field,Zimbabwean,Savings,0,0,1,2,0,0,0,0
+636,Cameron Sullivan,Female,63157 Campbell Fields Apt. 734,Zimbabwean,Savings,0,1,0,2,0,1,0,1
+637,Johnny Campbell,Female,161 Logan Pine Suite 662,Zimbabwean,Savings,2,0,2,1,1,0,1,0
+638,Brian Tate,Female,6223 Montgomery Center Suite 075,Zimbabwean,Savings,2,0,1,0,0,0,1,0
+639,Carolyn Kaiser,Male,1881 David Center Apt. 192,Zimbabwean,Current,0,0,0,1,0,0,2,1
+640,Chad Howard,Female,689 Russell Walks Suite 814,Zimbabwean,Savings,0,1,1,0,1,0,1,0
+641,Emily Morales,Male,5583 Dakota Inlet Apt. 057,Zimbabwean,Current,2,0,0,0,0,0,1,0
+642,Holly Leonard,Male,87168 Connie Hollow,Zimbabwean,Savings,0,0,2,2,0,0,1,0
+643,John Brock,Female,315 Sawyer Islands,Zimbabwean,Current,0,1,1,2,1,0,1,0
+644,Rachel Carrillo,Female,7549 Perez Orchard,Zimbabwean,Savings,2,0,2,2,0,0,0,1
+645,Adrienne Jarvis,Male,691 Lee Mountains,Zimbabwean,Current,2,1,0,0,1,1,0,1
+646,Christina Walker,Male,0511 Richardson Springs,Zimbabwean,Savings,1,1,1,1,0,1,1,0
+647,Lisa Payne,Male,6644 Cain Plains,Zimbabwean,Current,2,0,1,2,1,0,0,0
+648,Jill Mathis,Male,4772 Melissa Plaza Apt. 770,Zimbabwean,Savings,2,1,2,0,0,0,0,0
+649,Andrew Johnson,Female,1932 Gibson Mission Apt. 414,Zimbabwean,Current,1,1,1,0,1,0,1,1
+650,Rachel Dean,Male,32753 Chavez Drives,Zimbabwean,Savings,0,0,2,1,1,0,1,1
+651,Claire Nunez,Male,53203 Gregory Court,Zimbabwean,Savings,1,0,1,1,0,0,2,0
+652,Timothy Wells,Female,78193 David Oval Suite 306,Zimbabwean,Savings,2,1,1,0,1,0,0,0
+653,Amanda Jones,Female,90172 Latoya Manors Apt. 981,Zimbabwean,Current,0,1,1,2,1,1,1,1
+654,Stephen Rodriguez,Male,77133 Larry Prairie,Zimbabwean,Current,2,0,2,1,1,0,2,0
+655,David Chambers,Female,003 Atkinson Fields,Zimbabwean,Savings,0,0,2,0,1,0,0,0
+656,Marc Hammond,Male,5144 Cameron Vista,Zimbabwean,Current,1,0,0,2,0,1,0,1
+657,John Farrell,Female,74175 Jean Inlet,Zimbabwean,Savings,1,1,1,0,1,0,0,1
+658,James Velasquez,Male,6045 Elizabeth Squares Apt. 959,Zimbabwean,Savings,2,1,0,1,1,0,2,0
+659,Samantha Elliott,Male,07833 Ramsey Haven,Zimbabwean,Savings,2,1,1,1,0,0,1,0
+660,Kristi Jones,Male,97400 Taylor Parkway,Zimbabwean,Savings,0,1,0,1,0,0,0,1
+661,Donald Sandoval,Female,331 Lawrence Greens,Zimbabwean,Current,1,1,0,2,0,0,2,0
+662,Dr. Nicholas Jones,Female,639 Davis Green Suite 264,Zimbabwean,Current,2,0,1,0,0,0,0,0
+663,Deborah Parsons,Male,09875 Diane Park Apt. 588,Zimbabwean,Savings,0,1,2,1,1,1,0,0
+664,Aaron Moore,Male,116 Wolf Mountain,Zimbabwean,Current,2,0,1,2,1,1,2,0
+665,Rose Cox,Male,3476 Blake Square Apt. 399,Zimbabwean,Current,1,1,1,2,0,0,2,1
+666,Jenny Spears,Female,2474 Peter Cliffs Apt. 490,Zimbabwean,Current,1,1,0,0,1,0,0,1
+667,Katherine Fitzgerald,Female,86130 Hoffman Drive Suite 474,Zimbabwean,Savings,0,1,1,2,0,0,2,0
+668,Bryan Murray,Male,91786 Solis Square Apt. 252,Zimbabwean,Savings,2,1,2,2,0,0,0,0
+669,Kevin Carlson,Female,669 Ronald Unions Apt. 655,Zimbabwean,Savings,0,0,1,2,1,1,1,0
+670,Mark Williamson,Male,5097 Smith Stravenue,Zimbabwean,Savings,1,1,0,1,0,0,1,0
+671,Kayla Hicks,Male,089 Sanchez Plains,Zimbabwean,Savings,0,1,2,0,1,0,0,0
+672,Joshua Henry,Male,3521 Thomas Fields,Zimbabwean,Savings,1,1,2,0,0,0,2,1
+673,Lisa Vargas,Female,1367 William Trafficway Suite 219,Zimbabwean,Savings,2,0,0,1,1,0,0,0
+674,Julie Crane,Female,557 Harding Lights Suite 546,Zimbabwean,Current,2,0,1,2,0,1,2,1
+675,Aaron Hays,Male,422 Rodriguez Trace Apt. 486,Zimbabwean,Savings,0,1,0,2,1,1,2,0
+676,William Moore,Female,3130 Doyle Rest,Zimbabwean,Savings,0,0,1,1,1,0,2,1
+677,Joshua Foley,Male,6960 Jones Courts Apt. 876,Zimbabwean,Savings,1,1,1,0,0,0,1,1
+678,Michael Wood,Male,45582 Mccormick Freeway,Zimbabwean,Savings,2,1,1,1,0,1,1,0
+679,Paul Pearson,Female,2208 Jessica Forest,Zimbabwean,Current,2,0,0,2,0,1,0,1
+680,Brian Vargas,Male,662 Kenneth Ports,Zimbabwean,Savings,0,0,2,0,1,0,0,0
+681,Donna Martin,Female,285 Gutierrez Camp,Zimbabwean,Savings,2,0,1,1,1,1,0,1
+682,Megan Cline,Male,30058 Davis Trace Suite 475,Zimbabwean,Savings,2,1,1,2,0,1,0,1
+683,Kayla Buck,Male,832 Jennifer Path Apt. 369,Zimbabwean,Current,0,1,2,1,1,0,2,0
+684,Roger Dillon,Male,300 Phillip Divide,Zimbabwean,Current,0,1,2,0,0,0,1,0
+685,Cynthia Lee,Male,1356 Lisa Cape Apt. 711,Zimbabwean,Current,1,0,1,0,1,0,1,1
+686,Edward Henry,Male,6292 Sheppard Oval,Zimbabwean,Current,2,0,0,1,0,1,1,1
+687,Laura Bright,Male,249 Bolton Camp,Zimbabwean,Savings,0,0,2,0,0,1,2,1
+688,Cynthia Wall,Male,778 Hughes Mount,Zimbabwean,Current,1,1,0,2,0,0,2,0
+689,Jeremy Foley,Female,655 Stephanie Squares Apt. 071,Zimbabwean,Savings,0,1,1,1,0,1,1,0
+690,Nicole Mendez,Female,41657 David Camp Apt. 139,Zimbabwean,Current,1,0,2,1,0,1,0,1
+691,Kristina Oliver DDS,Female,72106 Flores Turnpike Apt. 466,Zimbabwean,Current,1,1,2,1,0,1,0,1
+692,Michael Ellison,Male,44075 Jason Bridge,Zimbabwean,Savings,0,1,1,1,1,0,1,1
+693,Jordan Arnold,Male,02503 Joseph Village,Zimbabwean,Savings,2,0,2,0,0,0,1,1
+694,Kelsey Costa,Female,93074 Sean Heights Apt. 129,Zimbabwean,Current,1,0,1,2,1,1,1,1
+695,Dana Dickerson,Male,96969 Smith Causeway Suite 809,Zimbabwean,Current,2,1,2,0,0,0,2,0
+696,Lisa Williams,Male,0423 Melissa Plain Suite 722,Zimbabwean,Current,1,1,0,0,0,1,0,0
+697,Patricia Lopez,Male,780 Daniel Course,Zimbabwean,Current,1,0,0,1,0,1,0,0
+698,Marcus Mays,Male,7715 Lisa Freeway,Zimbabwean,Savings,1,1,2,2,0,0,0,1
+699,Sherry Sutton,Male,547 Gabriella Rue,Zimbabwean,Current,0,0,2,0,0,0,0,0
+700,Jose Davis,Female,49131 Cassandra Dam,Zimbabwean,Savings,1,1,0,0,1,0,0,1
+701,Joseph Beasley,Male,92841 Allison Stream Apt. 335,Zimbabwean,Savings,0,1,1,1,0,0,2,0
+702,Justin Mendez,Male,41952 Hamilton Way Apt. 732,Zimbabwean,Current,1,1,2,1,1,0,0,0
+703,Jacob Richardson,Male,588 Denise Squares,Zimbabwean,Savings,2,0,2,1,1,1,1,1
+704,Deborah Harris,Female,20081 Brian Brook Suite 880,Zimbabwean,Savings,0,0,2,2,1,1,0,1
+705,James Sawyer,Male,1132 Alvarez Spring Apt. 037,Zimbabwean,Savings,0,1,0,1,0,0,0,1
+706,Bonnie Jenkins,Female,074 Mccarty Crossing,Zimbabwean,Savings,2,0,1,1,1,1,0,0
+707,Maria Garcia,Female,81593 Darryl Vista Apt. 361,Zimbabwean,Savings,2,0,2,1,1,0,1,1
+708,Randy Owen,Female,612 Hayley Rest,Zimbabwean,Savings,0,1,1,0,1,0,1,1
+709,Karen Hill,Female,6649 Garcia Burgs Suite 104,Zimbabwean,Savings,0,1,1,1,1,0,1,0
+710,Michelle Hurley,Female,336 Sarah Walk,Zimbabwean,Savings,0,1,0,2,0,1,2,0
+711,Jason Conner,Male,0585 Flores Crescent Apt. 923,Zimbabwean,Savings,0,1,2,0,0,1,1,0
+712,William Howard,Female,74154 Johnson Forest Suite 980,Zimbabwean,Savings,1,0,0,2,1,1,1,1
+713,Brett Mitchell,Male,25509 Jacqueline Streets,Zimbabwean,Current,2,1,1,1,0,0,1,0
+714,Kristina Carroll,Female,8671 Lisa Parkway Apt. 699,Zimbabwean,Current,1,1,2,2,0,0,0,0
+715,Cindy Mason,Female,49597 Eric Corner,Zimbabwean,Savings,2,1,0,1,1,0,2,0
+716,Mark Stewart,Female,1162 Kathy Run,Zimbabwean,Current,2,1,0,2,1,1,0,0
+717,Sandra Gordon,Female,8371 Timothy Hills,Zimbabwean,Savings,1,1,1,2,1,0,2,0
+718,Bryce Williams,Female,85009 Deanna Cape,Zimbabwean,Current,0,0,0,2,1,0,0,1
+719,Christopher Alvarado,Female,1246 Wilkins Turnpike Apt. 126,Zimbabwean,Current,2,1,1,2,0,1,0,0
+720,John Freeman,Female,762 Pruitt Way,Zimbabwean,Current,1,1,0,0,0,1,1,1
+721,Belinda Wong DDS,Female,51732 Lawrence Summit,Zimbabwean,Savings,1,0,0,0,0,0,1,1
+722,Brittany Harper,Male,967 Bianca Garden,Zimbabwean,Current,2,1,2,0,0,1,0,0
+723,Anthony Chambers,Male,27077 Shelby Roads,Zimbabwean,Savings,0,0,1,1,1,0,1,0
+724,Matthew Rivas,Female,71945 Collins Ranch,Zimbabwean,Savings,0,0,0,2,0,0,1,0
+725,Chad Huynh,Male,0971 Taylor Plain Apt. 544,Zimbabwean,Current,1,1,0,1,0,0,2,1
+726,Matthew Riley,Female,6244 Tammy Mount,Zimbabwean,Savings,2,0,0,2,0,0,1,0
+727,Stacy Smith,Male,2380 Margaret Green,Zimbabwean,Current,1,0,2,2,1,0,0,1
+728,Dana Wright,Male,9707 Nelson Islands,Zimbabwean,Savings,2,1,2,1,0,0,0,1
+729,Karen Johnson,Male,8009 Jessica Trace,Zimbabwean,Savings,1,1,2,1,1,0,0,1
+730,Emily Johnson,Female,046 Carter Canyon,Zimbabwean,Savings,1,0,0,1,0,0,0,1
+731,Kevin Taylor,Male,747 Dickerson Plaza,Zimbabwean,Current,0,1,0,0,0,0,2,1
+732,Kurt Thomas,Female,61801 Glenn Square,Zimbabwean,Current,2,1,2,2,1,1,0,0
+733,Elizabeth Jackson DDS,Female,3570 Collins Walks Suite 523,Zimbabwean,Savings,2,1,0,2,1,0,0,0
+734,Heather Johnson,Female,785 Benjamin Oval,Zimbabwean,Savings,1,1,1,1,0,0,2,0
+735,Daisy Conley,Female,136 Theresa Trace Suite 213,Zimbabwean,Savings,0,0,1,0,0,1,0,1
+736,Tanya Neal,Female,81274 Matthew Corners,Zimbabwean,Savings,2,1,0,1,1,0,0,1
+737,Christopher Smith,Female,51229 Richardson Overpass,Zimbabwean,Current,1,1,0,1,0,0,2,1
+738,Heidi Molina,Female,325 Johnston Flat Apt. 818,Zimbabwean,Current,0,1,2,1,1,0,2,0
+739,Jennifer Brennan,Female,16460 Karen Road,Zimbabwean,Current,0,1,1,2,0,0,2,0
+740,Michael Rodriguez,Female,33074 Jacob Mountain Suite 270,Zimbabwean,Current,1,0,1,1,1,1,2,1
+741,Joel Ford,Female,282 Stephanie Avenue Suite 016,Zimbabwean,Current,1,0,0,1,1,1,0,1
+742,Nicholas Montgomery,Male,9761 Charles Cliffs Apt. 261,Zimbabwean,Savings,2,1,0,0,0,0,0,1
+743,Michael Parker,Female,096 Mosley Shore Suite 757,Zimbabwean,Savings,0,1,1,0,0,0,1,0
+744,James Fowler,Male,92713 Hamilton Villages Apt. 865,Zimbabwean,Savings,2,1,0,2,0,0,0,0
+745,Melissa Wilson,Male,28492 Amanda Trafficway,Zimbabwean,Current,0,0,1,2,0,0,1,0
+746,Mr. James Guzman,Female,94367 Silva Club Apt. 927,Zimbabwean,Current,1,1,1,2,0,1,1,1
+747,Larry Lawrence,Male,81579 Gray Key Apt. 460,Zimbabwean,Savings,0,0,0,1,1,1,0,1
+748,Beverly Wright,Female,05234 Hughes Square,Zimbabwean,Current,0,0,0,2,0,0,2,1
+749,Martha Schneider,Female,060 Trevino Hollow Apt. 007,Zimbabwean,Current,1,0,2,2,0,0,0,1
+750,Mark Mcintyre,Female,23308 Jessica Throughway,Zimbabwean,Current,1,0,0,1,0,0,1,1
+751,Judith Norton,Male,9393 Jason Bridge,Zimbabwean,Savings,0,1,2,2,0,0,0,0
+752,Patricia Anderson,Male,78239 Townsend Road,Zimbabwean,Savings,2,0,1,1,1,1,1,0
+753,Amy Garza,Female,3426 Howell Locks,Zimbabwean,Savings,0,0,0,0,0,0,0,0
+754,Stephanie Smith,Female,0815 Tim Prairie,Zimbabwean,Current,1,1,0,1,1,0,1,0
+755,Tammy Smith,Female,28960 Moreno Lodge,Zimbabwean,Current,2,0,2,1,1,1,2,0
+756,Wyatt Norman,Male,70127 Brandon Stream Apt. 157,Zimbabwean,Current,0,1,1,1,1,0,0,0
+757,Chelsea Lara,Male,346 West Keys Suite 820,Zimbabwean,Savings,2,0,1,1,1,0,1,0
+758,Justin Barrett,Female,9432 Wright Union Apt. 049,Zimbabwean,Savings,2,1,2,2,1,1,2,0
+759,Natalie Irwin,Female,85299 Hall Burg Apt. 954,Zimbabwean,Savings,2,1,2,0,1,0,0,0
+760,Monique Stanley,Male,859 Miller Summit,Zimbabwean,Savings,0,0,2,1,1,1,2,0
+761,Bryan Lee,Male,65683 Pope Drive,Zimbabwean,Current,0,0,2,2,1,0,0,0
+762,Matthew Woods,Female,72314 Hannah Coves Apt. 431,Zimbabwean,Savings,0,0,0,2,0,1,2,1
+763,Andrea Nolan,Female,1036 James Villages,Zimbabwean,Current,0,0,2,0,1,1,0,1
+764,Lauren Harris,Female,7626 Tiffany Plaza,Zimbabwean,Savings,0,1,1,1,0,0,1,0
+765,Ana Wright,Female,1690 Smith Forks,Zimbabwean,Savings,2,0,2,1,1,1,2,0
+766,Stephanie Morgan,Female,2807 Stark Tunnel,Zimbabwean,Current,1,1,1,1,0,1,0,0
+767,Paula Miller,Male,1140 Ortiz Way,Zimbabwean,Current,0,0,1,2,0,0,2,0
+768,Eric Young,Female,76307 Lopez Circle,Zimbabwean,Current,1,0,1,0,0,1,0,1
+769,Eric Pace,Male,82748 Patterson Village,Zimbabwean,Savings,1,1,1,0,0,0,0,1
+770,Martha Bailey,Female,1902 Shelley Cliffs Apt. 391,Zimbabwean,Savings,1,1,0,1,0,1,1,0
+771,Shelby Long,Male,66538 Michelle Port Suite 348,Zimbabwean,Savings,0,1,2,0,1,0,0,1
+772,Ryan Conrad,Male,83047 Mcpherson Hills Suite 156,Zimbabwean,Savings,0,1,1,2,0,1,2,1
+773,Amanda Hernandez,Male,4552 Scott Gateway Apt. 734,Zimbabwean,Savings,2,0,1,2,0,0,0,1
+774,Michael Valdez,Male,32776 Kristy Skyway Apt. 360,Zimbabwean,Current,0,1,0,0,0,0,2,1
+775,Carl Anderson,Male,425 Nicholas Squares Suite 698,Zimbabwean,Current,0,1,2,2,1,0,0,1
+776,Gregory Hawkins,Female,5253 Martin Passage Apt. 277,Zimbabwean,Savings,1,1,1,0,1,1,1,0
+777,Amy Adams,Female,88676 Brown Trail,Zimbabwean,Current,1,0,2,1,0,0,1,0
+778,Alexander Russell,Male,82589 Clark Island,Zimbabwean,Current,0,1,0,0,1,1,0,0
+779,Edwin Kim,Female,2902 Mcdonald Centers,Zimbabwean,Savings,2,1,1,0,1,0,0,1
+780,Jonathan Ferrell,Male,8872 Sherry Groves Suite 550,Zimbabwean,Savings,2,0,0,2,0,1,1,0
+781,Cassandra Blake,Female,180 Ruiz Square,Zimbabwean,Current,2,1,0,0,0,1,2,1
+782,Paul Kramer,Male,59022 Elizabeth Via Apt. 797,Zimbabwean,Savings,1,1,1,2,1,1,1,0
+783,Jennifer Miller DVM,Female,50046 Rebecca Track,Zimbabwean,Savings,2,1,2,2,1,0,1,1
+784,Cassidy Mcfarland,Male,224 Jones Plains,Zimbabwean,Savings,1,0,0,1,1,1,0,0
+785,Marcus Evans,Male,016 Anna Extension Apt. 470,Zimbabwean,Current,1,1,2,2,1,1,1,0
+786,Phyllis Jones,Male,22985 Burnett Crossroad Apt. 935,Zimbabwean,Current,1,1,1,2,1,0,2,1
+787,Darrell Daniel,Male,38565 Brian Underpass Suite 459,Zimbabwean,Savings,2,1,0,2,0,1,1,0
+788,Carla Pittman,Male,9265 Jason Groves,Zimbabwean,Savings,2,1,0,2,0,0,2,0
+789,Desiree Shah,Male,320 Sheryl Walks Suite 379,Zimbabwean,Savings,0,0,2,2,0,1,2,0
+790,Rebecca Walls,Female,4353 Joshua Shores Apt. 811,Zimbabwean,Current,0,0,1,0,1,1,0,0
+791,Karen Bryant MD,Male,2640 Myers Loaf Suite 960,Zimbabwean,Savings,1,0,1,0,0,0,1,1
+792,Carolyn Howard,Female,3456 Scott Roads,Zimbabwean,Current,2,0,1,1,1,1,1,0
+793,Cody Price,Female,7882 Carter Squares,Zimbabwean,Savings,1,1,2,0,0,1,0,0
+794,Juan Bass,Male,56954 Joseph Pass,Zimbabwean,Savings,2,0,2,1,1,1,1,1
+795,Dylan Brooks,Male,5737 Smith Throughway,Zimbabwean,Current,2,0,2,1,1,1,0,0
+796,Bradley Hall,Female,3102 Conley Viaduct Apt. 938,Zimbabwean,Savings,2,1,2,2,1,0,1,0
+797,Darrell Luna,Female,36323 Kara Spur,Zimbabwean,Savings,2,0,1,1,0,1,1,1
+798,Gary Mahoney,Female,1304 Nicole Mount Apt. 054,Zimbabwean,Current,0,1,0,0,0,0,2,1
+799,Barbara Mitchell,Female,217 Allison Highway Suite 641,Zimbabwean,Savings,0,0,0,1,1,1,1,1
+800,Mark Lee,Female,70192 Drew Springs,Zimbabwean,Savings,2,0,0,0,0,0,0,0
+801,Cheyenne Vasquez,Male,7563 Stephen Gardens,Zimbabwean,Current,1,0,2,2,0,1,1,1
+802,Joseph Moore,Female,62541 Hailey Radial Suite 002,Zimbabwean,Current,2,0,1,0,0,0,2,0
+803,Patty Craig,Male,99470 Reed Prairie,Zimbabwean,Savings,1,1,0,0,0,0,0,1
+804,Deborah Carlson,Male,96555 Jamie Road,Zimbabwean,Savings,2,0,2,0,1,1,1,0
+805,Reginald Sanders,Female,3694 Anderson Harbors,Zimbabwean,Current,0,0,1,1,0,0,2,1
+806,Richard Gordon,Female,038 Hood Radial Suite 533,Zimbabwean,Current,0,1,0,2,0,0,2,1
+807,Juan Myers,Female,31535 Douglas Dale,Zimbabwean,Current,0,1,0,2,1,1,2,1
+808,Ashley Aguirre,Female,00164 Ross Avenue,Zimbabwean,Savings,0,1,1,0,0,0,2,0
+809,Natalie Escobar,Female,898 Cuevas Drive,Zimbabwean,Current,1,1,1,2,1,1,1,1
+810,Gina Carr,Male,04248 West Greens Suite 165,Zimbabwean,Savings,2,0,0,1,0,0,2,1
+811,Monica Garcia,Female,445 Blankenship Hollow,Zimbabwean,Savings,0,0,1,2,0,1,1,0
+812,Cory Park,Female,595 Cortez Throughway Suite 983,Zimbabwean,Current,0,1,1,1,0,0,2,0
+813,Jake Davidson,Female,537 Julia Center Apt. 837,Zimbabwean,Savings,0,1,1,2,0,1,0,0
+814,Sean Meyer,Male,858 Dalton Drives Suite 101,Zimbabwean,Savings,0,0,2,0,0,1,0,1
+815,Lori Smith,Female,4982 Christopher Points,Zimbabwean,Current,0,1,0,0,0,0,2,1
+816,Heather Nelson,Male,5346 Dominic Islands Apt. 326,Zimbabwean,Savings,1,0,0,1,1,1,0,0
+817,Joe Ross,Female,302 Michael Park Apt. 431,Zimbabwean,Current,1,0,1,0,0,0,0,0
+818,John Wilson,Male,56954 Brewer Estate Apt. 564,Zimbabwean,Current,2,1,1,0,0,1,0,1
+819,Amber Allen,Female,042 Smith Flats Apt. 797,Zimbabwean,Savings,0,1,1,2,1,1,1,1
+820,Isaac Lindsey,Female,873 Hart Creek,Zimbabwean,Current,2,0,1,1,1,1,1,1
+821,Cameron Juarez,Female,375 Kathleen Path,Zimbabwean,Savings,0,1,1,2,1,1,1,1
+822,Kimberly Diaz,Female,6250 Marcia Pass,Zimbabwean,Savings,0,1,1,2,0,1,0,1
+823,Laura Duncan,Male,76949 Andrew Brook,Zimbabwean,Current,2,1,1,1,1,0,0,0
+824,Dawn Walker,Male,547 Barber Pass,Zimbabwean,Current,1,1,2,2,1,1,1,1
+825,David Anderson,Female,81730 Harmon Dale,Zimbabwean,Savings,0,1,1,0,1,1,0,0
+826,James Nguyen,Female,7938 Tiffany Greens,Zimbabwean,Current,2,0,2,0,1,0,2,0
+827,Spencer Gordon,Male,1365 Ware Viaduct,Zimbabwean,Savings,1,0,1,0,0,1,2,1
+828,Christy Reynolds,Female,52157 Rivera Islands Apt. 622,Zimbabwean,Savings,2,0,1,2,0,1,1,1
+829,Mark Moore,Male,856 Danielle Mills,Zimbabwean,Current,0,1,1,1,0,1,2,1
+830,Savannah Cooper,Female,63443 Jackson Road,Zimbabwean,Current,0,1,0,2,0,1,1,1
+831,Ariel Gardner,Female,152 Rasmussen Park Suite 024,Zimbabwean,Current,2,0,0,1,0,1,1,1
+832,Danielle Harris,Male,8068 James Park Apt. 910,Zimbabwean,Current,2,1,1,0,0,1,0,0
+833,Joshua Roman,Female,8804 Green Port Apt. 582,Zimbabwean,Savings,1,0,1,1,0,0,0,0
+834,Nicole Smith,Female,2013 Lewis Parkway Apt. 935,Zimbabwean,Savings,0,0,0,0,1,1,0,0
+835,Roberto Carrillo,Male,26579 Powers Underpass,Zimbabwean,Savings,1,0,0,1,0,0,2,1
+836,Michael Osborne,Male,2340 Ryan Port,Zimbabwean,Savings,1,0,1,0,1,1,0,1
+837,Michael Carter,Male,700 Mark Rapids,Zimbabwean,Savings,0,0,1,2,1,1,0,1
+838,Jennifer Hardin,Female,062 Jennifer Mountain,Zimbabwean,Current,2,1,1,1,0,0,1,1
+839,Jim Mueller,Female,145 Jill Extensions,Zimbabwean,Savings,1,0,0,0,1,0,2,0
+840,Jeffery Hoffman,Female,028 Jessica Glens Suite 439,Zimbabwean,Savings,0,0,2,2,0,0,0,0
+841,Paige Holder,Female,853 William Views Apt. 484,Zimbabwean,Savings,2,1,1,2,1,0,0,0
+842,Charles Reed,Male,475 Eric Landing,Zimbabwean,Savings,2,1,1,1,0,1,0,0
+843,Nicole Robbins,Male,669 Sutton Greens Suite 234,Zimbabwean,Savings,2,1,2,2,1,0,0,1
+844,John Oconnell,Male,13028 Howe Lake Suite 087,Zimbabwean,Current,0,1,0,0,0,1,1,0
+845,Joseph Alexander,Female,359 Daniel Branch,Zimbabwean,Current,1,1,1,2,1,0,2,1
+846,Melissa Reed,Male,83873 Cheryl Mission,Zimbabwean,Current,1,0,1,0,0,0,1,1
+847,Nicole Tran,Male,848 Macdonald Alley,Zimbabwean,Savings,2,1,0,0,1,0,1,0
+848,William Lee,Male,90532 Jerry Shores,Zimbabwean,Savings,2,1,2,2,1,1,0,1
+849,Mary Cruz,Female,426 Jason Field,Zimbabwean,Savings,2,1,1,1,1,0,2,1
+850,Roger White,Male,4972 Maynard Curve Apt. 977,Zimbabwean,Current,2,0,1,0,0,0,1,0
+851,Brittney Montgomery,Female,960 Linda Squares Apt. 898,Zimbabwean,Savings,1,0,2,0,0,0,2,1
+852,Joseph Dodson,Male,531 Mathews Points,Zimbabwean,Current,0,0,1,0,1,1,0,0
+853,Raymond Garrett,Male,8073 Zachary Cliff,Zimbabwean,Savings,1,0,2,0,1,0,1,0
+854,William Wong,Male,62515 Johnson Passage Suite 727,Zimbabwean,Savings,0,0,1,2,0,1,1,0
+855,Thomas Frazier,Female,00147 Sherry Village Suite 695,Zimbabwean,Current,0,0,0,2,1,0,0,1
+856,Kylie Daugherty,Male,0912 Kyle Shore,Zimbabwean,Current,0,0,0,0,0,0,2,0
+857,Michele Huffman,Male,9507 Young Coves Apt. 156,Zimbabwean,Current,2,0,2,2,0,0,0,1
+858,Melissa Brewer,Female,179 Hanson Hill Suite 188,Zimbabwean,Savings,0,0,2,2,1,1,0,1
+859,Daisy Soto,Male,599 Morgan Key,Zimbabwean,Current,1,1,2,0,1,0,1,1
+860,Brian Moore,Male,5685 Chambers Ridges Apt. 158,Zimbabwean,Current,1,0,0,0,0,1,2,1
+861,John Morgan,Male,64607 Gordon Stravenue Apt. 549,Zimbabwean,Current,0,0,2,0,0,0,0,0
+862,Regina Walls,Female,63301 Adams Village Apt. 168,Zimbabwean,Current,0,1,2,2,0,1,2,0
+863,Victor Mcbride,Female,817 Darren Dale,Zimbabwean,Savings,1,1,1,1,0,0,0,0
+864,Mr. Randy Huffman,Female,77379 Jeffrey Locks Apt. 915,Zimbabwean,Savings,0,0,2,0,0,1,1,0
+865,Michael Coleman,Male,9323 James Courts Apt. 949,Zimbabwean,Current,2,1,0,0,0,0,0,0
+866,Cheryl Boyer,Male,353 Bell Walk,Zimbabwean,Current,0,1,0,2,0,0,0,1
+867,Curtis Strickland,Female,427 Wilson Common,Zimbabwean,Current,2,0,1,0,1,0,2,1
+868,Karen Thomas,Female,300 Brianna Manors,Zimbabwean,Current,1,1,1,0,1,1,0,0
+869,Chloe Marshall,Female,25247 Hill Valleys Suite 204,Zimbabwean,Current,0,1,2,2,0,1,1,0
+870,Barbara Davis,Male,98072 Pearson Lodge,Zimbabwean,Savings,2,1,0,1,1,1,2,0
+871,Chloe Drake,Male,20519 Thomas Mews,Zimbabwean,Current,1,0,2,2,0,0,1,1
+872,Whitney Williams,Male,20121 Harper Court Suite 038,Zimbabwean,Current,0,1,2,0,1,1,2,1
+873,Jacqueline Wall,Male,4945 Kim Mills,Zimbabwean,Savings,0,0,1,2,1,0,0,1
+874,Theresa Rodriguez,Male,352 Wise Unions,Zimbabwean,Current,1,1,0,2,1,0,2,0
+875,Emily King,Female,04542 Thomas View,Zimbabwean,Savings,1,0,0,2,0,0,1,1
+876,Wesley Richards MD,Male,331 Nolan Ways,Zimbabwean,Savings,1,1,0,2,1,0,0,0
+877,Elizabeth Miller,Female,039 Jerry Roads,Zimbabwean,Savings,1,1,0,1,1,0,1,1
+878,Noah Martin,Female,4467 West Landing,Zimbabwean,Savings,1,0,1,0,0,0,2,0
+879,Michelle Thomas,Male,05219 Kim River Suite 268,Zimbabwean,Savings,1,1,0,2,0,1,2,0
+880,Mr. Adam Lopez PhD,Female,98502 Richard Brooks,Zimbabwean,Savings,0,1,1,0,1,0,2,0
+881,George Roman,Male,10399 Lam Greens,Zimbabwean,Current,0,0,1,0,0,1,1,0
+882,Jeffrey Turner,Female,5372 Norris Lock Apt. 321,Zimbabwean,Current,0,0,2,0,0,0,1,0
+883,Scott Stevens,Female,75356 Robert Locks Suite 497,Zimbabwean,Current,2,0,0,1,0,0,1,0
+884,Andrew Newton,Male,02479 Allen Lane Apt. 689,Zimbabwean,Current,1,1,2,2,1,0,1,1
+885,Alejandro Owens,Female,96639 Charles Mission Suite 684,Zimbabwean,Current,2,1,2,2,1,0,1,0
+886,Stefanie Hess,Female,9116 Antonio Knoll,Zimbabwean,Current,1,0,0,1,0,0,0,1
+887,Daniel Hoffman,Female,57730 Adams Views Suite 690,Zimbabwean,Current,0,1,2,0,1,0,1,0
+888,Scott Garcia,Female,690 Madison Stravenue,Zimbabwean,Current,2,0,0,2,0,1,2,1
+889,Lisa Mason,Male,311 Amber Crossroad Apt. 803,Zimbabwean,Savings,2,0,2,2,1,1,1,1
+890,Alexandra Holt,Female,7823 Aaron Skyway,Zimbabwean,Savings,2,0,1,0,1,1,1,0
+891,Anthony Baker,Male,9454 Johnson Plains Apt. 396,Zimbabwean,Current,1,0,1,0,0,1,1,0
+892,Stephen Roberts,Male,6875 Michael Point,Zimbabwean,Savings,2,1,0,0,0,0,2,0
+893,Terry Taylor,Male,34640 Martinez Vista Suite 258,Zimbabwean,Current,1,0,2,0,1,1,1,0
+894,Brittney Jones,Female,232 John Lodge,Zimbabwean,Savings,1,0,2,1,0,1,0,1
+895,Amanda Mack,Male,62289 Mitchell Coves,Zimbabwean,Savings,1,0,1,1,1,1,1,1
+896,Andrea Dean,Male,346 Dawson Views Suite 696,Zimbabwean,Current,0,1,1,2,1,0,0,1
+897,Megan Clark,Male,14743 Christensen Landing,Zimbabwean,Savings,1,0,1,1,1,0,0,1
+898,Ashley Young,Female,25041 Forbes Plaza,Zimbabwean,Savings,2,1,0,0,0,1,1,0
+899,Victoria Cooper,Male,70049 Andrew Glen Suite 002,Zimbabwean,Savings,2,0,0,0,0,0,1,0
+900,John Barajas,Female,16336 Johnson Street,Zimbabwean,Savings,2,0,2,0,0,1,2,1
+901,Cynthia Hernandez,Male,1326 Fleming Parkway Apt. 487,Zimbabwean,Savings,0,0,1,1,0,1,1,0
+902,Dean Mejia,Male,138 Martinez Circles Apt. 213,Zimbabwean,Current,0,1,1,2,1,0,0,0
+903,Shannon Griffin,Female,089 Brandon Vista,Zimbabwean,Savings,0,1,0,1,1,1,2,1
+904,Terry Stokes,Female,3401 White Mountain Apt. 345,Zimbabwean,Savings,2,1,2,1,1,0,1,0
+905,Joseph Shaw,Female,4985 Jeremy Heights Apt. 402,Zimbabwean,Savings,1,1,2,2,1,1,2,0
+906,Jason Hart,Female,21988 Christopher Curve,Zimbabwean,Savings,0,1,1,0,1,0,2,1
+907,Diane Phillips,Male,215 Williams Terrace Apt. 975,Zimbabwean,Savings,1,0,2,2,1,0,2,0
+908,Christian Smith,Female,9707 Robin Drive Apt. 660,Zimbabwean,Current,0,1,1,2,0,1,0,0
+909,Alec Hernandez,Male,383 Whitaker Prairie,Zimbabwean,Current,1,1,2,1,0,0,0,0
+910,Sonya West,Male,31104 Robert Lakes Suite 947,Zimbabwean,Current,0,1,0,1,0,0,2,0
+911,Lauren Ray,Male,14030 Scott Plains,Zimbabwean,Savings,1,0,0,2,0,0,2,1
+912,Michael Stewart,Female,774 Theresa Walk,Zimbabwean,Savings,1,1,2,1,0,1,0,0
+913,Susan Garrett,Female,790 Ricky Cape Suite 880,Zimbabwean,Savings,1,1,2,2,0,1,1,1
+914,Andrea Compton,Female,608 John Common,Zimbabwean,Current,0,0,0,2,1,0,2,0
+915,Richard Massey,Male,2908 Cunningham Manors,Zimbabwean,Savings,0,1,2,0,0,0,0,0
+916,Courtney Potter,Female,475 Paul Plaza,Zimbabwean,Current,1,1,0,0,1,0,0,0
+917,John Cochran,Female,26270 Long Oval Suite 383,Zimbabwean,Current,0,1,1,0,1,0,1,1
+918,Taylor Maxwell,Female,96639 Kristin Coves,Zimbabwean,Current,2,1,0,0,0,1,2,1
+919,Erin Smith,Male,57440 Gordon Place Suite 364,Zimbabwean,Savings,0,0,2,2,0,0,2,0
+920,Derrick Johnson,Male,9088 Mark Glen,Zimbabwean,Current,1,0,2,2,0,1,2,0
+921,Andrea Cabrera,Female,987 Blake Unions Suite 264,Zimbabwean,Current,0,0,1,0,1,1,2,1
+922,Elizabeth Burns,Female,66904 Eric Fall,Zimbabwean,Savings,1,1,0,2,1,0,2,1
+923,Jamie Warren,Male,85487 Jessica Trail,Zimbabwean,Current,1,0,0,1,1,0,1,0
+924,Billy Brooks,Male,3242 Jennifer Vista,Zimbabwean,Current,2,0,1,2,0,1,1,1
+925,Brenda Owens,Female,30497 Krystal Ports Suite 349,Zimbabwean,Savings,2,1,2,2,1,0,2,1
+926,Jessica Waller,Male,557 Fischer Park,Zimbabwean,Savings,0,0,2,0,0,0,1,1
+927,Rhonda Perez,Male,23763 Yu Village Suite 545,Zimbabwean,Current,1,0,0,0,0,0,1,0
+928,Ashley Hayes,Female,85758 Jackson Via,Zimbabwean,Savings,1,1,1,2,0,1,1,1
+929,Kevin Hill,Female,5537 Castillo Walks Apt. 556,Zimbabwean,Savings,2,1,1,2,1,1,1,0
+930,Jonathan Mason,Male,0141 Ballard Meadow Apt. 152,Zimbabwean,Savings,2,0,2,2,1,0,0,0
+931,Isaiah Vargas,Female,32909 Newton Forest,Zimbabwean,Savings,2,1,1,1,1,1,0,0
+932,James Wallace,Female,2443 Nathaniel Summit Apt. 582,Zimbabwean,Current,1,1,1,2,0,0,1,0
+933,Anthony Wall,Female,760 Tapia Walk Apt. 921,Zimbabwean,Savings,2,0,1,2,0,1,2,0
+934,Alicia Riley,Female,190 Joseph Path Suite 322,Zimbabwean,Savings,0,1,1,2,0,1,2,1
+935,Dean Hopkins,Male,4580 Bell Mountains Apt. 200,Zimbabwean,Current,1,1,2,0,1,0,1,0
+936,Erika Williams,Female,1004 Osborne Forks,Zimbabwean,Savings,2,1,2,2,0,0,1,0
+937,Calvin Knight,Male,33227 Natalie Gateway,Zimbabwean,Savings,2,1,1,0,0,0,1,0
+938,Renee Jackson,Female,48676 Young Glen Apt. 490,Zimbabwean,Current,0,0,0,1,0,0,0,1
+939,Benjamin Dean,Male,073 Randy Knolls,Zimbabwean,Savings,0,1,2,0,1,1,0,0
+940,Allison Anthony,Male,4233 Hoffman Rapid Apt. 850,Zimbabwean,Savings,2,0,1,0,0,1,2,1
+941,Megan Tucker,Male,01529 White Turnpike Suite 810,Zimbabwean,Savings,2,1,2,1,0,0,2,0
+942,Tina Carter,Male,502 Anderson Stravenue Suite 563,Zimbabwean,Savings,0,0,1,0,1,0,2,0
+943,Jennifer Mcguire,Female,40394 Zamora Stravenue Suite 496,Zimbabwean,Current,2,0,0,1,1,0,1,0
+944,Kevin Todd,Female,3339 Graham Grove,Zimbabwean,Savings,1,0,1,2,0,1,2,0
+945,Amanda Lewis,Female,378 Dana Plain,Zimbabwean,Current,0,1,1,1,0,1,1,1
+946,Jonathan Stone,Female,89105 Daniel Oval Suite 795,Zimbabwean,Current,2,1,0,0,0,1,2,1
+947,Russell Parker,Female,954 Wolfe Motorway Apt. 893,Zimbabwean,Savings,0,1,2,0,1,1,2,1
+948,Ryan Hicks,Female,801 Ashley Ridges Apt. 055,Zimbabwean,Savings,1,0,2,2,0,0,0,1
+949,Mary Lynch,Male,83412 Joel Street,Zimbabwean,Current,1,1,0,2,0,1,1,0
+950,Peter Carlson,Female,49097 Jessica Hills Apt. 735,Zimbabwean,Savings,2,1,1,1,1,1,0,1
+951,Patricia Berger,Female,848 Flores Harbor Suite 492,Zimbabwean,Current,2,1,1,2,1,0,2,1
+952,Nichole Landry,Male,9844 Hunter Mission Apt. 539,Zimbabwean,Current,0,1,0,2,0,0,2,1
+953,Aaron Velazquez,Female,006 David Corner,Zimbabwean,Current,2,0,0,1,0,0,0,0
+954,Steven Stewart,Female,332 Sanders Glen,Zimbabwean,Savings,1,1,2,1,1,0,2,0
+955,Brenda Jackson,Female,354 Young Flats,Zimbabwean,Savings,1,1,0,2,0,1,2,1
+956,Margaret Dennis,Male,671 Reynolds Isle Suite 816,Zimbabwean,Savings,0,0,1,0,0,0,0,0
+957,Kathy Arnold,Female,4591 Megan Court,Zimbabwean,Current,1,0,2,2,1,1,1,0
+958,Joshua Williams,Female,973 Amanda Track,Zimbabwean,Current,2,0,1,2,0,0,1,0
+959,Kimberly Silva,Female,109 Douglas Valleys,Zimbabwean,Current,0,1,1,2,0,1,2,1
+960,Lisa Ruiz,Male,700 Miles Common,Zimbabwean,Current,0,1,1,1,0,0,0,1
+961,Amy Park,Female,6729 Yang Lock Suite 128,Zimbabwean,Savings,0,1,2,0,1,0,1,1
+962,Mary Payne,Male,69989 Brandon Oval,Zimbabwean,Current,1,0,2,0,1,0,2,1
+963,Kevin Fuentes,Female,75414 Glass Estates Apt. 867,Zimbabwean,Savings,2,1,0,2,1,0,0,0
+964,Alexander Duncan,Female,94249 Wesley Trail Suite 563,Zimbabwean,Current,1,0,2,1,1,1,2,0
+965,Mark Carr,Male,62239 Scott Stravenue,Zimbabwean,Current,1,0,0,0,0,0,2,1
+966,Christie Bradley,Male,76797 Adam Street Apt. 341,Zimbabwean,Savings,0,1,0,1,1,1,0,1
+967,Nathan Carlson,Female,03911 Gonzalez Road Suite 425,Zimbabwean,Current,0,0,0,1,1,1,0,1
+968,Yolanda Alvarez,Female,31805 Foster Pike Suite 447,Zimbabwean,Current,1,1,1,1,1,0,2,0
+969,Shannon Miller,Female,316 Young Island Apt. 428,Zimbabwean,Current,1,1,2,0,1,0,0,0
+970,Brittany Yates,Male,2078 Johnson Grove Apt. 874,Zimbabwean,Current,0,1,2,2,0,0,1,0
+971,Katie Myers,Female,92358 Jeffrey Ridge Apt. 756,Zimbabwean,Current,0,1,0,2,0,1,2,0
+972,Elizabeth Hughes,Female,1934 Margaret Fields Apt. 378,Zimbabwean,Savings,2,0,0,0,0,0,1,0
+973,Patrick Smith,Female,60408 Hutchinson Locks,Zimbabwean,Current,1,1,1,0,1,0,1,0
+974,Brittany Anderson,Male,131 Laura Isle,Zimbabwean,Current,0,0,0,2,1,0,0,0
+975,Stephen Vargas,Male,995 Taylor Knolls Apt. 223,Zimbabwean,Current,1,0,2,0,1,1,2,1
+976,Casey Schmitt,Male,80744 Miller Station Suite 440,Zimbabwean,Savings,2,0,0,0,0,1,0,1
+977,Keith Harrington,Female,54691 Mata Island,Zimbabwean,Current,0,1,1,1,1,1,1,1
+978,Lance Mitchell,Male,1648 Teresa Highway,Zimbabwean,Savings,1,0,0,2,1,1,2,1
+979,Elizabeth Green,Female,26158 Vincent Union Apt. 283,Zimbabwean,Savings,1,1,0,2,0,0,1,0
+980,Juan Huynh,Female,3474 Christopher Islands Apt. 134,Zimbabwean,Current,1,1,1,0,1,0,1,1
+981,James Vega,Male,1903 Taylor Lodge Suite 484,Zimbabwean,Savings,0,1,1,0,0,0,0,0
+982,Patricia Brown,Female,448 John Spring Apt. 331,Zimbabwean,Current,0,1,0,2,0,0,0,1
+983,Jeff Taylor,Male,681 Richard Dam Apt. 502,Zimbabwean,Savings,1,0,2,0,1,0,0,1
+984,Laura Hernandez,Female,577 Richard Place,Zimbabwean,Current,1,1,2,0,0,1,1,0
+985,Dale Matthews,Male,0095 Eric Forge Apt. 758,Zimbabwean,Current,1,1,2,1,0,1,1,1
+986,Jennifer Taylor,Male,43988 Rodriguez Prairie Suite 681,Zimbabwean,Current,1,1,1,2,0,0,1,0
+987,James Scott,Female,04909 Morrison Dale,Zimbabwean,Current,2,1,1,1,0,1,1,1
+988,Erin Moore,Male,344 Nunez Corner Apt. 602,Zimbabwean,Current,1,1,1,1,0,0,0,1
+989,Spencer Duncan,Female,14014 Patrick Knoll,Zimbabwean,Current,0,1,1,0,0,1,1,0
+990,Jill Perkins,Female,069 Walker Causeway,Zimbabwean,Savings,0,0,0,1,1,1,2,0
+991,David Chung,Male,20133 David Harbor Suite 416,Zimbabwean,Savings,2,0,0,1,0,0,1,0
+992,Joanne Burton,Female,6239 Diane Stream Suite 001,Zimbabwean,Current,0,0,0,2,0,1,0,0
+993,Derek Massey,Male,48312 Richard Viaduct,Zimbabwean,Savings,0,0,2,1,0,1,1,0
+994,Javier Smith,Female,0264 Craig Square Suite 057,Zimbabwean,Current,1,1,2,2,1,0,2,1
+995,Colleen Sanchez,Female,6093 Samuel Parkways,Zimbabwean,Current,0,1,1,2,1,1,2,0
+996,Lisa Gallagher,Male,44566 Kelsey Ford,Zimbabwean,Current,1,0,2,1,0,0,0,1
+997,Emily Nolan,Female,1912 Ford Path Suite 663,Zimbabwean,Current,0,1,1,1,0,1,0,0
+998,Stephanie Wheeler,Male,2010 Jackson Flats Apt. 567,Zimbabwean,Savings,2,0,0,2,0,1,0,1
+999,Alicia Vasquez,Female,49441 Carol Hill Apt. 267,Zimbabwean,Current,1,0,0,2,1,1,1,1

@@ -1,123 +1,179 @@
-{% load static %}<!DOCTYPE html>
+{% load material_form %} {% load static %}
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,
     initial-scale=1">
-    <title>TBank Services - HIT400</title>
+  <title>TBank Services - HIT400</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/idea.min.css">
-    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/languages/python.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/languages/django.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function(){
-          $('.slider').slider({height:160+$(window).width()/6});
-          $('.scrollspy').scrollSpy();
-          hljs.initHighlightingOnLoad();
-          $('.modal-trigger').leanModal();
-          $('ul.tabs').tabs();
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/idea.min.css">
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/languages/python.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/languages/django.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.slider').slider({
+        height: 160 + $(window).width() / 6
       });
-    </script>
+      $('.scrollspy').scrollSpy();
+      hljs.initHighlightingOnLoad();
+      $('.modal-trigger').leanModal();
+      $('ul.tabs').tabs();
+    });
+  </script>
 
+  <script type="text/javascript">
+    if (navigator.appVersion.indexOf("Win") != -1) {
+      document.write('<link rel="stylesheet" type="text/css" href="{% static '
+        material / css / robotofix.css ' %}">');
+    }
+  </script>
 
-    <script type="text/javascript">
-      if (navigator.appVersion.indexOf("Win")!=-1) {
-           document.write('<link rel="stylesheet" type="text/css" href="{% static 'material/css/robotofix.css' %}">');
-      }
-    </script>
+  <style type="text/css">
+    html,
+    body {
+      background: #e5e5e5;
+      height: 100%;
+    }
 
-    <style type="text/css">
-      html, body { background: #e5e5e5; height: 100%; }
-      nav {
-          height: 250px;
-          background-image: url({% static 'img/background.png' %});
+    nav {
+      height: 250px;
+      background-image: url({% static 'img/background.png' %});
+    }
+
+    footer {
+      background-image: url({% static 'img/background.png' %});
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-weight: 300;
+    }
+
+    main {
+      margin-bottom: -150px;
+    }
+
+    main .container {
+      position: relative;
+      top: -200px;
+    }
+
+    .card-title {
+      font-size: 36px;
+    }
+
+    .card .card-action {
+      border-top: none;
+      padding-top: 10px;
+    }
+
+    .card a {
+      color: #1e88e5;
+    }
+
+    .modal {
+      background-color: #fff
+    }
+
+    .modal .modal-footer {
+      background-color: #fff
+    }
+
+    .tabs .indicator {
+      background-color: #333;
+    }
+
+    .tabs li.tab a {
+      color: #333;
+    }
+
+    .tabs li.tab a:hover {
+      color: #555;
+    }
+
+    .hljs-string,
+    .hljs-keyword,
+    .hljs-tag .hljs-title,
+    .hljs-attribute,
+    .hljs-value {
+      font-weight: 300;
+    }
+
+    .hljs-tag {
+      background: transparent;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .container.expand-on-small-only {
+        width: 100% !important;
+        padding: 0 0.8rem !important;
       }
-      footer {
-          background-image: url({% static 'img/background.png' %});
-      }
-      h1, h2, h3, h4, h5, h6 {
-          font-weight: 300;
-      }
-      main {
-          margin-bottom: -150px;
-      }
-      main .container {
-          position: relative; top: -200px;
-      }
-      .card-title {
-          font-size: 36px;
-      }
-      .card .card-action {
-          border-top: none;
-          padding-top: 10px;
-      }
-      .card a {
-          color: #1e88e5;
-      }
-      .modal {
-          background-color: #fff
-      }
-      .modal .modal-footer {
-          background-color: #fff
-      }
-      .tabs .indicator {
-          background-color: #333;
-      }
-      .tabs li.tab a {
-          color: #333;
-      }
-      .tabs li.tab a:hover  {
-          color: #555;
-      }
-      .hljs-string,
-      .hljs-keyword,
-      .hljs-tag .hljs-title,
-      .hljs-attribute,
-      .hljs-value {
-          font-weight: 300;
-      }
-      .hljs-tag {
-          background: transparent;
-      }
-      @media only screen and (max-width : 600px) {
-          .container.expand-on-small-only {
-              width: 100% !important;
-              padding: 0 0.8rem  !important;
-          }
-      }
-    </style>
-  </head>
-  <body>
-      <header>
-          <nav class="green darken-2">
-              <div class="nav-wrapper">
-                  <ul id="nav-mobile" class="right hide-on-med-and-down">
-                      <li><a target="_blank" href="https://github.com/maffsojah/capstone_project"><i class="zmdi zmdi-github zmdi-hc-2x"></i></a></li>
-                      <li><a target="_blank" href="https://twitter.com/maffsojah"><i class="zmdi zmdi-twitter zmdi-hc-2x"></i></a></li>
-                  </ul>
-              </div>
-          </nav>
-      </header>
-      <footer class="page-footer green darken-4">
-          <div class="container">
-              <div class="row">
-                  <div class="col l5 m6 s12">
-                      <h5 class="white-text">TBank Services - HIT400</h5>
-                      <a href="http://maffsojah.github.io" class="white-text">maffsojah.github.io</a>
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="green darken-2">
+      <div class="nav-wrapper">
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a target="_blank" href="https://github.com/maffsojah"><i class="zmdi zmdi-github zmdi-hc-2x"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container expand-on-small-only">
+      <div class="row">
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content">
+              <div class="row center" style="padding:50px">
+                <div class="col s12 ">
+                  <h1 class="header center blue-text ">Welcome to TBank Services</h1>
+                  <h6 class="header col s12 light">Please Login as Administrator to use the System</h6>
+                  <br><br>
+                  <br><br>
+                  <div class="row center">
+                    <a href="http://127.0.0.1:8000/admin/" id="submit" class="btn-large waves-effect waves-light blue darken-2 white-text">Get Started</a>
                   </div>
+                </div>
               </div>
+
+            </div>
           </div>
-          <div class="footer-copyright">
-              <div class="container">
-                  © 2017 Terry Mafura
-              </div>
-          </div>
-      </footer>
-  </body>
+        </div>
+
+      </div>
+    </div>
+  </main>
+  <footer class="page-footer green darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h5 class="white-text">HIT400 - Capstone Project</h5>
+          <p class="grey-text text-lighten-4">Bank Customer Classification and Service Allocation</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2016-2017 Terence Mafura
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
