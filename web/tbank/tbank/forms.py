@@ -1,67 +1,67 @@
-import datetime
-
-from django.template import Template
-from material import Layout, Row, Column, Fieldset, Span2, Span3, Span5, Span6, Span10
-
-from . import tbank as forms
-
-
-class LoginForm(forms.Form):
-    email = forms.EmailField()
-    password = forms.CharField(widget=forms.PasswordInput)
-    keep_logged = forms.BooleanField(required=False, label="Keep me logged in")
-
-    template = Template("""
-
-    {% form %}
-        {% part form.email prefix %}<i class="material-icons prefix">email</i>{% endpart %}
-        {% part form.password prefix %}<i class="material-icons prefix">lock</i>{% endpart %}
-        {% attr form.keep_logged 'group' class append %}right-align{% endattr %}
-    {% endform %}
-    """)
-
-    buttons = Template("""
-        <button class="waves-effect waves-teal btn-flat">Register</button>
-        <button class="waves-effect waves-light btn" type="submit">Login</button>
-    """)
-
-    title = "Login form"
-
-    def clean(self):
-        cleaned_data = super(LoginForm, self).clean()
-        if cleaned_data.get('email') == 'john@doe.com':
-            raise forms.ValidationError('John, come on. You are blocked.')
-
-class RegistrationForm(forms.Form):
-    username = forms.CharField()
-    email = forms.EmailField(label="Email Address")
-    password = forms.CharField(widget=forms.PasswordInput)
-    password_confirm = forms.CharField(widget=forms.PasswordInput, label="Confirm password")
-    first_name = forms.CharField(required=False)
-    last_name = forms.CharField(required=False)
-    gender = forms.ChoiceField(choices=((None, ''), ('F', 'Female'), ('M', 'Male'), ('O', 'Other')))
-    receive_news = forms.BooleanField(required=False, label='I want to receive news and special offers')
-    agree_toc = forms.BooleanField(required=True, label='I agree with the Terms and Conditions')
-
-    layout = Layout('username', 'email',
-                    Row('password', 'password_confirm'),
-                    Fieldset('Pesonal details',
-                             Row('first_name', 'last_name'),
-                             'gender', 'receive_news', 'agree_toc'))
-
-    template = Template("""
-    {% form %}
-        {% part form.username prefix %}<i class="material-icons prefix">account_box</i>{% endpart %}
-        {% part form.email prefix %}<i class="material-icons prefix">email</i>{% endpart %}
-        {% part form.password prefix %}<i class="material-icons prefix">lock_open</i>{% endpart %}
-    {% endform %}
-    """)
-
-    buttons = Template("""
-        <button class="waves-effect waves-light btn" type="submit">Submit</button>
-    """)
-
-    title = "Registration form"
+# import datetime
+#
+# from django.template import Template
+# from material import Layout, Row, Column, Fieldset, Span2, Span3, Span5, Span6, Span10
+#
+# from . import tbank as forms
+#
+#
+# class LoginForm(forms.Form):
+#     email = forms.EmailField()
+#     password = forms.CharField(widget=forms.PasswordInput)
+#     keep_logged = forms.BooleanField(required=False, label="Keep me logged in")
+#
+#     template = Template("""
+#
+#     {% form %}
+#         {% part form.email prefix %}<i class="material-icons prefix">email</i>{% endpart %}
+#         {% part form.password prefix %}<i class="material-icons prefix">lock</i>{% endpart %}
+#         {% attr form.keep_logged 'group' class append %}right-align{% endattr %}
+#     {% endform %}
+#     """)
+#
+#     buttons = Template("""
+#         <button class="waves-effect waves-teal btn-flat">Register</button>
+#         <button class="waves-effect waves-light btn" type="submit">Login</button>
+#     """)
+#
+#     title = "Login form"
+#
+#     def clean(self):
+#         cleaned_data = super(LoginForm, self).clean()
+#         if cleaned_data.get('email') == 'john@doe.com':
+#             raise forms.ValidationError('John, come on. You are blocked.')
+#
+# class RegistrationForm(forms.Form):
+#     username = forms.CharField()
+#     email = forms.EmailField(label="Email Address")
+#     password = forms.CharField(widget=forms.PasswordInput)
+#     password_confirm = forms.CharField(widget=forms.PasswordInput, label="Confirm password")
+#     first_name = forms.CharField(required=False)
+#     last_name = forms.CharField(required=False)
+#     gender = forms.ChoiceField(choices=((None, ''), ('F', 'Female'), ('M', 'Male'), ('O', 'Other')))
+#     receive_news = forms.BooleanField(required=False, label='I want to receive news and special offers')
+#     agree_toc = forms.BooleanField(required=True, label='I agree with the Terms and Conditions')
+#
+#     layout = Layout('username', 'email',
+#                     Row('password', 'password_confirm'),
+#                     Fieldset('Pesonal details',
+#                              Row('first_name', 'last_name'),
+#                              'gender', 'receive_news', 'agree_toc'))
+#
+#     template = Template("""
+#     {% form %}
+#         {% part form.username prefix %}<i class="material-icons prefix">account_box</i>{% endpart %}
+#         {% part form.email prefix %}<i class="material-icons prefix">email</i>{% endpart %}
+#         {% part form.password prefix %}<i class="material-icons prefix">lock_open</i>{% endpart %}
+#     {% endform %}
+#     """)
+#
+#     buttons = Template("""
+#         <button class="waves-effect waves-light btn" type="submit">Submit</button>
+#     """)
+#
+#     title = "Registration form"
 
 #
 # class ContactForm(forms.Form):
@@ -257,9 +257,9 @@ class RegistrationForm(forms.Form):
 #     blockclass = "col s12 m12 l9 offset-l1"
 #
 
-class WizardForm1(forms.Form):
-    subject = forms.CharField(max_length=100)
-    sender = forms.EmailField()
-
-class WizardForm2(forms.Form):
-    message = forms.CharField(widget=forms.Textarea)
+# class WizardForm1(forms.Form):
+#     subject = forms.CharField(max_length=100)
+#     sender = forms.EmailField()
+#
+# class WizardForm2(forms.Form):
+#     message = forms.CharField(widget=forms.Textarea)

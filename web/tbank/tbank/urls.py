@@ -29,8 +29,8 @@ from . import forms, widget_forms, admin_forms
 
 def index_view(request):
     context = {
-        'login': forms.LoginForm(),
-        'registration': forms.RegistrationForm(),
+        #'login': forms.LoginForm(),
+        #'registration': forms.RegistrationForm(),
     }
     return render(request, 'index.html', context)
 
@@ -66,10 +66,10 @@ urlpatterns = [
     url(r'^$', index_view),
 
     # services
-    url(r'^tbank/login/$', generic.FormView.as_view(
-        form_class=forms.LoginForm, success_url='/tbank/login/', template_name="tbank.html")),
-    url(r'^tbank/registration/$', generic.FormView.as_view(
-        form_class=forms.RegistrationForm, success_url='/tbank/registration/', template_name="tbank.html")),
+    # url(r'^tbank/login/$', generic.FormView.as_view(
+    #     form_class=forms.LoginForm, success_url='/tbank/login/', template_name="tbank.html")),
+    # url(r'^tbank/registration/$', generic.FormView.as_view(
+    #     form_class=forms.RegistrationForm, success_url='/tbank/registration/', template_name="tbank.html")),
     # url(r'^tbank/bank/$', generic.FormView.as_view(
     #     form_class=forms.BankForm, success_url='/tbank/bank/', template_name="tbank.html")),
     # url(r'^services/', include('services.urls', namespace='services')),
