@@ -369,7 +369,7 @@ allocate_service.short_description = 'Allocate Service'
 #         if not platinum_customers and not silver_customers:
 #             message = 'No customer changes!'
 #         ModelAdmin.message_user(request, message, level=SUCCESS)
-# allocate_service.short_description = 'Allocate Service'
+# allocate_service.short_description = 'Allocate Service'18
 
 
 
