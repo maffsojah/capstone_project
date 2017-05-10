@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 from django.utils.safestring import mark_safe
+from django_pandas.managers import DataFrameManager
 
 from .managers import TemporalQuerySet
 
@@ -164,6 +165,7 @@ class Customer(models.Model):
     Service_Level = models.ForeignKey(Service, on_delete=models.CASCADE, db_column='service_name', null=True, blank=True)
 
     #objects = TemporalQuerySet.as_manager()
+    objects = DataFrameManager()
 
     class Meta:
         db_table = 'customers'
