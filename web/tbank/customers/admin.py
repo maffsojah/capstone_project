@@ -11,6 +11,29 @@ import pandas as pd
 import numpy as np
 from django_pandas.io import read_frame
 
+import findspark
+findspark.init()
+import tempfile
+from pyspark.ml.classification import LogisticRegression, LogisticRegressionModel
+from pyspark.ml.evaluation import MulticlassClassificationEvaluator
+from pyspark.ml import Pipeline
+from pyspark.ml.feature import OneHotEncoder, StringIndexer, VectorAssembler
+from pyspark.sql.types import *
+from pyspark.sql import Row
+
+from pyspark.sql import SparkSession
+from os.path import join as pjoin
+
+spark = SparkSession.builder\
+    .appName('Multiclass Classification: TBank')\
+    .config("spark.sql.warehouse.dir", "/home/maffsojah/Projects/HIT_400/capstone_project/web/tbank/spark-warehouse")\
+    .getOrCreate()
+
+temp_path = pjoin("/home/maffsojah/Projects/HIT_400/capstone_project/web/tbank/spark-warehouse")
+#globs['temp_path'] = temp_path
+reg_path = temp_path + '/reg'
+model_path = temp_path + 'reg_model'
+
 from . import models
 from models import Customer, Service
 
@@ -86,151 +109,152 @@ from models import Customer, Service
     PLAN C
 """
 
+
+
+# def allocate_service(ModelAdmin, request, queryset):
+#     silver_customers = []
+#     gold_customers = []
+#     platinum_customers = []
+#     message = ''
+#
+#     for customer in queryset:
+#         #df = to_df(customer)
+#         #df = pd.DataFrame.from_records(customer.objects.all()
+#         data = [(Customer.objects.values("Gender", "Account_Type", "Age","Education", "Employment", "Employer_Stability", "Residential_Status", "Salary", "Customer_Loyalty", "Balance", "Service_Level").distinct().get(pk=customer.Customer_ID))]
+#
+#         # header = data.first()
+#         # data.filter(lambda line: line != header)
+#         # data = data.zipWithIndex().filter(lambda (row, index): index > 0).keys()
+#
+#         # def remove_header(itr_index, itr):
+#         #     return iter(list(itr)[1:]) if itr_index == 0 else itr
+#         # data.mapPartitionsWithIndex(remove_header)
+#         #df = spark.createDataFrame(Customer.objects.all())
+#         #df = spark.createDataFrame(data.collect()
+#         df = spark.createDataFrame(data, schema=None, samplingRatio=None)
+#         #df.head(10)
+#         #df = spark.createDataFrame(data, ['Customer_ID', 'Name', 'Gender','Age', 'Nationality', 'Address', 'Account_Type', 'Salary', 'Balance', 'Employer_Stability', 'Customer_Loyalty', 'Residential_Status', 'Service_Level']).collect()
+#         # Creating Spark SQL temporary views with the DataFrame
+#         # df.createOrReplaceTempView("cust_temp")
+#         # result = spark.sql("SELECT Gender, Account_Type, Age, Education, Employment, Salary, Employer_Stability, Customer_Loyalty, Balance, Residential_Status, Service_Level FROM cust_temp")
+#         # result.show()
+#         cols = df.columns
+#         categoricalColumns = ["Gender", "Account_Type", "Age", "Education", "Employment", "Employer_Stability", "Residential_Status"]
+#         stages = [] # stages in the pipeline
+#         #
+#         for categoricalCol in categoricalColumns:
+#             # Category Indexing with StringIndexer
+#             stringIndexer = StringIndexer(inputCol=categoricalCol, outputCol=categoricalCol+"Index")
+#             # Using OneHotEncoder to convert categorical variables into binary SparseVectors
+#             encoder = OneHotEncoder(inputCol=categoricalCol+"Index", outputCol=categoricalCol+"classVec")
+#             # Adding the stages: will be run all at once later on
+#             stages += [stringIndexer, encoder] #, encoder
+#         # convert label into label indices using the StringIndexer
+#         label_stringIdx = StringIndexer(inputCol = "Service_Level", outputCol = "label")
+#         stages += [label_stringIdx]
+#         # # Transform all features into a vector using VectorAssembler
+#         numericCols = ["Salary", "Customer_Loyalty", "Balance"]
+#         assemblerInputs = map(lambda c: c + "classVec", categoricalColumns) + numericCols
+#         assembler = VectorAssembler(
+#             inputCols=assemblerInputs,
+#             outputCol="features"
+#         )
+#         stages += [assembler]
+#
+#         # assembler = VectorAssembler(
+#         #     inputCols=[x for x in cols],
+#         #     outputCol='features'
+#         # )
+#         #
+#         # assembler.transform(df)
+#         # stages += [assembler]
+#
+#         # # Creating a Pipeline for Training
+#         pipeline = Pipeline(stages=stages)
+#         #Running the feature transformations.
+#         pipelineModel = pipeline.fit(df)
+#         result = pipelineModel.transform(result)
+#         # Keep relevant columns
+#         selectedcols = ["label", "features"] + cols #"label", "features"
+#         #predictSet = df.select(selectedcols)
+#         #reg = LogisticRegression(labelCol="label", featuresCol="features", maxIter=1000, regParam=0.01, family="multinomial" )
+#         reg2 = LogisticRegression.load(reg_path)
+#         regModel2 = LogisticRegressionModel.load(model_path)
+#         #predict = regModel2.transform(result)
+#         predict = regModel2.transform(df).head().prediction
+#         #predict.select("prediction", "label", "features").show()
+#
+#
+#     #if predict.select("prediction") == 0.0:
+#     if predict == 0.0:
+#         customer.Service_Level = Service.objects.get(service_name = 'Silver Package')
+#         silver_customers.append(customer.Name)
+#
+#     #elif predict.select("prediction") == 1.0:
+#     elif predict == 1.0:
+#         customer.Service_Level = Service.objects.get(service_name = 'Gold Package')
+#         gold_customers.append(customer.Name)
+#
+#     else:
+#         customer.Service_Level = Service.objects.get(service_name = 'Platinum Package')
+#         platinum_customers.append(customer.Name)
+#
+#     if silver_customers:
+#         message = 'The following customers now have the Silver Package: {}'.format(', '.join(silver_customers))
+#     if gold_customers:
+#         message = 'The following customers now have the Gold Package {}'.format(', '.join(gold_customers))
+#     if platinum_customers:
+#         message = 'The following customers now have the Platinum Package {}'.format(', '.join(platinum_customers))
+#     if not silver_customers and not gold_customers and not platinum_customers:
+#         message = 'No customer changes have been made!'
+#     ModelAdmin.message_user(request, message, level=SUCCESS)
+# allocate_service.short_description = 'Allocate Service'
+# #spark.catalog.dropTempView("cust_temp")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def allocate_service(ModelAdmin, request, queryset):
     platinum_customers = []
     silver_customers = []
     gold_customers = []
-    non_customers = []
+    #non_customers = []
     message = ''
 
 
 
     for customer in queryset:
-        if customer.Salary > 10000 and customer.Education == 'Tertiary and above' and customer.Employment == 'Permanent' and customer.Employer_Stability == 'Stable' and customer.Residential_Status == 'Owned' and customer.Age == '18 - 35' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Savings Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Platinum Package')
-            platinum_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Tertiary and above' and customer.Employment == 'Permanent' and customer.Employer_Stability == 'Stable' and customer.Residential_Status == 'Owned' and customer.Age == '36 - 59' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Savings Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Silver Package')
-            silver_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Tertiary and above' and customer.Employment == 'Permanent' and customer.Employer_Stability == 'Stable' and customer.Residential_Status == 'Owned' and customer.Age == '60 +' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Savings Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Silver Package')
-            silver_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Highschool and below' and customer.Employment == 'Permanent' and customer.Employer_Stability == 'Stable' and customer.Residential_Status == 'Owned' and customer.Age == '36 - 59' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Savings Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Silver Package')
-            silver_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Highschool and below' and customer.Employment == 'Permanent' and customer.Employer_Stability == 'Stable' and customer.Residential_Status == 'Owned' and customer.Age == '60 +' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Savings Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Silver Package')
-            silver_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Highschool and below' and customer.Employment == 'Permanent' and customer.Employer_Stability == 'Stable' and customer.Residential_Status == 'Owned' and customer.Age == '18 - 35' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Savings Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Silver Package')
-            silver_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Tertiary and above' and customer.Employment == 'Contract' and customer.Employer_Stability == 'Stable' and customer.Residential_Status == 'Owned' and customer.Age == '36 - 59' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Savings Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Silver Package')
-            silver_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Highschool and below' and customer.Employment == 'Contract' and customer.Employer_Stability == 'Stable' and customer.Residential_Status == 'Owned' and customer.Age == '36 - 59' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Savings Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Silver Package')
-            silver_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Tertiary and above' and customer.Employment == 'Contract' and customer.Employer_Stability == 'Stable' and customer.Residential_Status == 'Owned' and customer.Age == '18 - 35' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Savings Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Silver Package')
-            silver_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Highschool and below' and customer.Employment == 'Contract' and customer.Employer_Stability == 'Stable' and customer.Residential_Status == 'Owned' and customer.Age == '18 - 35' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Savings Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Silver Package')
-            silver_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Tertiary and above' and customer.Employment == 'Permanent' and customer.Employer_Stability == 'Unstable' and customer.Residential_Status == 'Owned' and customer.Age == '60 +' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Savings Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Silver Package')
-            silver_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Highschool and below' and customer.Employment == 'Permanent' and customer.Employer_Stability == 'Unstable' and customer.Residential_Status == 'Owned' and customer.Age == '60 +' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Savings Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Silver Package')
-            silver_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Tertiary and above' and customer.Employment == 'Permanent' and customer.Employer_Stability == 'Unstable' and customer.Residential_Status == 'Owned' and customer.Age == '18 - 35' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Savings Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Silver Package')
-            silver_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Highschool and below' and customer.Employment == 'Permanent' and customer.Employer_Stability == 'Unstable' and customer.Residential_Status == 'Owned' and customer.Age == '18 - 35' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Savings Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Silver Package')
-            silver_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Tertiary and above' and customer.Employment == 'Permanent' and customer.Employer_Stability == 'Unstable' and customer.Residential_Status == 'Owned' and customer.Age == '36 - 59' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Savings Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Silver Package')
-            silver_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Highschool and below' and customer.Employment == 'Permanent' and customer.Employer_Stability == 'Unstable' and customer.Residential_Status == 'Owned' and customer.Age == '36 - 59' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Savings Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Silver Package')
-            silver_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Tertiary and above' and customer.Employment == 'Contract' and customer.Employer_Stability == 'Unstable' and customer.Residential_Status == 'Owned' and customer.Age == '18 - 35' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Savings Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Silver Package')
-            silver_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Highschool and below' and customer.Employment == 'Contract' and customer.Employer_Stability == 'Unstable' and customer.Residential_Status == 'Owned' and customer.Age == '18 - 35' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Savings Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Silver Package')
-            silver_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Tertiary and above' and customer.Employment == 'Contract' and customer.Employer_Stability == 'Unstable' and customer.Residential_Status == 'Owned' and customer.Age == '36 - 59' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Savings Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Silver Package')
-            silver_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Highschool and below' and customer.Employment == 'Contract' and customer.Employer_Stability == 'Unstable' and customer.Residential_Status == 'Owned' and customer.Age == '36 - 59' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Savings Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Silver Package')
-            silver_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Highschool and below' and customer.Employment == 'Contract' and customer.Employer_Stability == 'Unstable' and customer.Residential_Status == 'Owned' and customer.Age == '60 +' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Savings Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Silver Package')
-            silver_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Tertiary and above' and customer.Employment == 'Contract' and customer.Employer_Stability == 'Unstable' and customer.Residential_Status == 'Owned' and customer.Age == '60 +' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Savings Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Silver Package')
-            silver_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Tertiary and above' and customer.Employment == 'Permanent' and customer.Employer_Stability == 'Unstable' and customer.Residential_Status == 'Owned' and customer.Age == '18 - 35' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Savings Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Platinum Package')
-            platinum_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Tertiary and above' and customer.Employment == 'Permanent' and customer.Employer_Stability == 'Stable' and customer.Residential_Status == 'Owned' and customer.Age == '18 - 35' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Current Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Platinum Package')
-            platinum_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Tertiary and above' and customer.Employment == 'Permanent' and customer.Employer_Stability == 'Stable' and customer.Residential_Status == 'Owned' and customer.Age == '60 +' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Current Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Platinum Package')
-            platinum_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Highschool and Below' and customer.Employment == 'Permanent' and customer.Employer_Stability == 'Stable' and customer.Residential_Status == 'Owned' and customer.Age == '60 +' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Current Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Platinum Package')
-            platinum_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Highschool and Below' and customer.Employment == 'Permanent' and customer.Employer_Stability == 'Unstable' and customer.Residential_Status == 'Owned' and customer.Age == '60 +' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Current Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Platinum Package')
-            platinum_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Tertiary and above' and customer.Employment == 'Permanent' and customer.Employer_Stability == 'Unstable' and customer.Residential_Status == 'Owned' and customer.Age == '60 +' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Current Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Platinum Package')
-            platinum_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Highschool and Below' and customer.Employment == 'Contract' and customer.Employer_Stability == 'Unstable' and customer.Residential_Status == 'Owned' and customer.Age == '60 +' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Current Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Platinum Package')
-            platinum_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Tertiary and above' and customer.Employment == 'Contract' and customer.Employer_Stability == 'Unstable' and customer.Residential_Status == 'Owned' and customer.Age == '60 +' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Current Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Platinum Package')
-            platinum_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Highschool and Below' and customer.Employment == 'Contract' and customer.Employer_Stability == 'Stable' and customer.Residential_Status == 'Owned' and customer.Age == '60 +' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Current Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Platinum Package')
-            platinum_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Tertiary and above' and customer.Employment == 'Permanent' and customer.Employer_Stability == 'Stable' and customer.Residential_Status == 'Owned' and customer.Age == '36 - 59' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Current Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Platinum Package')
-            platinum_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Highschool and below' and customer.Employment == 'Permanent' and customer.Employer_Stability == 'Stable' and customer.Residential_Status == 'Owned' and customer.Age == '36 - 59' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Current Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Platinum Package')
-            platinum_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Tertiary and above' and customer.Employment == 'Contract' and customer.Employer_Stability == 'Stable' and customer.Residential_Status == 'Owned' and customer.Age == '36 - 59' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Current Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Platinum Package')
-            platinum_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Highschool and below' and customer.Employment == 'Contract' and customer.Employer_Stability == 'Stable' and customer.Residential_Status == 'Owned' and customer.Age == '36 - 59' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Current Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Platinum Package')
-            platinum_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Tertiary and above' and customer.Employment == 'Permanent' and customer.Employer_Stability == 'Unstable' and customer.Residential_Status == 'Owned' and customer.Age == '36 - 59' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Current Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Platinum Package')
-            platinum_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Tertiary and above' and customer.Employment == 'Contract' and customer.Employer_Stability == 'Unstable' and customer.Residential_Status == 'Owned' and customer.Age == '36 - 59' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Current Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Platinum Package')
-            platinum_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Highschool and below' and customer.Employment == 'Permanent' and customer.Employer_Stability == 'Stable' and customer.Residential_Status == 'Owned' and customer.Age == '36 - 59' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Current Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Platinum Package')
-            platinum_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Highschool and below' and customer.Employment == 'Permanent' and customer.Employer_Stability == 'Stable' and customer.Residential_Status == 'Owned' and customer.Age == '18 - 35' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Current Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Platinum Package')
-            platinum_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Tertiary and above' and customer.Employment == 'Contract' and customer.Employer_Stability == 'Stable' and customer.Residential_Status == 'Owned' and customer.Age == '18 - 35' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Current Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Platinum Package')
-            platinum_customers.append(customer.Name)
-        if customer.Salary > 10000 and customer.Education == 'Tertiary and above' and customer.Employment == 'Permanent' and customer.Employer_Stability == 'Unstable' and customer.Residential_Status == 'Owned' and customer.Age == '18 - 35' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000 and customer.Account_Type == 'Current Account':
-            customer.Service_Level = Service.objects.get(service_name = 'Platinum Package')
-            platinum_customers.append(customer.Name)
-        elif gold:
+        if   (customer.Salary > 10000 and customer.Education == 'Tertiary and above' and customer.Employment == 'Permanent' and
+                    customer.Employer_Stability == 'Stable' and customer.Residential_Status == 'Owned' and
+                        customer.Age == '18 - 35' and customer.Customer_Loyalty >= 4 and customer.Balance > 10000):
+                customer.Service_Level = Service.objects.get(service_name = 'Platinum Package')
+                platinum_customers.append(customer.Name)
+        if (2500 < customer.Salary <= 10000 and customer.Education == 'Highschool and below' and customer.Employment == 'Contract' and
+                    customer.Employer_Stability == 'Unstable' and customer.Residential_Status == 'Rented' and
+                        customer.Age == '36 - 59' and customer.Customer_Loyalty < 4 and
+                            2500 < customer.Balance <= 10000):
             customer.Service_Level = Service.objects.get(service_name = 'Gold Package')
             gold_customers.append(customer.Name)
-        elif platinum:
-            customer.Service_Level = Service.objects.get(service_name = 'Platinum Package')
-            platinum_customers.append(customer.Name)
         else:
-            customer.Service_Level = Service.objects.get(service_name = "No Service Package")
-            non_customers.append(customer.name)
-
-        # else:
-        #      message = "This customer does not meet the required criteria"
+            customer.Service_Level = Service.objects.get(service_name = 'Silver Package')
+            silver_customers.append(customer.Name)
         customer.save()
 
         if platinum_customers:
