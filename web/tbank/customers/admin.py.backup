@@ -307,6 +307,13 @@ def allocate_service(ModelAdmin, request, queryset):
         assemblerInputs = map(lambda c: c + "classVec", categoricalColumns) + numericCols
         assembler = VectorAssembler(inputCols=assemblerInputs, outputCol="features")
         stages += [assembler]
+        # assembler = VectorAssembler(
+        #     inputCols=[x for x in cols],
+        #     outputCol='features'
+        # )
+
+        #assembler.transform(df)
+        #stages += [assembler]
         # # Creating a Pipeline for Training
         pipeline = Pipeline(stages=stages)
         #Running the feature transformations.
@@ -423,4 +430,3 @@ class CustomerAdmin(admin.ModelAdmin):
 #     list_display = ('customer', 'from_date', 'to_date', 'title')
 #     raw_id_fields = ('customer', )
 #     list_filter = ('title', )
-
