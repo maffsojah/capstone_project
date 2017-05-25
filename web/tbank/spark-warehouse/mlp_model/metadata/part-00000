@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.classification.MultilayerPerceptronClassificationModel","timestamp":1494573715985,"sparkVersion":"2.1.0","uid":"MultilayerPerceptronClassifier_410187edcdd2949c1a06","paramMap":{"labelCol":"label","featuresCol":"features","predictionCol":"prediction"}}
